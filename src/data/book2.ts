@@ -1,0 +1,112 @@
+import type { Lesson } from '../types'
+
+const book2: Lesson[] = [
+  {
+    id: 1,
+    title: 'A private conversation',
+    titleCn: '私人谈话',
+    text: [
+      'Last week I went to the theatre. I had a very good seat. The play was very interesting. I did not enjoy it.',
+      'A young man and a young woman were sitting behind me. They were talking loudly. I got very angry. I could not hear the actors.',
+      'I turned round. I looked at the man and the woman angrily. They did not pay any attention.',
+      'In the end, I could not bear it. I turned round again. "I can\'t hear a word!" I said angrily.',
+      '"It\'s none of your business," the young man said rudely. "This is a private conversation!"',
+    ],
+    textCn: [
+      '上周我去看戏。我坐的位置很好。戏也很有趣。但我却无法欣赏。',
+      '一个年轻男子和一个年轻女子坐在我身后。他们大声交谈。我非常生气。我听不清演员在说什么。',
+      '我转过身。我生气地看着那对男女。但他们毫不理会。',
+      '最后，我忍无可忍。我再次转过身。"我一个字也听不见！"我生气地说。',
+      '"不关你的事，"那年轻人粗鲁地说。"这是私人谈话！"',
+    ],
+    vocabulary: [
+      { word: 'private', phonetic: '/ˈpraɪvɪt/', meaning: '私人的' },
+      { word: 'conversation', phonetic: '/ˌkɒnvəˈseɪʃn/', meaning: '谈话' },
+      { word: 'theatre', phonetic: '/ˈθɪətə/', meaning: '剧院' },
+      { word: 'seat', phonetic: '/siːt/', meaning: '座位' },
+      { word: 'play', phonetic: '/pleɪ/', meaning: '戏剧' },
+      { word: 'loudly', phonetic: '/ˈlaʊdli/', meaning: '大声地' },
+      { word: 'angry', phonetic: '/ˈæŋɡri/', meaning: '生气的' },
+      { word: 'attention', phonetic: '/əˈtenʃn/', meaning: '注意' },
+      { word: 'bear', phonetic: '/beə/', meaning: '忍受' },
+      { word: 'rudely', phonetic: '/ˈruːdli/', meaning: '粗鲁地' },
+    ],
+    notes: [
+      '"go to the theatre" 去剧院看戏，theatre 前用 the。',
+      '"I could not bear it" — bear 意为忍受，过去式 bore，过去分词 borne。',
+      '"It\'s none of your business" — 固定表达："不关你的事"。',
+      '本文用了大量副词：loudly, angrily, rudely。形容词 + ly 构成副词。',
+    ],
+  },
+  {
+    id: 2,
+    title: 'Breakfast or lunch?',
+    titleCn: '早餐还是午餐？',
+    text: [
+      'It was Sunday. I never get up early on Sundays. I sometimes stay in bed until lunchtime.',
+      'Last Sunday I got up very late. I looked out of the window. It was dark outside. "What a day!" I thought. "It\'s raining again."',
+      'Just then, the telephone rang. It was my aunt Lucy. "I\'ve just arrived by train," she said. "I\'m coming to see you."',
+      '"But I\'m still having breakfast," I said.',
+      '"What are you doing?" she asked.',
+      '"I\'m having breakfast," I repeated.',
+      '"Dear me," she said. "Do you always get up so late? It\'s one o\'clock!"',
+    ],
+    textCn: [
+      '那是星期天。星期天我从不早起。有时我会在床上待到午饭时间。',
+      '上个星期天我起得很晚。我向窗外看去。外面天色阴沉。"鬼天气！"我想。"又下雨了。"',
+      '就在这时，电话响了。是我姨妈露西。"我坐火车刚到，"她说。"我来看你了。"',
+      '"但我还在吃早饭呢，"我说。',
+      '"你在干什么？"她问。',
+      '"我在吃早饭，"我重复道。',
+      '"天哪，"她说。"你总是起得这么晚吗？现在已经一点钟了！"',
+    ],
+    vocabulary: [
+      { word: 'Sunday', phonetic: '/ˈsʌndeɪ/', meaning: '星期日' },
+      { word: 'until', phonetic: '/ənˈtɪl/', meaning: '直到' },
+      { word: 'outside', phonetic: '/ˌaʊtˈsaɪd/', meaning: '外面' },
+      { word: 'ring', phonetic: '/rɪŋ/', meaning: '铃响' },
+      { word: 'aunt', phonetic: '/ɑːnt/', meaning: '姨妈，姑妈' },
+      { word: 'repeat', phonetic: '/rɪˈpiːt/', meaning: '重复' },
+    ],
+    notes: [
+      '"I never get up early on Sundays." — 一般现在时，表示经常性的动作。',
+      '"What a day!" — 感叹句结构：What + a/an + 名词！',
+      '现在进行时 "I\'m having breakfast" 表示说话时正在进行的动作。',
+      '"Dear me" 是感叹语，表示惊讶，相当于 "天哪"。',
+    ],
+  },
+  {
+    id: 3,
+    title: 'Please send me a card',
+    titleCn: '请给我寄张明信片',
+    text: [
+      'Postcards always spoil my holidays. Last summer, I went to Italy. I visited museums and sat in public gardens.',
+      'A friendly waiter taught me a few words of Italian. Then he lent me a book. I read a few lines, but I did not understand a word.',
+      'Every day I thought about postcards. My holidays passed quickly, but I did not send any cards to my friends.',
+      'On the last day I made a big decision. I got up early and bought thirty-seven cards. I spent the whole day in my room, but I did not write a single card!',
+    ],
+    textCn: [
+      '明信片总是破坏我的假期。去年夏天，我去了意大利。我参观了博物馆，坐在公园里。',
+      '一个好客的服务员教了我几句意大利语。然后他借给我一本书。我读了几行，但一个字也看不懂。',
+      '每天我都想着明信片的事。假期过得很快，但我一张明信片也没给朋友们寄。',
+      '最后一天我做了个重大决定。我起了个大早，买了37张明信片。我在房间里待了一整天，却一张也没写成！',
+    ],
+    vocabulary: [
+      { word: 'postcard', phonetic: '/ˈpəʊstkɑːd/', meaning: '明信片' },
+      { word: 'spoil', phonetic: '/spɔɪl/', meaning: '破坏，损坏' },
+      { word: 'museum', phonetic: '/mjuˈziːəm/', meaning: '博物馆' },
+      { word: 'waiter', phonetic: '/ˈweɪtə/', meaning: '服务员' },
+      { word: 'lend', phonetic: '/lend/', meaning: '借出' },
+      { word: 'decision', phonetic: '/dɪˈsɪʒn/', meaning: '决定' },
+      { word: 'whole', phonetic: '/həʊl/', meaning: '整个的' },
+      { word: 'single', phonetic: '/ˈsɪŋɡl/', meaning: '单一的' },
+    ],
+    notes: [
+      '"spoil" 在此意为"破坏、搞砸"，也可指食物"变质"。',
+      '过去式总结：go→went, visit→visited, sit→sat, teach→taught, lend→lent, read→read（拼写相同，发音不同）, send→sent。',
+      '"make a decision" 固定搭配：做决定。',
+    ],
+  },
+]
+
+export default book2

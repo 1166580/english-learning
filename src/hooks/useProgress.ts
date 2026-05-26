@@ -59,6 +59,47 @@ export default function useProgress() {
     [progress]
   )
 
+  const reload = useCallback(() => {
+    setProgress(loadProgress())
+  }, [])
+
+  const exportProgress = useCallback(() => {
+    const data = JSON.stringify(loadProgress(), null, 2)
+    const blob = new Blob([data], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `nce-progress-${new Date().toISOString().slice(0, 10)}.json`
+    a.click()
+    URL.revokeObjectURL(url)
+  }, [])
+
+  const importProgress = useCallback(() => {
+    const input = document.createElement('input')
+    input.type = 'file'
+    input.accept = '.json'
+    input.onchange = () => {
+      const file = input.files?.[0]
+      if (!file) return
+      const reader = new FileReader()
+      reader.onload = () => {
+        try {
+          const data = JSON.parse(reader.result as string)
+          if (data && Array.isArray(data.completedLessons)) {
+            saveProgress(data)
+            reload()
+          } else {
+            alert('文件格式不正确')
+          }
+        } catch {
+          alert('文件解析失败，请检查文件是否完整')
+        }
+      }
+      reader.readAsText(file)
+    }
+    input.click()
+  }, [reload])
+
   const totalCompleted = progress.completedLessons.length
 
   return {
@@ -68,5 +109,7 @@ export default function useProgress() {
     getBookProgress,
     getCompletedCount,
     totalCompleted,
+    exportProgress,
+    importProgress,
   }
 }

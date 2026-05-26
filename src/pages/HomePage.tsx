@@ -1,10 +1,10 @@
-import { BookOpen, Flame } from 'lucide-react'
+import { BookOpen, Flame, Download, Upload } from 'lucide-react'
 import { books } from '../data'
 import useProgress from '../hooks/useProgress'
 import BookCard from '../components/BookCard'
 
 export default function HomePage() {
-  const { getBookProgress, getCompletedCount, totalCompleted } = useProgress()
+  const { getBookProgress, getCompletedCount, totalCompleted, exportProgress, importProgress } = useProgress()
 
   const totalLessons = books.reduce((sum, b) => sum + b.lessonCount, 0)
 
@@ -32,6 +32,27 @@ export default function HomePage() {
             <div className="text-2xl font-bold">{books.length}</div>
             <div className="text-blue-100">学习阶段</div>
           </div>
+        </div>
+      </div>
+
+      {/* Data Management */}
+      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 flex items-center justify-between flex-wrap gap-3">
+        <span className="text-sm text-gray-500">学习进度保存在本地浏览器中</span>
+        <div className="flex gap-2">
+          <button
+            onClick={exportProgress}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-blue-600 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
+          >
+            <Download size={14} />
+            导出进度
+          </button>
+          <button
+            onClick={importProgress}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
+          >
+            <Upload size={14} />
+            导入进度
+          </button>
         </div>
       </div>
 

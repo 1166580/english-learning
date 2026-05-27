@@ -9,13 +9,13 @@ export default function BilibiliPlayer({ bvid, title }: BilibiliPlayerProps) {
       {title && (
         <div className="flex items-center gap-2 mb-3">
           <span className="text-lg">🎬</span>
-          <h3 className="text-sm font-bold text-gray-800 m-0">课文讲解视频</h3>
+          <h3 className="text-sm font-bold text-gray-800 m-0">课文原文视频</h3>
         </div>
       )}
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
         <iframe
           className="absolute top-0 left-0 w-full h-full rounded-lg border-0"
-          src={`//player.bilibili.com/player.html?bvid=${bvid}&high_quality=1`}
+          src={`//player.bilibili.com/player.html?bvid=${bvid}&high_quality=1&danmaku=0`}
           scrolling="no"
           allowFullScreen
         />

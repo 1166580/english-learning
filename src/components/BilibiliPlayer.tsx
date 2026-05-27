@@ -9,7 +9,7 @@ export default function BilibiliPlayer({ bvid, title }: BilibiliPlayerProps) {
       {title && (
         <div className="flex items-center gap-2 mb-3">
           <span className="text-lg">🎬</span>
-          <h3 className="text-sm font-bold text-gray-800 m-0">课文原文视频</h3>
+          <h3 className="text-sm font-bold text-gray-800 m-0">课文动画视频</h3>
         </div>
       )}
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}>

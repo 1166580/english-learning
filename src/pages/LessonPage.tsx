@@ -3,6 +3,8 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import { ArrowLeft, ChevronLeft, ChevronRight, CheckCircle, Circle, Volume2, BookOpen, Languages, FileText, Eye, List, X, Star, HelpCircle, Lightbulb, PenTool } from 'lucide-react'
 import { getLesson, books, bookDataMap } from '../data'
 import useProgress from '../hooks/useProgress'
+import { getVideoId } from '../data/videoMap'
+import BilibiliPlayer from '../components/BilibiliPlayer'
 import VocabularyTable from '../components/VocabularyTable'
 
 type ViewMode = 'bilingual' | 'english' | 'chinese'
@@ -20,6 +22,7 @@ export default function LessonPage() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [showAnswers, setShowAnswers] = useState<Record<number, boolean>>({})
   const completed = isCompleted(bookId, lessonNum)
+  const videoId = getVideoId(bookId, lessonNum)
 
   const lessons = bookDataMap[bookId] || []
   const currentIndex = lessons.findIndex((l) => l.id === lessonNum)
@@ -199,6 +202,9 @@ export default function LessonPage() {
             朗读课文
           </button>
         </div>
+
+        {/* Video Player */}
+        {videoId && <BilibiliPlayer bvid={videoId} title={lesson.title} />}
 
         {/* Summary */}
         {lesson.summary && (

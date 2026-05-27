@@ -243,6 +243,196 @@ const book4: Lesson[] = [
       '"As it happens" 事实上。'
     ],
   },
+  {
+    id: 9,
+    title: 'Royal espionage',
+    titleCn: '王室谍报活动',
+    text: [
+      'Alfred the Great acted as his own spy, visiting Danish camps disguised as a minstrel.',
+      'In those days wandering minstrels were welcome everywhere. They were not fighting men, and their harp was their passport.',
+      'Alfred had learned many of the ballads in his youth, and could vary his programme with acrobatic tricks and simple conjuring.'
+    ],
+    textCn: [
+      '阿尔弗雷德大帝亲自充当间谍，伪装成吟游诗人探访丹麦人的营地。',
+      '在那个年代，流浪的吟游诗人到处都受欢迎。他们不是武士，竖琴就是他们的通行证。',
+      '阿尔弗雷德年轻时学过许多民谣，还能用杂技和简单的魔术来变换他的节目。'
+    ],
+    vocabulary: [
+      { word: 'espionage', phonetic: '/ˈespiənɑːʒ/', meaning: '谍报活动' },
+      { word: 'disguise', phonetic: '/dɪsˈɡaɪz/', meaning: '伪装' },
+      { word: 'minstrel', phonetic: '/ˈmɪnstrəl/', meaning: '吟游诗人' },
+      { word: 'wandering', phonetic: '/ˈwɒndərɪŋ/', meaning: '流浪的' },
+      { word: 'harp', phonetic: '/hɑːp/', meaning: '竖琴' },
+      { word: 'ballad', phonetic: '/ˈbæləd/', meaning: '民谣' },
+      { word: 'acrobatic', phonetic: '/ˌækrəˈbætɪk/', meaning: '杂技的' },
+      { word: 'conjuring', phonetic: '/ˈkʌndʒərɪŋ/', meaning: '魔术' }
+    ],
+    notes: [
+      '"act as" 充当。',
+      '"disguised as" 伪装成（过去分词短语）。',
+      '"vary his programme" 变换节目。'
+    ],
+  },
+  {
+    id: 10,
+    title: 'How to grow old',
+    titleCn: '如何安度晚年',
+    text: [
+      'Some old people are oppressed by the fear of death. In the young there is a justification for this feeling.',
+      'Young men who have reason to fear that they will be killed in battle may justifiably feel bitter in the thought that they have been cheated of the best things that life has to offer.',
+      'But in an old man who has known human joys and sorrows, and has achieved whatever work it was in him to do, the fear of death is somewhat abject and ignoble.'
+    ],
+    textCn: [
+      '有些老年人因惧怕死亡而感到压抑。年轻人有这种感觉还情有可原。',
+      '那些有理由担心会在战斗中阵亡的年轻人，想到自己被骗走了人生所能提供的最好的东西，感到痛苦是情有可原的。',
+      '但对于一个已经饱尝人间悲欢、已经完成了他所能做的工作的老人来说，惧怕死亡就有点可悲和不光彩了。'
+    ],
+    vocabulary: [
+      { word: 'oppress', phonetic: '/əˈpres/', meaning: '使压抑' },
+      { word: 'justification', phonetic: '/ˌdʒʌstɪfɪˈkeɪʃn/', meaning: '正当理由' },
+      { word: 'bitter', phonetic: '/ˈbɪtə/', meaning: '痛苦的' },
+      { word: 'sorrow', phonetic: '/ˈsɒrəʊ/', meaning: '悲伤' },
+      { word: 'achieve', phonetic: '/əˈtʃiːv/', meaning: '完成' },
+      { word: 'abject', phonetic: '/ˈæbdʒekt/', meaning: '可悲的' },
+      { word: 'ignoble', phonetic: '/ɪɡˈnəʊbl/', meaning: '不光彩的' }
+    ],
+    notes: [
+      '"the fear of death" 对死亡的恐惧。',
+      '"be cheated of" 被骗走了。',
+      '"it was in him to do" 他力所能及的。'
+    ],
+  },
+  {
+    id: 11,
+    title: 'Banks and their customers',
+    titleCn: '银行与顾客',
+    text: [
+      'When anyone opens a current account at a bank, he is lending the bank money. The bank uses his money for investment.',
+      'The difference between what the bank pays the depositor and what it charges the borrower is one of its principal sources of profit.'
+    ],
+    textCn: [
+      '任何人在银行开立活期账户，就是在借钱给银行。银行用他的钱去投资。',
+      '银行付给储户的利息和向借款者收取的利息之间的差额，是银行主要利润来源之一。'
+    ],
+    vocabulary: [
+      { word: 'current account', phonetic: '/ˈkʌrənt əˈkaʊnt/', meaning: '活期账户' },
+      { word: 'investment', phonetic: '/ɪnˈvestmənt/', meaning: '投资' },
+      { word: 'depositor', phonetic: '/dɪˈpɒzɪtə/', meaning: '储户' },
+      { word: 'borrower', phonetic: '/ˈbɒrəʊə/', meaning: '借款人' },
+      { word: 'principal', phonetic: '/ˈprɪnsɪpl/', meaning: '主要的' },
+      { word: 'profit', phonetic: '/ˈprɒfɪt/', meaning: '利润' },
+      { word: 'charge', phonetic: '/tʃɑːdʒ/', meaning: '收费' }
+    ],
+    notes: [
+      '"current account" 活期账户 / "savings account" 储蓄账户。',
+      '"principal sources" 主要来源。',
+      '"charge the borrower" 向借款人收费。'
+    ],
+  },
+  {
+    id: 12,
+    title: 'The search for oil',
+    titleCn: '石油勘探',
+    text: [
+      'The deepest holes of all are made for oil, and they go down to as much as 25,000 feet.',
+      'But we do not need to send men down to get the oil out. The oil is forced up by the pressure of the gas below it.'
+    ],
+    textCn: [
+      '所有最深的钻孔都是为找石油而打的，深度可达25000英尺。',
+      '但我们不需要派人下去把油弄出来。石油被下面的天然气压力压上来。'
+    ],
+    vocabulary: [
+      { word: 'deep', phonetic: '/diːp/', meaning: '深的' },
+      { word: 'hole', phonetic: '/həʊl/', meaning: '洞' },
+      { word: 'feet', phonetic: '/fiːt/', meaning: '英尺' },
+      { word: 'force', phonetic: '/fɔːs/', meaning: '迫使' },
+      { word: 'pressure', phonetic: '/ˈpreʃə/', meaning: '压力' },
+      { word: 'gas', phonetic: '/ɡæs/', meaning: '气体' },
+      { word: 'below', phonetic: '/bɪˈləʊ/', meaning: '在...下面' }
+    ],
+    notes: [
+      '"as much as" 多达。',
+      '"be forced up" 被迫上升。',
+      '"the pressure of the gas" 气体的压力。'
+    ],
+  },
+  {
+    id: 13,
+    title: 'Education',
+    titleCn: '教育',
+    text: [
+      'Education is one of the key words of our time. A man without an education, many of us believe, is an unfortunate victim of adverse circumstances deprived of one of the greatest opportunities.'
+    ],
+    textCn: [
+      '教育是我们这个时代的关键词之一。我们许多人认为，没有受过教育的人是逆境的不幸受害者，被剥夺了最伟大的机会之一。'
+    ],
+    vocabulary: [
+      { word: 'education', phonetic: '/ˌedʒuˈkeɪʃn/', meaning: '教育' },
+      { word: 'unfortunate', phonetic: '/ʌnˈfɔːtʃənɪt/', meaning: '不幸的' },
+      { word: 'victim', phonetic: '/ˈvɪktɪm/', meaning: '受害者' },
+      { word: 'adverse', phonetic: '/ˈædvɜːs/', meaning: '不利的' },
+      { word: 'circumstance', phonetic: '/ˈsɜːkəmstəns/', meaning: '环境' },
+      { word: 'deprive', phonetic: '/dɪˈpraɪv/', meaning: '剥夺' },
+      { word: 'opportunity', phonetic: '/ˌɒpəˈtjuːnɪti/', meaning: '机会' }
+    ],
+    notes: [
+      '"one of the key words" 关键词之一。',
+      '"deprive...of..." 剥夺...的...。',
+      '"adverse circumstances" 不利的环境。'
+    ],
+  },
+  {
+    id: 14,
+    title: 'Silicon valley',
+    titleCn: '硅谷',
+    text: [
+      'The circuitry of the brain is vastly more complex than any computer yet devised. Yet the micro-miniaturization of electronics is rapidly transforming our world.',
+      'The computer industry has grown up in what is now known as Silicon Valley, a region south of San Francisco.',
+      'The name comes from the silicon that is used in the manufacture of transistors and integrated circuits.'
+    ],
+    textCn: [
+      '大脑的电路比迄今发明的任何计算机都要复杂得多。然而电子产品的微型化正在迅速改变我们的世界。',
+      '计算机工业在如今被称为硅谷的地方发展起来，那是旧金山以南的一个地区。',
+      '这个名字来源于制造晶体管和集成电路所用的硅。'
+    ],
+    vocabulary: [
+      { word: 'circuitry', phonetic: '/ˈsɜːkɪtri/', meaning: '电路' },
+      { word: 'devise', phonetic: '/dɪˈvaɪz/', meaning: '发明' },
+      { word: 'micro-miniaturization', phonetic: '/ˈmaɪkrəʊ ˈmɪniətʃəraɪˈzeɪʃn/', meaning: '微型化' },
+      { word: 'manufacture', phonetic: '/ˌmænjuˈfæktʃə/', meaning: '制造' },
+      { word: 'transistor', phonetic: '/trænˈzɪstə/', meaning: '晶体管' },
+      { word: 'integrated circuit', phonetic: '/ˈɪntɪɡreɪtɪd ˈsɜːkɪt/', meaning: '集成电路' },
+      { word: 'silicon', phonetic: '/ˈsɪlɪkən/', meaning: '硅' }
+    ],
+    notes: [
+      '"vastly more complex" 复杂得多。',
+      '"what is now known as" 如今被称为。',
+      '"grow up" 发展起来。'
+    ],
+  },
+  {
+    id: 15,
+    title: 'The sporting spirit',
+    titleCn: '体育精神',
+    text: [
+      'I am always amazed when I hear people saying that sport creates goodwill between the nations, and that if only the common peoples of the world could meet one another at football or cricket, they would have no inclination to meet on the battlefield.',
+      'Nearly all the sports practised nowadays are competitive. You play to win, and the game has little meaning unless you do your utmost to win.'
+    ],
+    textCn: [
+      '当我听到人们说体育创造国与国之间的友好，只要普通人民能在足球或板球场上相遇，他们就不会有在战场上相遇的意愿时，我总是感到惊讶。',
+      '如今进行的几乎所有的体育运动都是竞争性的。你比赛是为了赢，除非你尽最大努力去赢，否则比赛就几乎毫无意义。'
+    ],
+    vocabulary: [
+      { word: 'goodwill', phonetic: '/ˌɡʊdˈwɪl/', meaning: '友好' },
+      { word: 'inclination', phonetic: '/ˌɪnklɪˈneɪʃn/', meaning: '意愿' },
+      { word: 'competitive', phonetic: '/kəmˈpetɪtɪv/', meaning: '竞争性的' },
+      { word: 'patriotism', phonetic: '/ˈpætriətɪzəm/', meaning: '爱国主义' }
+    ],
+    notes: [
+      '"if only" 虚拟语气。',
+      '"do one\'s utmost" 尽最大努力。'
+    ],
+  },
 ]
 
 export default book4

@@ -335,6 +335,337 @@ const book2: Lesson[] = [
       '"It is being repaired" 现在进行时被动语态。'
     ],
   },
+  {
+    id: 11,
+    title: 'One good turn deserves another',
+    titleCn: '礼尚往来',
+    text: [
+      'I was having dinner at a restaurant when Tony Steele came in.',
+      'Tony worked in a lawyer\'s office years ago, but he is now working at a bank.',
+      'He gets a good salary, but he always borrows money from his friends and never pays it back.',
+      'Tony saw me and came and sat at the same table. He has never borrowed money from me.',
+      'While he was eating, I asked him to lend me twenty pounds.',
+      'To my surprise, he gave me the money immediately. "I have never borrowed any money from you," Tony said, "so now you can pay for my dinner!"'
+    ],
+    textCn: [
+      '我正在一家餐馆吃饭，这时托尼·斯蒂尔走了进来。',
+      '托尼几年前在一家律师事务所工作，但现在在一家银行工作。',
+      '他的薪水很高，但他总是向朋友借钱而且从来不还。',
+      '托尼看见我，就走过来和我坐在同一张桌子旁。他从未向我借过钱。',
+      '他吃饭的时候，我向他借二十英镑。',
+      '令我吃惊的是，他立刻把钱给了我。"我从来没向你借过钱，"托尼说，"所以现在你可以替我付饭钱了！"'
+    ],
+    vocabulary: [
+      { word: 'turn', phonetic: '/tɜːn/', meaning: '行为' },
+      { word: 'deserve', phonetic: '/dɪˈzɜːv/', meaning: '值得' },
+      { word: 'restaurant', phonetic: '/ˈrestrɒnt/', meaning: '餐馆' },
+      { word: 'lawyer', phonetic: '/ˈlɔːjə/', meaning: '律师' },
+      { word: 'salary', phonetic: '/ˈsæləri/', meaning: '薪水' },
+      { word: 'borrow', phonetic: '/ˈbɒrəʊ/', meaning: '借入' },
+      { word: 'lend', phonetic: '/lend/', meaning: '借出' },
+      { word: 'immediately', phonetic: '/ɪˈmiːdiətli/', meaning: '立刻' }
+    ],
+    notes: [
+      '"One good turn deserves another" — 礼尚往来。',
+      'borrow from... 借入 / lend to... 借出。',
+      '"never pays it back" 从不还钱。'
+    ],
+  },
+  {
+    id: 12,
+    title: 'Goodbye and good luck',
+    titleCn: '再见，一路顺风',
+    text: [
+      'Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.',
+      'We\'ll meet him at the harbour early in the morning.',
+      'He will be in his small boat, Topsail.',
+      'Topsail is a famous little boat. It has sailed across the Atlantic many times.',
+      'Captain Alison will set out at eight o\'clock, so we\'ll have plenty of time.'
+    ],
+    textCn: [
+      '我们的邻居查尔斯·艾利森船长明天将从朴次茅斯启航。',
+      '我们将在清晨到港口去送他。',
+      '他将在他的小船"涛波赛尔"号上。',
+      '"涛波赛尔"是一艘有名的小船，它已经横渡大西洋很多次了。',
+      '艾利森船长将于八点出发，因此我们有充裕的时间。'
+    ],
+    vocabulary: [
+      { word: 'captain', phonetic: '/ˈkæptɪn/', meaning: '船长' },
+      { word: 'sail', phonetic: '/seɪl/', meaning: '航行' },
+      { word: 'harbour', phonetic: '/ˈhɑːbə/', meaning: '港口' },
+      { word: 'famous', phonetic: '/ˈfeɪməs/', meaning: '著名的' },
+      { word: 'Atlantic', phonetic: '/ətˈlæntɪk/', meaning: '大西洋' },
+      { word: 'set out', phonetic: '/set aʊt/', meaning: '出发' },
+      { word: 'plenty', phonetic: '/ˈplenti/', meaning: '充裕' }
+    ],
+    notes: [
+      'will + 动词原形 表示将来。',
+      '"set out" = set off，出发。',
+      '"plenty of" 充裕的。'
+    ],
+  },
+  {
+    id: 13,
+    title: 'The Greenwood Boys',
+    titleCn: '绿林少年',
+    text: [
+      'The Greenwood Boys are a group of popular singers.',
+      'At present, they are visiting all parts of the country.',
+      'They will be arriving here tomorrow.',
+      'They will be coming by train and most of the young people in the town will be meeting them at the station.',
+      'Tomorrow evening they will be singing at the Workers\' Club.'
+    ],
+    textCn: [
+      '"绿林少年"是一个流行歌曲演唱团。',
+      '目前他们正在全国各地巡回演出。',
+      '他们明天将到达这里。',
+      '他们将乘火车来，镇上大部分年轻人将到车站迎接他们。',
+      '明天晚上他们将在工人俱乐部演唱。'
+    ],
+    vocabulary: [
+      { word: 'group', phonetic: '/ɡruːp/', meaning: '群，组' },
+      { word: 'singer', phonetic: '/ˈsɪŋə/', meaning: '歌手' },
+      { word: 'present', phonetic: '/ˈpreznt/', meaning: '目前的' },
+      { word: 'station', phonetic: '/ˈsteɪʃn/', meaning: '车站' },
+      { word: 'club', phonetic: '/klʌb/', meaning: '俱乐部' }
+    ],
+    notes: [
+      '将来进行时：will be + doing。',
+      '"at present" 目前。',
+      '"all parts of the country" 全国各地。'
+    ],
+  },
+  {
+    id: 14,
+    title: 'Do you speak English?',
+    titleCn: '你会说英语吗？',
+    text: [
+      'I had an amusing experience last year.',
+      'After I had left a small village in the south of France, I drove on to the next town.',
+      'On the way, a young man waved to me. I stopped and he asked me for a lift.',
+      'As soon as he had got into the car, I said good morning to him in French and he replied in the same language.',
+      'Neither of us spoke during the journey.',
+      'I had nearly reached the town, when the young man said, very slowly, "Do you speak English?"'
+    ],
+    textCn: [
+      '去年我有一次有趣的经历。',
+      '在离开法国南部的一个小村庄后，我继续驶向下一个城镇。',
+      '途中，一个年轻人向我招手。我停了下来，他请求搭车。',
+      '他一上车，我就用法语向他道了早安，他也用同样的语言回答了我。',
+      '整个旅途中我们谁也没说话。',
+      '快到城镇时，那个年轻人慢慢地说道："你会说英语吗？"'
+    ],
+    vocabulary: [
+      { word: 'amusing', phonetic: '/əˈmjuːzɪŋ/', meaning: '有趣的' },
+      { word: 'experience', phonetic: '/ɪkˈspɪəriəns/', meaning: '经历' },
+      { word: 'wave', phonetic: '/weɪv/', meaning: '招手' },
+      { word: 'lift', phonetic: '/lɪft/', meaning: '搭车' },
+      { word: 'reply', phonetic: '/rɪˈplaɪ/', meaning: '回答' },
+      { word: 'language', phonetic: '/ˈlæŋɡwɪdʒ/', meaning: '语言' },
+      { word: 'journey', phonetic: '/ˈdʒɜːni/', meaning: '旅程' }
+    ],
+    notes: [
+      '过去完成时：had left / had got / had reached。',
+      '"as soon as" 一...就...。',
+      '"neither of us" 我们两个都不。'
+    ],
+  },
+  {
+    id: 15,
+    title: 'Good news',
+    titleCn: '好消息',
+    text: [
+      'The secretary told me that Mr. Harmsworth would see me.',
+      'I felt very nervous when I went into his office.',
+      'He did not look up from his desk when I entered.',
+      'After I had sat down, he said that business was very bad.',
+      'He told me that the firm could not afford to pay such large salaries.',
+      'Twenty people had already left. "I knew," he said, "that you would not be glad to hear this."',
+      '"Mr. Harmsworth," I said, "I have some good news for you."'
+    ],
+    textCn: [
+      '秘书告诉我哈姆斯沃斯先生要见我。',
+      '我走进他的办公室时感到非常紧张。',
+      '我进去时他连头都没抬。',
+      '我坐下后，他说生意非常不好。',
+      '他告诉我公司无法支付这么高的工资。',
+      '已经走了二十个人了。"我知道，"他说，"你听到这个消息不会高兴的。"',
+      '"哈姆斯沃斯先生，"我说，"我有好消息告诉您。"'
+    ],
+    vocabulary: [
+      { word: 'secretary', phonetic: '/ˈsekrətri/', meaning: '秘书' },
+      { word: 'nervous', phonetic: '/ˈnɜːvəs/', meaning: '紧张的' },
+      { word: 'afford', phonetic: '/əˈfɔːd/', meaning: '负担得起' },
+      { word: 'already', phonetic: '/ɔːlˈredi/', meaning: '已经' },
+      { word: 'glad', phonetic: '/ɡlæd/', meaning: '高兴的' }
+    ],
+    notes: [
+      '间接引语（宾语从句）。',
+      '"could not afford to do" 负担不起。',
+      '"look up" 抬头看。'
+    ],
+  },
+  {
+    id: 16,
+    title: 'A polite request',
+    titleCn: '礼貌的请求',
+    text: [
+      'If you park your car in the wrong place, a traffic policeman will soon find it.',
+      'You will be very lucky if he lets you go without a ticket.',
+      'However, this does not always happen.',
+      'Traffic police are sometimes very polite.',
+      'During a holiday in Sweden, I found this note on my car: "Sir, we welcome you to our city. This is a No Parking area. You will enjoy your stay here if you pay attention to our street signs."'
+    ],
+    textCn: [
+      '如果你把车停错了地方，交通警察很快就会发现它。',
+      '如果他让你走不开罚单，那你就很幸运了。',
+      '然而，事情并不总是这样。',
+      '交通警察有时非常有礼貌。',
+      '在瑞典度假期间，我在车上发现了这张纸条："先生，欢迎您来到我们的城市。这里是禁止停车区。如果您注意我们的路标，您会在这里过得愉快的。"'
+    ],
+    vocabulary: [
+      { word: 'polite', phonetic: '/pəˈlaɪt/', meaning: '礼貌的' },
+      { word: 'request', phonetic: '/rɪˈkwest/', meaning: '请求' },
+      { word: 'park', phonetic: '/pɑːk/', meaning: '停车' },
+      { word: 'traffic', phonetic: '/ˈtræfɪk/', meaning: '交通' },
+      { word: 'ticket', phonetic: '/ˈtɪkɪt/', meaning: '罚单' },
+      { word: 'sign', phonetic: '/saɪn/', meaning: '标志' }
+    ],
+    notes: [
+      '第一类条件句：if + 一般现在时，主句用 will。',
+      '"No Parking" 禁止停车。',
+      '"pay attention to" 注意。'
+    ],
+  },
+  {
+    id: 17,
+    title: 'Always young',
+    titleCn: '永远年轻',
+    text: [
+      'My aunt Jennifer is an actress. She must be at least thirty-five years old.',
+      'In spite of this, she often appears on the stage as a young girl.',
+      'Jennifer will have to take part in a new play soon.',
+      'This time, she will be a girl of seventeen.',
+      'In the play, she must appear in a bright red dress and long black stockings.'
+    ],
+    textCn: [
+      '我姑姑詹妮弗是演员。她至少三十五岁了。',
+      '尽管如此，她经常在舞台上扮演年轻姑娘。',
+      '詹妮弗很快就要参加一个新剧的演出。',
+      '这次她要扮演一个十七岁的少女。',
+      '在剧中，她必须穿鲜红色的连衣裙和黑色长袜。'
+    ],
+    vocabulary: [
+      { word: 'actress', phonetic: '/ˈæktrɪs/', meaning: '女演员' },
+      { word: 'stage', phonetic: '/steɪdʒ/', meaning: '舞台' },
+      { word: 'appear', phonetic: '/əˈpɪə/', meaning: '出现' },
+      { word: 'bright', phonetic: '/braɪt/', meaning: '鲜艳的' },
+      { word: 'stocking', phonetic: '/ˈstɒkɪŋ/', meaning: '长袜' }
+    ],
+    notes: [
+      '"must be" 表示推测（一定是）。',
+      '"in spite of" 尽管。',
+      '"take part in" 参加。'
+    ],
+  },
+  {
+    id: 18,
+    title: 'He often does this!',
+    titleCn: '他经常干这种事！',
+    text: [
+      'After I had had lunch at a village pub, I looked for my bag.',
+      'I had left it on a chair beside the door and now it wasn\'t there!',
+      'As I was looking for it, the landlord came in.',
+      '"Did you have a good meal?" he asked.',
+      '"Yes, thank you," I answered, "but I can\'t pay the bill. I haven\'t got my bag."',
+      'The landlord smiled and immediately went out. In a few minutes he returned with my bag and gave it back to me. "I\'m very sorry," he said. "My dog had taken it into the garden. He often does this!"'
+    ],
+    textCn: [
+      '我在一家乡村小酒馆吃完午饭后，找我的包。',
+      '我把包放在门边的椅子上，现在不见了！',
+      '我正在找的时候，店主走了进来。',
+      '"您吃得好吗？"他问。',
+      '"好，谢谢，"我回答，"但我不能付账了。我的包不见了。"',
+      '店主笑了笑，立刻走了出去。几分钟后他拿着我的包回来了。"非常抱歉，"他说。"我的狗把它叼到花园里去了。它经常干这种事！"'
+    ],
+    vocabulary: [
+      { word: 'pub', phonetic: '/pʌb/', meaning: '酒馆' },
+      { word: 'beside', phonetic: '/bɪˈsaɪd/', meaning: '在...旁边' },
+      { word: 'landlord', phonetic: '/ˈlændlɔːd/', meaning: '店主' },
+      { word: 'bill', phonetic: '/bɪl/', meaning: '账单' },
+      { word: 'return', phonetic: '/rɪˈtɜːn/', meaning: '回来' }
+    ],
+    notes: [
+      '"had had" 过去完成时（have lunch）。',
+      '"looked for" 寻找。',
+      '"give back" 归还。'
+    ],
+  },
+  {
+    id: 19,
+    title: 'Sold out',
+    titleCn: '售完',
+    text: [
+      '"The play may begin at any moment," I said. "It may have begun already," Susan answered.',
+      'I hurried to the ticket office. "May I have two tickets please?" I asked. "I\'m sorry, we\'ve sold out," the girl said.',
+      '"What a pity!" Susan exclaimed.',
+      'Just then, a man hurried to the ticket office. "Can I return these two tickets?" he asked. "Certainly," the girl said.',
+      '"Could I have those two tickets please?" I asked. "Certainly," the girl said, "but they are for next Wednesday\'s performance. Do you still want them?"'
+    ],
+    textCn: [
+      '"剧随时都可能开演，"我说。"也许已经开演了，"苏珊回答。',
+      '我赶紧到售票处。"请给我两张票好吗？"我问。"抱歉，票卖完了，"那位姑娘说。',
+      '"真遗憾！"苏珊大声说。',
+      '就在这时，一个人急匆匆地走到售票处。"我能退这两张票吗？"他问。"当然可以，"姑娘说。',
+      '"把那两张票给我好吗？"我问。"当然，"姑娘说，"但这是下星期三的演出。你们还要吗？"'
+    ],
+    vocabulary: [
+      { word: 'sold out', phonetic: '/səʊld aʊt/', meaning: '售完' },
+      { word: 'hurry', phonetic: '/ˈhʌri/', meaning: '赶快' },
+      { word: 'pity', phonetic: '/ˈpɪti/', meaning: '遗憾' },
+      { word: 'exclaim', phonetic: '/ɪkˈskleɪm/', meaning: '大声说' },
+      { word: 'return', phonetic: '/rɪˈtɜːn/', meaning: '退还' },
+      { word: 'performance', phonetic: '/pəˈfɔːməns/', meaning: '演出' }
+    ],
+    notes: [
+      '"may have begun" 对过去的推测。',
+      '"May I...?" / "Could I...?" 礼貌请求。',
+      '"sold out" 售完。'
+    ],
+  },
+  {
+    id: 20,
+    title: 'One man in a boat',
+    titleCn: '独坐孤舟',
+    text: [
+      'Fishing is my favourite sport. I often fish for hours without catching anything.',
+      'But this does not worry me. Some fishermen are unlucky.',
+      'Instead of catching fish, they catch old boots and rubbish.',
+      'I am even less lucky. I never catch anything — not even old boots.',
+      'After having spent whole mornings on the river, I always go home with an empty bag.'
+    ],
+    textCn: [
+      '钓鱼是我最喜欢的运动。我常常钓好几个小时什么也钓不到。',
+      '但这并不使我担忧。有些钓鱼人运气不好。',
+      '他们钓不到鱼，却钓上来旧靴子和垃圾。',
+      '我的运气甚至更差。我什么也没钓上来过——连旧靴子也没有。',
+      '在河上度过整个上午后，我总是带着空包回家。'
+    ],
+    vocabulary: [
+      { word: 'fishing', phonetic: '/ˈfɪʃɪŋ/', meaning: '钓鱼' },
+      { word: 'favourite', phonetic: '/ˈfeɪvərɪt/', meaning: '最喜欢的' },
+      { word: 'fisherman', phonetic: '/ˈfɪʃəmən/', meaning: '渔夫' },
+      { word: 'unlucky', phonetic: '/ʌnˈlʌki/', meaning: '不幸运的' },
+      { word: 'boot', phonetic: '/buːt/', meaning: '靴子' },
+      { word: 'rubbish', phonetic: '/ˈrʌbɪʃ/', meaning: '垃圾' },
+      { word: 'empty', phonetic: '/ˈempti/', meaning: '空的' }
+    ],
+    notes: [
+      '动名词作主语："Fishing is my favourite sport."',
+      '"instead of" 代替，而不是。',
+      '"even less luckier" 更不幸运。'
+    ],
+  },
 ]
 
 export default book2

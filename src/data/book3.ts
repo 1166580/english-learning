@@ -253,6 +253,197 @@ const book3: Lesson[] = [
       '注意 "found"（建立）与 find 过去式同形异义。'
     ],
   },
+  {
+    id: 9,
+    title: 'Flying cats',
+    titleCn: '飞猫',
+    text: [
+      'Cats never fail to fascinate human beings. They can be friendly and affectionate towards humans, but they lead mysterious lives of their own as well.',
+      'They never become submissive like dogs and horses. As a result, humans have learned to respect feline independence.',
+      'Most cats remain suspicious of humans all their lives. One of the things that fascinates us most about cats is the popular belief that they have nine lives.'
+    ],
+    textCn: [
+      '猫永远不会失去令人类着迷的能力。它们可以对人类友好而亲昵，但同时也过着自己神秘的生活。',
+      '它们永远不会像狗和马那样变得顺从。因此，人类学会了尊重猫科动物的独立性。',
+      '大多数猫一辈子都对人类保持怀疑。关于猫最令我们着迷的事情之一，就是猫有九条命的说法。'
+    ],
+    vocabulary: [
+      { word: 'fascinate', phonetic: '/ˈfæsɪneɪt/', meaning: '使着迷' },
+      { word: 'affectionate', phonetic: '/əˈfekʃənɪt/', meaning: '亲昵的' },
+      { word: 'mysterious', phonetic: '/mɪˈstɪəriəs/', meaning: '神秘的' },
+      { word: 'submissive', phonetic: '/səbˈmɪsɪv/', meaning: '顺从的' },
+      { word: 'feline', phonetic: '/ˈfiːlaɪn/', meaning: '猫科动物的' },
+      { word: 'independence', phonetic: '/ˌɪndɪˈpendəns/', meaning: '独立' },
+      { word: 'suspicious', phonetic: '/səˈspɪʃəs/', meaning: '怀疑的' }
+    ],
+    notes: [
+      '"never fail to" 总是能（双重否定）。',
+      '"as well" 也。',
+      '"As a result" 因此。'
+    ],
+  },
+  {
+    id: 10,
+    title: 'Not guilty',
+    titleCn: '无罪',
+    text: [
+      'Customs Officers are quite tolerant these days, but they can still stop you when you are going through the Green Channel and have nothing to declare.',
+      'Even really honest people are often made to feel guilty.',
+      'The hardened professional smuggler, on the other hand, is never troubled by such feelings.'
+    ],
+    textCn: [
+      '如今海关官员已经相当宽容了，但当你走绿色通道且无需申报时，他们仍然可以把你拦下来。',
+      '即使真正诚实的人也常常被弄得觉得自己有罪。',
+      '而老练的职业走私犯却从不被这种感觉所困扰。'
+    ],
+    vocabulary: [
+      { word: 'guilty', phonetic: '/ˈɡɪlti/', meaning: '有罪的' },
+      { word: 'tolerant', phonetic: '/ˈtɒlərənt/', meaning: '宽容的' },
+      { word: 'declare', phonetic: '/dɪˈkleə/', meaning: '申报' },
+      { word: 'hardened', phonetic: '/ˈhɑːdnd/', meaning: '老练的' },
+      { word: 'smuggler', phonetic: '/ˈsmʌɡlə/', meaning: '走私犯' },
+      { word: 'trouble', phonetic: '/ˈtrʌbl/', meaning: '困扰' }
+    ],
+    notes: [
+      '"the Green Channel" 绿色通道。',
+      '"on the other hand" 另一方面。',
+      '"made to feel" 被动使役。'
+    ],
+  },
+  {
+    id: 11,
+    title: 'Life on a desert island',
+    titleCn: '荒岛生活',
+    text: [
+      'Most of us have formed an unrealistic picture of life on a desert island.',
+      'We sometimes imagine a desert island to be a sort of paradise where the sun always shines.',
+      'The other side of the picture is quite the opposite. Life on a desert island is wretched.'
+    ],
+    textCn: [
+      '我们大多数人对荒岛生活有一种不切实际的印象。',
+      '我们有时把荒岛想象成一个阳光永远灿烂的天堂。',
+      '然而画面的另一面却恰恰相反。荒岛上的生活是很悲惨的。'
+    ],
+    vocabulary: [
+      { word: 'desert island', phonetic: '/ˈdezət ˈaɪlənd/', meaning: '荒岛' },
+      { word: 'unrealistic', phonetic: '/ˌʌnrɪəˈlɪstɪk/', meaning: '不切实际的' },
+      { word: 'imagine', phonetic: '/ɪˈmædʒɪn/', meaning: '想象' },
+      { word: 'paradise', phonetic: '/ˈpærədaɪs/', meaning: '天堂' },
+      { word: 'wretched', phonetic: '/ˈretʃɪd/', meaning: '悲惨的' }
+    ],
+    notes: [
+      '"form a picture of" 对...形成印象。',
+      '"a sort of" 一种。',
+      '"quite the opposite" 恰恰相反。'
+    ],
+  },
+  {
+    id: 12,
+    title: 'It\'s only me',
+    titleCn: '是我，别怕',
+    text: [
+      'After her husband had gone to work, Mrs. Richards sent her children to school and went upstairs to her room.',
+      'She was going to dress up as a ghost for the party. The costume was quite elaborate. Mrs. Richards was pleased with it.'
+    ],
+    textCn: [
+      '丈夫去上班后，理查兹夫人送孩子们上学，然后回到楼上自己的房间。',
+      '她打算化装成鬼去参加聚会。这套化装服相当精致。理查兹夫人很满意。'
+    ],
+    vocabulary: [
+      { word: 'ghost', phonetic: '/ɡəʊst/', meaning: '鬼' },
+      { word: 'costume', phonetic: '/ˈkɒstjuːm/', meaning: '化装服' },
+      { word: 'elaborate', phonetic: '/ɪˈlæbərət/', meaning: '精致的' },
+      { word: 'pleased', phonetic: '/pliːzd/', meaning: '高兴的' },
+      { word: 'dress up', phonetic: '/dres ʌp/', meaning: '化装' }
+    ],
+    notes: [
+      '"dress up as" 化装成。',
+      '"be pleased with" 对...满意。'
+    ],
+  },
+  {
+    id: 13,
+    title: 'A noble gangster',
+    titleCn: '贵族歹徒',
+    text: [
+      'There was a time when the owners of shops and businesses in Chicago had to pay large sums of money to gangsters in return for "protection."',
+      'If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.'
+    ],
+    textCn: [
+      '曾有一段时间，芝加哥的店主和企业主不得不向歹徒支付大笔钱以换取"保护"。',
+      '如果钱没有及时付清，歹徒就会通过毁坏商店让店主关门。'
+    ],
+    vocabulary: [
+      { word: 'noble', phonetic: '/ˈnəʊbl/', meaning: '高贵的' },
+      { word: 'gangster', phonetic: '/ˈɡæŋstə/', meaning: '歹徒' },
+      { word: 'sum', phonetic: '/sʌm/', meaning: '金额' },
+      { word: 'promptly', phonetic: '/ˈprɒmptli/', meaning: '迅速地' },
+      { word: 'destroy', phonetic: '/dɪˈstrɔɪ/', meaning: '摧毁' },
+      { word: 'operate', phonetic: '/ˈɒpəreɪt/', meaning: '经营' }
+    ],
+    notes: [
+      '"a time when" 一段...的时期。',
+      '"in return for" 作为回报。',
+      '"out of business" 关门歇业。'
+    ],
+  },
+  {
+    id: 14,
+    title: 'Fifty pence worth of trouble',
+    titleCn: '五十便士的麻烦',
+    text: [
+      'Children always appreciate small gifts of money. Mum or Dad, of course, provide a regular supply of pocket money, but uncles and aunts are always a source of extra income.',
+      'Only very thrifty children manage to fill up a money box.'
+    ],
+    textCn: [
+      '孩子们总是喜欢得到一点零花钱。当然，爸爸妈妈定期给零花钱，但叔叔阿姨们总是额外收入的来源。',
+      '只有非常节俭的孩子才能把存钱罐装满。'
+    ],
+    vocabulary: [
+      { word: 'appreciate', phonetic: '/əˈpriːʃieɪt/', meaning: '欣赏，感激' },
+      { word: 'regular', phonetic: '/ˈreɡjʊlə/', meaning: '定期的' },
+      { word: 'pocket money', phonetic: '/ˈpɒkɪt ˈmʌni/', meaning: '零花钱' },
+      { word: 'income', phonetic: '/ˈɪnkʌm/', meaning: '收入' },
+      { word: 'thrifty', phonetic: '/ˈθrɪfti/', meaning: '节俭的' }
+    ],
+    notes: [
+      '"go a long way" 很耐用。',
+      '"manage to do" 设法做成。',
+      '"fill up" 装满。'
+    ],
+  },
+  {
+    id: 15,
+    title: 'The loss of the Titanic',
+    titleCn: '泰坦尼克号的沉没',
+    text: [
+      'The great ship, Titanic, sailed for New York from Southampton on April 10th, 1912.',
+      'She was carrying 1,316 passengers and a crew of 891.',
+      'She was not only the largest ship that had ever been built, but was regarded as unsinkable.',
+      'Four days after setting out, while the Titanic was sailing across the icy waters of the North Atlantic, a huge iceberg was suddenly spotted by a lookout.'
+    ],
+    textCn: [
+      '巨轮泰坦尼克号于1912年4月10日从南安普敦起航驶往纽约。',
+      '船上载有1316名乘客和891名船员。',
+      '它不仅是当时建造的最大的船，而且被认为是不会沉没的。',
+      '启航四天后，当泰坦尼克号正航行在北大西洋冰冷的水域上时，瞭望员突然发现了一座巨大的冰山。'
+    ],
+    vocabulary: [
+      { word: 'Titanic', phonetic: '/taɪˈtænɪk/', meaning: '泰坦尼克号' },
+      { word: 'passenger', phonetic: '/ˈpæsɪndʒə/', meaning: '乘客' },
+      { word: 'crew', phonetic: '/kruː/', meaning: '全体船员' },
+      { word: 'regard', phonetic: '/rɪˈɡɑːd/', meaning: '认为' },
+      { word: 'unsinkable', phonetic: '/ʌnˈsɪŋkəbl/', meaning: '不会沉没的' },
+      { word: 'icy', phonetic: '/ˈaɪsi/', meaning: '冰冷的' },
+      { word: 'iceberg', phonetic: '/ˈaɪsbɜːɡ/', meaning: '冰山' },
+      { word: 'lookout', phonetic: '/ˈlʊkaʊt/', meaning: '瞭望员' }
+    ],
+    notes: [
+      '"not only...but (also)" 不仅...而且。',
+      '过去完成时被动。',
+      '"be regarded as" 被认为是。'
+    ],
+  },
 ]
 
 export default book3

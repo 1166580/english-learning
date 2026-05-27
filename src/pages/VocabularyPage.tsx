@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import { Library } from 'lucide-react'
+import { Library, Search } from 'lucide-react'
 import { books, bookDataMap } from '../data'
 import VocabularyTable from '../components/VocabularyTable'
 import type { VocabWord } from '../types'
@@ -12,6 +12,7 @@ interface VocabEntry extends VocabWord {
 
 export default function VocabularyPage() {
   const [filterBookId, setFilterBookId] = useState<number>(0)
+  const [searchQuery, setSearchQuery] = useState('')
 
   const allVocab = useMemo(() => {
     const result: VocabEntry[] = []
@@ -31,9 +32,22 @@ export default function VocabularyPage() {
     return result
   }, [])
 
-  const filtered = filterBookId === 0
-    ? allVocab
-    : allVocab.filter((v) => v.bookId === filterBookId)
+  const filtered = useMemo(() => {
+    let result = filterBookId === 0
+      ? allVocab
+      : allVocab.filter((v) => v.bookId === filterBookId)
+
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase().trim()
+      result = result.filter((v) =>
+        v.word.toLowerCase().includes(q) ||
+        v.meaning.toLowerCase().includes(q) ||
+        (v.phonetic && v.phonetic.toLowerCase().includes(q))
+      )
+    }
+
+    return result
+  }, [allVocab, filterBookId, searchQuery])
 
   const uniqueWords = useMemo(() => {
     const seen = new Set<string>()
@@ -63,6 +77,20 @@ export default function VocabularyPage() {
           <div className="bg-white/20 rounded-lg px-3 py-1.5">
             <span className="font-bold">{uniqueWords.length}</span> 个不重复单词
           </div>
+        </div>
+      </div>
+
+      {/* Search Box */}
+      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
+        <div className="relative">
+          <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="搜索单词、释义或音标..."
+            className="w-full pl-10 pr-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+          />
         </div>
       </div>
 

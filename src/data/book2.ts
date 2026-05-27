@@ -971,6 +971,59 @@ const book2: Lesson[] = [
     ],
     tags: ['一般过去时', '比较级'],
     difficulty: 2,
+    summary: '叙述了作者在餐馆遇到总是借钱不还的托尼，作者灵机一动主动向托尼借钱，托尼却立刻答应并说"现在你可以替我付饭钱了"，体现了礼尚往来的道理。',
+    summaryEn: 'The author met Tony Steele at a restaurant, a man who always borrows money and never pays it back. Cleverly, the author asked Tony to lend him twenty pounds, but Tony immediately agreed and said the author could now pay for his dinner instead.',
+    sentenceExplanations: [
+      { sentence: 'I was having dinner at a restaurant when Tony Steele came in.', translation: '我正在一家餐馆吃饭，这时托尼·斯蒂尔走了进来。', explanation: '过去进行时 + when + 一般过去时，表示一个动作正在进行时另一个动作突然发生。was having是过去进行时。' },
+      { sentence: 'He gets a good salary, but he always borrows money from his friends and never pays it back.', translation: '他的薪水很高，但他总是向朋友借钱而且从来不还。', explanation: 'borrow from表示从某人处借入，pay back表示归还。always和never形成对比，突出托尼的习惯。' },
+      { sentence: 'While he was eating, I asked him to lend me twenty pounds.', translation: '他吃饭的时候，我向他借二十英镑。', explanation: 'while引导时间状语从句，表示在...期间。ask sb to do sth表示请求某人做某事。lend表示借出。' },
+      { sentence: 'To my surprise, he gave me the money immediately.', translation: '令我吃惊的是，他立刻把钱给了我。', explanation: '"to my surprise"是固定表达，意为"令我惊讶的是"。immediately表示立刻、马上。' },
+      { sentence: 'I have never borrowed any money from you, so now you can pay for my dinner!', translation: '我从来没向你借过钱，所以现在你可以替我付饭钱了！', explanation: '现在完成时have never borrowed表示从过去到现在从未发生过。pay for表示为...付钱。' },
+    ],
+    grammarSections: [
+      {
+        title: 'borrow 与 lend 的区别',
+        content: 'borrow表示借入，常与from搭配。lend表示借出，常与to搭配。两者方向相反，使用时需注意区分。',
+        examples: [
+          { en: 'He always borrows money from his friends.', cn: '他总是向朋友借钱。' },
+          { en: 'I asked him to lend me twenty pounds.', cn: '我向他借二十英镑。' },
+          { en: 'Can you lend your pen to me?', cn: '你能把笔借给我吗？' },
+        ],
+      },
+      {
+        title: '过去进行时与一般过去时的搭配',
+        content: '过去进行时表示过去某一时刻正在进行的动作，常与when或while引导的时间状语从句搭配。when后接短暂动作，while后接持续动作。',
+        examples: [
+          { en: 'I was having dinner when Tony came in.', cn: '我正在吃饭时托尼走了进来。' },
+          { en: 'While he was eating, I asked him for money.', cn: '他吃饭时，我向他借钱。' },
+          { en: 'She was reading when the phone rang.', cn: '她正在看书时电话响了。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'I was _____ing when _____. 我正在_____的时候，_____。',
+        substitutions: [
+          { en: 'I was having dinner when Tony came in.', cn: '我正在吃饭时托尼走了进来。' },
+          { en: 'I was reading when the bell rang.', cn: '我正在看书时门铃响了。' },
+          { en: 'I was sleeping when the earthquake happened.', cn: '我正在睡觉时地震发生了。' },
+        ],
+      },
+      {
+        pattern: 'He always _____s from _____. 他总是向_____借_____。',
+        substitutions: [
+          { en: 'He always borrows money from his friends.', cn: '他总是向朋友借钱。' },
+          { en: 'She always borrows books from the library.', cn: '她总是从图书馆借书。' },
+          { en: 'He always borrows tools from his neighbours.', cn: '他总是向邻居借工具。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'I was _____ dinner when he came in.', options: ['A. have', 'B. having', 'C. had', 'D. has'], answer: 'B', explanation: '过去进行时用was/were + doing形式，所以选having。' },
+      { type: 'fill', question: 'He always _____ money from his friends. (borrow的第三人称单数)', answer: 'borrows', explanation: '主语he是第三人称单数，一般现在时动词加s。' },
+      { type: 'judge', question: '"borrow from"表示借出，"lend to"表示借入。', answer: '错误', explanation: 'borrow from表示借入，lend to表示借出，题目说反了。' },
+      { type: 'choice', question: 'To my _____, he gave me the money immediately.', options: ['A. surprise', 'B. surprising', 'C. surprised', 'D. surprises'], answer: 'A', explanation: '"to my surprise"是固定表达，surprise用名词形式。' },
+    ],
   },
   {
     id: 12,
@@ -1007,6 +1060,58 @@ const book2: Lesson[] = [
     ],
     tags: ['一般将来时', 'will'],
     difficulty: 2,
+    summary: '叙述了邻居艾利森船长即将驾驶他的小船"涛波赛尔"号横渡大西洋，大家将在港口为他送行祝他好运的故事。',
+    summaryEn: 'Our neighbour Captain Charles Alison will sail across the Atlantic in his small boat Topsail. We will meet him at the harbour early in the morning to say goodbye and wish him good luck.',
+    sentenceExplanations: [
+      { sentence: 'Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.', translation: '我们的邻居查尔斯·艾利森船长明天将从朴次茅斯启航。', explanation: 'will + 动词原形表示将来时。Captain Charles Alison是同位语，补充说明neighbour的身份。' },
+      { sentence: 'We\'ll meet him at the harbour early in the morning.', translation: '我们将在清晨到港口去送他。', explanation: 'We\'ll是We will的缩写。at the harbour表示在港口。early in the morning表示清晨。' },
+      { sentence: 'Topsail is a famous little boat. It has sailed across the Atlantic many times.', translation: '"涛波赛尔"是一艘有名的小船，它已经横渡大西洋很多次了。', explanation: 'has sailed是现在完成时表示从过去到现在已经完成的动作。across表示横穿。many times表示多次。' },
+      { sentence: 'Captain Alison will set out at eight o\'clock, so we\'ll have plenty of time.', translation: '艾利森船长将于八点出发，因此我们有充裕的时间。', explanation: 'set out表示出发，等同于set off。plenty of表示充足的、充裕的。so引导结果状语从句。' },
+    ],
+    grammarSections: [
+      {
+        title: '一般将来时（will + 动词原形）',
+        content: 'will + 动词原形表示将来要发生的动作或状态。否定形式为will not (won\'t)。常与tomorrow, next week等将来时间状语搭配。',
+        examples: [
+          { en: 'Captain Alison will sail from Portsmouth tomorrow.', cn: '艾利森船长明天将从朴次茅斯启航。' },
+          { en: 'We will meet him at the harbour.', cn: '我们将在港口迎接他。' },
+          { en: 'It will rain tomorrow.', cn: '明天会下雨。' },
+        ],
+      },
+      {
+        title: '现在完成时表示经历',
+        content: '现在完成时have/has + 过去分词可以表示从过去到现在为止的经历。常与many times, already, yet等搭配使用。',
+        examples: [
+          { en: 'It has sailed across the Atlantic many times.', cn: '它已经横渡大西洋很多次了。' },
+          { en: 'I have visited London twice.', cn: '我去过伦敦两次。' },
+          { en: 'She has already finished her homework.', cn: '她已经完成了作业。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: '_____ will _____ tomorrow. _____明天将要_____。',
+        substitutions: [
+          { en: 'Captain Alison will sail from Portsmouth tomorrow.', cn: '艾利森船长明天将从朴次茅斯启航。' },
+          { en: 'We will meet him at the harbour tomorrow.', cn: '我们明天将在港口迎接他。' },
+          { en: 'The train will arrive at nine tomorrow.', cn: '火车明天九点到达。' },
+        ],
+      },
+      {
+        pattern: 'It has _____ across _____ many times. 它已经多次横渡_____。',
+        substitutions: [
+          { en: 'It has sailed across the Atlantic many times.', cn: '它已经横渡大西洋很多次了。' },
+          { en: 'He has travelled across the country many times.', cn: '他已经多次游遍全国。' },
+          { en: 'She has swum across the river many times.', cn: '她已经多次游过那条河。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'Captain Alison _____ sail from Portsmouth tomorrow.', options: ['A. is', 'B. will', 'C. was', 'D. has'], answer: 'B', explanation: '表示将来动作用will + 动词原形。' },
+      { type: 'fill', question: 'It _____ sailed across the Atlantic many times. (have的第三人称单数形式)', answer: 'has', explanation: '主语it是第三人称单数，现在完成时用has + 过去分词。' },
+      { type: 'judge', question: '"set out"意思是"出发"，等同于"set off"。', answer: '正确', explanation: 'set out和set off都可以表示出发、启程。' },
+      { type: 'choice', question: 'We\'ll have _____ of time to say goodbye.', options: ['A. many', 'B. much', 'C. plenty', 'D. lot'], answer: 'C', explanation: '"plenty of"是固定搭配，表示充裕的、大量的。' },
+    ],
   },
   {
     id: 13,
@@ -1041,6 +1146,58 @@ const book2: Lesson[] = [
     ],
     tags: ['一般将来时', 'be going to'],
     difficulty: 2,
+    summary: '介绍了流行歌唱组合"绿林少年"即将到访小镇，全镇年轻人将前往车站迎接，他们将在工人俱乐部演出，警方将维持秩序。',
+    summaryEn: 'The Greenwood Boys, a group of popular singers, will be arriving in town tomorrow. Most young people will be meeting them at the station. They will be singing at the Workers\' Club tomorrow evening, and the police will be keeping order.',
+    sentenceExplanations: [
+      { sentence: 'The Greenwood Boys are a group of popular singers.', translation: '"绿林少年"是一个流行歌曲演唱团。', explanation: 'a group of表示一组、一群。popular singers表示受欢迎的歌手们。' },
+      { sentence: 'At present, they are visiting all parts of the country.', translation: '目前他们正在全国各地巡回演出。', explanation: 'at present表示目前、现在。all parts of the country表示全国各地。are visiting是现在进行时。' },
+      { sentence: 'They will be arriving here tomorrow.', translation: '他们明天将到达这里。', explanation: 'will be doing是将来进行时，表示将来某一时刻正在进行的动作。' },
+      { sentence: 'Tomorrow evening they will be singing at the Workers\' Club.', translation: '明天晚上他们将在工人俱乐部演唱。', explanation: '将来进行时will be singing表示按计划将来要进行的动作。Workers\' Club表示工人俱乐部。' },
+    ],
+    grammarSections: [
+      {
+        title: '将来进行时（will be + doing）',
+        content: '将来进行时表示将来某一时刻正在进行的动作，或按计划将来要做的事。结构为will be + 动词-ing形式。比will do更强调动作的持续性。',
+        examples: [
+          { en: 'They will be arriving here tomorrow.', cn: '他们明天将到达这里。' },
+          { en: 'They will be singing at the Workers\' Club.', cn: '他们将在工人俱乐部演唱。' },
+          { en: 'I will be working at this time tomorrow.', cn: '明天这个时候我将在工作。' },
+        ],
+      },
+      {
+        title: '将来进行时表示按计划进行的事',
+        content: '将来进行时可以用来表示已经安排好的或按计划要发生的事情，比will do更客观、更有礼貌。常用于询问别人的计划。',
+        examples: [
+          { en: 'Most young people will be meeting them at the station.', cn: '大部分年轻人将到车站迎接他们。' },
+          { en: 'Will you be using the car tonight?', cn: '你今晚会用车吗？' },
+          { en: 'We will be having dinner at eight.', cn: '我们八点将吃晚饭。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: '_____ will be _____ing at _____. _____将在_____进行_____。',
+        substitutions: [
+          { en: 'They will be singing at the Workers\' Club.', cn: '他们将在工人俱乐部演唱。' },
+          { en: 'We will be meeting at the school gate.', cn: '我们将在学校门口见面。' },
+          { en: 'She will be performing at the theatre.', cn: '她将在剧院表演。' },
+        ],
+      },
+      {
+        pattern: 'Most _____ will be _____ing them at _____. 大部分_____将在_____迎接他们。',
+        substitutions: [
+          { en: 'Most young people will be meeting them at the station.', cn: '大部分年轻人将到车站迎接他们。' },
+          { en: 'Most fans will be waiting for them at the airport.', cn: '大部分粉丝将在机场等他们。' },
+          { en: 'Most children will be watching them at the park.', cn: '大部分孩子将在公园观看他们。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'They will be _____ at the Workers\' Club tomorrow evening.', options: ['A. sing', 'B. sang', 'C. singing', 'D. sings'], answer: 'C', explanation: '将来进行时用will be + doing形式，所以选singing。' },
+      { type: 'fill', question: 'At _____, they are visiting all parts of the country.', answer: 'present', explanation: '"at present"是固定表达，表示目前、现在。' },
+      { type: 'judge', question: '"将来进行时"的结构是"will be + 动词原形"。', answer: '错误', explanation: '将来进行时的结构是will be + 动词-ing形式，不是动词原形。' },
+      { type: 'choice', question: 'The Greenwood Boys are a _____ of popular singers.', options: ['A. team', 'B. group', 'C. class', 'D. pair'], answer: 'B', explanation: 'a group of表示一组、一群，用来描述歌唱组合。' },
+    ],
   },
   {
     id: 14,
@@ -1079,6 +1236,59 @@ const book2: Lesson[] = [
     ],
     tags: ['一般过去时', '叙述文'],
     difficulty: 2,
+    summary: '讲述了作者在法国南部开车时搭载了一个年轻人，两人全程用法语交谈保持沉默，直到快到目的地时年轻人才用英语问"你会说英语吗"的有趣故事。',
+    summaryEn: 'The author had an amusing experience in France. He gave a lift to a young man who spoke French with him throughout the journey. Near the town, the young man slowly asked "Do you speak English?" — revealing they both could have spoken English the whole time.',
+    sentenceExplanations: [
+      { sentence: 'I had an amusing experience last year.', translation: '去年我有一次有趣的经历。', explanation: 'amusing表示有趣的、好笑的。had是have的过去式。last year是过去时间状语。' },
+      { sentence: 'After I had left a small village in the south of France, I drove on to the next town.', translation: '在离开法国南部的一个小村庄后，我继续驶向下一个城镇。', explanation: 'had left是过去完成时，表示在drove之前已经完成的动作。drove on表示继续行驶。' },
+      { sentence: 'As soon as he had got into the car, I said good morning to him in French.', translation: '他一上车，我就用法语向他道了早安。', explanation: '"as soon as"表示一...就...。had got是过去完成时。in French表示用法语。' },
+      { sentence: 'Neither of us spoke during the journey.', translation: '整个旅途中我们谁也没说话。', explanation: '"neither of us"表示我们两个都不。during表示在...期间。' },
+      { sentence: 'Do you speak English?', translation: '你会说英语吗？', explanation: '一般现在时表示能力。这个结尾令人发笑，因为两人都会说英语却全程用法语沉默。' },
+    ],
+    grammarSections: [
+      {
+        title: '过去完成时（had + 过去分词）',
+        content: '过去完成时表示在过去某一动作之前已经完成的动作，即"过去的过去"。结构为had + 过去分词。常与after, as soon as, before等连词搭配。',
+        examples: [
+          { en: 'After I had left the village, I drove on to the next town.', cn: '离开村庄后，我继续驶向下一个城镇。' },
+          { en: 'As soon as he had got into the car, I said good morning.', cn: '他一上车，我就道了早安。' },
+          { en: 'I had nearly reached the town when he spoke.', cn: '我快到城镇时他开了口。' },
+        ],
+      },
+      {
+        title: 'neither of 的用法',
+        content: 'neither of表示两者都不，后接复数名词或代词。作主语时谓语动词用单数或复数均可，但在正式英语中常用单数。',
+        examples: [
+          { en: 'Neither of us spoke during the journey.', cn: '整个旅途中我们谁也没说话。' },
+          { en: 'Neither of them is coming to the party.', cn: '他们俩都不来参加聚会。' },
+          { en: 'Neither of the answers is correct.', cn: '两个答案都不正确。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'After I had _____, I _____. 在我_____之后，我_____。',
+        substitutions: [
+          { en: 'After I had left the village, I drove on to the next town.', cn: '离开村庄后，我继续驶向下一个城镇。' },
+          { en: 'After I had finished my work, I went home.', cn: '完成工作后，我回了家。' },
+          { en: 'After I had eaten breakfast, I left for school.', cn: '吃完早饭后，我出发去学校。' },
+        ],
+      },
+      {
+        pattern: 'Neither of us _____ during _____. 在_____期间我们都没有_____。',
+        substitutions: [
+          { en: 'Neither of us spoke during the journey.', cn: '整个旅途中我们谁也没说话。' },
+          { en: 'Neither of us laughed during the movie.', cn: '看电影时我们都没有笑。' },
+          { en: 'Neither of us moved during the exam.', cn: '考试期间我们都没有动。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'After I _____ left the village, I drove on.', options: ['A. have', 'B. had', 'C. was', 'D. did'], answer: 'B', explanation: '过去完成时用had + 过去分词，表示在过去之前完成的动作。' },
+      { type: 'fill', question: 'As soon as he had got into the car, I said good morning to him in _____.', answer: 'French', explanation: '根据上下文，作者用法语向年轻人道早安。' },
+      { type: 'judge', question: '"Neither of us"表示"我们两个都"。', answer: '错误', explanation: '"neither of us"表示"我们两个都不"，是否定含义。' },
+      { type: 'choice', question: '_____ of us spoke during the journey.', options: ['A. Both', 'B. Either', 'C. Neither', 'D. All'], answer: 'C', explanation: '根据句意"旅途中谁也没说话"，用neither表示两者都不。' },
+    ],
   },
   {
     id: 15,
@@ -1117,6 +1327,59 @@ const book2: Lesson[] = [
     ],
     tags: ['间接引语', '宾语从句'],
     difficulty: 4,
+    summary: '叙述了作者被老板哈姆斯沃斯先生叫去办公室，得知公司经营困难、裁员减薪的消息后，反而告诉老板自己有好消息（暗示自己不会被裁）的幽默故事。',
+    summaryEn: 'The secretary told the author that Mr. Harmsworth would see him. The author felt nervous. Mr. Harmsworth told him business was bad and the firm couldn\'t afford large salaries. Then the author said he had some good news for Mr. Harmsworth.',
+    sentenceExplanations: [
+      { sentence: 'The secretary told me that Mr. Harmsworth would see me.', translation: '秘书告诉我哈姆斯沃斯先生要见我。', explanation: 'told后接that引导的宾语从句。would是will的过去式，用于间接引语中。' },
+      { sentence: 'I felt very nervous when I went into his office.', translation: '我走进他的办公室时感到非常紧张。', explanation: 'felt是feel的过去式，表示感到。nervous表示紧张的。when引导时间状语从句。' },
+      { sentence: 'He told me that the firm could not afford to pay such large salaries.', translation: '他告诉我公司无法支付这么高的工资。', explanation: 'could not afford to do表示负担不起做某事。such large salaries表示如此高的薪水。' },
+      { sentence: 'I knew that you would not be glad to hear this.', translation: '我知道你听到这个消息不会高兴的。', explanation: '间接引语中will变为would。be glad to do表示高兴做某事。' },
+      { sentence: 'I have some good news for you.', translation: '我有好消息告诉您。', explanation: 'have...for you表示有...给你。news是不可数名词，所以用some而不是a。' },
+    ],
+    grammarSections: [
+      {
+        title: '间接引语（宾语从句）',
+        content: '间接引语是转述别人的话。直接引语变为间接引语时，时态要后退一步：一般现在时变为一般过去时，will变为would，can变为could等。that引导宾语从句。',
+        examples: [
+          { en: 'The secretary told me that Mr. Harmsworth would see me.', cn: '秘书告诉我哈姆斯沃斯先生要见我。' },
+          { en: 'He said that business was very bad.', cn: '他说生意非常不好。' },
+          { en: 'He told me that the firm could not afford to pay such large salaries.', cn: '他告诉我公司负担不起这么高的工资。' },
+        ],
+      },
+      {
+        title: 'could not afford to do 的用法',
+        content: 'afford表示负担得起，常与can, could, be able to搭配使用。否定形式表示负担不起、没有能力做某事。后接名词或不定式。',
+        examples: [
+          { en: 'The firm could not afford to pay such large salaries.', cn: '公司负担不起这么高的工资。' },
+          { en: 'I can\'t afford to buy a new car.', cn: '我买不起新车。' },
+          { en: 'She couldn\'t afford to take a holiday.', cn: '她负担不起度假的费用。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'He told me that _____. 他告诉我_____。',
+        substitutions: [
+          { en: 'He told me that the firm could not afford to pay such large salaries.', cn: '他告诉我公司负担不起这么高的工资。' },
+          { en: 'He told me that business was very bad.', cn: '他告诉我生意非常不好。' },
+          { en: 'She told me that she would leave soon.', cn: '她告诉我她很快就走。' },
+        ],
+      },
+      {
+        pattern: 'I can\'t afford to _____. 我负担不起_____。',
+        substitutions: [
+          { en: 'I can\'t afford to buy a new car.', cn: '我买不起新车。' },
+          { en: 'We can\'t afford to waste time.', cn: '我们浪费不起时间。' },
+          { en: 'He can\'t afford to lose his job.', cn: '他承受不起失去工作的后果。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'He told me that he _____ see me.', options: ['A. will', 'B. would', 'C. is', 'D. was'], answer: 'B', explanation: '间接引语中will变为would。' },
+      { type: 'fill', question: 'The firm could not _____ to pay such large salaries.', answer: 'afford', explanation: '"could not afford to do"表示负担不起做某事。' },
+      { type: 'judge', question: '"news"是可数名词，可以说"a news"。', answer: '错误', explanation: 'news是不可数名词，不能说a news，应该说a piece of news。' },
+      { type: 'choice', question: 'I felt very _____ when I went into his office.', options: ['A. nerve', 'B. nervous', 'C. nervously', 'D. nervousness'], answer: 'B', explanation: 'felt后接形容词作表语，所以用nervous。' },
+    ],
   },
   {
     id: 16,
@@ -1152,6 +1415,58 @@ const book2: Lesson[] = [
     ],
     tags: ['条件句', 'if'],
     difficulty: 3,
+    summary: '讲述了在瑞典度假时发现车上有一张交通警察留下的礼貌纸条，提醒这里是禁停区，请注意路标，展示了交通警察温和有礼的执法方式。',
+    summaryEn: 'If you park your car in the wrong place, a traffic policeman will soon find it. However, traffic police are sometimes very polite. During a holiday in Sweden, the author found a polite note on his car welcoming him and asking him to pay attention to street signs.',
+    sentenceExplanations: [
+      { sentence: 'If you park your car in the wrong place, a traffic policeman will soon find it.', translation: '如果你把车停错了地方，交通警察很快就会发现它。', explanation: '第一类条件句：if + 一般现在时，主句用will + 动词原形。park表示停车。' },
+      { sentence: 'You will be very lucky if he lets you go without a ticket.', translation: '如果他让你走不开罚单，那你就很幸运了。', explanation: 'lets是let的第三人称单数。without a ticket表示没有罚单。此句也是第一类条件句。' },
+      { sentence: 'Traffic police are sometimes very polite.', translation: '交通警察有时非常有礼貌。', explanation: 'traffic police是复数概念，所以用are。sometimes表示有时候。' },
+      { sentence: 'You will enjoy your stay here if you pay attention to our street signs.', translation: '如果您注意我们的路标，您会在这里过得愉快的。', explanation: 'pay attention to表示注意。enjoy your stay表示过得愉快。条件句结构。' },
+    ],
+    grammarSections: [
+      {
+        title: '第一类条件句（if + 一般现在时，主句用will）',
+        content: '第一类条件句表示将来可能发生的事情。if从句用一般现在时，主句用will + 动词原形。这是真实条件句，表示条件实现的可能性较大。',
+        examples: [
+          { en: 'If you park in the wrong place, a policeman will find it.', cn: '如果你停错地方，警察会发现的。' },
+          { en: 'You will be lucky if he lets you go without a ticket.', cn: '如果他不给你开罚单，你就很幸运了。' },
+          { en: 'If it rains, we will stay at home.', cn: '如果下雨，我们就待在家里。' },
+        ],
+      },
+      {
+        title: 'pay attention to 的用法',
+        content: 'pay attention to表示注意，后接名词或动名词。to是介词，不是不定式符号。否定形式为pay no attention to。',
+        examples: [
+          { en: 'You will enjoy your stay if you pay attention to our street signs.', cn: '如果你注意我们的路标，你会过得愉快。' },
+          { en: 'Please pay attention to the teacher.', cn: '请注意听老师讲课。' },
+          { en: 'He paid no attention to the warning.', cn: '他没有注意到警告。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'If you _____, you will _____. 如果你_____，你就会_____。',
+        substitutions: [
+          { en: 'If you pay attention to our signs, you will enjoy your stay.', cn: '如果你注意我们的路标，你会过得愉快。' },
+          { en: 'If you work hard, you will pass the exam.', cn: '如果你努力学习，你会通过考试。' },
+          { en: 'If you hurry, you will catch the bus.', cn: '如果你快点，你能赶上公交车。' },
+        ],
+      },
+      {
+        pattern: 'You will be very lucky if _____. 如果_____，你就很幸运了。',
+        substitutions: [
+          { en: 'You will be very lucky if he lets you go without a ticket.', cn: '如果他不给你开罚单，你就很幸运了。' },
+          { en: 'You will be very lucky if you find a seat.', cn: '如果你能找到座位，你就很幸运了。' },
+          { en: 'You will be very lucky if the weather is fine.', cn: '如果天气好，你就很幸运了。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'If you park your car in the wrong place, a policeman _____ find it.', options: ['A. is', 'B. was', 'C. will', 'D. would'], answer: 'C', explanation: '第一类条件句的主句用will + 动词原形。' },
+      { type: 'fill', question: 'Please pay _____ to our street signs.', answer: 'attention', explanation: '"pay attention to"是固定搭配，表示注意。' },
+      { type: 'judge', question: '第一类条件句中，if从句用一般将来时。', answer: '错误', explanation: '第一类条件句中if从句用一般现在时，主句用一般将来时。' },
+      { type: 'choice', question: 'Traffic police are _____ very polite.', options: ['A. sometime', 'B. sometimes', 'C. some time', 'D. some times'], answer: 'B', explanation: 'sometimes表示有时候，是频率副词。sometime表示某个时候，some time表示一些时间。' },
+    ],
   },
   {
     id: 17,
@@ -1186,6 +1501,58 @@ const book2: Lesson[] = [
     ],
     tags: ['情态动词', 'must/have to'],
     difficulty: 2,
+    summary: '讲述了作者的姑姑詹妮弗是演员，虽然至少三十五岁了，但经常在舞台上扮演年轻姑娘，最近又要扮演十七岁少女的故事。',
+    summaryEn: 'The author\'s aunt Jennifer is an actress who must be at least thirty-five years old. Despite this, she often appears on stage as a young girl. She will have to take part in a new play as a girl of seventeen, wearing a bright red dress and long black stockings.',
+    sentenceExplanations: [
+      { sentence: 'My aunt Jennifer is an actress. She must be at least thirty-five years old.', translation: '我姑姑詹妮弗是演员。她至少三十五岁了。', explanation: 'must be表示推测，意为"一定是"。at least表示至少。这里must不是"必须"的意思。' },
+      { sentence: 'In spite of this, she often appears on the stage as a young girl.', translation: '尽管如此，她经常在舞台上扮演年轻姑娘。', explanation: '"in spite of"表示尽管、不顾。appear as表示以...身份出现。on the stage表示在舞台上。' },
+      { sentence: 'Jennifer will have to take part in a new play soon.', translation: '詹妮弗很快就要参加一个新剧的演出。', explanation: 'will have to表示将不得不。take part in表示参加。soon表示很快。' },
+      { sentence: 'In the play, she must appear in a bright red dress and long black stockings.', translation: '在剧中，她必须穿鲜红色的连衣裙和黑色长袜。', explanation: '这里must表示必须。in a bright red dress表示穿着鲜红色连衣裙。' },
+    ],
+    grammarSections: [
+      {
+        title: 'must 表示推测',
+        content: 'must可以表示推测，意为"一定是、肯定是"。后接动词原形表示对现在的推测。与表示"必须"的must不同，表推测的must不能用于否定句（否定推测用can\'t）。',
+        examples: [
+          { en: 'She must be at least thirty-five years old.', cn: '她至少三十五岁了。' },
+          { en: 'He must be very tired after the long journey.', cn: '长途旅行后他一定很累。' },
+          { en: 'That must be the postman at the door.', cn: '门口一定是邮递员。' },
+        ],
+      },
+      {
+        title: 'have to 与 must 的区别',
+        content: 'have to表示客观上必须，强调外在原因。must表示主观上必须，强调说话者的意愿。have to有更多时态变化：had to（过去），will have to（将来）。',
+        examples: [
+          { en: 'Jennifer will have to take part in a new play soon.', cn: '詹妮弗很快就要参加一个新剧的演出。' },
+          { en: 'I had to work last Saturday.', cn: '上周六我不得不工作。' },
+          { en: 'You must finish your homework before going out.', cn: '你必须做完作业才能出去。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: '_____ must be _____ years old. _____一定有_____岁了。',
+        substitutions: [
+          { en: 'She must be at least thirty-five years old.', cn: '她至少三十五岁了。' },
+          { en: 'He must be about forty years old.', cn: '他大约四十岁了。' },
+          { en: 'The building must be over a hundred years old.', cn: '那栋建筑一定有一百多年了。' },
+        ],
+      },
+      {
+        pattern: 'In spite of _____, she/he _____. 尽管_____，她/他_____。',
+        substitutions: [
+          { en: 'In spite of this, she often appears as a young girl.', cn: '尽管如此，她经常扮演年轻姑娘。' },
+          { en: 'In spite of the rain, he went out for a walk.', cn: '尽管下雨，他还是出去散步了。' },
+          { en: 'In spite of being tired, she kept working.', cn: '尽管很累，她继续工作。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'She _____ be at least thirty-five years old.', options: ['A. can', 'B. must', 'C. may', 'D. should'], answer: 'B', explanation: 'must be表示推测，意为"一定是"。根据句意表示对年龄的推测。' },
+      { type: 'fill', question: 'In _____ of this, she often appears on the stage.', answer: 'spite', explanation: '"in spite of"是固定搭配，表示尽管、不顾。' },
+      { type: 'judge', question: '"must be"在这里表示"必须是"。', answer: '错误', explanation: '这里must be表示推测，意为"一定是、肯定是"，而不是"必须是"。' },
+      { type: 'choice', question: 'She will _____ to take part in a new play.', options: ['A. must', 'B. should', 'C. have', 'D. has'], answer: 'C', explanation: '"will have to"表示将不得不，have to可以用于各种时态。' },
+    ],
   },
   {
     id: 18,
@@ -1222,6 +1589,58 @@ const book2: Lesson[] = [
     ],
     tags: ['一般过去时', '时间状语'],
     difficulty: 2,
+    summary: '讲述了作者在乡村酒馆吃完午饭后发现包不见了，店主帮忙找回，原来是店主的狗把包叼到了花园里的趣事。',
+    summaryEn: 'After having lunch at a village pub, the author couldn\'t find his bag. The landlord came in and asked if he had a good meal. The author said he couldn\'t pay because he had lost his bag. The landlord found it in the garden — his dog had taken it there, and he does this often!',
+    sentenceExplanations: [
+      { sentence: 'After I had had lunch at a village pub, I looked for my bag.', translation: '我在一家乡村小酒馆吃完午饭后，找我的包。', explanation: 'had had是过去完成时（have lunch）。after引导时间状语从句。looked for表示寻找。' },
+      { sentence: 'I had left it on a chair beside the door and now it wasn\'t there!', translation: '我把包放在门边的椅子上，现在不见了！', explanation: 'had left是过去完成时，表示在looked for之前已经把包放在那里。beside表示在...旁边。' },
+      { sentence: 'Did you have a good meal?', translation: '您吃得好吗？', explanation: 'Did you...?是一般过去时疑问句。have a good meal表示吃得很好。' },
+      { sentence: 'My dog had taken it into the garden. He often does this!', translation: '我的狗把它叼到花园里去了。它经常干这种事！', explanation: 'had taken是过去完成时。He often does this用一般现在时表示经常性的行为。' },
+    ],
+    grammarSections: [
+      {
+        title: '过去完成时的运用',
+        content: '过去完成时had + 过去分词，表示在过去某一时间之前已经完成的动作。本课中"had had lunch"和"had left"都发生在"looked for"之前。',
+        examples: [
+          { en: 'After I had had lunch, I looked for my bag.', cn: '我吃完午饭后，找我的包。' },
+          { en: 'I had left it on a chair beside the door.', cn: '我已经把它放在门边的椅子上了。' },
+          { en: 'My dog had taken it into the garden.', cn: '我的狗已经把它叼到花园里了。' },
+        ],
+      },
+      {
+        title: 'have got 的用法',
+        content: 'have got在口语中等于have，表示拥有。否定形式为haven\'t got或have not got。疑问形式为Have you got...?这是英式英语的常见用法。',
+        examples: [
+          { en: 'I haven\'t got my bag.', cn: '我的包不见了。（我没有我的包了。）' },
+          { en: 'Have you got a pen?', cn: '你有笔吗？' },
+          { en: 'She hasn\'t got enough money.', cn: '她没有足够的钱。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'After I had _____, I _____. 在我_____之后，我_____。',
+        substitutions: [
+          { en: 'After I had had lunch, I looked for my bag.', cn: '我吃完午饭后，找我的包。' },
+          { en: 'After I had finished my work, I went home.', cn: '我完成工作后回了家。' },
+          { en: 'After I had read the letter, I put it away.', cn: '我读完信后把它收起来了。' },
+        ],
+      },
+      {
+        pattern: 'I haven\'t got _____. 我没有_____。',
+        substitutions: [
+          { en: 'I haven\'t got my bag.', cn: '我没有我的包。' },
+          { en: 'I haven\'t got enough time.', cn: '我没有足够的时间。' },
+          { en: 'I haven\'t got any money.', cn: '我身无分文。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'After I _____ had lunch, I looked for my bag.', options: ['A. have', 'B. had', 'C. was', 'D. did'], answer: 'B', explanation: '过去完成时用had + 过去分词，have的过去分词是had，所以是had had。' },
+      { type: 'fill', question: 'I _____ left it on a chair beside the door. (过去完成时)', answer: 'had', explanation: '过去完成时用had + 过去分词left。' },
+      { type: 'judge', question: '"He often does this!"用一般现在时表示经常性的行为。', answer: '正确', explanation: 'often是频率副词，配合一般现在时表示经常发生的动作。does是do的第三人称单数形式。' },
+      { type: 'choice', question: 'I had left it on a chair _____ the door.', options: ['A. besides', 'B. beside', 'C. except', 'D. expect'], answer: 'B', explanation: 'beside表示在...旁边（介词）。besides表示除了...还有。' },
+    ],
   },
   {
     id: 19,
@@ -1257,6 +1676,58 @@ const book2: Lesson[] = [
     ],
     tags: ['情态动词', 'can/could'],
     difficulty: 2,
+    summary: '讲述了作者和苏珊赶到剧院买票却被告知票已售完，正遗憾时有人来退票，作者赶紧买下，结果发现是下周三的票的有趣故事。',
+    summaryEn: 'The author and Susan hurried to the ticket office but were told the tickets were sold out. Just then, a man came to return two tickets. The author quickly asked for them, only to find out they were for next Wednesday\'s performance.',
+    sentenceExplanations: [
+      { sentence: 'The play may begin at any moment.', translation: '剧随时都可能开演。', explanation: 'may表示可能性。at any moment表示随时。这句话暗示他们时间紧迫。' },
+      { sentence: 'It may have begun already.', translation: '也许已经开演了。', explanation: 'may have + 过去分词表示对过去的推测，意为"也许已经"。already表示已经。' },
+      { sentence: 'May I have two tickets please?', translation: '请给我两张票好吗？', explanation: 'May I...?是礼貌请求句型，用于正式场合。比Can I...?更礼貌。' },
+      { sentence: 'Could I have those two tickets please?', translation: '把那两张票给我好吗？', explanation: 'Could I...?也是礼貌请求句型。could比can更委婉。those指代刚才提到的两张票。' },
+    ],
+    grammarSections: [
+      {
+        title: 'may 表示可能性和请求',
+        content: 'may有两种主要用法：表示可能性（可能），和表示请求许可（可以）。may have + 过去分词表示对过去的推测。May I...?用于礼貌请求。',
+        examples: [
+          { en: 'The play may begin at any moment.', cn: '剧随时都可能开演。' },
+          { en: 'It may have begun already.', cn: '也许已经开演了。' },
+          { en: 'May I have two tickets please?', cn: '请给我两张票好吗？' },
+        ],
+      },
+      {
+        title: 'Could I / May I 礼貌请求',
+        content: 'Could I...?和May I...?都是礼貌请求的句型。May I...?更正式，Could I...?较委婉。回答时用Certainly或Of course表示同意。',
+        examples: [
+          { en: 'Could I have those two tickets please?', cn: '把那两张票给我好吗？' },
+          { en: 'May I use your telephone?', cn: '我可以用一下你的电话吗？' },
+          { en: 'Could you open the window, please?', cn: '请打开窗户好吗？' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'May I have _____ please? 请给我_____好吗？',
+        substitutions: [
+          { en: 'May I have two tickets please?', cn: '请给我两张票好吗？' },
+          { en: 'May I have a glass of water please?', cn: '请给我一杯水好吗？' },
+          { en: 'May I have the menu please?', cn: '请给我菜单好吗？' },
+        ],
+      },
+      {
+        pattern: 'It may have _____ already. 也许已经_____了。',
+        substitutions: [
+          { en: 'It may have begun already.', cn: '也许已经开演了。' },
+          { en: 'She may have left already.', cn: '她也许已经离开了。' },
+          { en: 'They may have finished already.', cn: '他们也许已经完成了。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'The play _____ begin at any moment.', options: ['A. must', 'B. may', 'C. should', 'D. would'], answer: 'B', explanation: 'may表示可能性，意为"可能、也许"。' },
+      { type: 'fill', question: 'I\'m sorry, we\'ve _____ out. (sell的过去分词)', answer: 'sold', explanation: '"sold out"表示售完。sell的过去分词是sold。' },
+      { type: 'judge', question: '"May I have two tickets?"比"Can I have two tickets?"更礼貌。', answer: '正确', explanation: 'May I...?比Can I...?更正式、更礼貌。' },
+      { type: 'choice', question: 'It may _____ begun already.', options: ['A. has', 'B. have', 'C. had', 'D. having'], answer: 'B', explanation: 'may have + 过去分词表示对过去的推测。may后接动词原形have。' },
+    ],
   },
   {
     id: 20,
@@ -1293,6 +1764,59 @@ const book2: Lesson[] = [
     ],
     tags: ['现在完成时', 'already/yet'],
     difficulty: 3,
+    summary: '讲述了作者热爱钓鱼却总是空手而归的幽默故事。他常常钓好几个小时什么也钓不到，甚至连旧靴子和垃圾都钓不上来。',
+    summaryEn: 'Fishing is the author\'s favourite sport, but he often fishes for hours without catching anything. He is even less lucky than other fishermen — instead of catching old boots and rubbish, he catches nothing at all. He always goes home with an empty bag.',
+    sentenceExplanations: [
+      { sentence: 'Fishing is my favourite sport.', translation: '钓鱼是我最喜欢的运动。', explanation: '动名词Fishing作主语，谓语用单数is。favourite表示最喜欢的。' },
+      { sentence: 'I often fish for hours without catching anything.', translation: '我常常钓好几个小时什么也钓不到。', explanation: 'fish for hours表示钓好几个小时。without catching anything表示什么也没钓到。without后接动名词。' },
+      { sentence: 'Instead of catching fish, they catch old boots and rubbish.', translation: '他们钓不到鱼，却钓上来旧靴子和垃圾。', explanation: '"instead of"表示代替、而不是，后接名词或动名词。这句话很有幽默感。' },
+      { sentence: 'I am even less lucky.', translation: '我的运气甚至更差。', explanation: 'less lucky表示更不幸运。even加强比较级语气。这是与前面的fishermen对比。' },
+      { sentence: 'After having spent whole mornings on the river, I always go home with an empty bag.', translation: '在河上度过整个上午后，我总是带着空包回家。', explanation: 'after having spent是动名词的完成式，表示在spend之后发生go home。with an empty bag表示带着空包。' },
+    ],
+    grammarSections: [
+      {
+        title: '动名词作主语',
+        content: '动名词（动词-ing形式）可以作主语，表示一种习惯性或一般性的行为。作主语时谓语动词用单数形式。这是英语中常见的句式。',
+        examples: [
+          { en: 'Fishing is my favourite sport.', cn: '钓鱼是我最喜欢的运动。' },
+          { en: 'Swimming is good exercise.', cn: '游泳是很好的运动。' },
+          { en: 'Reading in bed is a bad habit.', cn: '在床上看书是个坏习惯。' },
+        ],
+      },
+      {
+        title: 'instead of 的用法',
+        content: 'instead of表示代替、而不是，后接名词或动名词。可以用来表达与预期相反的情况。常带有转折或对比的意味。',
+        examples: [
+          { en: 'Instead of catching fish, they catch old boots and rubbish.', cn: '他们钓不到鱼，却钓上来旧靴子和垃圾。' },
+          { en: 'Instead of going to school, he went to the cinema.', cn: '他没去上学，而是去了电影院。' },
+          { en: 'She ate rice instead of bread.', cn: '她吃了米饭而不是面包。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: '_____ is my favourite _____. _____是我最喜欢的_____。',
+        substitutions: [
+          { en: 'Fishing is my favourite sport.', cn: '钓鱼是我最喜欢的运动。' },
+          { en: 'Reading is my favourite hobby.', cn: '阅读是我最喜欢的爱好。' },
+          { en: 'Swimming is my favourite exercise.', cn: '游泳是我最喜欢的运动。' },
+        ],
+      },
+      {
+        pattern: 'Instead of _____, he/she _____. 没有_____，他/她却_____。',
+        substitutions: [
+          { en: 'Instead of catching fish, they catch old boots.', cn: '他们钓不到鱼，却钓上来旧靴子。' },
+          { en: 'Instead of studying, he played games.', cn: '他没有学习，而是玩游戏了。' },
+          { en: 'Instead of walking, she took a taxi.', cn: '她没有走路，而是打了出租车。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ is my favourite sport.', options: ['A. Fish', 'B. Fishing', 'C. To fish', 'D. Fished'], answer: 'B', explanation: '动名词作主语表示一般性的行为，所以用Fishing。' },
+      { type: 'fill', question: 'Instead _____ catching fish, they catch old boots.', answer: 'of', explanation: '"instead of"是固定搭配，表示代替、而不是。' },
+      { type: 'judge', question: '"instead of"后面可以接动词原形。', answer: '错误', explanation: '"instead of"后接名词或动名词（-ing形式），不能接动词原形。' },
+      { type: 'choice', question: 'I am even _____ lucky than other fishermen.', options: ['A. little', 'B. less', 'C. least', 'D. fewer'], answer: 'B', explanation: 'less是little的比较级，less lucky表示更不幸运。even修饰比较级加强语气。' },
+    ],
   },
 ]
 

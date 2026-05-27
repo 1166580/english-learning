@@ -1076,6 +1076,1954 @@ const book3: Lesson[] = [
       { type: 'choice', question: 'A huge iceberg was suddenly _____ by a lookout.', options: ['A. spot', 'B. spotted', 'C. spotting', 'D. spots'], answer: 'B', explanation: 'was spotted是被动语态，用过去分词。' }
     ],
   },
-]
+  {
+    id: 16,
+    title: 'The lark',
+    titleCn: '云雀',
+    text: [
+      'A pair of larks had built their nest in a field of wheat.',
+      'The farmer who owned the field came to see how the crop was growing.',
+      'He was very pleased with it and said he would send his men to reap it the next day.',
+      'The lark overheard him and was very alarmed.',
+      'She told her young ones they would have to move house at once.',
+      'But the young ones said the farmer had not yet sent his men.',
+      'The lark said, "He who says a thing does not always do it."',
+      'But she moved her family to a safer place.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'lark', phonetic: '/lɑːk/', meaning: '云雀' },
+      { word: 'nest', phonetic: '/nest/', meaning: '巢' },
+      { word: 'wheat', phonetic: '/wiːt/', meaning: '小麦' },
+      { word: 'crop', phonetic: '/krɒp/', meaning: '庄稼' },
+      { word: 'reap', phonetic: '/riːp/', meaning: '收割' },
+      { word: 'overhear', phonetic: '/ˌəʊvəˈhɪə/', meaning: '无意中听到' },
+      { word: 'alarmed', phonetic: '/əˈlɑːmd/', meaning: '惊恐的' },
+      { word: 'safer', phonetic: '/ˈseɪfə/', meaning: '更安全的' }
+    ],
+    notes: [
+      '"had built" 过去完成时——在农民来之前已经筑好巢。',
+      '"was pleased with" 对……满意。',
+      '"He who says a thing does not always do it" 说的人不一定做。'
+    ],
+    tags: ['寓言', '过去完成时'],
+    difficulty: 3,
+    summary: '云雀听到农民说要割麦子，虽然农民还没行动，但还是把家搬到了更安全的地方。',
+    summaryEn: 'A lark overhears the farmer planning to reap the wheat and moves her family to safety.',
+  },
+  {
+    id: 17,
+    title: 'No one knows why',
+    titleCn: '无人知晓其因',
+    text: [
+      'People have always been fascinated by strange coincidences.',
+      'Some coincidences are so remarkable that they seem impossible to explain.',
+      'A man once dreamed that his friend had been killed in a car accident.',
+      'The next day, he learned that his friend had indeed died in a car crash at exactly the time of the dream.',
+      'Scientists say that such coincidences are merely the result of probability.',
+      'But many people believe they have a deeper meaning.',
+      'No one really knows why they happen.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'coincidence', phonetic: '/kəʊˈɪnsɪdəns/', meaning: '巧合' },
+      { word: 'remarkable', phonetic: '/rɪˈmɑːkəbl/', meaning: '非凡的' },
+      { word: 'explain', phonetic: '/ɪkˈspleɪn/', meaning: '解释' },
+      { word: 'accident', phonetic: '/ˈæksɪdənt/', meaning: '事故' },
+      { word: 'probability', phonetic: '/ˌprɒbəˈbɪləti/', meaning: '概率' },
+      { word: 'deeper', phonetic: '/ˈdiːpə/', meaning: '更深的' },
+      { word: 'meaning', phonetic: '/ˈmiːnɪŋ/', meaning: '意义' },
+      { word: 'fascinate', phonetic: '/ˈfæsɪneɪt/', meaning: '使着迷' }
+    ],
+    notes: [
+      '"so... that..." 如此……以至于……。',
+      '"the result of" ……的结果。',
+      '"a deeper meaning" 更深层的意义。'
+    ],
+    tags: ['神秘', '概率'],
+    difficulty: 3,
+    summary: '探讨令人费解的巧合——科学家说是概率，但人们相信有更深的意义。',
+    summaryEn: 'Explores mysterious coincidences — scientists say probability, but people believe in deeper meaning.',
+  },
+  {
+    id: 18,
+    title: 'The Channel Tunnel',
+    titleCn: '英吉利海峡隧道',
+    text: [
+      'The idea of a tunnel under the English Channel was first proposed in 1802.',
+      'It was not until 1988 that construction actually began.',
+      'The tunnel was completed in 1994.',
+      'It is 50 kilometres long and runs beneath the sea bed.',
+      'The tunnel connects England and France.',
+      'It carries both passenger trains and freight trains.',
+      'The journey from London to Paris now takes just three hours.',
+      'It is one of the greatest engineering achievements of the twentieth century.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'tunnel', phonetic: '/ˈtʌnl/', meaning: '隧道' },
+      { word: 'channel', phonetic: '/ˈtʃænl/', meaning: '海峡' },
+      { word: 'propose', phonetic: '/prəˈpəʊz/', meaning: '提议' },
+      { word: 'construction', phonetic: '/kənˈstrʌkʃn/', meaning: '建设' },
+      { word: 'beneath', phonetic: '/bɪˈniːθ/', meaning: '在……下面' },
+      { word: 'connect', phonetic: '/kəˈnekt/', meaning: '连接' },
+      { word: 'freight', phonetic: '/freɪt/', meaning: '货运' },
+      { word: 'engineering', phonetic: '/ˌendʒɪˈnɪərɪŋ/', meaning: '工程' }
+    ],
+    notes: [
+      '"It was not until... that..." 直到……才……。强调句型。',
+      '"runs beneath" 在……下面延伸。',
+      '"one of the greatest" 最伟大的之一。'
+    ],
+    tags: ['工程', '历史'],
+    difficulty: 3,
+    summary: '英吉利海峡隧道——从1802年构想到1994年建成，连接英法的伟大工程。',
+    summaryEn: 'The Channel Tunnel — from 1802 proposal to 1994 completion, a great engineering achievement.',
+  },
+  {
+    id: 19,
+    title: 'Daniel Mendoza',
+    titleCn: '丹尼尔·门多萨',
+    text: [
+      'Boxing matches were very popular in England two hundred years ago.',
+      'In those days, boxers fought with bare fists.',
+      'Daniel Mendoza was a famous boxer of that period.',
+      'He was the first boxer to introduce a scientific style of fighting.',
+      'Before Mendoza, boxing was simply a matter of brute force.',
+      'He changed boxing into a sport that required skill and strategy.',
+      'He became very rich and famous.',
+      'His fights attracted huge crowds.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'boxing', phonetic: '/ˈbɒksɪŋ/', meaning: '拳击' },
+      { word: 'bare', phonetic: '/beə/', meaning: '赤裸的' },
+      { word: 'fist', phonetic: '/fɪst/', meaning: '拳头' },
+      { word: 'scientific', phonetic: '/ˌsaɪənˈtɪfɪk/', meaning: '科学的' },
+      { word: 'brute', phonetic: '/bruːt/', meaning: '蛮力的' },
+      { word: 'strategy', phonetic: '/ˈstrætədʒi/', meaning: '策略' },
+      { word: 'skill', phonetic: '/skɪl/', meaning: '技巧' },
+      { word: 'attract', phonetic: '/əˈtrækt/', meaning: '吸引' },
+      { word: 'crowd', phonetic: '/kraʊd/', meaning: '人群' }
+    ],
+    notes: [
+      '"the first to" 第一个做……的。',
+      '"a matter of" ……的问题。',
+      '"changed... into..." 把……变成……。'
+    ],
+    tags: ['体育', '人物传记'],
+    difficulty: 3,
+    summary: '丹尼尔·门多萨——将拳击从蛮力运动变成需要技巧和策略的科学运动。',
+    summaryEn: 'Daniel Mendoza transformed boxing from brute force into a sport of skill and strategy.',
+  },
+  {
+    id: 20,
+    title: 'By heart',
+    titleCn: '凭记忆',
+    text: [
+      'Some plays are so successful that they run for years on end.',
+      'The actors in long-running plays have to say the same lines night after night.',
+      'One actor said he could say his lines backwards if necessary.',
+      'He had been saying them for so long that they were engraved on his memory.',
+      'But one night, something unexpected happened.',
+      'He forgot his lines completely.',
+      'He stood on the stage in silence for several seconds.',
+      'Then he said, "I\'m sorry, but I seem to have forgotten my lines."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'lines', phonetic: '/laɪnz/', meaning: '台词' },
+      { word: 'backwards', phonetic: '/ˈbækwədz/', meaning: '倒着' },
+      { word: 'engrave', phonetic: '/ɪnˈɡreɪv/', meaning: '铭刻' },
+      { word: 'memory', phonetic: '/ˈmeməri/', meaning: '记忆' },
+      { word: 'unexpected', phonetic: '/ˌʌnɪkˈspektɪd/', meaning: '意外的' },
+      { word: 'completely', phonetic: '/kəmˈpliːtli/', meaning: '完全地' },
+      { word: 'stage', phonetic: '/steɪdʒ/', meaning: '舞台' },
+      { word: 'silence', phonetic: '/ˈsaɪləns/', meaning: '沉默' }
+    ],
+    notes: [
+      '"on end" 连续地。',
+      '"night after night" 一夜又一夜。',
+      '"engraved on my memory" 铭刻在记忆中。'
+    ],
+    tags: ['戏剧', '幽默'],
+    difficulty: 3,
+    summary: '一个演员背台词背了多年，却在某晚完全忘词的尴尬故事。',
+    summaryEn: 'An actor who knew his lines perfectly for years suddenly forgets them one night.',
+  },
+  {
+    id: 21,
+    title: 'A skeleton in the cupboard',
+    titleCn: '家丑',
+    text: [
+      'We often read in novels how a seemingly respectable family has a terrible secret.',
+      'The secret is usually called "a skeleton in the cupboard".',
+      'Every family has its own secrets.',
+      'Some secrets are so terrible that they are never revealed.',
+      'The expression comes from the idea that everyone has a skeleton hidden away somewhere.',
+      'It is a reminder that appearances can be deceptive.',
+      'What we see on the surface may not be the truth.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'skeleton', phonetic: '/ˈskelɪtn/', meaning: '骨架' },
+      { word: 'cupboard', phonetic: '/ˈkʌbəd/', meaning: '柜子' },
+      { word: 'seemingly', phonetic: '/ˈsiːmɪŋli/', meaning: '表面上' },
+      { word: 'respectable', phonetic: '/rɪˈspektəbl/', meaning: '体面的' },
+      { word: 'terrible', phonetic: '/ˈterəbl/', meaning: '可怕的' },
+      { word: 'reveal', phonetic: '/rɪˈviːl/', meaning: '揭露' },
+      { word: 'appearance', phonetic: '/əˈpɪərəns/', meaning: '外表' },
+      { word: 'deceptive', phonetic: '/dɪˈseptɪv/', meaning: '有欺骗性的' }
+    ],
+    notes: [
+      '"a skeleton in the cupboard" 家丑/秘密。',
+      '"appearances can be deceptive" 外表可能是骗人的。',
+      '"hidden away" 藏起来。'
+    ],
+    tags: ['习语', '人生哲理'],
+    difficulty: 3,
+    summary: '每个家庭都有秘密——"衣柜里的骷髅"提醒我们外表可能是骗人的。',
+    summaryEn: 'Every family has secrets — "a skeleton in the cupboard" reminds us appearances can be deceptive.',
+  },
+  {
+    id: 22,
+    title: 'A day to remember',
+    titleCn: '难忘的一天',
+    text: [
+      'We have all experienced days when everything goes wrong.',
+      'A day may begin well enough, but suddenly everything seems to get out of control.',
+      'It is as if a single bad event can trigger a chain reaction.',
+      'One morning, a man left his house and realized he had forgotten his keys.',
+      'He went back to get them and knocked over a vase.',
+      'While cleaning up the vase, he cut his finger.',
+      'By the time he left the house again, he was late for work.',
+      'He said it was the worst day of his life.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'experience', phonetic: '/ɪkˈspɪəriəns/', meaning: '经历' },
+      { word: 'control', phonetic: '/kənˈtrəʊl/', meaning: '控制' },
+      { word: 'trigger', phonetic: '/ˈtrɪɡə/', meaning: '触发' },
+      { word: 'chain reaction', phonetic: '/tʃeɪn riˈækʃn/', meaning: '连锁反应' },
+      { word: 'knock over', phonetic: '/nɒk ˈəʊvə/', meaning: '打翻' },
+      { word: 'vase', phonetic: '/vɑːz/', meaning: '花瓶' },
+      { word: 'clean up', phonetic: '/kliːn ʌp/', meaning: '清理' },
+      { word: 'worst', phonetic: '/wɜːst/', meaning: '最糟糕的' }
+    ],
+    notes: [
+      '"get out of control" 失控。',
+      '"as if" 好像。',
+      '"a chain reaction" 连锁反应。'
+    ],
+    tags: ['日常', '叙事'],
+    difficulty: 3,
+    summary: '一个什么都不顺的早晨——忘带钥匙、打翻花瓶、割伤手指、上班迟到。',
+    summaryEn: 'A morning when everything goes wrong — forgotten keys, broken vase, cut finger, late for work.',
+  },
+  {
+    id: 23,
+    title: 'Wanted: a large biscuit tin',
+    titleCn: '求购：一个大饼干听',
+    text: [
+      'No one can avoid being influenced by advertisements.',
+      'Ads are designed to make us want things we do not need.',
+      'A food company once advertised for a large biscuit tin.',
+      'They received hundreds of letters from people who wanted to sell their old tins.',
+      'But the company was not really looking for a tin.',
+      'They wanted to show that their biscuits were so popular that they needed a bigger tin.',
+      'It was a clever advertising trick.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'avoid', phonetic: '/əˈvɔɪd/', meaning: '避免' },
+      { word: 'influence', phonetic: '/ˈɪnfluəns/', meaning: '影响' },
+      { word: 'advertise', phonetic: '/ˈædvətaɪz/', meaning: '做广告' },
+      { word: 'receive', phonetic: '/rɪˈsiːv/', meaning: '收到' },
+      { word: 'clever', phonetic: '/ˈklevə/', meaning: '聪明的' },
+      { word: 'trick', phonetic: '/trɪk/', meaning: '伎俩' },
+      { word: 'popular', phonetic: '/ˈpɒpjələ/', meaning: '受欢迎的' },
+      { word: 'biscuit', phonetic: '/ˈbɪskɪt/', meaning: '饼干' }
+    ],
+    notes: [
+      '"cannot avoid being" 无法避免被……。',
+      '"advertised for" 登广告求购。',
+      '"so... that..." 如此……以至于……。'
+    ],
+    tags: ['广告', '商业'],
+    difficulty: 3,
+    summary: '一家食品公司登广告求购大饼干听——其实是为了宣传饼干太受欢迎。',
+    summaryEn: 'A food company\'s clever ad for a big biscuit tin was really about promoting their popular biscuits.',
+  },
+  {
+    id: 24,
+    title: 'Nothing to sell, nothing to buy',
+    titleCn: '不卖也不买',
+    text: [
+      'It has been said that everyone lives by selling something.',
+      'The teacher sells knowledge, the doctor sells skill, and the artist sells beauty.',
+      'But there are some things that money cannot buy.',
+      'Love, friendship, and peace of mind have no price tag.',
+      'A man may be very rich but still feel unhappy.',
+      'True wealth lies not in what we have, but in what we are.',
+      'The person who has nothing to sell and nothing to buy may be the richest of all.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'sell', phonetic: '/sel/', meaning: '卖' },
+      { word: 'knowledge', phonetic: '/ˈnɒlɪdʒ/', meaning: '知识' },
+      { word: 'skill', phonetic: '/skɪl/', meaning: '技能' },
+      { word: 'friendship', phonetic: '/ˈfrendʃɪp/', meaning: '友谊' },
+      { word: 'peace of mind', phonetic: '/piːs ɒv maɪnd/', meaning: '内心的平静' },
+      { word: 'wealth', phonetic: '/welθ/', meaning: '财富' },
+      { word: 'price tag', phonetic: '/praɪs tæɡ/', meaning: '价格标签' },
+      { word: 'rich', phonetic: '/rɪtʃ/', meaning: '富有的' }
+    ],
+    notes: [
+      '"lives by selling" 靠卖……为生。',
+      '"lies not in... but in..." 不在于……而在于……。',
+      '"peace of mind" 内心平静。'
+    ],
+    tags: ['人生哲理', '议论文'],
+    difficulty: 3,
+    summary: '每个人都靠卖什么为生——但真正的财富不在于拥有什么，而在于是什么样的人。',
+    summaryEn: 'Everyone lives by selling something — but true wealth lies in what we are, not what we have.',
+  },
+  {
+    id: 25,
+    title: 'Five pounds too dear',
+    titleCn: '贵了五英镑',
+    text: [
+      'Small boats loaded with goods often have to cross the English Channel.',
+      'The weather can be very dangerous.',
+      'A man once sailed across the Channel in a small boat.',
+      'When he arrived in England, he was very tired.',
+      'He went to a hotel and asked for a room.',
+      'The receptionist said the room cost twenty pounds.',
+      'The man said he had only fifteen pounds.',
+      'The receptionist agreed to let him have the room for fifteen pounds.',
+      'Later, the man told a friend about it.',
+      'His friend said, "You paid five pounds too dear. The room is only worth ten pounds."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'loaded', phonetic: '/ˈləʊdɪd/', meaning: '装载的' },
+      { word: 'sail', phonetic: '/seɪl/', meaning: '航行' },
+      { word: 'receptionist', phonetic: '/rɪˈsepʃənɪst/', meaning: '接待员' },
+      { word: 'agree', phonetic: '/əˈɡriː/', meaning: '同意' },
+      { word: 'dear', phonetic: '/dɪə/', meaning: '昂贵的' },
+      { word: 'worth', phonetic: '/wɜːθ/', meaning: '值' },
+      { word: 'pound', phonetic: '/paʊnd/', meaning: '英镑' },
+      { word: 'cross', phonetic: '/krɒs/', meaning: '横渡' }
+    ],
+    notes: [
+      '"loaded with" 装载着……。',
+      '"asked for a room" 要了一间房。',
+      '"five pounds too dear" 贵了五英镑。'
+    ],
+    tags: ['旅行', '幽默'],
+    difficulty: 3,
+    summary: '一个人花了十五英镑住旅馆，朋友说贵了五英镑——房间只值十英镑。',
+    summaryEn: 'A man overpays for a hotel room — his friend says it was five pounds too dear.',
+  },
+  {
+    id: 26,
+    title: 'Funny or not?',
+    titleCn: '是否可笑？',
+    text: [
+      'Some things are funny in one country but not in another.',
+      'Humour depends on culture and context.',
+      'What makes people laugh in England may not make people laugh in Japan.',
+      'A joke about the weather may be funny in England because the weather is always changing.',
+      'But the same joke would not be funny in a country with a stable climate.',
+      'Understanding humour in a foreign language is one of the hardest things to learn.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'funny', phonetic: '/ˈfʌni/', meaning: '好笑的' },
+      { word: 'humour', phonetic: '/ˈhjuːmə/', meaning: '幽默' },
+      { word: 'context', phonetic: '/ˈkɒntekst/', meaning: '语境' },
+      { word: 'joke', phonetic: '/dʒəʊk/', meaning: '笑话' },
+      { word: 'stable', phonetic: '/ˈsteɪbl/', meaning: '稳定的' },
+      { word: 'climate', phonetic: '/ˈklaɪmət/', meaning: '气候' },
+      { word: 'foreign', phonetic: '/ˈfɒrən/', meaning: '外国的' },
+      { word: 'hardest', phonetic: '/ˈhɑːdɪst/', meaning: '最难的' }
+    ],
+    notes: [
+      '"depends on" 取决于。',
+      '"one of the hardest" 最难的之一。',
+      '"makes people laugh" 让人发笑。'
+    ],
+    tags: ['文化', '幽默'],
+    difficulty: 3,
+    summary: '幽默因文化而异——在一个国家好笑的事情在另一个国家可能并不好笑。',
+    summaryEn: 'Humour varies by culture — what\'s funny in one country may not be in another.',
+  },
+  {
+    id: 27,
+    title: 'A lovable eccentric',
+    titleCn: '可爱的怪人',
+    text: [
+      'An eccentric is someone who behaves in an unusual way.',
+      'Eccentrics are often very kind and generous people.',
+      'They do not care what other people think of them.',
+      'One eccentric man in London always wore a top hat and a long coat, even in summer.',
+      'He carried an umbrella everywhere, even on the sunniest days.',
+      'People smiled at him, but they liked him because he was always cheerful.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'eccentric', phonetic: '/ɪkˈsentrɪk/', meaning: '怪人' },
+      { word: 'behave', phonetic: '/bɪˈheɪv/', meaning: '行为' },
+      { word: 'generous', phonetic: '/ˈdʒenərəs/', meaning: '慷慨的' },
+      { word: 'cheerful', phonetic: '/ˈtʃɪəfl/', meaning: '快乐的' },
+      { word: 'umbrella', phonetic: '/ʌmˈbrelə/', meaning: '伞' },
+      { word: 'sunny', phonetic: '/ˈsʌni/', meaning: '阳光明媚的' },
+      { word: 'top hat', phonetic: '/tɒp hæt/', meaning: '大礼帽' },
+      { word: 'wear', phonetic: '/weə/', meaning: '穿' }
+    ],
+    notes: [
+      '"does not care what" 不在乎什么。',
+      '"even on the sunniest days" 即使在最晴朗的日子。',
+      '"smiled at him" 对他微笑。'
+    ],
+    tags: ['人物描写', '性格'],
+    difficulty: 3,
+    summary: '描述一个可爱的怪人——总是戴大礼帽、带伞，不管天气如何。',
+    summaryEn: 'A lovable eccentric in London always wears a top hat and carries an umbrella, rain or shine.',
+  },
+  {
+    id: 28,
+    title: 'A happy discovery',
+    titleCn: '愉快的发现',
+    text: [
+      'A man was walking along a beach when he found a bottle.',
+      'Inside the bottle was a piece of paper.',
+      'It was a letter written by a sailor fifty years ago.',
+      'The letter said the sailor had been shipwrecked on a deserted island.',
+      'He had put the letter in the bottle and thrown it into the sea.',
+      'The man who found the letter was very excited.',
+      'He tried to find the sailor, but he had died many years before.',
+      'The letter was donated to a museum.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'beach', phonetic: '/biːtʃ/', meaning: '海滩' },
+      { word: 'sailor', phonetic: '/ˈseɪlə/', meaning: '水手' },
+      { word: 'shipwrecked', phonetic: '/ˈʃɪprekt/', meaning: '遇难的' },
+      { word: 'deserted', phonetic: '/dɪˈzɜːtɪd/', meaning: '荒无人烟的' },
+      { word: 'excited', phonetic: '/ɪkˈsaɪtɪd/', meaning: '兴奋的' },
+      { word: 'donate', phonetic: '/dəʊˈneɪt/', meaning: '捐赠' },
+      { word: 'museum', phonetic: '/mjuˈziːəm/', meaning: '博物馆' },
+      { word: 'bottle', phonetic: '/ˈbɒtl/', meaning: '瓶子' }
+    ],
+    notes: [
+      '"was walking... when" 正在走……突然。',
+      '"thrown it into" 把它扔进。',
+      '"many years before" 许多年前。'
+    ],
+    tags: ['发现', '故事'],
+    difficulty: 3,
+    summary: '一个男人在海滩上发现了一个50年前的漂流瓶——里面是一位遇难水手的信。',
+    summaryEn: 'A man finds a 50-year-old message in a bottle from a shipwrecked sailor.',
+  },
+  {
+    id: 29,
+    title: 'A trip to the Moon',
+    titleCn: '月球之旅',
+    text: [
+      'The first manned mission to the Moon was Apollo 11.',
+      'It was launched on July 16, 1969.',
+      'The crew consisted of three astronauts: Neil Armstrong, Buzz Aldrin, and Michael Collins.',
+      'On July 20, Neil Armstrong became the first person to walk on the Moon.',
+      'He said, "That\'s one small step for man, one giant leap for mankind."',
+      'Buzz Aldrin joined him on the surface twenty minutes later.',
+      'Michael Collins remained in orbit around the Moon.',
+      'The mission returned safely to Earth on July 24.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'mission', phonetic: '/ˈmɪʃn/', meaning: '任务' },
+      { word: 'launch', phonetic: '/lɔːntʃ/', meaning: '发射' },
+      { word: 'crew', phonetic: '/kruː/', meaning: '全体人员' },
+      { word: 'astronaut', phonetic: '/ˈæstrənɔːt/', meaning: '宇航员' },
+      { word: 'giant', phonetic: '/ˈdʒaɪənt/', meaning: '巨大的' },
+      { word: 'leap', phonetic: '/liːp/', meaning: '飞跃' },
+      { word: 'mankind', phonetic: '/mænˈkaɪnd/', meaning: '人类' },
+      { word: 'orbit', phonetic: '/ˈɔːbɪt/', meaning: '轨道' }
+    ],
+    notes: [
+      '"the first person to walk" 第一个行走的人。',
+      '"one small step for man" 个人的一小步。',
+      '"remained in orbit" 留在轨道上。'
+    ],
+    tags: ['太空', '历史'],
+    difficulty: 3,
+    summary: '阿波罗11号登月——阿姆斯特朗成为第一个在月球上行走的人。',
+    summaryEn: 'Apollo 11 — Neil Armstrong becomes the first person to walk on the Moon.',
+  },
+  {
+    id: 30,
+    title: 'The death of a ghost',
+    titleCn: '幽灵之死',
+    text: [
+      'For years, villagers believed that an old house was haunted.',
+      'They said a ghost walked the rooms at night.',
+      'Strange noises could be heard, and lights were seen in the windows.',
+      'A young man decided to investigate.',
+      'He spent a night in the house.',
+      'In the morning, he found the "ghost" was actually an old clock.',
+      'The clock had a mechanism that made it chime at midnight.',
+      'The "ghost" was dead.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'haunted', phonetic: '/ˈhɔːntɪd/', meaning: '闹鬼的' },
+      { word: 'ghost', phonetic: '/ɡəʊst/', meaning: '幽灵' },
+      { word: 'investigate', phonetic: '/ɪnˈvestɪɡeɪt/', meaning: '调查' },
+      { word: 'mechanism', phonetic: '/ˈmekənɪzəm/', meaning: '机械装置' },
+      { word: 'chime', phonetic: '/tʃaɪm/', meaning: '鸣响' },
+      { word: 'midnight', phonetic: '/ˈmɪdnaɪt/', meaning: '午夜' },
+      { word: 'actually', phonetic: '/ˈæktʃuəli/', meaning: '实际上' },
+      { word: 'dead', phonetic: '/ded/', meaning: '死的' }
+    ],
+    notes: [
+      '"believed that" 相信……。',
+      '"decided to investigate" 决定调查。',
+      '"made it chime" 让它鸣响。使役用法。'
+    ],
+    tags: ['悬疑', '故事'],
+    difficulty: 3,
+    summary: '村里的"幽灵"原来是一台老钟——它的机械装置让它在午夜鸣响。',
+    summaryEn: 'The village "ghost" turns out to be an old clock that chimes at midnight.',
+  },
+  {
+    id: 31,
+    title: 'A noble gangster',
+    titleCn: '高尚的歹徒',
+    text: [
+      'There have been many famous gangsters in history.',
+      'Some were cruel and violent, but others were surprisingly noble.',
+      'One gangster in the 1920s robbed only the rich.',
+      'He gave most of the money to the poor.',
+      'People called him "Robin Hood".',
+      'The police tried to catch him for years.',
+      'When they finally caught him, many people were sad.',
+      'They said he was more honest than many politicians.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'gangster', phonetic: '/ˈɡæŋstə/', meaning: '歹徒' },
+      { word: 'cruel', phonetic: '/ˈkruːəl/', meaning: '残忍的' },
+      { word: 'violent', phonetic: '/ˈvaɪələnt/', meaning: '暴力的' },
+      { word: 'noble', phonetic: '/ˈnəʊbl/', meaning: '高尚的' },
+      { word: 'rob', phonetic: '/rɒb/', meaning: '抢劫' },
+      { word: 'politician', phonetic: '/ˌpɒləˈtɪʃn/', meaning: '政客' },
+      { word: 'honest', phonetic: '/ˈɒnɪst/', meaning: '诚实的' },
+      { word: 'finally', phonetic: '/ˈfaɪnəli/', meaning: '最终' }
+    ],
+    notes: [
+      '"there have been" 现在完成时——曾经有过。',
+      '"gave... to the poor" 把……给穷人。',
+      '"more honest than" 比……更诚实。比较级。'
+    ],
+    tags: ['历史人物', '道德'],
+    difficulty: 3,
+    summary: '一个高尚的歹徒——只抢富人，把钱分给穷人，被称为"罗宾汉"。',
+    summaryEn: 'A noble gangster who robbed only the rich and gave to the poor, called "Robin Hood".',
+  },
+  {
+    id: 32,
+    title: 'The Westhaven Express',
+    titleCn: '韦斯特海文快车',
+    text: [
+      'A man decided to take the express train to Westhaven.',
+      'The timetable said the journey would take one hour.',
+      'But the train stopped at every station.',
+      'It took nearly three hours to reach Westhaven.',
+      'The man was very angry.',
+      'He complained to the stationmaster.',
+      'The stationmaster said, "This is the express. The ordinary train takes five hours."',
+      'The man said, "Then I\'d hate to travel on the ordinary train!"'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'express', phonetic: '/ɪkˈspres/', meaning: '快车' },
+      { word: 'timetable', phonetic: '/ˈtaɪmteɪbl/', meaning: '时刻表' },
+      { word: 'stationmaster', phonetic: '/ˈsteɪʃnmɑːstə/', meaning: '站长' },
+      { word: 'ordinary', phonetic: '/ˈɔːdnri/', meaning: '普通的' },
+      { word: 'complain', phonetic: '/kəmˈpleɪn/', meaning: '抱怨' },
+      { word: 'nearly', phonetic: '/ˈnɪəli/', meaning: '将近' },
+      { word: 'journey', phonetic: '/ˈdʒɜːni/', meaning: '旅程' },
+      { word: 'hate', phonetic: '/heɪt/', meaning: '讨厌' }
+    ],
+    notes: [
+      '"take the express train" 乘快车。',
+      '"complained to" 向……抱怨。',
+      '"I\'d hate to" 我讨厌……。虚拟语气。'
+    ],
+    tags: ['旅行', '幽默'],
+    difficulty: 3,
+    summary: '快车停了每一站——站长说普通车还要更慢。',
+    summaryEn: 'The "express" train stops everywhere — the ordinary train takes even longer.',
+  },
+  {
+    id: 33,
+    title: 'The first calendar',
+    titleCn: '最早的日历',
+    text: [
+      'The calendar is one of the most useful inventions.',
+      'The earliest calendars were based on the phases of the moon.',
+      'A lunar month is about 29 and a half days.',
+      'But a year of 12 lunar months is about 11 days shorter than a solar year.',
+      'This means the seasons gradually shift.',
+      'The ancient Egyptians developed a solar calendar of 365 days.',
+      'They added an extra day every four years.',
+      'Our modern calendar is based on this system.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'calendar', phonetic: '/ˈkælɪndə/', meaning: '日历' },
+      { word: 'phase', phonetic: '/feɪz/', meaning: '阶段' },
+      { word: 'lunar', phonetic: '/ˈluːnə/', meaning: '月球的' },
+      { word: 'solar', phonetic: '/ˈsəʊlə/', meaning: '太阳的' },
+      { word: 'gradually', phonetic: '/ˈɡrædʒuəli/', meaning: '逐渐地' },
+      { word: 'shift', phonetic: '/ʃɪft/', meaning: '移动' },
+      { word: 'ancient', phonetic: '/ˈeɪnʃənt/', meaning: '古代的' },
+      { word: 'extra', phonetic: '/ˈekstrə/', meaning: '额外的' }
+    ],
+    notes: [
+      '"based on" 基于。',
+      '"about 11 days shorter" 大约短11天。比较级。',
+      '"an extra day" 额外的一天。'
+    ],
+    tags: ['历史', '历法'],
+    difficulty: 3,
+    summary: '日历的发展——从最早的阴历到古埃及的365天阳历。',
+    summaryEn: 'The development of calendars — from early lunar calendars to the Egyptian 365-day solar year.',
+  },
+  {
+    id: 34,
+    title: 'Justice',
+    titleCn: '正义',
+    text: [
+      'Justice is one of the most important concepts in any society.',
+      'It means that everyone is treated fairly and equally.',
+      'In most countries, there is a legal system to ensure justice.',
+      'People who break the law are tried in courts of law.',
+      'A judge and jury decide whether the accused is guilty or innocent.',
+      'If found guilty, the person is punished according to the law.',
+      'The system is not perfect, but it is the best we have.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'justice', phonetic: '/ˈdʒʌstɪs/', meaning: '正义' },
+      { word: 'concept', phonetic: '/ˈkɒnsept/', meaning: '概念' },
+      { word: 'fairly', phonetic: '/ˈfeəli/', meaning: '公平地' },
+      { word: 'legal', phonetic: '/ˈliːɡl/', meaning: '法律的' },
+      { word: 'ensure', phonetic: '/ɪnˈʃʊə/', meaning: '确保' },
+      { word: 'judge', phonetic: '/dʒʌdʒ/', meaning: '法官' },
+      { word: 'guilty', phonetic: '/ˈɡɪlti/', meaning: '有罪的' },
+      { word: 'innocent', phonetic: '/ˈɪnəsnt/', meaning: '无辜的' },
+      { word: 'punish', phonetic: '/ˈpʌnɪʃ/', meaning: '惩罚' }
+    ],
+    notes: [
+      '"treated fairly" 被公平对待。',
+      '"according to" 根据。',
+      '"found guilty" 被判定有罪。'
+    ],
+    tags: ['法律', '社会'],
+    difficulty: 3,
+    summary: '正义是社会的基石——法律系统确保每个人被公平对待。',
+    summaryEn: 'Justice is the foundation of society — the legal system ensures fair treatment for all.',
+  },
+  {
+    id: 35,
+    title: 'The Olympic Games',
+    titleCn: '奥林匹克运动会',
+    text: [
+      'The Olympic Games are held every four years.',
+      'They were first held in ancient Greece in 776 BC.',
+      'The modern Olympics began in 1896 in Athens.',
+      'Athletes from over 200 countries now compete.',
+      'The Games begin with the opening ceremony and lighting of the Olympic flame.',
+      'Gold, silver, and bronze medals are awarded to the top three finishers.',
+      'The Games represent the ideals of peace, friendship, and fair competition.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'ancient', phonetic: '/ˈeɪnʃənt/', meaning: '古代的' },
+      { word: 'Greece', phonetic: '/ɡriːs/', meaning: '希腊' },
+      { word: 'Athens', phonetic: '/ˈæθɪnz/', meaning: '雅典' },
+      { word: 'compete', phonetic: '/kəmˈpiːt/', meaning: '竞争' },
+      { word: 'ceremony', phonetic: '/ˈserəməni/', meaning: '仪式' },
+      { word: 'flame', phonetic: '/fleɪm/', meaning: '火焰' },
+      { word: 'award', phonetic: '/əˈwɔːd/', meaning: '授予' },
+      { word: 'ideal', phonetic: '/aɪˈdɪəl/', meaning: '理想' },
+      { word: 'competition', phonetic: '/ˌkɒmpəˈtɪʃn/', meaning: '竞争' }
+    ],
+    notes: [
+      '"every four years" 每四年。',
+      '"began in 1896" 始于1896年。',
+      '"represent the ideals of" 代表……的理想。'
+    ],
+    tags: ['体育', '历史'],
+    difficulty: 3,
+    summary: '奥林匹克运动会——从古希腊到现代，代表和平、友谊和公平竞争。',
+    summaryEn: 'The Olympic Games — from ancient Greece to modern times, representing peace and fair competition.',
+  },
+  {
+    id: 36,
+    title: 'A spot of bother',
+    titleCn: '一点小麻烦',
+    text: [
+      'An old lady returned home from shopping to find she had left her key inside.',
+      'She called a locksmith, who arrived quickly.',
+      'The locksmith opened the door in just a few minutes.',
+      'The old lady was very grateful.',
+      'She invited him in for a cup of tea.',
+      'While they were drinking tea, the locksmith noticed something strange.',
+      'The old lady\'s cat was sitting on a chair — but it was not her cat.',
+      'She had entered the wrong house!'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'locksmith', phonetic: '/ˈlɒksmɪθ/', meaning: '锁匠' },
+      { word: 'grateful', phonetic: '/ˈɡreɪtfl/', meaning: '感激的' },
+      { word: 'notice', phonetic: '/ˈnəʊtɪs/', meaning: '注意到' },
+      { word: 'strange', phonetic: '/streɪndʒ/', meaning: '奇怪的' },
+      { word: 'enter', phonetic: '/ˈentə/', meaning: '进入' },
+      { word: 'wrong', phonetic: '/rɒŋ/', meaning: '错误的' },
+      { word: 'shopping', phonetic: '/ˈʃɒpɪŋ/', meaning: '购物' },
+      { word: 'inside', phonetic: '/ɪnˈsaɪd/', meaning: '在屋里' }
+    ],
+    notes: [
+      '"returned home from" 从……回到家。',
+      '"left her key inside" 把钥匙忘在屋里了。',
+      '"had entered the wrong house" 进了错误的房子。过去完成时。'
+    ],
+    tags: ['日常生活', '幽默'],
+    difficulty: 3,
+    summary: '老太太请锁匠开门——结果发现她进了别人家，因为她走错了门。',
+    summaryEn: 'An old lady calls a locksmith to open her door — she had entered the wrong house.',
+  },
+  {
+    id: 37,
+    title: 'Mont Blanc',
+    titleCn: '勃朗峰',
+    text: [
+      'Mont Blanc is the highest mountain in the Alps.',
+      'It rises to 4,808 metres above sea level.',
+      'The first successful ascent was made in 1786.',
+      'Every year, thousands of climbers attempt to reach the summit.',
+      'The climb is not technically very difficult, but it is dangerous.',
+      'The weather can change very quickly at high altitude.',
+      'Many climbers have lost their lives on Mont Blanc.',
+      'Despite the dangers, people continue to be drawn to its beauty.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'mountain', phonetic: '/ˈmaʊntɪn/', meaning: '山' },
+      { word: 'Alps', phonetic: '/ælps/', meaning: '阿尔卑斯山' },
+      { word: 'metre', phonetic: '/ˈmiːtə/', meaning: '米' },
+      { word: 'ascent', phonetic: '/əˈsent/', meaning: '攀登' },
+      { word: 'summit', phonetic: '/ˈsʌmɪt/', meaning: '山顶' },
+      { word: 'altitude', phonetic: '/ˈæltɪtjuːd/', meaning: '海拔' },
+      { word: 'dangerous', phonetic: '/ˈdeɪndʒərəs/', meaning: '危险的' },
+      { word: 'beauty', phonetic: '/ˈbjuːti/', meaning: '美丽' },
+      { word: 'despite', phonetic: '/dɪˈspaɪt/', meaning: '尽管' }
+    ],
+    notes: [
+      '"rises to" 上升到。',
+      '"the first successful ascent" 第一次成功的攀登。',
+      '"despite the dangers" 尽管有危险。'
+    ],
+    tags: ['地理', '登山'],
+    difficulty: 3,
+    summary: '勃朗峰——阿尔卑斯山最高峰，每年吸引数千登山者。',
+    summaryEn: 'Mont Blanc — the highest peak in the Alps, attracting thousands of climbers every year.',
+  },
+  {
+    id: 38,
+    title: 'Who wants a cold?',
+    titleCn: '谁想要感冒？',
+    text: [
+      'No one wants a cold, but almost everyone gets one from time to time.',
+      'The common cold is caused by a virus.',
+      'There are over 200 different cold viruses.',
+      'This is why there is no cure for the common cold.',
+      'The best way to prevent a cold is to wash your hands frequently.',
+      'If you do catch a cold, rest and drink plenty of fluids.',
+      'Most colds go away within a week.',
+      'Antibiotics do not work against viruses, so they are useless for colds.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'virus', phonetic: '/ˈvaɪrəs/', meaning: '病毒' },
+      { word: 'cure', phonetic: '/kjʊə/', meaning: '治愈' },
+      { word: 'prevent', phonetic: '/prɪˈvent/', meaning: '预防' },
+      { word: 'frequently', phonetic: '/ˈfriːkwəntli/', meaning: '经常地' },
+      { word: 'fluid', phonetic: '/ˈfluːɪd/', meaning: '液体' },
+      { word: 'antibiotic', phonetic: '/ˌæntɪbaɪˈɒtɪk/', meaning: '抗生素' },
+      { word: 'useless', phonetic: '/ˈjuːsləs/', meaning: '无用的' },
+      { word: 'within', phonetic: '/wɪˈðɪn/', meaning: '在……之内' }
+    ],
+    notes: [
+      '"from time to time" 时不时。',
+      '"the best way to" 最好的方法。',
+      '"do catch" 确实感染。do表示强调。'
+    ],
+    tags: ['健康', '科学'],
+    difficulty: 3,
+    summary: '感冒由病毒引起，没有特效药——最好的预防方法是勤洗手。',
+    summaryEn: 'Colds are caused by viruses with no cure — frequent handwashing is the best prevention.',
+  },
+  {
+    id: 39,
+    title: 'Illusions of pastoral peace',
+    titleCn: '田园生活的幻想',
+    text: [
+      'Many city people dream of living in the country.',
+      'They imagine green fields, fresh air, and a peaceful life.',
+      'But the reality is often different.',
+      'Country life can be lonely and boring.',
+      'There are few shops and entertainment facilities.',
+      'Transport is poor, and jobs are hard to find.',
+      'Many people who move to the country soon move back to the city.',
+      'The idea of pastoral peace is often just an illusion.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'illusion', phonetic: '/ɪˈluːʒn/', meaning: '幻想' },
+      { word: 'pastoral', phonetic: '/ˈpɑːstərəl/', meaning: '田园的' },
+      { word: 'imagine', phonetic: '/ɪˈmædʒɪn/', meaning: '想象' },
+      { word: 'peaceful', phonetic: '/ˈpiːsfl/', meaning: '平静的' },
+      { word: 'reality', phonetic: '/riˈæləti/', meaning: '现实' },
+      { word: 'lonely', phonetic: '/ˈləʊnli/', meaning: '孤独的' },
+      { word: 'facility', phonetic: '/fəˈsɪləti/', meaning: '设施' },
+      { word: 'transport', phonetic: '/ˈtrænspɔːt/', meaning: '交通' }
+    ],
+    notes: [
+      '"dream of" 梦想。',
+      '"the reality is often different" 现实往往不同。',
+      '"is often just an illusion" 往往只是幻想。'
+    ],
+    tags: ['城乡对比', '议论文'],
+    difficulty: 3,
+    summary: '城市人向往田园生活——但现实往往是孤独、无聊和不便。',
+    summaryEn: 'City people dream of country life, but the reality is often loneliness and inconvenience.',
+  },
+  {
+    id: 40,
+    title: 'Modern cavemen',
+    titleCn: '现代穴居人',
+    text: [
+      'Some people choose to live in caves.',
+      'In southern Spain, there are whole communities of cave dwellers.',
+      'The caves are cool in summer and warm in winter.',
+      'They are very comfortable and have all modern facilities.',
+      'Some caves have swimming pools and satellite television.',
+      'Living in a cave is much cheaper than living in a house.',
+      'The cave dwellers say they would never go back to living in a normal house.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'cave', phonetic: '/keɪv/', meaning: '洞穴' },
+      { word: 'community', phonetic: '/kəˈmjuːnəti/', meaning: '社区' },
+      { word: 'dweller', phonetic: '/ˈdwelə/', meaning: '居住者' },
+      { word: 'comfortable', phonetic: '/ˈkʌmftəbl/', meaning: '舒适的' },
+      { word: 'facility', phonetic: '/fəˈsɪləti/', meaning: '设施' },
+      { word: 'satellite', phonetic: '/ˈsætəlaɪt/', meaning: '卫星' },
+      { word: 'cheaper', phonetic: '/ˈtʃiːpə/', meaning: '更便宜的' },
+      { word: 'normal', phonetic: '/ˈnɔːml/', meaning: '普通的' }
+    ],
+    notes: [
+      '"choose to" 选择做……。',
+      '"much cheaper than" 比……便宜得多。',
+      '"would never go back to" 永远不会回到……。'
+    ],
+    tags: ['另类生活', '说明文'],
+    difficulty: 3,
+    summary: '现代穴居人——在西班牙南部，人们选择住在洞穴里，舒适又便宜。',
+    summaryEn: 'Modern cave dwellers in southern Spain live comfortably and cheaply in caves.',
+  },
+  {
+    id: 41,
+    title: 'The sailing ship',
+    titleCn: '帆船',
+    text: [
+      'Before the invention of the steamship, all ocean voyages were made in sailing ships.',
+      'Sailing ships depended on the wind.',
+      'If the wind was favourable, a ship could make good progress.',
+      'But if the wind was against it, the ship could be delayed for weeks.',
+      'Voyages that now take a few days once took months.',
+      'Sailors had to be very skilled and brave.',
+      'Many ships were lost at sea.',
+      'The age of sail came to an end in the mid-nineteenth century.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'steamship', phonetic: '/ˈstiːmʃɪp/', meaning: '蒸汽船' },
+      { word: 'voyage', phonetic: '/ˈvɔɪɪdʒ/', meaning: '航行' },
+      { word: 'favourable', phonetic: '/ˈfeɪvərəbl/', meaning: '有利的' },
+      { word: 'progress', phonetic: '/ˈprəʊɡres/', meaning: '进展' },
+      { word: 'delay', phonetic: '/dɪˈleɪ/', meaning: '延误' },
+      { word: 'skilled', phonetic: '/skɪld/', meaning: '熟练的' },
+      { word: 'brave', phonetic: '/breɪv/', meaning: '勇敢的' },
+      { word: 'sail', phonetic: '/seɪl/', meaning: '航行' }
+    ],
+    notes: [
+      '"depended on" 依赖。',
+      '"make good progress" 取得良好进展。',
+      '"came to an end" 结束。'
+    ],
+    tags: ['历史', '航海'],
+    difficulty: 3,
+    summary: '帆船时代——依赖风力航行，许多船在海上失踪。',
+    summaryEn: 'The age of sailing ships — dependent on wind, many ships lost at sea.',
+  },
+  {
+    id: 42,
+    title: 'Our neighbour the river',
+    titleCn: '我们的邻居——河流',
+    text: [
+      'The river is our neighbour.',
+      'We live on its banks and depend on it for many things.',
+      'It provides us with water for drinking and farming.',
+      'It gives us fish to eat and a place to swim in summer.',
+      'But the river can also be dangerous.',
+      'When there is too much rain, the river floods.',
+      'The water rises and covers the fields and sometimes the roads.',
+      'People who live near the river must always be prepared for floods.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'neighbour', phonetic: '/ˈneɪbə/', meaning: '邻居' },
+      { word: 'bank', phonetic: '/bæŋk/', meaning: '河岸' },
+      { word: 'provide', phonetic: '/prəˈvaɪd/', meaning: '提供' },
+      { word: 'farming', phonetic: '/ˈfɑːmɪŋ/', meaning: '农业' },
+      { word: 'dangerous', phonetic: '/ˈdeɪndʒərəs/', meaning: '危险的' },
+      { word: 'flood', phonetic: '/flʌd/', meaning: '洪水' },
+      { word: 'cover', phonetic: '/ˈkʌvə/', meaning: '覆盖' },
+      { word: 'prepared', phonetic: '/prɪˈpeəd/', meaning: '准备好的' }
+    ],
+    notes: [
+      '"depend on" 依赖。',
+      '"provide us with" 为我们提供。',
+      '"be prepared for" 为……做准备。'
+    ],
+    tags: ['自然', '人与环境'],
+    difficulty: 3,
+    summary: '河流是邻居——给我们水和鱼，但也会带来洪水。',
+    summaryEn: 'The river is our neighbour — providing water and fish, but also bringing floods.',
+  },
+  {
+    id: 43,
+    title: 'Ringing the bells',
+    titleCn: '敲钟',
+    text: [
+      'Church bells have been rung for centuries.',
+      'They ring to call people to worship.',
+      'They ring to celebrate weddings and other happy occasions.',
+      'They also ring to warn of danger, such as fire or flood.',
+      'In England, bell ringing is a traditional art.',
+      'Ringers must learn complex patterns called "changes".',
+      'A team of ringers can produce beautiful music.',
+      'It takes years of practice to become a skilled ringer.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'bell', phonetic: '/bel/', meaning: '钟' },
+      { word: 'worship', phonetic: '/ˈwɜːʃɪp/', meaning: '礼拜' },
+      { word: 'celebrate', phonetic: '/ˈselɪbreɪt/', meaning: '庆祝' },
+      { word: 'occasion', phonetic: '/əˈkeɪʒn/', meaning: '场合' },
+      { word: 'warn', phonetic: '/wɔːn/', meaning: '警告' },
+      { word: 'traditional', phonetic: '/trəˈdɪʃənl/', meaning: '传统的' },
+      { word: 'complex', phonetic: '/ˈkɒmpleks/', meaning: '复杂的' },
+      { word: 'pattern', phonetic: '/ˈpætn/', meaning: '模式' },
+      { word: 'skilled', phonetic: '/skɪld/', meaning: '熟练的' }
+    ],
+    notes: [
+      '"have been rung" 现在完成时被动语态。',
+      '"call people to worship" 召唤人们来做礼拜。',
+      '"takes years of practice" 需要多年的练习。'
+    ],
+    tags: ['文化', '传统'],
+    difficulty: 3,
+    summary: '教堂钟声的传统——召唤礼拜、庆祝婚礼、警告危险。',
+    summaryEn: 'The tradition of church bells — calling to worship, celebrating, and warning of danger.',
+  },
+  {
+    id: 44,
+    title: 'Predicting the future',
+    titleCn: '预测未来',
+    text: [
+      'People have always tried to predict the future.',
+      'In ancient times, they consulted oracles and fortune tellers.',
+      'Today, we use science and technology to make predictions.',
+      'Weather forecasters can predict the weather with some accuracy.',
+      'Economists try to predict what will happen to the economy.',
+      'But no one can predict the future with complete certainty.',
+      'The only thing we can be sure of is that the future will be different from the present.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'predict', phonetic: '/prɪˈdɪkt/', meaning: '预测' },
+      { word: 'oracle', phonetic: '/ˈɒrəkl/', meaning: '神谕' },
+      { word: 'fortune teller', phonetic: '/ˈfɔːtʃən ˈtelə/', meaning: '算命先生' },
+      { word: 'forecaster', phonetic: '/ˈfɔːkɑːstə/', meaning: '预报员' },
+      { word: 'accuracy', phonetic: '/ˈækjərəsi/', meaning: '准确性' },
+      { word: 'economist', phonetic: '/ɪˈkɒnəmɪst/', meaning: '经济学家' },
+      { word: 'certainty', phonetic: '/ˈsɜːtnti/', meaning: '确定性' },
+      { word: 'present', phonetic: '/ˈpreznt/', meaning: '现在' }
+    ],
+    notes: [
+      '"consulted oracles" 咨询神谕。',
+      '"with some accuracy" 有一定准确性。',
+      '"the only thing we can be sure of" 我们唯一能确定的。'
+    ],
+    tags: ['未来', '科学'],
+    difficulty: 3,
+    summary: '人类一直试图预测未来——从古代神谕到现代科学，但没有人能完全确定。',
+    summaryEn: 'Humans have always tried to predict the future — from ancient oracles to modern science.',
+  },
+  {
+    id: 45,
+    title: 'Mud is mud',
+    titleCn: '泥巴就是泥巴',
+    text: [
+      'A cosmetics company once had a clever idea.',
+      'They put mud in jars and sold it as a beauty product.',
+      'The mud was taken from the banks of the Dead Sea.',
+      'It was said to be very good for the skin.',
+      'Women bought it in large quantities.',
+      'The company made a lot of money.',
+      'But the mud was just ordinary mud.',
+      'The power of advertising had turned mud into gold.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'cosmetics', phonetic: '/kɒzˈmetɪks/', meaning: '化妆品' },
+      { word: 'jar', phonetic: '/dʒɑː/', meaning: '罐子' },
+      { word: 'beauty', phonetic: '/ˈbjuːti/', meaning: '美容' },
+      { word: 'product', phonetic: '/ˈprɒdʌkt/', meaning: '产品' },
+      { word: 'quantity', phonetic: '/ˈkwɒntəti/', meaning: '数量' },
+      { word: 'ordinary', phonetic: '/ˈɔːdnri/', meaning: '普通的' },
+      { word: 'advertising', phonetic: '/ˈædvətaɪzɪŋ/', meaning: '广告' },
+      { word: 'skin', phonetic: '/skɪn/', meaning: '皮肤' }
+    ],
+    notes: [
+      '"sold it as" 把它当作……来卖。',
+      '"in large quantities" 大量地。',
+      '"turned... into..." 把……变成……。'
+    ],
+    tags: ['商业', '广告'],
+    difficulty: 3,
+    summary: '化妆品公司把普通泥巴当美容产品卖——广告的力量把泥巴变成了金子。',
+    summaryEn: 'A cosmetics company sold ordinary mud as beauty products — advertising turned mud into gold.',
+  },
+  {
+    id: 46,
+    title: 'The literal-minded',
+    titleCn: '刻板的人',
+    text: [
+      'Some people always take things literally.',
+      'They cannot understand jokes, metaphors, or sarcasm.',
+      'If you say, "It\'s raining cats and dogs," they look out of the window.',
+      'If you say, "Break a leg," they think you want them to get hurt.',
+      'These people are called "literal-minded".',
+      'They are not stupid — they just think in a very concrete way.',
+      'Sometimes this can be a strength, especially in science and engineering.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'literal', phonetic: '/ˈlɪtərəl/', meaning: '字面的' },
+      { word: 'metaphor', phonetic: '/ˈmetəfə/', meaning: '隐喻' },
+      { word: 'sarcasm', phonetic: '/ˈsɑːkæzəm/', meaning: '讽刺' },
+      { word: 'stupid', phonetic: '/ˈstjuːpɪd/', meaning: '愚蠢的' },
+      { word: 'concrete', phonetic: '/ˈkɒŋkriːt/', meaning: '具体的' },
+      { word: 'strength', phonetic: '/streŋθ/', meaning: '优势' },
+      { word: 'especially', phonetic: '/ɪˈspeʃəli/', meaning: '特别地' },
+      { word: 'engineering', phonetic: '/ˌendʒɪˈnɪərɪŋ/', meaning: '工程' }
+    ],
+    notes: [
+      '"take things literally" 从字面理解事物。',
+      '"raining cats and dogs" 倾盆大雨（习语）。',
+      '"break a leg" 祝好运（习语）。'
+    ],
+    tags: ['性格', '语言'],
+    difficulty: 3,
+    summary: '刻板的人总是从字面理解——不懂笑话和隐喻，但这在科学中可能是优势。',
+    summaryEn: 'Literal-minded people take everything at face value — but this can be a strength in science.',
+  },
+  {
+    id: 47,
+    title: 'The age of age',
+    titleCn: '年龄时代',
+    text: [
+      'People are living longer than ever before.',
+      'In many countries, the average age of the population is increasing.',
+      'This is partly because of better healthcare and nutrition.',
+      'But it also means there are more old people than ever before.',
+      'Some people worry about the cost of looking after the elderly.',
+      'Others argue that older people have a lot to offer society.',
+      'They have experience, wisdom, and time to contribute.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'average', phonetic: '/ˈævərɪdʒ/', meaning: '平均的' },
+      { word: 'population', phonetic: '/ˌpɒpjuˈleɪʃn/', meaning: '人口' },
+      { word: 'increase', phonetic: '/ɪnˈkriːs/', meaning: '增长' },
+      { word: 'healthcare', phonetic: '/ˈhelθkeə/', meaning: '医疗保健' },
+      { word: 'nutrition', phonetic: '/njuːˈtrɪʃn/', meaning: '营养' },
+      { word: 'elderly', phonetic: '/ˈeldəli/', meaning: '老年人' },
+      { word: 'wisdom', phonetic: '/ˈwɪzdəm/', meaning: '智慧' },
+      { word: 'contribute', phonetic: '/kənˈtrɪbjuːt/', meaning: '贡献' }
+    ],
+    notes: [
+      '"living longer than ever before" 比以往任何时候都活得长。',
+      '"partly because of" 部分原因是。',
+      '"have a lot to offer" 有很多可以贡献的。'
+    ],
+    tags: ['社会', '老龄化'],
+    difficulty: 3,
+    summary: '人口老龄化——人们活得更长，老年人对社会有很多贡献。',
+    summaryEn: 'Aging populations — people live longer, and the elderly have much to offer society.',
+  },
+  {
+    id: 48,
+    title: 'A pretty carpet',
+    titleCn: '漂亮的地毯',
+    text: [
+      'A woman bought a beautiful carpet from a shop.',
+      'When she got home, she found a stain on it.',
+      'She took it back to the shop and asked for a replacement.',
+      'The shop assistant looked at the carpet carefully.',
+      'He said, "Madam, that\'s not a stain. That\'s the pattern."',
+      'The woman was very embarrassed.',
+      'She took the carpet home and put it on the floor.',
+      'It looked beautiful.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'carpet', phonetic: '/ˈkɑːpɪt/', meaning: '地毯' },
+      { word: 'stain', phonetic: '/steɪn/', meaning: '污渍' },
+      { word: 'replacement', phonetic: '/rɪˈpleɪsmənt/', meaning: '替换' },
+      { word: 'assistant', phonetic: '/əˈsɪstənt/', meaning: '店员' },
+      { word: 'pattern', phonetic: '/ˈpætn/', meaning: '图案' },
+      { word: 'embarrassed', phonetic: '/ɪmˈbærəst/', meaning: '尴尬的' },
+      { word: 'floor', phonetic: '/flɔː/', meaning: '地板' },
+      { word: 'beautiful', phonetic: '/ˈbjuːtɪfl/', meaning: '美丽的' }
+    ],
+    notes: [
+      '"asked for a replacement" 要求换一个。',
+      '"looked at... carefully" 仔细看……。',
+      '"that\'s not a stain, that\'s the pattern" 那不是污渍，那是图案。'
+    ],
+    tags: ['购物', '幽默'],
+    difficulty: 3,
+    summary: '一位女士以为地毯上有污渍——结果那是图案。',
+    summaryEn: 'A woman thinks there\'s a stain on her carpet — it\'s actually the pattern.',
+  },
+  {
+    id: 49,
+    title: 'Automation',
+    titleCn: '自动化',
+    text: [
+      'Automation is the use of machines to do work that was previously done by people.',
+      'It has changed the way we live and work.',
+      'Factories now use robots to build cars and other products.',
+      'Banks use computers to process millions of transactions every day.',
+      'Automation makes things faster, cheaper, and more reliable.',
+      'But it also means that some people lose their jobs.',
+      'The challenge is to find a balance between progress and employment.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'automation', phonetic: '/ˌɔːtəˈmeɪʃn/', meaning: '自动化' },
+      { word: 'previously', phonetic: '/ˈpriːviəsli/', meaning: '以前' },
+      { word: 'robot', phonetic: '/ˈrəʊbɒt/', meaning: '机器人' },
+      { word: 'transaction', phonetic: '/trænˈzækʃn/', meaning: '交易' },
+      { word: 'reliable', phonetic: '/rɪˈlaɪəbl/', meaning: '可靠的' },
+      { word: 'cheaper', phonetic: '/ˈtʃiːpə/', meaning: '更便宜的' },
+      { word: 'balance', phonetic: '/ˈbæləns/', meaning: '平衡' },
+      { word: 'employment', phonetic: '/ɪmˈplɔɪmənt/', meaning: '就业' }
+    ],
+    notes: [
+      '"the use of" ……的使用。',
+      '"previously done by" 以前由……做的。',
+      '"find a balance between" 在……之间找到平衡。'
+    ],
+    tags: ['科技', '社会'],
+    difficulty: 3,
+    summary: '自动化改变了生活——更快更便宜，但也带来就业挑战。',
+    summaryEn: 'Automation changes life — faster and cheaper, but brings employment challenges.',
+  },
+  {
+    id: 50,
+    title: 'Gone with the wind',
+    titleCn: '随风而去',
+    text: [
+      'Air pollution is a serious problem in many cities.',
+      'Factories and cars produce harmful gases.',
+      'These gases mix with the air we breathe.',
+      'They can cause health problems such as asthma and lung disease.',
+      'The wind can carry pollution from one place to another.',
+      'A factory in one country can cause acid rain in another.',
+      'Air pollution is a global problem that needs a global solution.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'pollution', phonetic: '/pəˈluːʃn/', meaning: '污染' },
+      { word: 'harmful', phonetic: '/ˈhɑːmfl/', meaning: '有害的' },
+      { word: 'gas', phonetic: '/ɡæs/', meaning: '气体' },
+      { word: 'breathe', phonetic: '/briːð/', meaning: '呼吸' },
+      { word: 'asthma', phonetic: '/ˈæzmə/', meaning: '哮喘' },
+      { word: 'acid rain', phonetic: '/ˈæsɪd reɪn/', meaning: '酸雨' },
+      { word: 'global', phonetic: '/ˈɡləʊbl/', meaning: '全球的' },
+      { word: 'solution', phonetic: '/səˈluːʃn/', meaning: '解决方案' }
+    ],
+    notes: [
+      '"mix with" 与……混合。',
+      '"cause health problems" 导致健康问题。',
+      '"a global solution" 全球性的解决方案。'
+    ],
+    tags: ['环境', '污染'],
+    difficulty: 3,
+    summary: '空气污染是全球性问题——工厂和汽车排放有害气体，风把污染带到各处。',
+    summaryEn: 'Air pollution is a global problem — factories and cars produce harmful gases carried by wind.',
+  },
+  {
+    id: 51,
+    title: 'The cost of living',
+    titleCn: '生活成本',
+    text: [
+      'The cost of living has increased dramatically in recent years.',
+      'Prices of food, housing, and energy have all gone up.',
+      'Wages have not kept pace with rising prices.',
+      'Many families find it difficult to make ends meet.',
+      'They have to cut back on spending and look for cheaper alternatives.',
+      'Some people take on extra jobs to supplement their income.',
+      'The gap between the rich and the poor is growing wider.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'dramatically', phonetic: '/drəˈmætɪkli/', meaning: '显著地' },
+      { word: 'housing', phonetic: '/ˈhaʊzɪŋ/', meaning: '住房' },
+      { word: 'energy', phonetic: '/ˈenədʒi/', meaning: '能源' },
+      { word: 'wage', phonetic: '/weɪdʒ/', meaning: '工资' },
+      { word: 'alternative', phonetic: '/ɔːlˈtɜːnətɪv/', meaning: '替代品' },
+      { word: 'supplement', phonetic: '/ˈsʌplɪment/', meaning: '补充' },
+      { word: 'gap', phonetic: '/ɡæp/', meaning: '差距' },
+      { word: 'income', phonetic: '/ˈɪnkʌm/', meaning: '收入' }
+    ],
+    notes: [
+      '"keep pace with" 跟上……的步伐。',
+      '"make ends meet" 收支相抵。',
+      '"cut back on" 削减。'
+    ],
+    tags: ['经济', '社会问题'],
+    difficulty: 3,
+    summary: '生活成本大幅上涨——工资跟不上物价，贫富差距扩大。',
+    summaryEn: 'The cost of living has risen dramatically — wages haven\'t kept pace, widening the gap.',
+  },
+  {
+    id: 52,
+    title: 'The power of the press',
+    titleCn: '新闻的力量',
+    text: [
+      'The press has enormous power in modern society.',
+      'It can shape public opinion and influence elections.',
+      'A single newspaper article can change a person\'s life forever.',
+      'This power brings great responsibility.',
+      'Journalists should report the truth and present facts fairly.',
+      'But sometimes the press abuses its power.',
+      'Stories are exaggerated, and innocent people are hurt.',
+      'A free press is essential, but it must be responsible.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'press', phonetic: '/pres/', meaning: '新闻媒体' },
+      { word: 'enormous', phonetic: '/ɪˈnɔːməs/', meaning: '巨大的' },
+      { word: 'shape', phonetic: '/ʃeɪp/', meaning: '塑造' },
+      { word: 'opinion', phonetic: '/əˈpɪnjən/', meaning: '观点' },
+      { word: 'election', phonetic: '/ɪˈlekʃn/', meaning: '选举' },
+      { word: 'exaggerate', phonetic: '/ɪɡˈzædʒəreɪt/', meaning: '夸大' },
+      { word: 'essential', phonetic: '/ɪˈsenʃl/', meaning: '必要的' },
+      { word: 'responsible', phonetic: '/rɪˈspɒnsəbl/', meaning: '负责任的' }
+    ],
+    notes: [
+      '"shape public opinion" 塑造公众舆论。',
+      '"brings great responsibility" 带来重大责任。',
+      '"a free press" 新闻自由。'
+    ],
+    tags: ['媒体', '社会责任'],
+    difficulty: 3,
+    summary: '新闻媒体力量巨大——可以塑造舆论，但也需要负责任。',
+    summaryEn: 'The press has enormous power to shape opinion — but must use it responsibly.',
+  },
+  {
+    id: 53,
+    title: 'Back in the old country',
+    titleCn: '重返故国',
+    text: [
+      'A man who had lived abroad for twenty years returned to his homeland.',
+      'He was shocked by the changes.',
+      'The small town he remembered had become a large city.',
+      'The old houses had been replaced by modern buildings.',
+      'The quiet streets were now full of traffic.',
+      'He could not find his old school or his childhood home.',
+      'He felt like a stranger in his own country.',
+      'He said, "Everything has changed except my memories."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'abroad', phonetic: '/əˈbrɔːd/', meaning: '国外' },
+      { word: 'homeland', phonetic: '/ˈhəʊmlænd/', meaning: '祖国' },
+      { word: 'shocked', phonetic: '/ʃɒkt/', meaning: '震惊的' },
+      { word: 'replace', phonetic: '/rɪˈpleɪs/', meaning: '取代' },
+      { word: 'traffic', phonetic: '/ˈtræfɪk/', meaning: '交通' },
+      { word: 'stranger', phonetic: '/ˈstreɪndʒə/', meaning: '陌生人' },
+      { word: 'except', phonetic: '/ɪkˈsept/', meaning: '除了' },
+      { word: 'memory', phonetic: '/ˈmeməri/', meaning: '记忆' }
+    ],
+    notes: [
+      '"had lived abroad" 在国外生活过。过去完成时。',
+      '"replaced by" 被……取代。',
+      '"felt like a stranger" 感觉像个陌生人。'
+    ],
+    tags: ['思乡', '变化'],
+    difficulty: 3,
+    summary: '一个在国外生活20年的人重返故国——一切都变了，只有记忆没变。',
+    summaryEn: 'A man returns home after 20 years abroad — everything has changed except his memories.',
+  },
+  {
+    id: 54,
+    title: 'A spot of bother',
+    titleCn: '一点小麻烦',
+    text: [
+      'An elderly woman was burgled while she was out shopping.',
+      'When she returned home, she found the back door open and many things missing.',
+      'She called the police immediately.',
+      'Two policemen arrived within minutes.',
+      'They searched the house and found fingerprints on the window.',
+      'The next day, the police arrested a suspect.',
+      'Most of the woman\'s belongings were recovered.',
+      'She said she was very impressed by the efficiency of the police.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'burgled', phonetic: '/ˈbɜːɡld/', meaning: '被盗' },
+      { word: 'missing', phonetic: '/ˈmɪsɪŋ/', meaning: '丢失的' },
+      { word: 'immediately', phonetic: '/ɪˈmiːdiətli/', meaning: '立即' },
+      { word: 'fingerprint', phonetic: '/ˈfɪŋɡəprɪnt/', meaning: '指纹' },
+      { word: 'arrest', phonetic: '/əˈrest/', meaning: '逮捕' },
+      { word: 'suspect', phonetic: '/ˈsʌspekt/', meaning: '嫌疑人' },
+      { word: 'recover', phonetic: '/rɪˈkʌvə/', meaning: '追回' },
+      { word: 'efficiency', phonetic: '/ɪˈfɪʃnsi/', meaning: '效率' }
+    ],
+    notes: [
+      '"while she was out" 当她外出时。',
+      '"within minutes" 几分钟内。',
+      '"impressed by" 对……印象深刻。'
+    ],
+    tags: ['犯罪', '警察'],
+    difficulty: 3,
+    summary: '一位老太太家被盗——警察迅速破案，追回了大部分财物。',
+    summaryEn: 'An elderly woman is burgled — the police quickly arrest a suspect and recover her belongings.',
+  },
+  {
+    id: 55,
+    title: 'Collecting',
+    titleCn: '收藏',
+    text: [
+      'People collect all kinds of things.',
+      'Some collect stamps, coins, or postcards.',
+      'Others collect more unusual items like bottle caps or railway tickets.',
+      'Collecting can be a fascinating hobby.',
+      'It teaches you about history, geography, and art.',
+      'Some collections become very valuable over time.',
+      'But most collectors do not collect for money.',
+      'They collect because they enjoy the search and the discovery.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'collect', phonetic: '/kəˈlekt/', meaning: '收集' },
+      { word: 'stamp', phonetic: '/stæmp/', meaning: '邮票' },
+      { word: 'coin', phonetic: '/kɔɪn/', meaning: '硬币' },
+      { word: 'item', phonetic: '/ˈaɪtəm/', meaning: '物品' },
+      { word: 'fascinating', phonetic: '/ˈfæsɪneɪtɪŋ/', meaning: '迷人的' },
+      { word: 'valuable', phonetic: '/ˈvæljuəbl/', meaning: '有价值的' },
+      { word: 'search', phonetic: '/sɜːtʃ/', meaning: '搜索' },
+      { word: 'discovery', phonetic: '/dɪsˈkʌvəri/', meaning: '发现' }
+    ],
+    notes: [
+      '"all kinds of" 各种各样的。',
+      '"over time" 随着时间推移。',
+      '"the search and the discovery" 寻找和发现的过程。'
+    ],
+    tags: ['爱好', '收藏'],
+    difficulty: 3,
+    summary: '收藏是一种迷人的爱好——不为钱，而为寻找和发现的乐趣。',
+    summaryEn: 'Collecting is a fascinating hobby — the joy is in the search and discovery, not the money.',
+  },
+  {
+    id: 56,
+    title: 'Too early and too late',
+    titleCn: '太早与太晚',
+    text: [
+      'A man arrived at the airport two hours early for his flight.',
+      'He checked in, went through security, and sat down to wait.',
+      'An hour later, he was told his flight had been delayed by three hours.',
+      'He wished he had come later.',
+      'Another man arrived at the airport just ten minutes before his flight.',
+      'He ran to the gate, but the plane had already left.',
+      'He wished he had come earlier.',
+      'Timing is everything.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'airport', phonetic: '/ˈeəpɔːt/', meaning: '机场' },
+      { word: 'flight', phonetic: '/flaɪt/', meaning: '航班' },
+      { word: 'delay', phonetic: '/dɪˈleɪ/', meaning: '延误' },
+      { word: 'gate', phonetic: '/ɡeɪt/', meaning: '登机口' },
+      { word: 'timing', phonetic: '/ˈtaɪmɪŋ/', meaning: '时机' },
+      { word: 'already', phonetic: '/ɔːlˈredi/', meaning: '已经' },
+      { word: 'wish', phonetic: '/wɪʃ/', meaning: '希望' },
+      { word: 'earlier', phonetic: '/ˈɜːliə/', meaning: '更早地' }
+    ],
+    notes: [
+      '"two hours early" 提前两小时。',
+      '"had been delayed" 已经被延误。过去完成时被动。',
+      '"wished he had come" 他希望他来了。虚拟语气。'
+    ],
+    tags: ['旅行', '时机'],
+    difficulty: 3,
+    summary: '一个人太早到机场等了几个小时，另一个太晚错过了飞机——时机就是一切。',
+    summaryEn: 'One arrives too early, another too late — timing is everything at the airport.',
+  },
+  {
+    id: 57,
+    title: 'A lesson in living',
+    titleCn: '人生的一课',
+    text: [
+      'An old man was asked the secret of a long and happy life.',
+      'He said, "I never argue with anyone."',
+      '"Don\'t you ever disagree with people?" he was asked.',
+      '"Oh yes," he said, "I disagree all the time. But I never argue."',
+      '"What\'s the difference?"',
+      '"Arguing is a waste of time and energy," he said. "I state my opinion once, and then I let it go."',
+      '"But don\'t you want to convince others?"',
+      '"I can\'t change anyone\'s mind," he said. "Only they can do that."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'argue', phonetic: '/ˈɑːɡjuː/', meaning: '争论' },
+      { word: 'disagree', phonetic: '/ˌdɪsəˈɡriː/', meaning: '不同意' },
+      { word: 'difference', phonetic: '/ˈdɪfrəns/', meaning: '区别' },
+      { word: 'waste', phonetic: '/weɪst/', meaning: '浪费' },
+      { word: 'energy', phonetic: '/ˈenədʒi/', meaning: '精力' },
+      { word: 'state', phonetic: '/steɪt/', meaning: '陈述' },
+      { word: 'opinion', phonetic: '/əˈpɪnjən/', meaning: '观点' },
+      { word: 'convince', phonetic: '/kənˈvɪns/', meaning: '说服' }
+    ],
+    notes: [
+      '"the secret of" ……的秘诀。',
+      '"a waste of time" 浪费时间。',
+      '"let it go" 放下它。'
+    ],
+    tags: ['人生智慧', '对话'],
+    difficulty: 3,
+    summary: '老人的人生秘诀——不同意可以，但从不争论。',
+    summaryEn: 'An old man\'s secret to a happy life — disagree but never argue.',
+  },
+  {
+    id: 58,
+    title: 'The long view',
+    titleCn: '长远的眼光',
+    text: [
+      'We live in an age of instant gratification.',
+      'People want everything now — fast food, instant messages, quick results.',
+      'But some things take time to develop.',
+      'A tree takes years to grow strong.',
+      'A friendship takes years to deepen.',
+      'A skill takes years to master.',
+      'Those who have the patience to wait are often the most successful in the end.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'instant', phonetic: '/ˈɪnstənt/', meaning: '即时的' },
+      { word: 'gratification', phonetic: '/ˌɡrætɪfɪˈkeɪʃn/', meaning: '满足' },
+      { word: 'develop', phonetic: '/dɪˈveləp/', meaning: '发展' },
+      { word: 'deepen', phonetic: '/ˈdiːpən/', meaning: '加深' },
+      { word: 'master', phonetic: '/ˈmɑːstə/', meaning: '掌握' },
+      { word: 'patience', phonetic: '/ˈpeɪʃns/', meaning: '耐心' },
+      { word: 'successful', phonetic: '/səkˈsesfl/', meaning: '成功的' },
+      { word: 'age', phonetic: '/eɪdʒ/', meaning: '时代' }
+    ],
+    notes: [
+      '"an age of" 一个……的时代。',
+      '"take time to" 需要时间做……。',
+      '"in the end" 最终。'
+    ],
+    tags: ['人生哲理', '耐心'],
+    difficulty: 3,
+    summary: '在这个追求即时满足的时代——有些事情需要时间才能成就。',
+    summaryEn: 'In an age of instant gratification — some things take time to develop and master.',
+  },
+  {
+    id: 59,
+    title: 'Written in the stars',
+    titleCn: '命中注定',
+    text: [
+      'Some people believe that our lives are written in the stars.',
+      'They think that the position of the planets at the time of our birth determines our personality and future.',
+      'This is called astrology.',
+      'Scientists say there is no evidence to support astrology.',
+      'But millions of people read their horoscopes every day.',
+      'Whether you believe in astrology or not, it is an interesting part of human culture.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'star', phonetic: '/stɑː/', meaning: '星星' },
+      { word: 'planet', phonetic: '/ˈplænɪt/', meaning: '行星' },
+      { word: 'determine', phonetic: '/dɪˈtɜːmɪn/', meaning: '决定' },
+      { word: 'personality', phonetic: '/ˌpɜːsəˈnæləti/', meaning: '性格' },
+      { word: 'astrology', phonetic: '/əˈstrɒlədʒi/', meaning: '占星术' },
+      { word: 'evidence', phonetic: '/ˈevɪdəns/', meaning: '证据' },
+      { word: 'horoscope', phonetic: '/ˈhɒrəskəʊp/', meaning: '星座运势' },
+      { word: 'culture', phonetic: '/ˈkʌltʃə/', meaning: '文化' }
+    ],
+    notes: [
+      '"written in the stars" 命中注定。',
+      '"the position of the planets" 行星的位置。',
+      '"whether... or not" 无论……是否。'
+    ],
+    tags: ['文化', '信仰'],
+    difficulty: 3,
+    summary: '占星术——有人相信命运由星星决定，科学家说没有证据支持。',
+    summaryEn: 'Astrology — some believe our fate is written in the stars, but scientists say there\'s no evidence.',
+  },
+  {
+    id: 60,
+    title: 'The art of painting',
+    titleCn: '绘画艺术',
+    text: [
+      'Painting is one of the oldest forms of art.',
+      'Cave paintings dating back 40,000 years have been found.',
+      'Over the centuries, painting styles have changed dramatically.',
+      'From the realism of the Renaissance to the impressionism of Monet, each era has produced its own masterpieces.',
+      'Today, painters work in many different styles and media.',
+      'Some use traditional oil paints, while others use digital tools.',
+      'But the purpose of painting remains the same — to express ideas and emotions through visual art.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'painting', phonetic: '/ˈpeɪntɪŋ/', meaning: '绘画' },
+      { word: 'Renaissance', phonetic: '/rɪˈneɪsns/', meaning: '文艺复兴' },
+      { word: 'impressionism', phonetic: '/ɪmˈpreʃənɪzəm/', meaning: '印象派' },
+      { word: 'era', phonetic: '/ˈɪərə/', meaning: '时代' },
+      { word: 'masterpiece', phonetic: '/ˈmɑːstəpiːs/', meaning: '杰作' },
+      { word: 'medium', phonetic: '/ˈmiːdiəm/', meaning: '媒介' },
+      { word: 'express', phonetic: '/ɪkˈspres/', meaning: '表达' },
+      { word: 'emotion', phonetic: '/ɪˈməʊʃn/', meaning: '情感' },
+      { word: 'visual', phonetic: '/ˈvɪʒuəl/', meaning: '视觉的' }
+    ],
+    notes: [
+      '"dating back" 追溯到。',
+      '"have changed dramatically" 发生了巨大变化。',
+      '"the purpose of" ……的目的。'
+    ],
+    tags: ['艺术', '历史'],
+    difficulty: 3,
+    summary: '绘画艺术的发展——从洞穴壁画到数字绘画，目的是通过视觉表达情感。',
+    summaryEn: 'The development of painting — from cave art to digital tools, expressing emotions through visual art.',
+  }
+];
 
 export default book3

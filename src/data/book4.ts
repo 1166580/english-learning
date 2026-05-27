@@ -1295,6 +1295,1244 @@ const book4: Lesson[] = [
       { type: 'choice', question: 'Nearly all the sports _____ nowadays are competitive.', options: ['A. practising', 'B. practised', 'C. to practise', 'D. practise'], answer: 'B', explanation: '"practised nowadays"是过去分词短语作后置定语，修饰"sports"。运动是"被进行"的，所以用过去分词表示被动。' },
     ],
 },
+  {
+    id: 16,
+    title: 'The modern city',
+    titleCn: '现代城市',
+    text: [
+      'The city is a place where large numbers of people live in a relatively small area.',
+      'It is a centre of commerce, industry, and culture.',
+      'Modern cities have grown rapidly in the last two centuries.',
+      'They offer many opportunities for employment and entertainment.',
+      'However, they also present serious problems such as overcrowding, pollution, and crime.',
+      'The quality of life in cities has become a matter of great concern.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'commerce', phonetic: '/ˈkɒmɜːs/', meaning: '商业' },
+      { word: 'industry', phonetic: '/ˈɪndəstri/', meaning: '工业' },
+      { word: 'relatively', phonetic: '/ˈrelətɪvli/', meaning: '相对地' },
+      { word: 'opportunity', phonetic: '/ˌɒpəˈtjuːnɪti/', meaning: '机会' },
+      { word: 'employment', phonetic: '/ɪmˈplɔɪmənt/', meaning: '就业' },
+      { word: 'entertainment', phonetic: '/ˌentəˈteɪnmənt/', meaning: '娱乐' },
+      { word: 'overcrowding', phonetic: '/ˌəʊvəˈkraʊdɪŋ/', meaning: '过度拥挤' },
+      { word: 'pollution', phonetic: '/pəˈluːʃn/', meaning: '污染' },
+      { word: 'concern', phonetic: '/kənˈsɜːn/', meaning: '关切' }
+    ],
+    notes: [
+      '"large numbers of" 大量的，后接可数名词复数。',
+      '"a matter of great concern" 一个令人非常关切的问题。',
+      '"such as" 例如，用于列举。'
+    ],
+    tags: ['城市化', '学术阅读'],
+    difficulty: 4,
+    summary: '探讨现代城市的发展及其带来的机遇与问题。',
+    summaryEn: 'An exploration of modern city development and the opportunities and problems it brings.',
+  },
+  {
+    id: 17,
+    title: 'A man-made disease',
+    titleCn: '人为的疾病',
+    text: [
+      'There are some diseases which are peculiar to man.',
+      'One of these is the common cold.',
+      'It is not a serious disease, but it causes a great deal of discomfort.',
+      'Scientists have been trying to find a cure for many years.',
+      'So far, they have not succeeded.',
+      'The cold is caused by a virus, and there are more than a hundred different varieties.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'disease', phonetic: '/dɪˈziːz/', meaning: '疾病' },
+      { word: 'peculiar', phonetic: '/pɪˈkjuːliə/', meaning: '特有的' },
+      { word: 'discomfort', phonetic: '/dɪsˈkʌmfət/', meaning: '不适' },
+      { word: 'scientist', phonetic: '/ˈsaɪəntɪst/', meaning: '科学家' },
+      { word: 'cure', phonetic: '/kjʊə/', meaning: '治愈' },
+      { word: 'virus', phonetic: '/ˈvaɪrəs/', meaning: '病毒' },
+      { word: 'variety', phonetic: '/vəˈraɪəti/', meaning: '种类' },
+      { word: 'succeed', phonetic: '/səkˈsiːd/', meaning: '成功' }
+    ],
+    notes: [
+      '"peculiar to" 为……所特有的。',
+      '"a great deal of" 大量的，后接不可数名词。',
+      '"so far" 到目前为止，常与现在完成时连用。'
+    ],
+    tags: ['医学', '现在完成时'],
+    difficulty: 4,
+    summary: '讨论普通感冒这种人类特有疾病，以及科学家寻找治愈方法的困难。',
+    summaryEn: 'Discusses the common cold as a disease peculiar to man and the difficulty of finding a cure.',
+  },
+  {
+    id: 18,
+    title: 'Porpoises',
+    titleCn: '海豚',
+    text: [
+      'There are many kinds of porpoises, but the most common is the bottle-nosed porpoise.',
+      'It is found in all the oceans of the world.',
+      'Porpoises are very intelligent creatures.',
+      'They have been known to help drowning swimmers.',
+      'Scientists have been studying porpoises for many years.',
+      'They are particularly interested in their ability to communicate with each other.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'porpoise', phonetic: '/ˈpɔːpəs/', meaning: '海豚' },
+      { word: 'intelligent', phonetic: '/ɪnˈtelɪdʒənt/', meaning: '聪明的' },
+      { word: 'creature', phonetic: '/ˈkriːtʃə/', meaning: '生物' },
+      { word: 'drowning', phonetic: '/ˈdraʊnɪŋ/', meaning: '溺水的' },
+      { word: 'communicate', phonetic: '/kəˈmjuːnɪkeɪt/', meaning: '交流' },
+      { word: 'specific', phonetic: '/spəˈsɪfɪk/', meaning: '特定的' },
+      { word: 'ability', phonetic: '/əˈbɪlɪti/', meaning: '能力' }
+    ],
+    notes: [
+      '"have been known to" 被认为……。',
+      '"communicate with" 与……交流。'
+    ],
+    tags: ['动物', '被动语态'],
+    difficulty: 4,
+    summary: '介绍海豚的智慧和沟通能力，它们曾被发现帮助溺水的游泳者。',
+    summaryEn: 'Introduces porpoises\' intelligence and communication abilities.',
+  },
+  {
+    id: 19,
+    title: 'What every writer wants',
+    titleCn: '每个作家想要的',
+    text: [
+      'I have known very few writers, but those I have known confess that they have difficulty in finding something to write about.',
+      'What they complain of is the difficulty of finding a subject.',
+      'Once they have found a subject, they can write with great fluency.',
+      'The difficulty is not in the writing, but in the thinking.',
+      'A writer must be able to observe life with a fresh eye.',
+      'He must be able to see what others have overlooked.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'confess', phonetic: '/kənˈfes/', meaning: '承认' },
+      { word: 'complain', phonetic: '/kəmˈpleɪn/', meaning: '抱怨' },
+      { word: 'fluency', phonetic: '/ˈfluːənsi/', meaning: '流利' },
+      { word: 'observe', phonetic: '/əbˈzɜːv/', meaning: '观察' },
+      { word: 'overlook', phonetic: '/ˌəʊvəˈlʊk/', meaning: '忽略' },
+      { word: 'gift', phonetic: '/ɡɪft/', meaning: '天赋' }
+    ],
+    notes: [
+      '"confess that" 承认……。',
+      '"complain of" 抱怨……。',
+      '"with a fresh eye" 以全新的眼光。'
+    ],
+    tags: ['文学', '写作技巧'],
+    difficulty: 4,
+    summary: '探讨作家面临的真正困难——不是写作本身，而是找到值得写的主题。',
+    summaryEn: 'Explores the real difficulty writers face — not writing itself, but finding something worth writing about.',
+  },
+  {
+    id: 20,
+    title: 'Snake poison',
+    titleCn: '蛇毒',
+    text: [
+      'How it came about that snakes manufactured poison is a mystery.',
+      'Over the periods their saliva developed a deadly poison.',
+      'It is used to paralyse the animals on which they feed.',
+      'The poison is injected through their fangs.',
+      'Not all snakes are poisonous.',
+      'There are about 2,500 kinds of snakes, and only about 400 of these are poisonous.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'snake', phonetic: '/sneɪk/', meaning: '蛇' },
+      { word: 'poison', phonetic: '/ˈpɔɪzn/', meaning: '毒' },
+      { word: 'manufacture', phonetic: '/ˌmænjuˈfæktʃə/', meaning: '产生' },
+      { word: 'saliva', phonetic: '/səˈlaɪvə/', meaning: '唾液' },
+      { word: 'deadly', phonetic: '/ˈdedli/', meaning: '致命的' },
+      { word: 'paralyse', phonetic: '/ˈpærəlaɪz/', meaning: '使麻痹' },
+      { word: 'inject', phonetic: '/ɪnˈdʒekt/', meaning: '注入' },
+      { word: 'fang', phonetic: '/fæŋ/', meaning: '毒牙' }
+    ],
+    notes: [
+      '"How it came about that" ……是如何发生的。',
+      '"on which they feed" 它们以此为食。feed on = 以……为食。'
+    ],
+    tags: ['自然', '定语从句'],
+    difficulty: 4,
+    summary: '探讨蛇毒的产生原因和用途——用于麻痹猎物而非自卫。',
+    summaryEn: 'Explores how and why snakes developed poison — used to paralyze prey rather than for self-defence.',
+  },
+  {
+    id: 21,
+    title: 'William S. Hart',
+    titleCn: '威廉·S·哈特',
+    text: [
+      'William S. Hart was one of the greatest stars of the early cinema.',
+      'He was particularly famous for his portrayal of the good-bad man.',
+      'Hart always played the same kind of character — a tough but honest cowboy.',
+      'He insisted on wearing authentic Western clothes in his films.',
+      'By 1924, however, the public had grown tired of this type of film.',
+      'Hart\'s career came to an end.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'portrayal', phonetic: '/pɔːˈtreɪəl/', meaning: '扮演' },
+      { word: 'cowboy', phonetic: '/ˈkaʊbɔɪ/', meaning: '牛仔' },
+      { word: 'authentic', phonetic: '/ɔːˈθentɪk/', meaning: '真实的' },
+      { word: 'career', phonetic: '/kəˈrɪə/', meaning: '事业' },
+      { word: 'insist', phonetic: '/ɪnˈsɪst/', meaning: '坚持' },
+      { word: 'genuine', phonetic: '/ˈdʒenjuɪn/', meaning: '真正的' }
+    ],
+    notes: [
+      '"be famous for" 以……而闻名。',
+      '"grow tired of" 对……感到厌倦。',
+      '"come to an end" 结束。'
+    ],
+    tags: ['电影史', '人物传记'],
+    difficulty: 4,
+    summary: '讲述早期电影明星哈特的演艺生涯，他以扮演亦正亦邪的牛仔闻名。',
+    summaryEn: 'Tells the story of early cinema star Hart, famous for his portrayal of the good-bad man cowboy.',
+  },
+  {
+    id: 22,
+    title: 'Knowledge and progress',
+    titleCn: '知识与进步',
+    text: [
+      'Every human being has a desire to know things.',
+      'This desire is the foundation of all knowledge.',
+      'It leads men to study the world around them and to make discoveries.',
+      'But knowledge alone is not enough.',
+      'Knowledge must be put to practical use.',
+      'The history of civilization is the history of man\'s attempt to use knowledge for practical purposes.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'desire', phonetic: '/dɪˈzaɪə/', meaning: '渴望' },
+      { word: 'foundation', phonetic: '/faʊnˈdeɪʃn/', meaning: '基础' },
+      { word: 'discovery', phonetic: '/dɪsˈkʌvəri/', meaning: '发现' },
+      { word: 'civilization', phonetic: '/ˌsɪvəlaɪˈzeɪʃn/', meaning: '文明' },
+      { word: 'attempt', phonetic: '/əˈtemt/', meaning: '尝试' },
+      { word: 'practical', phonetic: '/ˈpræktɪkl/', meaning: '实际的' }
+    ],
+    notes: [
+      '"a desire to" 对……的渴望。',
+      '"put to practical use" 投入实际使用。',
+      '"build upon" 在……基础上建立。'
+    ],
+    tags: ['哲学', '学术写作'],
+    difficulty: 4,
+    summary: '探讨知识与实践的关系——知识是进步的基础，但必须付诸实践才有意义。',
+    summaryEn: 'Explores the relationship between knowledge and practice.',
+  },
+  {
+    id: 23,
+    title: 'Bird flight',
+    titleCn: '鸟类飞行',
+    text: [
+      'The flight of birds has always fascinated mankind.',
+      'The secret of their ability lies in the structure of their wings.',
+      'A bird\'s wing is shaped so that air moves faster over the top than underneath.',
+      'This creates a difference in pressure which lifts the bird into the air.',
+      'Different species have different wing shapes, depending on their needs.',
+      'Eagles have broad wings for soaring; swallows have pointed wings for fast flight.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'fascinate', phonetic: '/ˈfæsɪneɪt/', meaning: '使着迷' },
+      { word: 'structure', phonetic: '/ˈstrʌktʃə/', meaning: '结构' },
+      { word: 'pressure', phonetic: '/ˈpreʃə/', meaning: '压力' },
+      { word: 'species', phonetic: '/ˈspiːʃiːz/', meaning: '物种' },
+      { word: 'soar', phonetic: '/sɔː/', meaning: '翱翔' },
+      { word: 'agile', phonetic: '/ˈædʒaɪl/', meaning: '敏捷的' }
+    ],
+    notes: [
+      '"the secret of" ……的秘密。',
+      '"so that" 以便，以至于。',
+      '"depending on" 取决于……。'
+    ],
+    tags: ['自然', '科学说明'],
+    difficulty: 4,
+    summary: '解释鸟类飞行的原理——翅膀结构产生的压力差使鸟能够飞翔。',
+    summaryEn: 'Explains the principle of bird flight.',
+  },
+  {
+    id: 24,
+    title: 'Beauty',
+    titleCn: '美',
+    text: [
+      'Beauty is an abstraction and one of the most elusive qualities in nature.',
+      'Different cultures have different standards of beauty.',
+      'What is considered beautiful in one society may not be in another.',
+      'Yet there seems to be something universal about the experience of beauty.',
+      'It touches something deep within us.',
+      'A young man sees a sunset and concludes that it must be the gateway to a world beyond.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'abstraction', phonetic: '/æbˈstrækʃn/', meaning: '抽象' },
+      { word: 'elusive', phonetic: '/ɪˈluːsɪv/', meaning: '难以捉摸的' },
+      { word: 'universal', phonetic: '/ˌjuːnɪˈvɜːsl/', meaning: '普遍的' },
+      { word: 'aesthetic', phonetic: '/iːsˈθetɪk/', meaning: '审美的' },
+      { word: 'gateway', phonetic: '/ˈɡeɪtweɪ/', meaning: '门户' },
+      { word: 'glimpse', phonetic: '/ɡlɪmps/', meaning: '一瞥' }
+    ],
+    notes: [
+      '"catch a glimpse of" 瞥见。',
+      '"the gateway to" 通往……的门户。'
+    ],
+    tags: ['哲学', '美学'],
+    difficulty: 5,
+    summary: '探讨美的本质——一种抽象的、难以捉摸的品质，却有着普遍的感染力。',
+    summaryEn: 'Explores the nature of beauty — an abstract, elusive quality with universal appeal.',
+  },
+  {
+    id: 25,
+    title: 'The stuffed ear',
+    titleCn: '堵塞的耳朵',
+    text: [
+      'People often complain that their ears feel stuffed after an aeroplane flight.',
+      'This is caused by the change in air pressure.',
+      'When an aeroplane climbs, the air pressure decreases and the air inside the ear expands.',
+      'When the aeroplane descends, the reverse happens.',
+      'To relieve the pressure, you should swallow frequently or chew gum.',
+      'This opens the Eustachian tube and allows the pressure to equalise.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'stuffed', phonetic: '/stʌft/', meaning: '堵塞的' },
+      { word: 'decrease', phonetic: '/dɪˈkriːs/', meaning: '减少' },
+      { word: 'expand', phonetic: '/ɪkˈspænd/', meaning: '膨胀' },
+      { word: 'eardrum', phonetic: '/ˈɪədrʌm/', meaning: '耳膜' },
+      { word: 'descend', phonetic: '/dɪˈsend/', meaning: '下降' },
+      { word: 'relieve', phonetic: '/rɪˈliːv/', meaning: '缓解' },
+      { word: 'swallow', phonetic: '/ˈswɒləʊ/', meaning: '吞咽' },
+      { word: 'equalise', phonetic: '/ˈiːkwəlaɪz/', meaning: '平衡' }
+    ],
+    notes: [
+      '"complain that" 抱怨……。',
+      '"the reverse happens" 相反的情况发生。'
+    ],
+    tags: ['医学', '因果关系'],
+    difficulty: 4,
+    summary: '解释飞机起降时耳朵堵塞的原因——气压变化导致耳膜受压。',
+    summaryEn: 'Explains why ears feel stuffed during flights.',
+  },
+  {
+    id: 26,
+    title: 'The search for oil',
+    titleCn: '寻找石油',
+    text: [
+      'Oil is one of the most important substances in the modern world.',
+      'Finding oil is a complicated process.',
+      'Geologists must first study the structure of the rocks beneath the surface.',
+      'They use various instruments to detect the presence of oil.',
+      'Once a likely site has been found, a drilling rig is brought in.',
+      'The drilling can take weeks or even months.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'substance', phonetic: '/ˈsʌbstəns/', meaning: '物质' },
+      { word: 'geologist', phonetic: '/dʒiˈɒlədʒɪst/', meaning: '地质学家' },
+      { word: 'beneath', phonetic: '/bɪˈniːθ/', meaning: '在……下面' },
+      { word: 'instrument', phonetic: '/ˈɪnstrəmənt/', meaning: '仪器' },
+      { word: 'detect', phonetic: '/dɪˈtekt/', meaning: '探测' },
+      { word: 'drilling', phonetic: '/ˈdrɪlɪŋ/', meaning: '钻探' },
+      { word: 'rig', phonetic: '/rɪɡ/', meaning: '钻井设备' },
+      { word: 'pump', phonetic: '/pʌmp/', meaning: '抽取' }
+    ],
+    notes: [
+      '"one of the most" 最……之一。',
+      '"the presence of" ……的存在。'
+    ],
+    tags: ['工业', '科技说明'],
+    difficulty: 4,
+    summary: '介绍石油勘探的复杂过程——从地质研究到钻探开采。',
+    summaryEn: 'Describes the complex process of oil exploration.',
+  },
+  {
+    id: 27,
+    title: 'The Benevolent Sea',
+    titleCn: '仁慈的大海',
+    text: [
+      'The sea is the largest reservoir of food in the world.',
+      'It provides mankind with an inexhaustible supply of fish and other marine creatures.',
+      'Yet man has barely begun to exploit the sea\'s resources.',
+      'Scientists believe that the sea could eventually feed the entire world population.',
+      'The problem is that we do not yet have the technology to harvest the sea on a large scale.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'reservoir', phonetic: '/ˈrezəvwɑː/', meaning: '储藏库' },
+      { word: 'inexhaustible', phonetic: '/ˌɪnɪɡˈzɔːstəbl/', meaning: '取之不尽的' },
+      { word: 'marine', phonetic: '/məˈriːn/', meaning: '海洋的' },
+      { word: 'exploit', phonetic: '/ɪkˈsplɔɪt/', meaning: '开发' },
+      { word: 'harvest', phonetic: '/ˈhɑːvɪst/', meaning: '收获' },
+      { word: 'technology', phonetic: '/tekˈnɒlədʒi/', meaning: '技术' }
+    ],
+    notes: [
+      '"provide sb with sth" 为某人提供某物。',
+      '"on a large scale" 大规模地。'
+    ],
+    tags: ['海洋', '资源开发'],
+    difficulty: 4,
+    summary: '展望海洋作为未来食物来源的巨大潜力。',
+    summaryEn: 'Looks at the sea\'s potential as a future food source.',
+  },
+  {
+    id: 28,
+    title: 'Patients and doctors',
+    titleCn: '病人与医生',
+    text: [
+      'The relationship between patient and doctor has changed considerably.',
+      'In the past, the doctor\'s word was law.',
+      'Patients accepted whatever treatment they were given without question.',
+      'Today, patients are much better informed about their health.',
+      'They often arrive at the doctor\'s with a clear idea of what is wrong.',
+      'This has put doctors in a difficult position.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'relationship', phonetic: '/rɪˈleɪʃnʃɪp/', meaning: '关系' },
+      { word: 'considerably', phonetic: '/kənˈsɪdərəbli/', meaning: '相当地' },
+      { word: 'treatment', phonetic: '/ˈtriːtmənt/', meaning: '治疗' },
+      { word: 'informed', phonetic: '/ɪnˈfɔːmd/', meaning: '了解的' },
+      { word: 'medical', phonetic: '/ˈmedɪkl/', meaning: '医学的' },
+      { word: 'justify', phonetic: '/ˈdʒʌstɪfaɪ/', meaning: '证明……正当' }
+    ],
+    notes: [
+      '"the doctor\'s word was law" 医生的话就是法律。',
+      '"without question" 毫无疑问地。'
+    ],
+    tags: ['医患关系', '社会变迁'],
+    difficulty: 4,
+    summary: '讨论医患关系的变化——从医生的绝对权威到如今患者更加知情。',
+    summaryEn: 'Discusses changes in the doctor-patient relationship.',
+  },
+  {
+    id: 29,
+    title: 'The hovercraft',
+    titleCn: '气垫船',
+    text: [
+      'The hovercraft is a remarkable invention.',
+      'It can travel over land and water with equal ease.',
+      'It floats on a cushion of air which is forced downwards by a powerful fan.',
+      'The hovercraft was invented by Christopher Cockerell in the 1950s.',
+      'His idea was initially rejected by the government.',
+      'But he persisted, and eventually the first commercial service was established.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'hovercraft', phonetic: '/ˈhɒvəkrɑːft/', meaning: '气垫船' },
+      { word: 'remarkable', phonetic: '/rɪˈmɑːkəbl/', meaning: '非凡的' },
+      { word: 'cushion', phonetic: '/ˈkʊʃn/', meaning: '气垫' },
+      { word: 'initially', phonetic: '/ɪˈnɪʃəli/', meaning: '最初' },
+      { word: 'persist', phonetic: '/pəˈsɪst/', meaning: '坚持' },
+      { word: 'commercial', phonetic: '/kəˈmɜːʃl/', meaning: '商业的' }
+    ],
+    notes: [
+      '"with equal ease" 同样轻松地。',
+      '"a cushion of air" 气垫。'
+    ],
+    tags: ['发明', '英国科技'],
+    difficulty: 4,
+    summary: '介绍气垫船的发明——科克雷尔的坚持最终开创了气垫船商业服务。',
+    summaryEn: 'Introduces the hovercraft\'s invention.',
+  },
+  {
+    id: 30,
+    title: 'Exploring the sea-floor',
+    titleCn: '探索海底',
+    text: [
+      'Our knowledge of the ocean floor is still very limited.',
+      'The sea covers more than two-thirds of the earth\'s surface.',
+      'Yet we know more about the moon than about the bottom of the sea.',
+      'The sea-floor has mountains, valleys, and plains just like the land.',
+      'The deepest part is the Mariana Trench, nearly seven miles deep.',
+      'Exploring the sea-floor is extremely difficult because of the immense pressure.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'limited', phonetic: '/ˈlɪmɪtɪd/', meaning: '有限的' },
+      { word: 'plain', phonetic: '/pleɪn/', meaning: '平原' },
+      { word: 'trench', phonetic: '/trentʃ/', meaning: '海沟' },
+      { word: 'immense', phonetic: '/ɪˈmens/', meaning: '巨大的' },
+      { word: 'depth', phonetic: '/depθ/', meaning: '深度' },
+      { word: 'pressure', phonetic: '/ˈpreʃə/', meaning: '压力' }
+    ],
+    notes: [
+      '"more than two-thirds" 超过三分之二。',
+      '"because of" 因为，后接名词。'
+    ],
+    tags: ['地理', '海洋探索'],
+    difficulty: 4,
+    summary: '介绍海底地形的多样性以及探索海底的困难。',
+    summaryEn: 'Introduces the diversity of sea-floor terrain and ocean exploration challenges.',
+  },
+  {
+    id: 31,
+    title: 'The sculptor speaks',
+    titleCn: '雕塑家如是说',
+    text: [
+      'Sculpture is one of the oldest forms of art.',
+      'Prehistoric man carved figures in bone and stone.',
+      'Sculpture differs from painting in an important way.',
+      'A painting exists on a flat surface, but a sculpture exists in three dimensions.',
+      'The viewer can walk around it and see it from different angles.',
+      'The sculptor must consider how the work will look from every point of view.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'sculpture', phonetic: '/ˈskʌlptʃə/', meaning: '雕塑' },
+      { word: 'carve', phonetic: '/kɑːv/', meaning: '雕刻' },
+      { word: 'dimension', phonetic: '/daɪˈmenʃn/', meaning: '维度' },
+      { word: 'angle', phonetic: '/ˈæŋɡl/', meaning: '角度' },
+      { word: 'demanding', phonetic: '/dɪˈmɑːndɪŋ/', meaning: '要求高的' },
+      { word: 'viewer', phonetic: '/ˈvjuːə/', meaning: '观看者' }
+    ],
+    notes: [
+      '"differ from" 与……不同。',
+      '"in three dimensions" 在三维空间中。',
+      '"point of view" 观点，角度。'
+    ],
+    tags: ['艺术', '雕塑'],
+    difficulty: 4,
+    summary: '探讨雕塑艺术的独特之处——三维特性使雕塑家必须考虑所有角度。',
+    summaryEn: 'Explores what makes sculpture unique.',
+  },
+  {
+    id: 32,
+    title: 'Galileo reborn',
+    titleCn: '伽利略的重生',
+    text: [
+      'In his own lifetime, Galileo was the centre of violent controversy.',
+      'The Church condemned his teaching that the earth moves round the sun.',
+      'But the evidence he gathered could not be ignored.',
+      'Today, Galileo is recognized as one of the founders of modern science.',
+      'His insistence on observation and experiment changed the course of science forever.',
+      'The telescope he built opened a new window on the universe.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'controversy', phonetic: '/ˈkɒntrəvɜːsi/', meaning: '争论' },
+      { word: 'condemn', phonetic: '/kənˈdem/', meaning: '谴责' },
+      { word: 'evidence', phonetic: '/ˈevɪdəns/', meaning: '证据' },
+      { word: 'founder', phonetic: '/ˈfaʊndə/', meaning: '创始人' },
+      { word: 'observation', phonetic: '/ˌɒbzəˈveɪʃn/', meaning: '观察' },
+      { word: 'telescope', phonetic: '/ˈtelɪskəʊp/', meaning: '望远镜' }
+    ],
+    notes: [
+      '"the centre of controversy" 争论的中心。',
+      '"be recognized as" 被认为是……。'
+    ],
+    tags: ['科学史', '人物传记'],
+    difficulty: 4,
+    summary: '回顾伽利略的一生——从被教会谴责到被公认为现代科学奠基人。',
+    summaryEn: 'Reviews Galileo\'s life — from condemnation to recognition as a founder of modern science.',
+  },
+  {
+    id: 33,
+    title: 'Education',
+    titleCn: '教育',
+    text: [
+      'Education is one of the key words of our time.',
+      'A man without an education is considered unfortunate.',
+      'Yet millions of people cannot read or write.',
+      'In many countries, children are forced to leave school at an early age.',
+      'The question of how to provide equal educational opportunities for all remains a great challenge.',
+      'True education is not merely the acquisition of facts, but the development of the mind.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'education', phonetic: '/ˌedʒuˈkeɪʃn/', meaning: '教育' },
+      { word: 'unfortunate', phonetic: '/ʌnˈfɔːtʃənət/', meaning: '不幸的' },
+      { word: 'facility', phonetic: '/fəˈsɪləti/', meaning: '设施' },
+      { word: 'equal', phonetic: '/ˈiːkwəl/', meaning: '平等的' },
+      { word: 'acquisition', phonetic: '/ˌækwɪˈzɪʃn/', meaning: '获得' },
+      { word: 'merely', phonetic: '/ˈmɪəli/', meaning: '仅仅' }
+    ],
+    notes: [
+      '"be considered" 被认为是……。',
+      '"not merely... but..." 不仅仅是……而是……。'
+    ],
+    tags: ['教育', '社会问题'],
+    difficulty: 4,
+    summary: '讨论教育的重要性及其面临的挑战。',
+    summaryEn: 'Discusses the importance of education and its challenges.',
+  },
+  {
+    id: 34,
+    title: 'Adolescence',
+    titleCn: '青春期',
+    text: [
+      'Parents often worry about their children during adolescence.',
+      'This is the period between childhood and adulthood.',
+      'It is a time of great physical and emotional change.',
+      'Young people begin to develop their own identity and to assert their independence.',
+      'They may rebel against authority and question the values of their parents.',
+      'With patience and understanding, most families survive this difficult period.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'adolescence', phonetic: '/ˌædəˈlesns/', meaning: '青春期' },
+      { word: 'identity', phonetic: '/aɪˈdentəti/', meaning: '身份' },
+      { word: 'independence', phonetic: '/ˌɪndɪˈpendəns/', meaning: '独立' },
+      { word: 'rebel', phonetic: '/rɪˈbel/', meaning: '反抗' },
+      { word: 'authority', phonetic: '/ɔːˈθɒrəti/', meaning: '权威' },
+      { word: 'conflict', phonetic: '/ˈkɒnflɪkt/', meaning: '冲突' }
+    ],
+    notes: [
+      '"worry about" 为……担心。',
+      '"assert one\'s independence" 维护自己的独立。',
+      '"rebel against" 反抗……。'
+    ],
+    tags: ['心理学', '成长'],
+    difficulty: 4,
+    summary: '描述青春期的特征——身体和情感的巨大变化，以及寻求独立的过程。',
+    summaryEn: 'Describes the characteristics of adolescence.',
+  },
+  {
+    id: 35,
+    title: 'Space odyssey',
+    titleCn: '太空漫游',
+    text: [
+      'The exploration of space is perhaps the greatest adventure of our time.',
+      'The first artificial satellite, Sputnik, was launched in 1957.',
+      'Just twelve years later, man set foot on the moon.',
+      'Satellites now play a vital role in communications and navigation.',
+      'Space stations have been built where astronauts can live for months.',
+      'The next great challenge is to send a manned mission to Mars.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'exploration', phonetic: '/ˌekspləˈreɪʃn/', meaning: '探索' },
+      { word: 'satellite', phonetic: '/ˈsætəlaɪt/', meaning: '卫星' },
+      { word: 'launch', phonetic: '/lɔːntʃ/', meaning: '发射' },
+      { word: 'navigation', phonetic: '/ˌnævɪˈɡeɪʃn/', meaning: '导航' },
+      { word: 'astronaut', phonetic: '/ˈæstrənɔːt/', meaning: '宇航员' },
+      { word: 'mission', phonetic: '/ˈmɪʃn/', meaning: '任务' }
+    ],
+    notes: [
+      '"set foot on" 踏上……。',
+      '"play a vital role in" 在……中起着至关重要的作用。'
+    ],
+    tags: ['太空探索', '科技发展'],
+    difficulty: 4,
+    summary: '回顾太空探索的历史——从第一颗人造卫星到载人登月。',
+    summaryEn: 'Reviews the history of space exploration.',
+  },
+  {
+    id: 36,
+    title: 'The cost of government',
+    titleCn: '政府的代价',
+    text: [
+      'The cost of government has increased enormously.',
+      'People complain that they are taxed too heavily.',
+      'But the services provided by the government are also increasing.',
+      'Health care, education, defence, and social security all require large sums of money.',
+      'Many people believe that there is a great deal of waste in government spending.',
+      'Others argue that the government should provide even more services.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'government', phonetic: '/ˈɡʌvənmənt/', meaning: '政府' },
+      { word: 'proportion', phonetic: '/prəˈpɔːʃn/', meaning: '比例' },
+      { word: 'tax', phonetic: '/tæks/', meaning: '税收' },
+      { word: 'defence', phonetic: '/dɪˈfens/', meaning: '国防' },
+      { word: 'security', phonetic: '/sɪˈkjʊərəti/', meaning: '安全' },
+      { word: 'wisely', phonetic: '/ˈwaɪzli/', meaning: '明智地' },
+      { word: 'waste', phonetic: '/weɪst/', meaning: '浪费' }
+    ],
+    notes: [
+      '"a large proportion of" 大部分……。',
+      '"a great deal of waste" 大量浪费。'
+    ],
+    tags: ['政治', '经济'],
+    difficulty: 4,
+    summary: '讨论政府开支的增长——人们质疑政府是否明智地使用了税款。',
+    summaryEn: 'Discusses the growth of government spending.',
+  },
+  {
+    id: 37,
+    title: 'The pursuit of pleasure',
+    titleCn: '追求快乐',
+    text: [
+      'The pursuit of pleasure has always been a controversial subject.',
+      'Some believe that pleasure is the highest good and the purpose of life.',
+      'Others take the view that true happiness comes from hard work and achievement.',
+      'The ancient Greeks called balanced enjoyment "eudaimonia".',
+      'It meant something more than mere pleasure — a life of virtue and fulfilment.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'pursuit', phonetic: '/pəˈsjuːt/', meaning: '追求' },
+      { word: 'controversial', phonetic: '/ˌkɒntrəˈvɜːʃl/', meaning: '有争议的' },
+      { word: 'achievement', phonetic: '/əˈtʃiːvmənt/', meaning: '成就' },
+      { word: 'virtue', phonetic: '/ˈvɜːtʃuː/', meaning: '美德' },
+      { word: 'fulfilment', phonetic: '/fʊlˈfɪlmənt/', meaning: '满足' },
+      { word: 'mere', phonetic: '/mɪə/', meaning: '仅仅的' }
+    ],
+    notes: [
+      '"take the view that" 持有……观点。',
+      '"an end in itself" 本身就是目的。'
+    ],
+    tags: ['哲学', '人生意义'],
+    difficulty: 5,
+    summary: '探讨追求快乐的不同观点——从享乐主义到古希腊的幸福概念。',
+    summaryEn: 'Explores different views on the pursuit of pleasure.',
+  },
+  {
+    id: 38,
+    title: 'The first calendar',
+    titleCn: '最早的日历',
+    text: [
+      'The calendar is one of man\'s most useful inventions.',
+      'The earliest calendars were based on the phases of the moon.',
+      'A lunar month is approximately 29 and a half days long.',
+      'But a year of 12 lunar months is about 11 days shorter than a solar year.',
+      'The ancient Egyptians were among the first to develop a solar calendar.',
+      'Their year consisted of 365 days, with an extra day added every four years.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'calendar', phonetic: '/ˈkælɪndə/', meaning: '日历' },
+      { word: 'phase', phonetic: '/feɪz/', meaning: '阶段' },
+      { word: 'approximately', phonetic: '/əˈprɒksɪmətli/', meaning: '大约' },
+      { word: 'lunar', phonetic: '/ˈluːnə/', meaning: '月球的' },
+      { word: 'solar', phonetic: '/ˈsəʊlə/', meaning: '太阳的' },
+      { word: 'consist', phonetic: '/kənˈsɪst/', meaning: '由……组成' }
+    ],
+    notes: [
+      '"be based on" 基于……。',
+      '"consist of" 由……组成。'
+    ],
+    tags: ['历史', '历法'],
+    difficulty: 4,
+    summary: '介绍日历的发展——从最早的阴历到古埃及的阳历。',
+    summaryEn: 'Introduces the development of calendars.',
+  },
+  {
+    id: 39,
+    title: 'Nothing to sell and nothing to buy',
+    titleCn: '不卖也不买',
+    text: [
+      'We are all sellers and buyers in a sense.',
+      'We sell our time and skills in exchange for money.',
+      'We buy goods and services with the money we earn.',
+      'This is the basis of the economic system.',
+      'But there are some things that cannot be bought or sold.',
+      'Love, friendship, and happiness have no price tag.',
+      'These are the things that make life truly worthwhile.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'exchange', phonetic: '/ɪksˈtʃeɪndʒ/', meaning: '交换' },
+      { word: 'earn', phonetic: '/ɜːn/', meaning: '赚取' },
+      { word: 'basis', phonetic: '/ˈbeɪsɪs/', meaning: '基础' },
+      { word: 'economic', phonetic: '/ˌiːkəˈnɒmɪk/', meaning: '经济的' },
+      { word: 'worthwhile', phonetic: '/ˌwɜːθˈwaɪl/', meaning: '值得的' },
+      { word: 'friendship', phonetic: '/ˈfrendʃɪp/', meaning: '友谊' }
+    ],
+    notes: [
+      '"in a sense" 从某种意义上说。',
+      '"in exchange for" 以换取……。'
+    ],
+    tags: ['经济', '人生哲理'],
+    difficulty: 4,
+    summary: '探讨经济交换的本质——有些东西是无价的。',
+    summaryEn: 'Explores the nature of economic exchange — some things are priceless.',
+  },
+  {
+    id: 40,
+    title: 'Waves',
+    titleCn: '波浪',
+    text: [
+      'Waves are a constant feature of the sea.',
+      'They are caused by the wind blowing across the surface of the water.',
+      'The stronger the wind, the higher the waves.',
+      'When waves reach shallow water near the coast, they begin to slow down.',
+      'The bottom drags along the sea bed, while the top continues forward.',
+      'This causes the wave to become steeper until it topples over and breaks on the shore.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'constant', phonetic: '/ˈkɒnstənt/', meaning: '持续的' },
+      { word: 'shallow', phonetic: '/ˈʃæləʊ/', meaning: '浅的' },
+      { word: 'coast', phonetic: '/kəʊst/', meaning: '海岸' },
+      { word: 'drag', phonetic: '/dræɡ/', meaning: '拖拽' },
+      { word: 'steep', phonetic: '/stiːp/', meaning: '陡峭的' },
+      { word: 'topple', phonetic: '/ˈtɒpl/', meaning: '倾倒' }
+    ],
+    notes: [
+      '"the stronger... the higher..." 越……越……。',
+      '"topple over" 翻倒。'
+    ],
+    tags: ['海洋', '自然现象'],
+    difficulty: 4,
+    summary: '解释海浪的形成和运动。',
+    summaryEn: 'Explains how waves form and move.',
+  },
+  {
+    id: 41,
+    title: 'Training elephants',
+    titleCn: '训练大象',
+    text: [
+      'Elephants are the largest land animals and among the most intelligent.',
+      'Training elephants requires great patience and skill.',
+      'In many Asian countries, elephants have been used as working animals for centuries.',
+      'The training process begins when the elephant is young.',
+      'It is taught to respond to simple commands.',
+      'Gradually, more complex tasks are introduced.',
+      'A well-trained elephant can obey more than thirty different commands.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'elephant', phonetic: '/ˈelɪfənt/', meaning: '大象' },
+      { word: 'patient', phonetic: '/ˈpeɪʃnt/', meaning: '耐心的' },
+      { word: 'command', phonetic: '/kəˈmɑːnd/', meaning: '命令' },
+      { word: 'complex', phonetic: '/ˈkɒmpleks/', meaning: '复杂的' },
+      { word: 'obey', phonetic: '/əˈbeɪ/', meaning: '服从' },
+      { word: 'gradually', phonetic: '/ˈɡrædʒuəli/', meaning: '逐渐地' }
+    ],
+    notes: [
+      '"respond to" 对……做出回应。',
+      '"be taught to" 被教导……。'
+    ],
+    tags: ['动物训练', '说明文'],
+    difficulty: 3,
+    summary: '介绍大象的训练过程。',
+    summaryEn: 'Describes the process of training elephants.',
+  },
+  {
+    id: 42,
+    title: 'Recording an earthquake',
+    titleCn: '记录地震',
+    text: [
+      'An earthquake is one of the most terrifying phenomena of nature.',
+      'Scientists use seismographs to detect vibrations in the earth.',
+      'These vibrations are recorded on paper or on a computer screen.',
+      'By studying these patterns, scientists can learn about the structure of the earth.',
+      'But predicting exactly when an earthquake will occur is still beyond our ability.',
+      'The best we can do is to prepare by building stronger buildings.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'earthquake', phonetic: '/ˈɜːθkweɪk/', meaning: '地震' },
+      { word: 'terrifying', phonetic: '/ˈterɪfaɪɪŋ/', meaning: '可怕的' },
+      { word: 'phenomenon', phonetic: '/fəˈnɒmɪnən/', meaning: '现象' },
+      { word: 'seismograph', phonetic: '/ˈsaɪzməɡrɑːf/', meaning: '地震仪' },
+      { word: 'vibration', phonetic: '/vaɪˈbreɪʃn/', meaning: '振动' },
+      { word: 'predict', phonetic: '/prɪˈdɪkt/', meaning: '预测' }
+    ],
+    notes: [
+      '"beyond our ability" 超出我们的能力。',
+      '"prepare for" 为……做准备。'
+    ],
+    tags: ['自然灾害', '科技'],
+    difficulty: 4,
+    summary: '介绍地震记录和预测。',
+    summaryEn: 'Introduces earthquake recording and prediction.',
+  },
+  {
+    id: 43,
+    title: 'Insured against rust',
+    titleCn: '投保锈蚀险',
+    text: [
+      'Modern methods of preserving food have made it possible to enjoy a wide variety all year round.',
+      'In the past, food could only be preserved by drying, salting, or smoking.',
+      'Dried foods take up less space and weigh less than fresh foods.',
+      'The process of freeze-drying removes water without cooking it.',
+      'This preserves both the flavour and the nutritional value.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'preserve', phonetic: '/prɪˈzɜːv/', meaning: '保存' },
+      { word: 'drying', phonetic: '/ˈdraɪɪŋ/', meaning: '干燥' },
+      { word: 'salting', phonetic: '/ˈsɔːltɪŋ/', meaning: '腌制' },
+      { word: 'freeze-drying', phonetic: '/friːz ˈdraɪɪŋ/', meaning: '冷冻干燥' },
+      { word: 'flavour', phonetic: '/ˈfleɪvə/', meaning: '味道' },
+      { word: 'nutritional', phonetic: '/njuːˈtrɪʃənl/', meaning: '营养的' }
+    ],
+    notes: [
+      '"all year round" 全年。',
+      '"take up less space" 占用更少空间。'
+    ],
+    tags: ['食品科学', '说明文'],
+    difficulty: 3,
+    summary: '介绍食品保存方法的发展。',
+    summaryEn: 'Describes the development of food preservation methods.',
+  },
+  {
+    id: 44,
+    title: 'Speed and comfort',
+    titleCn: '速度与舒适',
+    text: [
+      'If speed is the most important consideration, air travel is the best option.',
+      'But if comfort is more important, sea travel has much to recommend it.',
+      'A sea voyage gives you time to relax and enjoy the journey.',
+      'Rail travel offers a compromise between speed and comfort.',
+      'Modern trains are fast and comfortable, and you can enjoy the scenery along the way.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'consideration', phonetic: '/kənˌsɪdəˈreɪʃn/', meaning: '考虑因素' },
+      { word: 'option', phonetic: '/ˈɒpʃn/', meaning: '选择' },
+      { word: 'voyage', phonetic: '/ˈvɔɪɪdʒ/', meaning: '航行' },
+      { word: 'compromise', phonetic: '/ˈkɒmprəmaɪz/', meaning: '妥协' },
+      { word: 'scenery', phonetic: '/ˈsiːnəri/', meaning: '风景' },
+      { word: 'recommend', phonetic: '/ˌrekəˈmend/', meaning: '推荐' }
+    ],
+    notes: [
+      '"have much to recommend it" 有很多可取之处。',
+      '"a compromise between" 在……之间的折中。'
+    ],
+    tags: ['旅行', '比较级'],
+    difficulty: 3,
+    summary: '比较不同旅行方式的优劣。',
+    summaryEn: 'Compares different travel options.',
+  },
+  {
+    id: 45,
+    title: 'The power of the press',
+    titleCn: '新闻媒体的力量',
+    text: [
+      'The press has enormous power in modern society.',
+      'Newspapers, television, and the internet can influence public opinion.',
+      'This power carries with it great responsibility.',
+      'Journalists have a duty to report the truth and present facts fairly.',
+      'But the pressure to attract readers can lead to sensationalism.',
+      'A free and responsible press is essential to a healthy democracy.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'press', phonetic: '/pres/', meaning: '新闻媒体' },
+      { word: 'enormous', phonetic: '/ɪˈnɔːməs/', meaning: '巨大的' },
+      { word: 'influence', phonetic: '/ˈɪnfluəns/', meaning: '影响' },
+      { word: 'responsibility', phonetic: '/rɪˌspɒnsəˈbɪləti/', meaning: '责任' },
+      { word: 'journalist', phonetic: '/ˈdʒɜːnəlɪst/', meaning: '记者' },
+      { word: 'democracy', phonetic: '/dɪˈmɒkrəsi/', meaning: '民主' }
+    ],
+    notes: [
+      '"carry with it" 带有……。',
+      '"a duty to" 有责任……。'
+    ],
+    tags: ['媒体', '社会责任'],
+    difficulty: 4,
+    summary: '讨论新闻媒体的巨大影响力及其责任。',
+    summaryEn: 'Discusses the press\'s enormous influence and responsibility.',
+  },
+  {
+    id: 46,
+    title: 'The mineral riches of the earth',
+    titleCn: '地球的矿产财富',
+    text: [
+      'The earth contains a vast variety of minerals.',
+      'Mining is one of the oldest industries.',
+      'Ancient civilizations mined copper and tin to make bronze.',
+      'Today, mining operations are highly mechanized.',
+      'But mining can cause serious damage to the environment.',
+      'The challenge is to balance the need for minerals with the need to protect the environment.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'mineral', phonetic: '/ˈmɪnərəl/', meaning: '矿物' },
+      { word: 'mining', phonetic: '/ˈmaɪnɪŋ/', meaning: '采矿' },
+      { word: 'mechanized', phonetic: '/ˈmekənaɪzd/', meaning: '机械化的' },
+      { word: 'extract', phonetic: '/ɪkˈstrækt/', meaning: '提取' },
+      { word: 'landscape', phonetic: '/ˈlændskeɪp/', meaning: '景观' },
+      { word: 'balance', phonetic: '/ˈbæləns/', meaning: '平衡' }
+    ],
+    notes: [
+      '"a vast variety of" 各种各样的。',
+      '"balance... with..." 在……与……之间取得平衡。'
+    ],
+    tags: ['矿产', '环境问题'],
+    difficulty: 4,
+    summary: '介绍地球的矿产资源和采矿业。',
+    summaryEn: 'Introduces earth\'s mineral resources and mining.',
+  },
+  {
+    id: 47,
+    title: 'Hobbies',
+    titleCn: '爱好',
+    text: [
+      'A hobby is an activity done regularly in one\'s leisure time for pleasure.',
+      'Common hobbies include gardening, stamp collecting, and photography.',
+      'A hobby can be a source of great satisfaction.',
+      'It provides a change from one\'s daily routine and helps to relieve stress.',
+      'Some hobbies can even be profitable.',
+      'But the true value lies not in what it produces, but in the enjoyment it gives.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'hobby', phonetic: '/ˈhɒbi/', meaning: '爱好' },
+      { word: 'leisure', phonetic: '/ˈleʒə/', meaning: '闲暇' },
+      { word: 'satisfaction', phonetic: '/ˌsætɪsˈfækʃn/', meaning: '满足' },
+      { word: 'routine', phonetic: '/ruːˈtiːn/', meaning: '日常' },
+      { word: 'profitable', phonetic: '/ˈprɒfɪtəbl/', meaning: '有利可图的' },
+      { word: 'relieve', phonetic: '/rɪˈliːv/', meaning: '缓解' }
+    ],
+    notes: [
+      '"in one\'s leisure time" 在闲暇时间。',
+      '"lie in" 在于……。'
+    ],
+    tags: ['生活方式', '兴趣爱好'],
+    difficulty: 3,
+    summary: '讨论爱好的价值。',
+    summaryEn: 'Discusses the value of hobbies.',
+  },
+  {
+    id: 48,
+    title: 'The scream',
+    titleCn: '尖叫声',
+    text: [
+      'Edvard Munch\'s painting "The Scream" is one of the most famous images in modern art.',
+      'It shows a figure with a look of sheer terror on its face.',
+      'Munch said the inspiration came from a walk one evening at sunset.',
+      'He felt tired and ill, and suddenly the sky turned blood red.',
+      'He stopped and leaned against the railing, trembling with fear.',
+      'He sensed an infinite scream passing through nature.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'scream', phonetic: '/skriːm/', meaning: '尖叫' },
+      { word: 'figure', phonetic: '/ˈfɪɡə/', meaning: '人影' },
+      { word: 'terror', phonetic: '/ˈterə/', meaning: '恐惧' },
+      { word: 'inspiration', phonetic: '/ˌɪnspəˈreɪʃn/', meaning: '灵感' },
+      { word: 'railing', phonetic: '/ˈreɪlɪŋ/', meaning: '栏杆' },
+      { word: 'infinite', phonetic: '/ˈɪnfɪnət/', meaning: '无限的' }
+    ],
+    notes: [
+      '"with a look of" 带着……的表情。',
+      '"trembling with fear" 因恐惧而颤抖。'
+    ],
+    tags: ['艺术', '名画赏析'],
+    difficulty: 4,
+    summary: '介绍蒙克的名画《呐喊》。',
+    summaryEn: 'Introduces Munch\'s "The Scream".',
+  }
 ]
 
 export default book4

@@ -3332,6 +3332,4534 @@ const book1: Lesson[] = [
       { type: 'choice', question: 'Can you _____ that, please?', options: ['A. repeating', 'B. repeats', 'C. repeated', 'D. repeat'], answer: 'D', explanation: 'Can后接动词原形。' }
     ],
   },
+  {
+    id: 41,
+    title: 'Penny\'s bag',
+    titleCn: '彭妮的包',
+    text: [
+      'Is that bag heavy, Penny?',
+      'Not very.',
+      'Here! Put it on this chair.',
+      'What\'s in it?',
+      'A piece of cheese. A loaf of bread. A bar of chocolate.',
+      'A bottle of milk. A pound of sugar.',
+      'Half a pound of coffee. A quarter of a pound of tea.',
+      'And a tin of tobacco.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'heavy', phonetic: '/ˈhevi/', meaning: '重的' },
+      { word: 'cheese', phonetic: '/tʃiːz/', meaning: '奶酪' },
+      { word: 'bread', phonetic: '/bred/', meaning: '面包' },
+      { word: 'chocolate', phonetic: '/ˈtʃɒklət/', meaning: '巧克力' },
+      { word: 'sugar', phonetic: '/ˈʃʊɡə/', meaning: '糖' },
+      { word: 'tobacco', phonetic: '/təˈbækəʊ/', meaning: '烟丝' }
+    ],
+    notes: [
+      '"Not very" 是 "It\'s not very heavy" 的省略。',
+      '"a piece of" 一块，"a loaf of" 一条，"a bar of" 一块（条状）。',
+      '"a tin of" 一听。'
+    ],
+    tags: ['不可数名词', '量词'],
+    difficulty: 1,
+    summary: '彭妮的包里装满了各种食物，用不同量词计量不可数名词。',
+    summaryEn: 'Penny\'s bag contains various foods measured with different quantifiers.',
+  },
+  {
+    id: 42,
+    title: 'Is there a... in/on that...?',
+    titleCn: '在那个……里/上有……吗？',
+    text: [
+      'Is there any bread here?',
+      'Yes, there is. There\'s some on the table.',
+      'Is there a hammer here?',
+      'Yes, there is. There\'s one behind the box.',
+      'Is there any chocolate here?',
+      'Yes, there is. There\'s some on the desk.',
+      'Is there a cup here?',
+      'Yes, there is. There\'s one on the shelf.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'hammer', phonetic: '/ˈhæmə/', meaning: '锤子' },
+      { word: 'behind', phonetic: '/bɪˈhaɪnd/', meaning: '在……后面' },
+      { word: 'shelf', phonetic: '/ʃelf/', meaning: '架子' },
+      { word: 'some', phonetic: '/sʌm/', meaning: '一些' },
+      { word: 'any', phonetic: '/eni/', meaning: '一些（疑问/否定）' }
+    ],
+    notes: [
+      '"Is there any...?" 询问不可数名词。',
+      '"Is there a...?" 询问可数名词单数。',
+      '"some" 用于肯定句，"any" 用于疑问句和否定句。'
+    ],
+    tags: ['There be句型', 'some/any'],
+    difficulty: 1,
+    summary: '练习There be句型的一般疑问句，区分some和any。',
+    summaryEn: 'Practice There be questions with some and any.',
+  },
+  {
+    id: 43,
+    title: 'Hurry up!',
+    titleCn: '快点！',
+    text: [
+      'Can you make the tea, Sam?',
+      'Yes, of course I can, Penny.',
+      'Is there any water in this kettle?',
+      'Yes, there is.',
+      'Where\'s the tea?',
+      'It\'s over there, behind the teapot.',
+      'Can you see it?',
+      'I can see the teapot, but I can\'t see any tea.',
+      'There it is! It\'s in front of you.',
+      'Hurry up, Sam! The kettle\'s boiling!'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'kettle', phonetic: '/ˈketl/', meaning: '水壶' },
+      { word: 'teapot', phonetic: '/ˈtiːpɒt/', meaning: '茶壶' },
+      { word: 'cupboard', phonetic: '/ˈkʌbəd/', meaning: '碗柜' },
+      { word: 'boil', phonetic: '/bɔɪl/', meaning: '沸腾' },
+      { word: 'hurry', phonetic: '/ˈhʌri/', meaning: '赶紧' }
+    ],
+    notes: [
+      '"make the tea" 沏茶。',
+      '"over there" 在那边。',
+      '"in front of" 在……前面。'
+    ],
+    tags: ['can的用法', '方位介词'],
+    difficulty: 1,
+    summary: '萨姆在厨房沏茶，练习can和方位介词。',
+    summaryEn: 'Sam makes tea in the kitchen, practicing can and prepositions of place.',
+  },
+  {
+    id: 44,
+    title: 'Are there any...?',
+    titleCn: '有一些……吗？',
+    text: [
+      'Are there any cups here?',
+      'Yes, there are. There are some on the table.',
+      'Are there any knives here?',
+      'Yes, there are. There are some on the plate.',
+      'Are there any newspapers here?',
+      'Yes, there are. There are some on the shelf.',
+      'Are there any bottles here?',
+      'Yes, there are. There are some on the dressing table.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'knife', phonetic: '/naɪf/', meaning: '刀' },
+      { word: 'plate', phonetic: '/pleɪt/', meaning: '盘子' },
+      { word: 'newspaper', phonetic: '/ˈnjuːzpeɪpə/', meaning: '报纸' },
+      { word: 'bottle', phonetic: '/ˈbɒtl/', meaning: '瓶子' },
+      { word: 'dressing table', phonetic: '/ˈdresɪŋ ˈteɪbl/', meaning: '梳妆台' }
+    ],
+    notes: [
+      '"Are there any...?" 询问可数名词复数。',
+      'knife的复数是knives（f变ves）。'
+    ],
+    tags: ['There be复数', '可数名词复数'],
+    difficulty: 1,
+    summary: '练习There be句型询问可数名词复数。',
+    summaryEn: 'Practice Are there any questions with countable plural nouns.',
+  },
+  {
+    id: 45,
+    title: 'The boss\'s letter',
+    titleCn: '老板的信',
+    text: [
+      'Can you come here a minute please, Bob?',
+      'Yes, sir?',
+      'Where\'s Pamela?',
+      'She\'s next door. She\'s in her office, sir.',
+      'Can she type this letter for me?',
+      'Yes, of course she can.',
+      'Can you type this letter for the boss please, Pamela?',
+      'Yes, of course I can.',
+      'I can\'t type this letter. I can\'t read it!',
+      'The boss\'s handwriting is terrible!'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'boss', phonetic: '/bɒs/', meaning: '老板' },
+      { word: 'letter', phonetic: '/ˈletə/', meaning: '信' },
+      { word: 'next door', phonetic: '/nekst dɔːr/', meaning: '隔壁' },
+      { word: 'office', phonetic: '/ˈɒfɪs/', meaning: '办公室' },
+      { word: 'type', phonetic: '/taɪp/', meaning: '打字' },
+      { word: 'handwriting', phonetic: '/ˈhændraɪtɪŋ/', meaning: '笔迹' },
+      { word: 'terrible', phonetic: '/ˈterəbl/', meaning: '糟糕的' }
+    ],
+    notes: [
+      '"a minute" 一会儿。',
+      '"What\'s the matter?" 怎么了？',
+      '"the boss\'s handwriting" 老板的笔迹。名词所有格加\'s。'
+    ],
+    tags: ['名词所有格', 'can请求'],
+    difficulty: 2,
+    summary: '帕梅拉无法打信，因为老板的字迹太潦草。',
+    summaryEn: 'Pamela cannot type the letter because the boss\'s handwriting is terrible.',
+  },
+  {
+    id: 46,
+    title: 'Can you...?',
+    titleCn: '你能……吗？',
+    text: [
+      'Can you put on your coat?',
+      'Yes, I can.',
+      'What can you do?',
+      'I can put on my coat.',
+      'Can you come here?',
+      'Yes, I can.',
+      'Can you see that aeroplane?',
+      'Yes, I can.',
+      'What can you do?',
+      'I can see that aeroplane.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'put on', phonetic: '/pʊt ɒn/', meaning: '穿上' },
+      { word: 'aeroplane', phonetic: '/ˈeərəpleɪn/', meaning: '飞机' },
+      { word: 'see', phonetic: '/siː/', meaning: '看见' },
+      { word: 'come', phonetic: '/kʌm/', meaning: '来' }
+    ],
+    notes: [
+      '"put on" 穿上，反义词 "take off"。',
+      '"Can you...?" 请求或询问能力。'
+    ],
+    tags: ['can能力', '动词短语'],
+    difficulty: 1,
+    summary: '练习用can表达能力的各种句型。',
+    summaryEn: 'Practice using can to express ability.',
+  },
+  {
+    id: 47,
+    title: 'A cup of coffee',
+    titleCn: '一杯咖啡',
+    text: [
+      'Do you like coffee, Ann?',
+      'Yes, I do.',
+      'Do you want a cup?',
+      'Yes, please, Christine.',
+      'Do you want any sugar?',
+      'Yes, please.',
+      'Do you want any milk?',
+      'No, thank you. I don\'t like milk in my coffee.',
+      'I like black coffee.',
+      'Do you like biscuits?',
+      'Yes, I do. Do you want one?',
+      'Yes, please.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'coffee', phonetic: '/ˈkɒfi/', meaning: '咖啡' },
+      { word: 'sugar', phonetic: '/ˈʃʊɡə/', meaning: '糖' },
+      { word: 'biscuit', phonetic: '/ˈbɪskɪt/', meaning: '饼干' },
+      { word: 'black coffee', phonetic: '/blæk ˈkɒfi/', meaning: '黑咖啡' }
+    ],
+    notes: [
+      '"Do you like...?" 询问喜好。',
+      '"Yes, please." 接受。"No, thank you." 拒绝。'
+    ],
+    tags: ['Do you like句型', '礼貌用语'],
+    difficulty: 1,
+    summary: '练习询问喜好和礼貌回应。',
+    summaryEn: 'Practice asking about preferences and polite responses.',
+  },
+  {
+    id: 48,
+    title: 'Do you like...?',
+    titleCn: '你喜欢……吗？',
+    text: [
+      'Do you like eggs?',
+      'Yes, I do. I like eggs, but I don\'t want one.',
+      'Do you like butter?',
+      'Yes, I do. I like butter, but I don\'t want any.',
+      'Do you like honey?',
+      'Yes, I do. I like honey, but I don\'t want any.',
+      'Do you like bananas?',
+      'Yes, I do. I like bananas, but I don\'t want one.',
+      'Do you like jam?',
+      'Yes, I do. I like jam, but I don\'t want any.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'egg', phonetic: '/eɡ/', meaning: '鸡蛋' },
+      { word: 'butter', phonetic: '/ˈbʌtə/', meaning: '黄油' },
+      { word: 'honey', phonetic: '/ˈhʌni/', meaning: '蜂蜜' },
+      { word: 'banana', phonetic: '/bəˈnɑːnə/', meaning: '香蕉' },
+      { word: 'jam', phonetic: '/dʒæm/', meaning: '果酱' },
+      { word: 'orange', phonetic: '/ˈɒrɪndʒ/', meaning: '橙子' }
+    ],
+    notes: [
+      '"I like..., but I don\'t want..." 喜欢但暂时不想要。',
+      '注意可数和不可数名词的区别。'
+    ],
+    tags: ['可数/不可数名词', 'like/want'],
+    difficulty: 1,
+    summary: '区分可数和不可数名词，练习like和want。',
+    summaryEn: 'Distinguish countable and uncountable nouns with like and want.',
+  },
+  {
+    id: 49,
+    title: 'At the butcher\'s',
+    titleCn: '在肉店',
+    text: [
+      'Do you want any meat today, Mrs. Bird?',
+      'Yes, please.',
+      'Do you want beef or lamb?',
+      'Beef, please.',
+      'This lamb\'s very good.',
+      'I like lamb, but my husband doesn\'t.',
+      'What about some steak? This is a nice piece.',
+      'Give me that piece, then.',
+      'To tell you the truth, Mrs. Bird, I don\'t like chicken either!'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'butcher', phonetic: '/ˈbʊtʃə/', meaning: '肉店' },
+      { word: 'meat', phonetic: '/miːt/', meaning: '肉' },
+      { word: 'beef', phonetic: '/biːf/', meaning: '牛肉' },
+      { word: 'lamb', phonetic: '/læm/', meaning: '羊肉' },
+      { word: 'steak', phonetic: '/steɪk/', meaning: '牛排' },
+      { word: 'husband', phonetic: '/ˈhʌzbənd/', meaning: '丈夫' },
+      { word: 'chicken', phonetic: '/ˈtʃɪkɪn/', meaning: '鸡肉' },
+      { word: 'truth', phonetic: '/truːθ/', meaning: '真相' }
+    ],
+    notes: [
+      '"at the butcher\'s" 在肉店。\'s表示店铺。',
+      '"What about...?" 提建议。',
+      '"either" 也不，用于否定句末。'
+    ],
+    tags: ['名词所有格表店铺', 'either用法'],
+    difficulty: 2,
+    summary: '在肉店买肉，练习选择疑问句和否定句中的either。',
+    summaryEn: 'Buying meat at the butcher\'s, practicing alternative questions and either.',
+  },
+  {
+    id: 50,
+    title: 'A pleasant climate',
+    titleCn: '宜人的气候',
+    text: [
+      'Where do you come from?',
+      'I come from Greece.',
+      'What\'s the climate like in your country?',
+      'It\'s very pleasant.',
+      'What\'s the weather like in spring?',
+      'It\'s often windy in March. It\'s always warm in April and May.',
+      'But it rains sometimes.',
+      'What\'s it like in summer?',
+      'It\'s always hot in June, July and August.',
+      'The sun shines every day.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'climate', phonetic: '/ˈklaɪmət/', meaning: '气候' },
+      { word: 'pleasant', phonetic: '/ˈpleznt/', meaning: '宜人的' },
+      { word: 'weather', phonetic: '/ˈweðə/', meaning: '天气' },
+      { word: 'windy', phonetic: '/ˈwɪndi/', meaning: '有风的' },
+      { word: 'warm', phonetic: '/wɔːm/', meaning: '温暖的' },
+      { word: 'rain', phonetic: '/reɪn/', meaning: '下雨' },
+      { word: 'shine', phonetic: '/ʃaɪn/', meaning: '照耀' }
+    ],
+    notes: [
+      '"What\'s the climate like?" 问气候。',
+      '"It\'s + adj + in + 月份" 描述某月天气。',
+      '注意 sometimes, always, often 等频率副词的位置。'
+    ],
+    tags: ['天气', '频率副词'],
+    difficulty: 1,
+    summary: '询问和描述不同季节的天气和气候。',
+    summaryEn: 'Asking about and describing weather in different seasons.',
+  },
+  {
+    id: 51,
+    title: 'An interesting climate',
+    titleCn: '有趣的气候',
+    text: [
+      'Where do you come from?',
+      'I come from England.',
+      'What\'s the climate like in England?',
+      'It\'s mild, but it\'s not always pleasant.',
+      'The weather\'s often cold in the North and windy in the East.',
+      'It\'s often wet in the West and sometimes warm in the South.',
+      'Which seasons do you like best?',
+      'I like spring and summer.',
+      'The days are long and the nights are short.',
+      'The sun rises early and sets late.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'mild', phonetic: '/maɪld/', meaning: '温和的' },
+      { word: 'wet', phonetic: '/wet/', meaning: '潮湿的' },
+      { word: 'season', phonetic: '/ˈsiːzn/', meaning: '季节' },
+      { word: 'best', phonetic: '/best/', meaning: '最' },
+      { word: 'rise', phonetic: '/raɪz/', meaning: '升起' },
+      { word: 'set', phonetic: '/set/', meaning: '落下' },
+      { word: 'early', phonetic: '/ˈɜːli/', meaning: '早' },
+      { word: 'late', phonetic: '/leɪt/', meaning: '晚' }
+    ],
+    notes: [
+      '"Which... do you like best?" 你最喜欢哪个？',
+      '"The days are long" 白天长。注意 be 动词的用法。',
+      '"rise" 升起（不及物），"set" 落下。'
+    ],
+    tags: ['季节', '形容词'],
+    difficulty: 2,
+    summary: '描述英国的气候特点和不同季节。',
+    summaryEn: 'Describe the climate of England and different seasons.',
+  },
+  {
+    id: 52,
+    title: 'What nationality are they?',
+    titleCn: '他们是哪国人？',
+    text: [
+      'Where do you come from?',
+      'I come from Greece.',
+      'What nationality are you?',
+      'I\'m Greek.',
+      'What\'s your name?',
+      'My name is Dimitri.',
+      'Where do you live?',
+      'I live in Athens.',
+      'What\'s your job?',
+      'I\'m a taxi driver.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'nationality', phonetic: '/ˌnæʃəˈnæləti/', meaning: '国籍' },
+      { word: 'Greek', phonetic: '/ɡriːk/', meaning: '希腊人' },
+      { word: 'Athens', phonetic: '/ˈæθɪnz/', meaning: '雅典' },
+      { word: 'job', phonetic: '/dʒɒb/', meaning: '工作' },
+      { word: 'taxi driver', phonetic: '/ˈtæksi ˈdraɪvə/', meaning: '出租车司机' }
+    ],
+    notes: [
+      '"What nationality are you?" 你是哪国人？',
+      '"I\'m Greek." 我是希腊人。注意国籍首字母大写。',
+      '"Where do you live?" 你住在哪里？'
+    ],
+    tags: ['国籍', '自我介绍'],
+    difficulty: 1,
+    summary: '询问国籍、姓名、居住地和职业。',
+    summaryEn: 'Asking about nationality, name, residence and job.',
+  },
+  {
+    id: 53,
+    title: 'An interesting climate',
+    titleCn: '一个有趣的气候',
+    text: [
+      'What nationality are you?',
+      'I\'m Swedish.',
+      'Where do you come from?',
+      'I come from Sweden.',
+      'What\'s the climate like in Sweden?',
+      'It\'s very cold in winter.',
+      'We have snow and ice.',
+      'But it\'s very warm in summer.',
+      'The days are very long in summer.',
+      'And very short in winter.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'Swedish', phonetic: '/ˈswiːdɪʃ/', meaning: '瑞典的' },
+      { word: 'Sweden', phonetic: '/ˈswiːdn/', meaning: '瑞典' },
+      { word: 'snow', phonetic: '/snəʊ/', meaning: '雪' },
+      { word: 'ice', phonetic: '/aɪs/', meaning: '冰' },
+      { word: 'winter', phonetic: '/ˈwɪntə/', meaning: '冬天' },
+      { word: 'summer', phonetic: '/ˈsʌmə/', meaning: '夏天' }
+    ],
+    notes: [
+      '"in winter/summer" 在冬天/夏天。季节前不加the。',
+      '"have snow and ice" 有雪和冰。'
+    ],
+    tags: ['国家和国籍', '季节'],
+    difficulty: 1,
+    summary: '谈论瑞典的气候——冬天寒冷有雪，夏天温暖白天长。',
+    summaryEn: 'Talking about Sweden\'s climate — cold winters with snow, warm summers with long days.',
+  },
+  {
+    id: 54,
+    title: 'What\'s the matter with them?',
+    titleCn: '他们怎么了？',
+    text: [
+      'What\'s the matter with them?',
+      'They\'re tired.',
+      'What\'s the matter with her?',
+      'She\'s tired, too.',
+      'What\'s the matter with you?',
+      'We\'re thirsty.',
+      'What\'s the matter with the children?',
+      'They\'re hungry.',
+      'Are you all right now?',
+      'No, we aren\'t. We\'re ill.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'tired', phonetic: '/taɪəd/', meaning: '疲倦的' },
+      { word: 'thirsty', phonetic: '/ˈθɜːsti/', meaning: '渴的' },
+      { word: 'hungry', phonetic: '/ˈhʌŋɡri/', meaning: '饿的' },
+      { word: 'ill', phonetic: '/ɪl/', meaning: '生病的' },
+      { word: 'matter', phonetic: '/ˈmætə/', meaning: '问题' }
+    ],
+    notes: [
+      '"What\'s the matter with...?" ……怎么了？',
+      '注意人称和be动词的搭配：I am, you are, he/she is, they are。'
+    ],
+    tags: ['身体状态', 'be动词'],
+    difficulty: 1,
+    summary: '询问和描述身体状态。',
+    summaryEn: 'Asking about and describing physical conditions.',
+  },
+  {
+    id: 55,
+    title: 'Which book?',
+    titleCn: '哪本书？',
+    text: [
+      'Give me a book please, Jane.',
+      'Which book?',
+      'The one on the shelf.',
+      'This one?',
+      'No, not that one. The red one.',
+      'This one?',
+      'Yes, please.',
+      'Here you are.',
+      'Thank you.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'which', phonetic: '/wɪtʃ/', meaning: '哪一个' },
+      { word: 'shelf', phonetic: '/ʃelf/', meaning: '架子' },
+      { word: 'red', phonetic: '/red/', meaning: '红色的' },
+      { word: 'one', phonetic: '/wʌn/', meaning: '一个（代替前面提到的名词）' }
+    ],
+    notes: [
+      '"Which book?" 哪本书？用于选择。',
+      '"The one on the shelf" 架子上的那本。one代替book。',
+      '"not that one" 不是那个。'
+    ],
+    tags: ['指示代词', '选择疑问'],
+    difficulty: 1,
+    summary: '练习用which进行选择，以及one代替名词的用法。',
+    summaryEn: 'Practice using which for selection and one as a pronoun.',
+  },
+  {
+    id: 56,
+    title: 'Which glasses?',
+    titleCn: '哪只杯子？',
+    text: [
+      'Give me some glasses please, Jane.',
+      'Which glasses?',
+      'The ones on the shelf.',
+      'These?',
+      'No, not those. The ones on the table.',
+      'These?',
+      'Yes, please.',
+      'Here you are.',
+      'Thank you.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'glasses', phonetic: '/ˈɡlɑːsɪz/', meaning: '杯子/眼镜' },
+      { word: 'shelf', phonetic: '/ʃelf/', meaning: '架子' },
+      { word: 'these', phonetic: '/ðiːz/', meaning: '这些' },
+      { word: 'those', phonetic: '/ðəʊz/', meaning: '那些' },
+      { word: 'ones', phonetic: '/wʌnz/', meaning: '一些（代替复数名词）' }
+    ],
+    notes: [
+      '"The ones on the shelf" 架子上的那些。ones代替glasses。',
+      '"these/those" 这些/那些，复数指示代词。'
+    ],
+    tags: ['复数指示代词', '选择'],
+    difficulty: 1,
+    summary: '练习复数指示代词these/those和ones的用法。',
+    summaryEn: 'Practice plural demonstratives these/those and ones.',
+  },
+  {
+    id: 57,
+    title: 'Mrs. Smith\'s kitchen',
+    titleCn: '史密斯太太的厨房',
+    text: [
+      'Mrs. Smith\'s kitchen is small.',
+      'There is a refrigerator in the kitchen.',
+      'The refrigerator is white.',
+      'It is on the right.',
+      'There is an electric cooker in the kitchen.',
+      'The cooker is blue.',
+      'It is on the left.',
+      'There is a table in the middle of the room.',
+      'There is a bottle on the table.',
+      'The bottle is empty.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'kitchen', phonetic: '/ˈkɪtʃɪn/', meaning: '厨房' },
+      { word: 'refrigerator', phonetic: '/rɪˈfrɪdʒəreɪtə/', meaning: '冰箱' },
+      { word: 'electric', phonetic: '/ɪˈlektrɪk/', meaning: '电的' },
+      { word: 'cooker', phonetic: '/ˈkʊkə/', meaning: '炉灶' },
+      { word: 'empty', phonetic: '/ˈempti/', meaning: '空的' },
+      { word: 'right', phonetic: '/raɪt/', meaning: '右边' },
+      { word: 'left', phonetic: '/left/', meaning: '左边' },
+      { word: 'middle', phonetic: '/ˈmɪdl/', meaning: '中间' }
+    ],
+    notes: [
+      '"on the right/left" 在右边/左边。',
+      '"in the middle of" 在……中间。',
+      '"There is + 单数名词 + 地点" 某处有某物。'
+    ],
+    tags: ['There be', '方位介词'],
+    difficulty: 1,
+    summary: '描述厨房里的物品及其位置。',
+    summaryEn: 'Describe items in the kitchen and their locations.',
+  },
+  {
+    id: 58,
+    title: 'Mrs. Smith\'s living room',
+    titleCn: '史密斯太太的客厅',
+    text: [
+      'Mrs. Smith\'s living room is large.',
+      'There is a television in the room.',
+      'The television is near the window.',
+      'There are some magazines on the television.',
+      'There is a table in the room.',
+      'There are some newspapers on the table.',
+      'There are some armchairs in the room.',
+      'The armchairs are near the table.',
+      'There is a stereo in the room.',
+      'The stereo is near the door.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'living room', phonetic: '/ˈlɪvɪŋ ruːm/', meaning: '客厅' },
+      { word: 'television', phonetic: '/ˈtelɪvɪʒn/', meaning: '电视' },
+      { word: 'magazine', phonetic: '/ˌmæɡəˈziːn/', meaning: '杂志' },
+      { word: 'armchair', phonetic: '/ˈɑːmtʃeə/', meaning: '扶手椅' },
+      { word: 'stereo', phonetic: '/ˈsteriəʊ/', meaning: '立体音响' },
+      { word: 'near', phonetic: '/nɪə/', meaning: '靠近' },
+      { word: 'door', phonetic: '/dɔː/', meaning: '门' },
+      { word: 'window', phonetic: '/ˈwɪndəʊ/', meaning: '窗户' }
+    ],
+    notes: [
+      '"near the window" 靠近窗户。',
+      'There are + 复数名词 + 地点。'
+    ],
+    tags: ['There be复数', '客厅物品'],
+    difficulty: 1,
+    summary: '描述客厅里的物品及其位置。',
+    summaryEn: 'Describe items in the living room and their locations.',
+  },
+  {
+    id: 59,
+    title: 'Come in, Amy',
+    titleCn: '进来，艾米',
+    text: [
+      'Come in, Amy.',
+      'Shut the door, please.',
+      'This bedroom\'s very untidy.',
+      'Open the window and air the room.',
+      'Then put these clothes in the wardrobe.',
+      'Then make the bed.',
+      'Dust the dressing table.',
+      'Then sweep the floor.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'shut', phonetic: '/ʃʌt/', meaning: '关上' },
+      { word: 'bedroom', phonetic: '/ˈbedruːm/', meaning: '卧室' },
+      { word: 'untidy', phonetic: '/ʌnˈtaɪdi/', meaning: '不整洁的' },
+      { word: 'air', phonetic: '/eə/', meaning: '通风' },
+      { word: 'clothes', phonetic: '/kləʊðz/', meaning: '衣服' },
+      { word: 'wardrobe', phonetic: '/ˈwɔːdrəʊb/', meaning: '衣柜' },
+      { word: 'dust', phonetic: '/dʌst/', meaning: '除尘' },
+      { word: 'sweep', phonetic: '/swiːp/', meaning: '扫' },
+      { word: 'floor', phonetic: '/flɔː/', meaning: '地板' }
+    ],
+    notes: [
+      '"make the bed" 整理床铺。',
+      '"air the room" 给房间通风。',
+      '这些都是祈使句，省略了主语you。'
+    ],
+    tags: ['祈使句', '家务'],
+    difficulty: 1,
+    summary: '艾米整理卧室的一系列家务指令。',
+    summaryEn: 'Amy receives a series of housework instructions for tidying the bedroom.',
+  },
+  {
+    id: 60,
+    title: 'Which dress?',
+    titleCn: '哪条裙子？',
+    text: [
+      'Which dress does Susan like?',
+      'She likes the blue one.',
+      'Which one?',
+      'The one in the shop window.',
+      'She doesn\'t like the green one.',
+      'She likes the blue one.',
+      'Do you like this dress?',
+      'I don\'t like the colour.',
+      'What colour is it?',
+      'It\'s blue.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'dress', phonetic: '/dres/', meaning: '裙子' },
+      { word: 'blue', phonetic: '/bluː/', meaning: '蓝色的' },
+      { word: 'green', phonetic: '/ɡriːn/', meaning: '绿色的' },
+      { word: 'colour', phonetic: '/ˈkʌlə/', meaning: '颜色' },
+      { word: 'shop', phonetic: '/ʃɒp/', meaning: '商店' },
+      { word: 'window', phonetic: '/ˈwɪndəʊ/', meaning: '窗户' }
+    ],
+    notes: [
+      '"Which dress does Susan like?" 一般现在时第三人称单数疑问句。',
+      '"the one in the shop window" 商店橱窗里的那件。'
+    ],
+    tags: ['一般现在时', '颜色'],
+    difficulty: 1,
+    summary: '讨论喜欢哪条裙子和颜色。',
+    summaryEn: 'Discussing which dress and colour Susan likes.',
+  },
+  {
+    id: 61,
+    title: 'A fine day',
+    titleCn: '晴朗的一天',
+    text: [
+      'It is a fine day today.',
+      'There are some clouds in the sky, but the sun is shining.',
+      'Mr. Jones is with his family.',
+      'They are walking over the bridge.',
+      'There are some boats on the river.',
+      'Mr. Jones and his wife are looking at them.',
+      'Sally is looking at a big ship.',
+      'The ship is going under the bridge.',
+      'Tim is looking at an aeroplane.',
+      'The aeroplane is flying over the river.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'cloud', phonetic: '/klaʊd/', meaning: '云' },
+      { word: 'shine', phonetic: '/ʃaɪn/', meaning: '照耀' },
+      { word: 'bridge', phonetic: '/brɪdʒ/', meaning: '桥' },
+      { word: 'boat', phonetic: '/bəʊt/', meaning: '小船' },
+      { word: 'ship', phonetic: '/ʃɪp/', meaning: '大船' },
+      { word: 'river', phonetic: '/ˈrɪvə/', meaning: '河流' },
+      { word: 'fly', phonetic: '/flaɪ/', meaning: '飞' },
+      { word: 'over', phonetic: '/ˈəʊvə/', meaning: '在……上方' }
+    ],
+    notes: [
+      '现在进行时：be + doing。',
+      '"over the bridge" 在桥上。',
+      '"under the bridge" 在桥下。',
+      '"flying over the river" 在河上飞。'
+    ],
+    tags: ['现在进行时', '方位'],
+    difficulty: 1,
+    summary: '描述一个晴朗的日子里琼斯一家在桥上看到的景象。',
+    summaryEn: 'Describe what the Jones family sees on a fine day on the bridge.',
+  },
+  {
+    id: 62,
+    title: 'What are they doing?',
+    titleCn: '他们在做什么？',
+    text: [
+      'What are the children doing?',
+      'They\'re playing in the garden.',
+      'What is the dog doing?',
+      'It\'s sleeping under the tree.',
+      'What are the women doing?',
+      'They\'re waiting for the bus.',
+      'What is the man doing?',
+      'He\'s reading a newspaper.',
+      'What are the girls doing?',
+      'They\'re singing.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'play', phonetic: '/pleɪ/', meaning: '玩' },
+      { word: 'sleep', phonetic: '/sliːp/', meaning: '睡觉' },
+      { word: 'wait', phonetic: '/weɪt/', meaning: '等待' },
+      { word: 'read', phonetic: '/riːd/', meaning: '读' },
+      { word: 'sing', phonetic: '/sɪŋ/', meaning: '唱' },
+      { word: 'bus', phonetic: '/bʌs/', meaning: '公共汽车' }
+    ],
+    notes: [
+      '现在进行时疑问句：What + be + 主语 + doing?',
+      '"waiting for" 等待……。'
+    ],
+    tags: ['现在进行时', '疑问句'],
+    difficulty: 1,
+    summary: '用现在进行时描述各种正在进行的动作。',
+    summaryEn: 'Describe various ongoing actions using the present continuous tense.',
+  },
+  {
+    id: 63,
+    title: 'A card from Jimmy',
+    titleCn: '吉米寄来的明信片',
+    text: [
+      'Jimmy\'s in bed.',
+      'His mother is looking at his report card.',
+      '"Why are you looking at it?" Jimmy asks.',
+      '"I\'m looking at your report card," his mother says.',
+      '"You have very bad marks in every subject!"',
+      '"I know," says Jimmy. "But look at the other side!"',
+      '"There are no marks on the other side," says his mother.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'report card', phonetic: '/rɪˈpɔːt kɑːd/', meaning: '成绩单' },
+      { word: 'mark', phonetic: '/mɑːk/', meaning: '分数' },
+      { word: 'subject', phonetic: '/ˈsʌbdʒɪkt/', meaning: '科目' },
+      { word: 'side', phonetic: '/saɪd/', meaning: '面' },
+      { word: 'other', phonetic: '/ˈʌðə/', meaning: '其他的' },
+      { word: 'bad', phonetic: '/bæd/', meaning: '差的' },
+      { word: 'every', phonetic: '/ˈevri/', meaning: '每个' }
+    ],
+    notes: [
+      '"in bed" 在床上（睡觉/休息）。',
+      '"every subject" 每门科目。',
+      '注意现在进行时的问答。'
+    ],
+    tags: ['现在进行时', '幽默故事'],
+    difficulty: 2,
+    summary: '吉米的成绩单两面——正面全是差分，反面什么都没有。',
+    summaryEn: 'Jimmy\'s report card — bad marks on one side, nothing on the other.',
+  },
+  {
+    id: 64,
+    title: 'The Swedish rock band',
+    titleCn: '瑞典摇滚乐队',
+    text: [
+      'There is a rock concert tonight.',
+      'The Swedish rock band is playing.',
+      'They are very popular.',
+      'Many young people are going to the concert.',
+      'The band is playing their new songs.',
+      'Everyone is enjoying the music.',
+      'The singer is singing very well.',
+      'The guitarist is playing brilliantly.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'rock', phonetic: '/rɒk/', meaning: '摇滚' },
+      { word: 'concert', phonetic: '/ˈkɒnsət/', meaning: '音乐会' },
+      { word: 'band', phonetic: '/bænd/', meaning: '乐队' },
+      { word: 'popular', phonetic: '/ˈpɒpjələ/', meaning: '受欢迎的' },
+      { word: 'singer', phonetic: '/ˈsɪŋə/', meaning: '歌手' },
+      { word: 'guitarist', phonetic: '/ɡɪˈtɑːrɪst/', meaning: '吉他手' },
+      { word: 'music', phonetic: '/ˈmjuːzɪk/', meaning: '音乐' },
+      { word: 'brilliantly', phonetic: '/ˈbrɪliəntli/', meaning: '出色地' }
+    ],
+    notes: [
+      '"There is" 表示有。',
+      '"be going to" 去做……。',
+      '"enjoying the music" 享受音乐。'
+    ],
+    tags: ['现在进行时', '音乐'],
+    difficulty: 2,
+    summary: '描述一场瑞典摇滚乐队的音乐会。',
+    summaryEn: 'Describe a Swedish rock band concert.',
+  },
+  {
+    id: 65,
+    title: 'SOS',
+    titleCn: '求救信号',
+    text: [
+      'When did the plane land?',
+      'It landed at midnight.',
+      'Who was at the airport?',
+      'A large crowd of people was at the airport.',
+      'Why were they there?',
+      'They were waiting for the plane.',
+      'What happened?',
+      'The plane landed safely.',
+      'Everyone was relieved.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'land', phonetic: '/lænd/', meaning: '着陆' },
+      { word: 'midnight', phonetic: '/ˈmɪdnaɪt/', meaning: '午夜' },
+      { word: 'airport', phonetic: '/ˈeəpɔːt/', meaning: '机场' },
+      { word: 'crowd', phonetic: '/kraʊd/', meaning: '人群' },
+      { word: 'safely', phonetic: '/ˈseɪfli/', meaning: '安全地' },
+      { word: 'relieved', phonetic: '/rɪˈliːvd/', meaning: '宽慰的' },
+      { word: 'happen', phonetic: '/ˈhæpən/', meaning: '发生' }
+    ],
+    notes: [
+      '一般过去时：landed, was, were, happened。',
+      '"a large crowd of" 一大群。',
+      '"waiting for" 等待。'
+    ],
+    tags: ['一般过去时', '机场'],
+    difficulty: 2,
+    summary: '描述飞机安全着陆，焦急等待的人群终于松了口气。',
+    summaryEn: 'A plane lands safely at midnight, relieving the anxious crowd.',
+  },
+  {
+    id: 66,
+    title: 'A game of cricket',
+    titleCn: '一场板球赛',
+    text: [
+      'We played cricket yesterday.',
+      'It was a beautiful day.',
+      'The sun was shining and there was no wind.',
+      'Our team batted first.',
+      'I scored fifty runs.',
+      'My friend scored thirty.',
+      'We were very pleased.',
+      'The other team played well too.',
+      'But we won the match.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'cricket', phonetic: '/ˈkrɪkɪt/', meaning: '板球' },
+      { word: 'yesterday', phonetic: '/ˈjestədeɪ/', meaning: '昨天' },
+      { word: 'team', phonetic: '/tiːm/', meaning: '队伍' },
+      { word: 'bat', phonetic: '/bæt/', meaning: '击球' },
+      { word: 'score', phonetic: '/skɔː/', meaning: '得分' },
+      { word: 'runs', phonetic: '/rʌnz/', meaning: '跑分' },
+      { word: 'win', phonetic: '/wɪn/', meaning: '赢' },
+      { word: 'match', phonetic: '/mætʃ/', meaning: '比赛' }
+    ],
+    notes: [
+      '一般过去时：played, was, scored, won。',
+      '"batted first" 先击球。',
+      '"won the match" 赢了比赛。win-won-won。'
+    ],
+    tags: ['一般过去时', '运动'],
+    difficulty: 2,
+    summary: '描述昨天的一场板球赛——我们队赢了。',
+    summaryEn: 'Describe a cricket match we won yesterday.',
+  },
+  {
+    id: 67,
+    title: 'The weekend',
+    titleCn: '周末',
+    text: [
+      'What did you do last weekend?',
+      'I went to the countryside.',
+      'Did you have a good time?',
+      'Yes, I did. The weather was wonderful.',
+      'What did you see?',
+      'I saw some beautiful flowers and birds.',
+      'Did you take any photos?',
+      'Yes, I took a lot of photos.',
+      'What did you eat?',
+      'I ate some local food. It was delicious.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'countryside', phonetic: '/ˈkʌntrisaɪd/', meaning: '乡村' },
+      { word: 'wonderful', phonetic: '/ˈwʌndəfl/', meaning: '精彩的' },
+      { word: 'flower', phonetic: '/ˈflaʊə/', meaning: '花' },
+      { word: 'photo', phonetic: '/ˈfəʊtəʊ/', meaning: '照片' },
+      { word: 'local', phonetic: '/ˈləʊkl/', meaning: '当地的' },
+      { word: 'delicious', phonetic: '/dɪˈlɪʃəs/', meaning: '美味的' },
+      { word: 'eat', phonetic: '/iːt/', meaning: '吃' },
+      { word: 'take', phonetic: '/teɪk/', meaning: '拍（照）' }
+    ],
+    notes: [
+      '"What did you do?" 你做了什么？一般过去时疑问句。',
+      '"Did you...?" 一般过去时一般疑问句。',
+      '"went" 是go的过去式，"ate" 是eat的过去式。'
+    ],
+    tags: ['一般过去时', '周末活动'],
+    difficulty: 2,
+    summary: '讨论上周末的活动——去乡村、拍照、品尝当地美食。',
+    summaryEn: 'Discuss weekend activities — countryside trip, photos, local food.',
+  },
+  {
+    id: 68,
+    title: 'A car race',
+    titleCn: '一场汽车比赛',
+    text: [
+      'There was a car race near our town last year.',
+      'It was very exciting.',
+      'A lot of people watched it.',
+      'My friend and I went to see it.',
+      'We arrived early and found good seats.',
+      'Five cars took part in the race.',
+      'One car was very fast.',
+      'It won the race.',
+      'The driver was very happy.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'race', phonetic: '/reɪs/', meaning: '比赛' },
+      { word: 'exciting', phonetic: '/ɪkˈsaɪtɪŋ/', meaning: '令人兴奋的' },
+      { word: 'watch', phonetic: '/wɒtʃ/', meaning: '观看' },
+      { word: 'arrive', phonetic: '/əˈraɪv/', meaning: '到达' },
+      { word: 'early', phonetic: '/ˈɜːli/', meaning: '早' },
+      { word: 'driver', phonetic: '/ˈdraɪvə/', meaning: '司机' },
+      { word: 'fast', phonetic: '/fɑːst/', meaning: '快的' },
+      { word: 'take part in', phonetic: '/teɪk pɑːt ɪn/', meaning: '参加' }
+    ],
+    notes: [
+      '"There was" 过去时的There be。',
+      '"took part in" 参加。take-took-taken。',
+      '"found" 是find的过去式。'
+    ],
+    tags: ['一般过去时', '比赛'],
+    difficulty: 2,
+    summary: '描述去年的一场激动人心的汽车比赛。',
+    summaryEn: 'Describe an exciting car race near our town last year.',
+  },
+  {
+    id: 69,
+    title: 'He says... that...',
+    titleCn: '他说……',
+    text: [
+      'What does he say?',
+      'He says that he feels tired.',
+      'What does she say?',
+      'She says that she feels ill.',
+      'What do they say?',
+      'They say that they feel cold.',
+      'What do you say?',
+      'I say that I feel hungry.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'say', phonetic: '/seɪ/', meaning: '说' },
+      { word: 'feel', phonetic: '/fiːl/', meaning: '感觉' },
+      { word: 'tired', phonetic: '/taɪəd/', meaning: '累的' },
+      { word: 'ill', phonetic: '/ɪl/', meaning: '生病的' },
+      { word: 'cold', phonetic: '/kəʊld/', meaning: '冷的' },
+      { word: 'hungry', phonetic: '/ˈhʌŋɡri/', meaning: '饿的' }
+    ],
+    notes: [
+      '间接引语：He says that...',
+      '"that" 可以省略。',
+      '注意时态一致：says + feels（都用一般现在时）。'
+    ],
+    tags: ['间接引语', '宾语从句'],
+    difficulty: 2,
+    summary: '练习间接引语的基本结构。',
+    summaryEn: 'Practice the basic structure of indirect speech.',
+  },
+  {
+    id: 70,
+    title: 'He said... that...',
+    titleCn: '他说了……',
+    text: [
+      'What did he say?',
+      'He said that he felt tired.',
+      'What did she say?',
+      'She said that she felt ill.',
+      'What did they say?',
+      'They say that they felt cold.',
+      'What did you say?',
+      'I said that I felt hungry.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'said', phonetic: '/sed/', meaning: '说（过去式）' },
+      { word: 'felt', phonetic: '/felt/', meaning: '感觉（过去式）' },
+      { word: 'tired', phonetic: '/taɪəd/', meaning: '累的' },
+      { word: 'ill', phonetic: '/ɪl/', meaning: '生病的' },
+      { word: 'cold', phonetic: '/kəʊld/', meaning: '冷的' },
+      { word: 'hungry', phonetic: '/ˈhʌŋɡri/', meaning: '饿的' }
+    ],
+    notes: [
+      '间接引语过去时：He said that... felt...',
+      '时态后退：say→said, feel→felt。',
+      'said是say的过去式，felt是feel的过去式。'
+    ],
+    tags: ['间接引语', '时态后退'],
+    difficulty: 2,
+    summary: '练习过去时间的间接引语——时态需要后退。',
+    summaryEn: 'Practice indirect speech in the past — tense backshift.',
+  },
+  {
+    id: 71,
+    title: 'A famous clock',
+    titleCn: '一座著名的大钟',
+    text: [
+      'Big Ben is the name of the great clock in London.',
+      'It is in the tower of the Palace of Westminster.',
+      'The clock was named after Sir Benjamin Hall.',
+      'He was a very tall man.',
+      'The clock is very accurate.',
+      'It has rarely stopped.',
+      'Even when it has stopped, it starts again quickly.',
+      'Big Ben has become one of London\'s most famous landmarks.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'clock', phonetic: '/klɒk/', meaning: '钟' },
+      { word: 'tower', phonetic: '/ˈtaʊə/', meaning: '塔' },
+      { word: 'palace', phonetic: '/ˈpælɪs/', meaning: '宫殿' },
+      { word: 'accurate', phonetic: '/ˈækjərət/', meaning: '准确的' },
+      { word: 'rarely', phonetic: '/ˈreəli/', meaning: '很少' },
+      { word: 'landmark', phonetic: '/ˈlændmɑːk/', meaning: '地标' },
+      { word: 'named after', phonetic: '/neɪmd ˈɑːftə/', meaning: '以……命名' },
+      { word: 'Westminster', phonetic: '/ˈwestmɪnstə/', meaning: '威斯敏斯特' }
+    ],
+    notes: [
+      '"named after" 以……命名。',
+      '"has rarely stopped" 很很少停止。现在完成时。',
+      '"Even when" 即使当……。'
+    ],
+    tags: ['地标', '现在完成时'],
+    difficulty: 2,
+    summary: '介绍伦敦著名的大本钟——以本杰明·霍尔爵士命名的精准大钟。',
+    summaryEn: 'Introduce London\'s Big Ben — the accurate clock named after Sir Benjamin Hall.',
+  },
+  {
+    id: 72,
+    title: 'A car called Bluebird',
+    titleCn: '一辆叫蓝鸟的车',
+    text: [
+      'The racing car Bluebird was driven by Sir Malcolm Campbell.',
+      'It was a very fast car.',
+      'In 1935, Campbell drove it at over 300 miles per hour.',
+      'He broke the world speed record.',
+      'The car was painted blue.',
+      'It had a very powerful engine.',
+      'After the record, Campbell became very famous.',
+      'The car is now in a museum.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'racing', phonetic: '/ˈreɪsɪŋ/', meaning: '赛车' },
+      { word: 'drive', phonetic: '/draɪv/', meaning: '驾驶' },
+      { word: 'record', phonetic: '/ˈrekɔːd/', meaning: '记录' },
+      { word: 'speed', phonetic: '/spiːd/', meaning: '速度' },
+      { word: 'powerful', phonetic: '/ˈpaʊəfl/', meaning: '强大的' },
+      { word: 'engine', phonetic: '/ˈendʒɪn/', meaning: '发动机' },
+      { word: 'museum', phonetic: '/mjuˈziːəm/', meaning: '博物馆' },
+      { word: 'paint', phonetic: '/peɪnt/', meaning: '涂漆' }
+    ],
+    notes: [
+      '"driven by" 被……驾驶。过去分词表被动。',
+      '"at over 300 miles per hour" 以每小时300多英里的速度。',
+      '"broke the world speed record" 打破了世界速度纪录。'
+    ],
+    tags: ['被动语态', '赛车'],
+    difficulty: 2,
+    summary: '讲述马尔科姆·坎贝尔爵士驾驶蓝鸟赛车打破世界纪录的故事。',
+    summaryEn: 'The story of Sir Malcolm Campbell breaking the world speed record in Bluebird.',
+  },
+  {
+    id: 73,
+    title: 'The record-holder',
+    titleCn: '纪录保持者',
+    text: [
+      'Who is the record-holder?',
+      'A boy from Turkey holds the record.',
+      'He walked from Istanbul to London.',
+      'It took him three months.',
+      'He walked through seven countries.',
+      'He had no money and no food.',
+      'People gave him food and water along the way.',
+      'He was very tired when he arrived in London.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'record-holder', phonetic: '/ˈrekɔːd ˈhəʊldə/', meaning: '纪录保持者' },
+      { word: 'Turkey', phonetic: '/ˈtɜːki/', meaning: '土耳其' },
+      { word: 'Istanbul', phonetic: '/ˌɪstænˈbuːl/', meaning: '伊斯坦布尔' },
+      { word: 'month', phonetic: '/mʌnθ/', meaning: '月' },
+      { word: 'through', phonetic: '/θruː/', meaning: '穿过' },
+      { word: 'along', phonetic: '/əˈlɒŋ/', meaning: '沿着' },
+      { word: 'arrive', phonetic: '/əˈraɪv/', meaning: '到达' }
+    ],
+    notes: [
+      '"It took him three months" 花了他三个月。take表示花费时间。',
+      '"along the way" 沿途。',
+      '"from... to..." 从……到……。'
+    ],
+    tags: ['一般过去时', '旅行'],
+    difficulty: 2,
+    summary: '一个土耳其男孩从伊斯坦布尔走到伦敦，花了三个月。',
+    summaryEn: 'A boy from Turkey walked from Istanbul to London in three months.',
+  },
+  {
+    id: 74,
+    title: 'Out of the limelight',
+    titleCn: '远离聚光灯',
+    text: [
+      'A famous actress arrived at a small hotel.',
+      'She wanted a quiet room.',
+      'She didn\'t want anyone to know she was there.',
+      'But a young man recognized her.',
+      'He asked for her autograph.',
+      'The actress refused.',
+      'She said she was very tired.',
+      'She just wanted to be alone.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'actress', phonetic: '/ˈæktrɪs/', meaning: '女演员' },
+      { word: 'hotel', phonetic: '/həʊˈtel/', meaning: '旅馆' },
+      { word: 'quiet', phonetic: '/ˈkwaɪət/', meaning: '安静的' },
+      { word: 'recognize', phonetic: '/ˈrekəɡnaɪz/', meaning: '认出' },
+      { word: 'autograph', phonetic: '/ˈɔːtəɡrɑːf/', meaning: '亲笔签名' },
+      { word: 'refuse', phonetic: '/rɪˈfjuːz/', meaning: '拒绝' },
+      { word: 'alone', phonetic: '/əˈləʊn/', meaning: '独自的' },
+      { word: 'limelight', phonetic: '/ˈlaɪmlaɪt/', meaning: '聚光灯' }
+    ],
+    notes: [
+      '"Out of the limelight" 远离聚光灯/公众视线。',
+      '"ask for" 请求。',
+      '"wanted to be alone" 想独处。'
+    ],
+    tags: ['一般过去时', '名人'],
+    difficulty: 2,
+    summary: '一位著名女演员想在小旅馆安静休息，却被粉丝认出。',
+    summaryEn: 'A famous actress tries to rest quietly at a small hotel but is recognized.',
+  },
+  {
+    id: 75,
+    title: 'SOS',
+    titleCn: '求救信号',
+    text: [
+      'A woman was travelling alone in a boat.',
+      'The boat hit a rock and began to sink.',
+      'The woman sent an SOS signal.',
+      'A ship received the signal and changed course.',
+      'It arrived at the scene two hours later.',
+      'The woman was sitting on the boat when the ship found her.',
+      'She was very cold but still alive.',
+      'The ship rescued her.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'signal', phonetic: '/ˈsɪɡnəl/', meaning: '信号' },
+      { word: 'receive', phonetic: '/rɪˈsiːv/', meaning: '收到' },
+      { word: 'course', phonetic: '/kɔːs/', meaning: '航线' },
+      { word: 'scene', phonetic: '/siːn/', meaning: '现场' },
+      { word: 'rescue', phonetic: '/ˈreskjuː/', meaning: '营救' },
+      { word: 'alive', phonetic: '/əˈlaɪv/', meaning: '活着的' },
+      { word: 'sink', phonetic: '/sɪŋk/', meaning: '沉没' },
+      { word: 'rock', phonetic: '/rɒk/', meaning: '岩石' }
+    ],
+    notes: [
+      '"began to sink" 开始沉没。begin-began-began。',
+      '"changed course" 改变航线。',
+      '"was sitting" 过去进行时——她正坐着时被发现。'
+    ],
+    tags: ['过去进行时', '海上救援'],
+    difficulty: 2,
+    summary: '一位妇女的船触礁沉没，发求救信号后被营救。',
+    summaryEn: 'A woman\'s boat hits a rock and sinks; she sends SOS and is rescued.',
+  },
+  {
+    id: 76,
+    title: 'April Fools\' Day',
+    titleCn: '愚人节',
+    text: [
+      'It was April Fools\' Day.',
+      'The reporter on TV said that the spaghetti harvest was very good this year.',
+      'He showed pictures of people picking spaghetti from trees.',
+      'Many people believed the story.',
+      'They called the TV station to ask how to grow spaghetti trees.',
+      'The reporter told them to put spaghetti in tomato sauce.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'reporter', phonetic: '/rɪˈpɔːtə/', meaning: '记者' },
+      { word: 'spaghetti', phonetic: '/spəˈɡeti/', meaning: '意大利面' },
+      { word: 'harvest', phonetic: '/ˈhɑːvɪst/', meaning: '收获' },
+      { word: 'believe', phonetic: '/bɪˈliːv/', meaning: '相信' },
+      { word: 'station', phonetic: '/ˈsteɪʃn/', meaning: '电视台' },
+      { word: 'sauce', phonetic: '/sɔːs/', meaning: '酱' },
+      { word: 'grow', phonetic: '/ɡrəʊ/', meaning: '种植' },
+      { word: 'pick', phonetic: '/pɪk/', meaning: '摘' }
+    ],
+    notes: [
+      'April Fools\' Day 愚人节（4月1日）。',
+      '"believed the story" 相信了这个故事。',
+      '"how to grow" 如何种植。疑问词+不定式。'
+    ],
+    tags: ['愚人节', '幽默故事'],
+    difficulty: 2,
+    summary: '愚人节电视新闻恶作剧——说意大利面从树上收获。',
+    summaryEn: 'April Fools\' Day TV hoax — spaghetti harvest from trees.',
+  },
+  {
+    id: 77,
+    title: 'A successful operation',
+    titleCn: '一次成功的手术',
+    text: [
+      'Doctors at a hospital in London performed a very unusual operation.',
+      'They separated two conjoined twins.',
+      'The operation lasted twelve hours.',
+      'Both twins survived.',
+      'The parents were very happy.',
+      'The doctors were very pleased with the result.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'hospital', phonetic: '/ˈhɒspɪtl/', meaning: '医院' },
+      { word: 'perform', phonetic: '/pəˈfɔːm/', meaning: '执行' },
+      { word: 'unusual', phonetic: '/ʌnˈjuːʒuəl/', meaning: '不寻常的' },
+      { word: 'separate', phonetic: '/ˈsepəreɪt/', meaning: '分离' },
+      { word: 'conjoined', phonetic: '/kənˈdʒɔɪnd/', meaning: '连体的' },
+      { word: 'twins', phonetic: '/twɪnz/', meaning: '双胞胎' },
+      { word: 'survive', phonetic: '/səˈvaɪv/', meaning: '存活' },
+      { word: 'last', phonetic: '/lɑːst/', meaning: '持续' }
+    ],
+    notes: [
+      '"performed an operation" 做手术。',
+      '"lasted twelve hours" 持续了12小时。',
+      '"pleased with" 对……满意。'
+    ],
+    tags: ['医学', '一般过去时'],
+    difficulty: 2,
+    summary: '伦敦医院成功分离连体双胞胎的手术。',
+    summaryEn: 'London doctors successfully separate conjoined twins.',
+  },
+  {
+    id: 78,
+    title: 'The last one?',
+    titleCn: '最后一支？',
+    text: [
+      'I enjoy smoking very much.',
+      'My wife wants me to stop smoking.',
+      'She says it\'s bad for my health.',
+      'I\'ve tried to stop several times.',
+      'But I always start again.',
+      'This is my last cigarette.',
+      'I\'m going to stop after this one.',
+      'I promise!'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'smoke', phonetic: '/sməʊk/', meaning: '吸烟' },
+      { word: 'cigarette', phonetic: '/ˌsɪɡəˈret/', meaning: '香烟' },
+      { word: 'stop', phonetic: '/stɒp/', meaning: '停止' },
+      { word: 'health', phonetic: '/helθ/', meaning: '健康' },
+      { word: 'several', phonetic: '/ˈsevrəl/', meaning: '几个' },
+      { word: 'promise', phonetic: '/ˈprɒmɪs/', meaning: '承诺' },
+      { word: 'try', phonetic: '/traɪ/', meaning: '尝试' },
+      { word: 'bad', phonetic: '/bæd/', meaning: '坏的' }
+    ],
+    notes: [
+      '"enjoy doing" 喜欢做某事。',
+      '"stop doing" 停止做某事。',
+      '"be bad for" 对……有害。',
+      '"I promise!" 我保证！'
+    ],
+    tags: ['戒烟', 'enjoy/stop+doing'],
+    difficulty: 2,
+    summary: '一个烟民试图戒烟的故事——每次都说是最后一支。',
+    summaryEn: 'A smoker tries to quit — always saying "this is the last one."',
+  },
+  {
+    id: 79,
+    title: 'By air',
+    titleCn: '乘飞机',
+    text: [
+      'I used to travel by air a great deal.',
+      'I used to be afraid of flying.',
+      'But I\'m not afraid any more.',
+      'The plane took off and everything was fine.',
+      'Then there was a loud noise.',
+      'The plane began to shake.',
+      'The captain told us not to worry.',
+      'He said it was just a bird hitting the engine.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'used to', phonetic: '/juːst tuː/', meaning: '过去常常' },
+      { word: 'afraid', phonetic: '/əˈfreɪd/', meaning: '害怕的' },
+      { word: 'take off', phonetic: '/teɪk ɒf/', meaning: '起飞' },
+      { word: 'noise', phonetic: '/nɔɪz/', meaning: '噪音' },
+      { word: 'shake', phonetic: '/ʃeɪk/', meaning: '摇晃' },
+      { word: 'captain', phonetic: '/ˈkæptɪn/', meaning: '机长' },
+      { word: 'worry', phonetic: '/ˈwʌri/', meaning: '担心' },
+      { word: 'engine', phonetic: '/ˈendʒɪn/', meaning: '发动机' }
+    ],
+    notes: [
+      '"used to" 过去常常（现在不了）。',
+      '"be afraid of" 害怕……。',
+      '"told us not to worry" 告诉我们不要担心。不定式的否定。'
+    ],
+    tags: ['used to', '飞行经历'],
+    difficulty: 2,
+    summary: '描述一次飞行中遇到鸟击发动机的惊险经历。',
+    summaryEn: 'A frightening flight experience when a bird hits the engine.',
+  },
+  {
+    id: 80,
+    title: 'The Crystal Palace',
+    titleCn: '水晶宫',
+    text: [
+      'The Crystal Palace was built in 1851.',
+      'It was designed by Joseph Paxton.',
+      'It was made of iron and glass.',
+      'The palace was enormous.',
+      'It was bigger than any building in the world.',
+      'Six million people visited it.',
+      'The palace was moved to South London after the exhibition.',
+      'It burned down in 1936.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'crystal', phonetic: '/ˈkrɪstl/', meaning: '水晶' },
+      { word: 'palace', phonetic: '/ˈpælɪs/', meaning: '宫殿' },
+      { word: 'design', phonetic: '/dɪˈzaɪn/', meaning: '设计' },
+      { word: 'iron', phonetic: '/ˈaɪən/', meaning: '铁' },
+      { word: 'enormous', phonetic: '/ɪˈnɔːməs/', meaning: '巨大的' },
+      { word: 'exhibition', phonetic: '/ˌeksɪˈbɪʃn/', meaning: '展览' },
+      { word: 'burn down', phonetic: '/bɜːn daʊn/', meaning: '烧毁' },
+      { word: 'million', phonetic: '/ˈmɪljən/', meaning: '百万' }
+    ],
+    notes: [
+      '"was built" 被建造。被动语态。',
+      '"made of" 由……制成。',
+      '"bigger than" 比……大。比较级。'
+    ],
+    tags: ['被动语态', '历史建筑'],
+    difficulty: 2,
+    summary: '介绍1851年建造的水晶宫——比当时任何建筑都大。',
+    summaryEn: 'Introduce the Crystal Palace built in 1851 — bigger than any building of its time.',
+  },
+  {
+    id: 81,
+    title: 'Escape',
+    titleCn: '逃脱',
+    text: [
+      'The prisoner escaped from jail.',
+      'He climbed over the wall.',
+      'A guard saw him and shouted.',
+      'The prisoner ran across the field.',
+      'He jumped into a river and swam to the other side.',
+      'He ran into a forest and hid there.',
+      'The police searched for him for three days.',
+      'But they never found him.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'prisoner', phonetic: '/ˈprɪznə/', meaning: '囚犯' },
+      { word: 'escape', phonetic: '/ɪˈskeɪp/', meaning: '逃脱' },
+      { word: 'jail', phonetic: '/dʒeɪl/', meaning: '监狱' },
+      { word: 'guard', phonetic: '/ɡɑːd/', meaning: '守卫' },
+      { word: 'shout', phonetic: '/ʃaʊt/', meaning: '喊叫' },
+      { word: 'field', phonetic: '/fiːld/', meaning: '田野' },
+      { word: 'forest', phonetic: '/ˈfɒrɪst/', meaning: '森林' },
+      { word: 'hide', phonetic: '/haɪd/', meaning: '躲藏' },
+      { word: 'search', phonetic: '/sɜːtʃ/', meaning: '搜寻' }
+    ],
+    notes: [
+      '"escaped from" 从……逃脱。',
+      '"climbed over" 爬过。',
+      '"searched for" 搜寻。'
+    ],
+    tags: ['一般过去时', '故事'],
+    difficulty: 2,
+    summary: '一个囚犯越狱逃跑的故事。',
+    summaryEn: 'A story of a prisoner escaping from jail.',
+  },
+  {
+    id: 82,
+    title: 'Monster or fish?',
+    titleCn: '是怪物还是鱼？',
+    text: [
+      'Fishermen often tell strange stories.',
+      'Some say they have seen monsters in the sea.',
+      'A fisherman in Scotland caught a strange fish recently.',
+      'It was very large and had a peculiar shape.',
+      'Scientists examined it carefully.',
+      'They said it was a very rare type of fish.',
+      'It was not a monster at all.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'fisherman', phonetic: '/ˈfɪʃəmən/', meaning: '渔夫' },
+      { word: 'monster', phonetic: '/ˈmɒnstə/', meaning: '怪物' },
+      { word: 'Scotland', phonetic: '/ˈskɒtlənd/', meaning: '苏格兰' },
+      { word: 'peculiar', phonetic: '/pɪˈkjuːliə/', meaning: '奇怪的' },
+      { word: 'shape', phonetic: '/ʃeɪp/', meaning: '形状' },
+      { word: 'examine', phonetic: '/ɪɡˈzæmɪn/', meaning: '检查' },
+      { word: 'carefully', phonetic: '/ˈkeəfəli/', meaning: '仔细地' },
+      { word: 'rare', phonetic: '/reə/', meaning: '罕见的' }
+    ],
+    notes: [
+      '"tell strange stories" 讲奇怪的故事。',
+      '"not... at all" 一点也不。',
+      '"a rare type of" 一种罕见的……。'
+    ],
+    tags: ['一般过去时', '科学发现'],
+    difficulty: 2,
+    summary: '渔夫捕到的"怪物"其实是一种罕见的鱼。',
+    summaryEn: 'A "monster" caught by a fisherman turns out to be a rare fish.',
+  },
+  {
+    id: 83,
+    title: 'After the elections',
+    titleCn: '选举之后',
+    text: [
+      'The elections were held last week.',
+      'A new government was formed.',
+      'The old prime minister resigned.',
+      'He had been in power for ten years.',
+      'The new prime minister is a young man.',
+      'He promised to reduce taxes.',
+      'He also promised to improve education.',
+      'People are hopeful about the future.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'election', phonetic: '/ɪˈlekʃn/', meaning: '选举' },
+      { word: 'government', phonetic: '/ˈɡʌvənmənt/', meaning: '政府' },
+      { word: 'prime minister', phonetic: '/praɪm ˈmɪnɪstə/', meaning: '首相' },
+      { word: 'resign', phonetic: '/rɪˈzaɪn/', meaning: '辞职' },
+      { word: 'power', phonetic: '/ˈpaʊə/', meaning: '权力' },
+      { word: 'reduce', phonetic: '/rɪˈdjuːs/', meaning: '减少' },
+      { word: 'improve', phonetic: '/ɪmˈpruːv/', meaning: '改善' },
+      { word: 'hopeful', phonetic: '/ˈhəʊpfl/', meaning: '充满希望的' }
+    ],
+    notes: [
+      '"were held" 被举行。被动语态。',
+      '"in power" 执政。',
+      '"promised to" 承诺做……。'
+    ],
+    tags: ['政治', '被动语态'],
+    difficulty: 3,
+    summary: '选举后新政府成立，新首相承诺减税和改善教育。',
+    summaryEn: 'After elections, a new government is formed with promises of tax cuts and education.',
+  },
+  {
+    id: 84,
+    title: 'On strike',
+    titleCn: '罢工',
+    text: [
+      'The bus drivers are on strike.',
+      'They want higher wages.',
+      'The strike has lasted for two days.',
+      'People have to walk to work.',
+      'Some people ride bicycles.',
+      'The government is trying to solve the problem.',
+      'The drivers say they will not go back to work until their demands are met.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'strike', phonetic: '/straɪk/', meaning: '罢工' },
+      { word: 'driver', phonetic: '/ˈdraɪvə/', meaning: '司机' },
+      { word: 'wage', phonetic: '/weɪdʒ/', meaning: '工资' },
+      { word: 'bicycle', phonetic: '/ˈbaɪsɪkl/', meaning: '自行车' },
+      { word: 'solve', phonetic: '/sɒlv/', meaning: '解决' },
+      { word: 'demand', phonetic: '/dɪˈmɑːnd/', meaning: '要求' },
+      { word: 'until', phonetic: '/ənˈtɪl/', meaning: '直到' },
+      { word: 'ride', phonetic: '/raɪd/', meaning: '骑' }
+    ],
+    notes: [
+      '"on strike" 罢工中。',
+      '"have to" 不得不。',
+      '"not... until" 直到……才。'
+    ],
+    tags: ['社会新闻', '现在完成时'],
+    difficulty: 2,
+    summary: '公交司机罢工要求加薪，人们不得不步行上班。',
+    summaryEn: 'Bus drivers go on strike for higher wages; people have to walk to work.',
+  },
+  {
+    id: 85,
+    title: 'Never too old to learn',
+    titleCn: '活到老学到老',
+    text: [
+      'A man is never too old to learn.',
+      'My grandfather started learning English at the age of seventy.',
+      'He goes to classes every week.',
+      'He reads English books and watches English films.',
+      'He can now have simple conversations in English.',
+      'He says it keeps his mind active.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'grandfather', phonetic: '/ˈɡrænfɑːðə/', meaning: '祖父' },
+      { word: 'age', phonetic: '/eɪdʒ/', meaning: '年龄' },
+      { word: 'class', phonetic: '/klɑːs/', meaning: '课程' },
+      { word: 'conversation', phonetic: '/ˌkɒnvəˈseɪʃn/', meaning: '对话' },
+      { word: 'simple', phonetic: '/ˈsɪmpl/', meaning: '简单的' },
+      { word: 'active', phonetic: '/ˈæktɪv/', meaning: '活跃的' },
+      { word: 'mind', phonetic: '/maɪnd/', meaning: '头脑' },
+      { word: 'learn', phonetic: '/lɜːn/', meaning: '学习' }
+    ],
+    notes: [
+      '"never too old to learn" 活到老学到老。',
+      '"at the age of" 在……岁时。',
+      '"keeps his mind active" 保持头脑活跃。'
+    ],
+    tags: ['学习', '人生哲理'],
+    difficulty: 2,
+    summary: '一位老人70岁开始学英语的故事——活到老学到老。',
+    summaryEn: 'A grandfather starts learning English at 70 — never too old to learn.',
+  },
+  {
+    id: 86,
+    title: 'Out of control',
+    titleCn: '失控',
+    text: [
+      'The car went out of control.',
+      'It was going very fast down the hill.',
+      'The driver tried to stop it.',
+      'But the brakes didn\'t work.',
+      'The car hit a tree and stopped.',
+      'The driver was not hurt.',
+      'He was very lucky.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'control', phonetic: '/kənˈtrəʊl/', meaning: '控制' },
+      { word: 'hill', phonetic: '/hɪl/', meaning: '小山' },
+      { word: 'brake', phonetic: '/breɪk/', meaning: '刹车' },
+      { word: 'work', phonetic: '/wɜːk/', meaning: '工作/运转' },
+      { word: 'hurt', phonetic: '/hɜːt/', meaning: '受伤' },
+      { word: 'lucky', phonetic: '/ˈlʌki/', meaning: '幸运的' },
+      { word: 'hit', phonetic: '/hɪt/', meaning: '撞' },
+      { word: 'stop', phonetic: '/stɒp/', meaning: '停' }
+    ],
+    notes: [
+      '"out of control" 失控。',
+      '"go down the hill" 下山。',
+      '"didn\'t work" 不工作/失灵。'
+    ],
+    tags: ['一般过去时', '事故'],
+    difficulty: 2,
+    summary: '一辆车失控冲下山坡，撞树停下，司机幸运未受伤。',
+    summaryEn: 'A car goes out of control down a hill but the driver is unhurt.',
+  },
+  {
+    id: 87,
+    title: 'A perfect alibi',
+    titleCn: '完美的不在场证明',
+    text: [
+      'The man said he was at the cinema at the time of the crime.',
+      'He said he was watching a film.',
+      'The police checked his story.',
+      'They went to the cinema and asked the manager.',
+      'The manager said the cinema was closed that night.',
+      'The man\'s alibi was not true.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'alibi', phonetic: '/ˈælɪbaɪ/', meaning: '不在场证明' },
+      { word: 'crime', phonetic: '/kraɪm/', meaning: '犯罪' },
+      { word: 'cinema', phonetic: '/ˈsɪnəmə/', meaning: '电影院' },
+      { word: 'check', phonetic: '/tʃek/', meaning: '核实' },
+      { word: 'manager', phonetic: '/ˈmænɪdʒə/', meaning: '经理' },
+      { word: 'closed', phonetic: '/kləʊzd/', meaning: '关闭的' },
+      { word: 'story', phonetic: '/ˈstɔːri/', meaning: '说辞' },
+      { word: 'true', phonetic: '/truː/', meaning: '真实的' }
+    ],
+    notes: [
+      '"at the time of" 在……的时候。',
+      '"checked his story" 核实了他的说辞。',
+      '"was not true" 不是真的。'
+    ],
+    tags: ['间接引语', '侦探故事'],
+    difficulty: 2,
+    summary: '一个嫌疑人的不在场证明被揭穿——电影院那晚没开门。',
+    summaryEn: 'A suspect\'s alibi is disproved — the cinema was closed that night.',
+  },
+  {
+    id: 88,
+    title: 'A slip of the tongue',
+    titleCn: '口误',
+    text: [
+      'The speaker was very nervous.',
+      'He made several mistakes during his speech.',
+      'He said "ladies and jellyfish" instead of "ladies and gentlemen".',
+      'Everyone laughed.',
+      'He was very embarrassed.',
+      'He tried to continue but made more mistakes.',
+      'Finally, he sat down and said nothing more.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'speaker', phonetic: '/ˈspiːkə/', meaning: '演讲者' },
+      { word: 'nervous', phonetic: '/ˈnɜːvəs/', meaning: '紧张的' },
+      { word: 'mistake', phonetic: '/mɪˈsteɪk/', meaning: '错误' },
+      { word: 'speech', phonetic: '/spiːtʃ/', meaning: '演讲' },
+      { word: 'instead of', phonetic: '/ɪnˈsted ɒv/', meaning: '代替' },
+      { word: 'embarrassed', phonetic: '/ɪmˈbærəst/', meaning: '尴尬的' },
+      { word: 'laugh', phonetic: '/lɑːf/', meaning: '笑' },
+      { word: 'finally', phonetic: '/ˈfaɪnəli/', meaning: '最后' }
+    ],
+    notes: [
+      '"a slip of the tongue" 口误。',
+      '"instead of" 代替，而不是。',
+      '"said nothing more" 什么也没再说。'
+    ],
+    tags: ['演讲', '幽默'],
+    difficulty: 2,
+    summary: '一个紧张的演讲者口误不断，把"女士们先生们"说成了"女士们和水母们"。',
+    summaryEn: 'A nervous speaker makes embarrassing slip-of-the-tongue mistakes.',
+  },
+  {
+    id: 89,
+    title: 'What\'s for supper?',
+    titleCn: '晚餐吃什么？',
+    text: [
+      'What\'s for supper?',
+      'Fish and chips.',
+      'I don\'t want fish and chips. I\'m tired of fish and chips.',
+      'What do you want then?',
+      'I want a steak.',
+      'We haven\'t got any steak.',
+      'What about a pizza?',
+      'That\'s a good idea.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'supper', phonetic: '/ˈsʌpə/', meaning: '晚餐' },
+      { word: 'fish', phonetic: '/fɪʃ/', meaning: '鱼' },
+      { word: 'chip', phonetic: '/tʃɪp/', meaning: '薯条' },
+      { word: 'tired of', phonetic: '/ˈtaɪəd ɒv/', meaning: '厌倦' },
+      { word: 'steak', phonetic: '/steɪk/', meaning: '牛排' },
+      { word: 'pizza', phonetic: '/ˈpiːtsə/', meaning: '披萨' },
+      { word: 'idea', phonetic: '/aɪˈdɪə/', meaning: '主意' },
+      { word: 'then', phonetic: '/ðen/', meaning: '那么' }
+    ],
+    notes: [
+      '"What\'s for supper?" 晚餐吃什么？',
+      '"tired of" 对……厌倦。',
+      '"What about...?" ……怎么样？'
+    ],
+    tags: ['日常对话', '食物'],
+    difficulty: 1,
+    summary: '讨论晚餐吃什么——从鱼和薯条改成了披萨。',
+    summaryEn: 'Discussing what to have for supper — from fish and chips to pizza.',
+  },
+  {
+    id: 90,
+    title: 'A true story',
+    titleCn: '一个真实的故事',
+    text: [
+      'The old woman told me a true story.',
+      'She said she was born in a small village.',
+      'When she was young, she walked five miles to school every day.',
+      'There were no buses or cars in those days.',
+      'She worked very hard and became a teacher.',
+      'She taught for forty years.',
+      'She said those were the happiest days of her life.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'born', phonetic: '/bɔːn/', meaning: '出生' },
+      { word: 'village', phonetic: '/ˈvɪlɪdʒ/', meaning: '村庄' },
+      { word: 'mile', phonetic: '/maɪl/', meaning: '英里' },
+      { word: 'hard', phonetic: '/hɑːd/', meaning: '努力地' },
+      { word: 'become', phonetic: '/bɪˈkʌm/', meaning: '成为' },
+      { word: 'teach', phonetic: '/tiːtʃ/', meaning: '教' },
+      { word: 'happiest', phonetic: '/ˈhæpiɪst/', meaning: '最幸福的' },
+      { word: 'those days', phonetic: '/ðəʊz deɪz/', meaning: '那些日子' }
+    ],
+    notes: [
+      '"was born in" 出生于。',
+      '"in those days" 在那些日子里/那时候。',
+      '"the happiest days" 最幸福的日子。最高级。'
+    ],
+    tags: ['间接引语', '人生故事'],
+    difficulty: 2,
+    summary: '一位老妇人讲述她的真实故事——步行五英里上学，教书四十年。',
+    summaryEn: 'An old woman tells her true story — walking five miles to school, teaching for forty years.',
+  },
+  {
+    id: 91,
+    title: 'Three men in a basket',
+    titleCn: '三个人在一个篮子里',
+    text: [
+      'Three men arrived at a mountain station.',
+      'They wanted to climb the mountain.',
+      'A pilot offered to take them up in his balloon.',
+      'But the balloon could only carry two people.',
+      'The third man had to stay behind.',
+      'He said he would climb the mountain on foot.',
+      'The balloon rose slowly into the air.',
+      'The two men in the basket waved to their friend.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'mountain', phonetic: '/ˈmaʊntɪn/', meaning: '山' },
+      { word: 'pilot', phonetic: '/ˈpaɪlət/', meaning: '飞行员' },
+      { word: 'balloon', phonetic: '/bəˈluːn/', meaning: '气球' },
+      { word: 'carry', phonetic: '/ˈkæri/', meaning: '携带' },
+      { word: 'rise', phonetic: '/raɪz/', meaning: '升起' },
+      { word: 'slowly', phonetic: '/ˈsləʊli/', meaning: '慢慢地' },
+      { word: 'wave', phonetic: '/weɪv/', meaning: '挥手' },
+      { word: 'on foot', phonetic: '/ɒn fʊt/', meaning: '步行' }
+    ],
+    notes: [
+      '"offered to take them up" 主动提出带他们上去。',
+      '"could only carry" 只能载。',
+      '"on foot" 步行。'
+    ],
+    tags: ['一般过去时', '冒险'],
+    difficulty: 2,
+    summary: '三个人乘热气球登山的故事——篮子只能坐两人，第三人步行。',
+    summaryEn: 'Three men try to climb a mountain by balloon, but one must walk.',
+  },
+  {
+    id: 92,
+    title: 'Asking for trouble',
+    titleCn: '自找麻烦',
+    text: [
+      'A man was trying to fix his roof.',
+      'His wife told him to be careful.',
+      'He said he knew what he was doing.',
+      'He climbed up the ladder.',
+      'But the ladder slipped and he fell off the roof.',
+      'He broke his leg.',
+      'His wife said, "I told you to be careful!"',
+      'The man said, "I know. I should have listened to you."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'roof', phonetic: '/ruːf/', meaning: '屋顶' },
+      { word: 'ladder', phonetic: '/ˈlædə/', meaning: '梯子' },
+      { word: 'slip', phonetic: '/slɪp/', meaning: '滑' },
+      { word: 'fall', phonetic: '/fɔːl/', meaning: '落下' },
+      { word: 'broke', phonetic: '/brəʊk/', meaning: '打破（过去式）' },
+      { word: 'careful', phonetic: '/ˈkeəfl/', meaning: '小心的' },
+      { word: 'listen', phonetic: '/ˈlɪsn/', meaning: '听' },
+      { word: 'should have', phonetic: '/ʃʊd hæv/', meaning: '本应该' }
+    ],
+    notes: [
+      '"should have listened" 本应该听（但没听）。虚拟语气。',
+      '"fell off" 从……摔下来。fall-fell-fallen。',
+      '"told you to be careful" 叫你小心。'
+    ],
+    tags: ['情态动词', '幽默故事'],
+    difficulty: 2,
+    summary: '一个人不听妻子劝告修屋顶，结果摔下来——自找麻烦。',
+    summaryEn: 'A man ignores his wife\'s warning and falls off the roof.',
+  },
+  {
+    id: 93,
+    title: 'A noble gift',
+    titleCn: '高尚的礼物',
+    text: [
+      'A rich man wanted to give a gift to the city.',
+      'He built a beautiful library.',
+      'He filled it with thousands of books.',
+      'He also gave money to buy more books.',
+      'The library was opened by the mayor.',
+      'Many people came to the opening ceremony.',
+      'The rich man said he wanted everyone to enjoy reading.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'gift', phonetic: '/ɡɪft/', meaning: '礼物' },
+      { word: 'rich', phonetic: '/rɪtʃ/', meaning: '富有的' },
+      { word: 'library', phonetic: '/ˈlaɪbrəri/', meaning: '图书馆' },
+      { word: 'thousand', phonetic: '/ˈθaʊznd/', meaning: '千' },
+      { word: 'mayor', phonetic: '/meə/', meaning: '市长' },
+      { word: 'ceremony', phonetic: '/ˈserəməni/', meaning: '仪式' },
+      { word: 'opening', phonetic: '/ˈəʊpənɪŋ/', meaning: '开幕' },
+      { word: 'enjoy', phonetic: '/ɪnˈdʒɔɪ/', meaning: '享受' }
+    ],
+    notes: [
+      '"filled it with" 用……填满它。',
+      '"was opened by" 被……开放。被动语态。',
+      '"wanted everyone to enjoy" 希望每个人享受。'
+    ],
+    tags: ['被动语态', '慈善'],
+    difficulty: 2,
+    summary: '一个富人捐建图书馆的故事——希望每个人都能享受阅读。',
+    summaryEn: 'A rich man builds a library as a gift so everyone can enjoy reading.',
+  },
+  {
+    id: 94,
+    title: 'Future champions',
+    titleCn: '未来的冠军',
+    text: [
+      'Children learn to swim very early in some countries.',
+      'In Australia, babies start swimming lessons at six months.',
+      'By the age of three, they can swim quite well.',
+      'Swimming is taught in most Australian schools.',
+      'Many Olympic swimmers come from Australia.',
+      'They say the early start is the secret of their success.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'champion', phonetic: '/ˈtʃæmpiən/', meaning: '冠军' },
+      { word: 'Australia', phonetic: '/ɒˈstreɪliə/', meaning: '澳大利亚' },
+      { word: 'baby', phonetic: '/ˈbeɪbi/', meaning: '婴儿' },
+      { word: 'lesson', phonetic: '/ˈlesn/', meaning: '课程' },
+      { word: 'Olympic', phonetic: '/əˈlɪmpɪk/', meaning: '奥林匹克' },
+      { word: 'success', phonetic: '/səkˈses/', meaning: '成功' },
+      { word: 'early', phonetic: '/ˈɜːli/', meaning: '早的' },
+      { word: 'secret', phonetic: '/ˈsiːkrɪt/', meaning: '秘密' }
+    ],
+    notes: [
+      '"at six months" 在六个月大时。',
+      '"by the age of" 到……岁时。',
+      '"the secret of their success" 他们成功的秘诀。'
+    ],
+    tags: ['教育', '游泳'],
+    difficulty: 2,
+    summary: '澳大利亚孩子从小学游泳——早期开始是成功的秘诀。',
+    summaryEn: 'Australian children learn to swim early — the secret of Olympic success.',
+  },
+  {
+    id: 95,
+    title: 'A fantasy',
+    titleCn: '幻想',
+    text: [
+      'I had a strange dream last night.',
+      'I dreamed I was on a strange planet.',
+      'The people there had three eyes and two noses.',
+      'They spoke a language I could not understand.',
+      'They were very friendly and offered me some food.',
+      'The food looked strange but tasted delicious.',
+      'Then I woke up and realized it was just a dream.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'dream', phonetic: '/driːm/', meaning: '梦' },
+      { word: 'planet', phonetic: '/ˈplænɪt/', meaning: '星球' },
+      { word: 'language', phonetic: '/ˈlæŋɡwɪdʒ/', meaning: '语言' },
+      { word: 'understand', phonetic: '/ˌʌndəˈstænd/', meaning: '理解' },
+      { word: 'friendly', phonetic: '/ˈfrendli/', meaning: '友好的' },
+      { word: 'taste', phonetic: '/teɪst/', meaning: '尝' },
+      { word: 'wake up', phonetic: '/weɪk ʌp/', meaning: '醒来' },
+      { word: 'realize', phonetic: '/ˈrɪəlaɪz/', meaning: '意识到' }
+    ],
+    notes: [
+      '"dreamed I was" 梦见我在……。',
+      '"woke up" 醒来。wake-woke-woken。',
+      '"it was just a dream" 只是一个梦。'
+    ],
+    tags: ['梦境', '一般过去时'],
+    difficulty: 2,
+    summary: '一个关于外星的奇妙梦境——那里的人有三只眼睛。',
+    summaryEn: 'A strange dream about a planet where people have three eyes.',
+  },
+  {
+    id: 96,
+    title: 'The dead return',
+    titleCn: '亡灵归来',
+    text: [
+      'In some countries, people believe that the dead return.',
+      'They prepare food and drink for the spirits.',
+      'They light candles and wait all night.',
+      'In the morning, the food is gone.',
+      'They believe the spirits have eaten it.',
+      'This is a very old tradition.',
+      'It shows that people have always been curious about death.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'dead', phonetic: '/ded/', meaning: '死去的' },
+      { word: 'spirit', phonetic: '/ˈspɪrɪt/', meaning: '灵魂' },
+      { word: 'candle', phonetic: '/ˈkændl/', meaning: '蜡烛' },
+      { word: 'tradition', phonetic: '/trəˈdɪʃn/', meaning: '传统' },
+      { word: 'curious', phonetic: '/ˈkjʊəriəs/', meaning: '好奇的' },
+      { word: 'death', phonetic: '/deθ/', meaning: '死亡' },
+      { word: 'prepare', phonetic: '/prɪˈpeə/', meaning: '准备' },
+      { word: 'gone', phonetic: '/ɡɒn/', meaning: '消失了' }
+    ],
+    notes: [
+      '"believe that" 相信……。',
+      '"is gone" 消失了。gone作形容词。',
+      '"curious about" 对……好奇。'
+    ],
+    tags: ['文化', '信仰'],
+    difficulty: 2,
+    summary: '一些国家关于亡灵归来的传统——为灵魂准备食物和蜡烛。',
+    summaryEn: 'A tradition where people prepare food for returning spirits.',
+  },
+  {
+    id: 97,
+    title: 'A thirsty ghost',
+    titleCn: '口渴的鬼',
+    text: [
+      'A house in a small village was haunted.',
+      'The ghost drank all the beer in the house.',
+      'The owner was very worried.',
+      'He called a priest to help.',
+      'The priest came and talked to the ghost.',
+      'The ghost said it was very thirsty.',
+      'The priest told the ghost to leave.',
+      'The ghost left and the house was peaceful again.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'haunted', phonetic: '/ˈhɔːntɪd/', meaning: '闹鬼的' },
+      { word: 'ghost', phonetic: '/ɡəʊst/', meaning: '鬼' },
+      { word: 'owner', phonetic: '/ˈəʊnə/', meaning: '主人' },
+      { word: 'worried', phonetic: '/ˈwʌrid/', meaning: '担心的' },
+      { word: 'priest', phonetic: '/priːst/', meaning: '牧师' },
+      { word: 'thirsty', phonetic: '/ˈθɜːsti/', meaning: '渴的' },
+      { word: 'peaceful', phonetic: '/ˈpiːsfl/', meaning: '平静的' },
+      { word: 'leave', phonetic: '/liːv/', meaning: '离开' }
+    ],
+    notes: [
+      '"was haunted" 闹鬼。',
+      '"called a priest to help" 叫牧师来帮忙。',
+      '"told the ghost to leave" 叫鬼离开。'
+    ],
+    tags: ['一般过去时', '鬼故事'],
+    difficulty: 2,
+    summary: '一个闹鬼的房子——鬼喝了所有的啤酒，牧师来把它赶走了。',
+    summaryEn: 'A haunted house where a ghost drinks all the beer; a priest makes it leave.',
+  },
+  {
+    id: 98,
+    title: 'Did you want to tell me something?',
+    titleCn: '你想告诉我什么吗？',
+    text: [
+      'The dentist was very busy.',
+      'He had a lot of patients to see.',
+      'A woman came in and sat down.',
+      'She opened her mouth wide.',
+      'The dentist looked inside.',
+      'He said, "Did you want to tell me something?"',
+      'The woman said, "No. I just wanted to show you my new teeth."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'dentist', phonetic: '/ˈdentɪst/', meaning: '牙医' },
+      { word: 'patient', phonetic: '/ˈpeɪʃnt/', meaning: '病人' },
+      { word: 'mouth', phonetic: '/maʊθ/', meaning: '嘴巴' },
+      { word: 'inside', phonetic: '/ɪnˈsaɪd/', meaning: '里面' },
+      { word: 'show', phonetic: '/ʃəʊ/', meaning: '展示' },
+      { word: 'teeth', phonetic: '/tiːθ/', meaning: '牙齿（复数）' },
+      { word: 'wide', phonetic: '/waɪd/', meaning: '张大地' },
+      { word: 'busy', phonetic: '/ˈbɪzi/', meaning: '忙碌的' }
+    ],
+    notes: [
+      '"had a lot of patients to see" 有很多病人要看。',
+      '"opened her mouth wide" 张大嘴巴。',
+      '"Did you want to tell me something?" 你想告诉我什么吗？'
+    ],
+    tags: ['牙医', '幽默'],
+    difficulty: 2,
+    summary: '一个女人去看牙医，不是因为牙疼，而是为了展示新牙齿。',
+    summaryEn: 'A woman visits the dentist not for a toothache, but to show off her new teeth.',
+  },
+  {
+    id: 99,
+    title: 'A trip to the Moon',
+    titleCn: '月球之旅',
+    text: [
+      'Imagine you are travelling to the Moon.',
+      'You look back at the Earth.',
+      'It looks like a big blue ball.',
+      'You can see clouds and oceans.',
+      'You cannot see any people or buildings.',
+      'The Moon looks grey and empty.',
+      'There are no plants or animals.',
+      'When you land, you can jump very high because there is less gravity.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'imagine', phonetic: '/ɪˈmædʒɪn/', meaning: '想象' },
+      { word: 'Earth', phonetic: '/ɜːθ/', meaning: '地球' },
+      { word: 'ocean', phonetic: '/ˈəʊʃn/', meaning: '海洋' },
+      { word: 'grey', phonetic: '/ɡreɪ/', meaning: '灰色的' },
+      { word: 'empty', phonetic: '/ˈempti/', meaning: '空的' },
+      { word: 'gravity', phonetic: '/ˈɡrævəti/', meaning: '重力' },
+      { word: 'plant', phonetic: '/plɑːnt/', meaning: '植物' },
+      { word: 'jump', phonetic: '/dʒʌmp/', meaning: '跳' }
+    ],
+    notes: [
+      '"looks like" 看起来像。',
+      '"there is less gravity" 重力更小。比较级。',
+      '"cannot see any" 看不到任何……。'
+    ],
+    tags: ['太空', '科学想象'],
+    difficulty: 2,
+    summary: '想象月球之旅——从太空看地球像一个蓝色的球。',
+    summaryEn: 'Imagine a trip to the Moon — Earth looks like a big blue ball from space.',
+  },
+  {
+    id: 100,
+    title: 'Who wants a cold?',
+    titleCn: '谁想要感冒？',
+    text: [
+      'Nobody wants a cold.',
+      'But everybody gets one sometimes.',
+      'The best way to avoid a cold is to wash your hands often.',
+      'You should also get enough sleep and exercise.',
+      'If you do get a cold, drink lots of water and rest.',
+      'Some people take medicine, but there is no cure for the common cold.',
+      'You just have to wait for it to go away.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'nobody', phonetic: '/ˈnəʊbədi/', meaning: '没有人' },
+      { word: 'everybody', phonetic: '/ˈevribɒdi/', meaning: '每个人' },
+      { word: 'avoid', phonetic: '/əˈvɔɪd/', meaning: '避免' },
+      { word: 'enough', phonetic: '/ɪˈnʌf/', meaning: '足够的' },
+      { word: 'exercise', phonetic: '/ˈeksəsaɪz/', meaning: '锻炼' },
+      { word: 'medicine', phonetic: '/ˈmedsn/', meaning: '药物' },
+      { word: 'rest', phonetic: '/rest/', meaning: '休息' },
+      { word: 'go away', phonetic: '/ɡəʊ əˈweɪ/', meaning: '消失' }
+    ],
+    notes: [
+      '"the best way to" 最好的方法。',
+      '"get enough sleep" 获得足够的睡眠。',
+      '"have to wait" 不得不等待。'
+    ],
+    tags: ['健康', '建议'],
+    difficulty: 2,
+    summary: '如何预防和应对感冒——洗手、休息、多喝水。',
+    summaryEn: 'How to prevent and deal with a cold — wash hands, rest, drink water.',
+  },
+  {
+    id: 101,
+    title: 'A card from Jimmy',
+    titleCn: '吉米的明信片',
+    text: [
+      'Jimmy went to France last month.',
+      'He sent a card to his parents.',
+      '"Dear Mum and Dad," he wrote.',
+      '"I am having a wonderful time.',
+      'The weather is beautiful and the food is delicious.',
+      'I have visited Paris and Lyon.',
+      'I am now in Marseille.',
+      'I will come home next week. Love, Jimmy."',
+      'His parents were happy to hear from him.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'France', phonetic: '/frɑːns/', meaning: '法国' },
+      { word: 'send', phonetic: '/send/', meaning: '寄' },
+      { word: 'wonderful', phonetic: '/ˈwʌndəfl/', meaning: '精彩的' },
+      { word: 'Paris', phonetic: '/ˈpærɪs/', meaning: '巴黎' },
+      { word: 'Lyon', phonetic: '/liˈɒŋ/', meaning: '里昂' },
+      { word: 'Marseille', phonetic: '/ˌmɑːˈseɪ/', meaning: '马赛' },
+      { word: 'hear from', phonetic: '/hɪə frɒm/', meaning: '收到……的来信' }
+    ],
+    notes: [
+      '"am having" 现在进行时表示正在进行的活动。',
+      '"will come" 将来时。',
+      '"hear from" 收到某人的消息。'
+    ],
+    tags: ['明信片', '现在进行时'],
+    difficulty: 2,
+    summary: '吉米从法国寄来的明信片——他正在享受美好的假期。',
+    summaryEn: 'Jimmy sends a postcard from France — having a wonderful time.',
+  },
+  {
+    id: 102,
+    title: 'A new house',
+    titleCn: '一座新房子',
+    text: [
+      'My brother has just bought a new house.',
+      'It was built in 1970.',
+      'But it looks very modern.',
+      'There are large rooms and big windows.',
+      'The garden is beautiful with many trees and flowers.',
+      'He moved in last week.',
+      'He is very happy with his new home.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'house', phonetic: '/haʊs/', meaning: '房子' },
+      { word: 'modern', phonetic: '/ˈmɒdn/', meaning: '现代的' },
+      { word: 'room', phonetic: '/ruːm/', meaning: '房间' },
+      { word: 'garden', phonetic: '/ˈɡɑːdn/', meaning: '花园' },
+      { word: 'flower', phonetic: '/ˈflaʊə/', meaning: '花' },
+      { word: 'move in', phonetic: '/muːv ɪn/', meaning: '搬进' },
+      { word: 'build', phonetic: '/bɪld/', meaning: '建造' },
+      { word: 'buy', phonetic: '/baɪ/', meaning: '买' }
+    ],
+    notes: [
+      '"has just bought" 刚买了。现在完成时。',
+      '"was built in 1970" 建于1970年。被动语态。',
+      '"moved in" 搬进去。'
+    ],
+    tags: ['现在完成时', '新家'],
+    difficulty: 2,
+    summary: '哥哥刚买了一座1970年建的房子，看起来很现代。',
+    summaryEn: 'My brother just bought a house built in 1970 that looks very modern.',
+  },
+  {
+    id: 103,
+    title: 'A visit to the theatre',
+    titleCn: '去看戏',
+    text: [
+      'My wife and I went to the theatre last night.',
+      'We saw a play by Shakespeare.',
+      'The play was "Romeo and Juliet".',
+      'The actors were excellent.',
+      'The theatre was full and everyone enjoyed the play.',
+      'After the play, we went to a restaurant and had dinner.',
+      'It was a wonderful evening.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'theatre', phonetic: '/ˈθɪətə/', meaning: '剧院' },
+      { word: 'play', phonetic: '/pleɪ/', meaning: '戏剧' },
+      { word: 'Shakespeare', phonetic: '/ˈʃeɪkspɪə/', meaning: '莎士比亚' },
+      { word: 'actor', phonetic: '/ˈæktə/', meaning: '演员' },
+      { word: 'excellent', phonetic: '/ˈeksələnt/', meaning: '优秀的' },
+      { word: 'restaurant', phonetic: '/ˈrestrɒnt/', meaning: '餐馆' },
+      { word: 'evening', phonetic: '/ˈiːvnɪŋ/', meaning: '晚上' },
+      { word: 'full', phonetic: '/fʊl/', meaning: '满的' }
+    ],
+    notes: [
+      '"went to the theatre" 去看戏。',
+      '"Romeo and Juliet" 罗密欧与朱丽叶。',
+      '"had dinner" 吃了晚餐。'
+    ],
+    tags: ['戏剧', '文化活动'],
+    difficulty: 2,
+    summary: '和妻子去看莎士比亚的《罗密欧与朱丽叶》，演员很出色。',
+    summaryEn: 'My wife and I went to see Shakespeare\'s "Romeo and Juliet" — excellent actors.',
+  },
+  {
+    id: 104,
+    title: 'The garden',
+    titleCn: '花园',
+    text: [
+      'My garden is not very big.',
+      'But it is very beautiful.',
+      'There are many different kinds of flowers in it.',
+      'In spring, there are tulips and daffodils.',
+      'In summer, there are roses and sunflowers.',
+      'I spend a lot of time in my garden.',
+      'I water the flowers every day.',
+      'My neighbours say my garden is the best in the street.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'garden', phonetic: '/ˈɡɑːdn/', meaning: '花园' },
+      { word: 'tulip', phonetic: '/ˈtjuːlɪp/', meaning: '郁金香' },
+      { word: 'daffodil', phonetic: '/ˈdæfədɪl/', meaning: '水仙花' },
+      { word: 'rose', phonetic: '/rəʊz/', meaning: '玫瑰' },
+      { word: 'sunflower', phonetic: '/ˈsʌnflaʊə/', meaning: '向日葵' },
+      { word: 'water', phonetic: '/ˈwɔːtə/', meaning: '浇水' },
+      { word: 'neighbour', phonetic: '/ˈneɪbə/', meaning: '邻居' },
+      { word: 'spend', phonetic: '/spend/', meaning: '花（时间）' }
+    ],
+    notes: [
+      '"different kinds of" 不同种类的。',
+      '"spend a lot of time" 花很多时间。',
+      '"the best in the street" 街上最好的。最高级。'
+    ],
+    tags: ['花园', '一般现在时'],
+    difficulty: 1,
+    summary: '描述我的小花园——虽然不大但很美丽，四季都有不同的花。',
+    summaryEn: 'My small but beautiful garden with different flowers in each season.',
+  },
+  {
+    id: 105,
+    title: 'At the doctor\'s',
+    titleCn: '在诊所',
+    text: [
+      'I went to the doctor yesterday.',
+      'I had a bad headache and a sore throat.',
+      'The doctor examined me carefully.',
+      'He said I had a cold.',
+      'He told me to stay in bed for two days.',
+      'He gave me some medicine.',
+      'He also told me to drink lots of water.',
+      'I feel much better today.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'doctor', phonetic: '/ˈdɒktə/', meaning: '医生' },
+      { word: 'headache', phonetic: '/ˈhedeɪk/', meaning: '头痛' },
+      { word: 'sore', phonetic: '/sɔː/', meaning: '疼痛的' },
+      { word: 'throat', phonetic: '/θrəʊt/', meaning: '喉咙' },
+      { word: 'examine', phonetic: '/ɪɡˈzæmɪn/', meaning: '检查' },
+      { word: 'medicine', phonetic: '/ˈmedsn/', meaning: '药物' },
+      { word: 'stay in bed', phonetic: '/steɪ ɪn bed/', meaning: '卧床休息' },
+      { word: 'better', phonetic: '/ˈbetə/', meaning: '更好的' }
+    ],
+    notes: [
+      '"had a bad headache" 头很痛。',
+      '"told me to stay in bed" 告诉我卧床休息。',
+      '"feel much better" 感觉好多了。比较级。'
+    ],
+    tags: ['看病', '一般过去时'],
+    difficulty: 2,
+    summary: '去看医生——感冒了，医生让我卧床休息两天。',
+    summaryEn: 'Visit the doctor for a cold — told to stay in bed for two days.',
+  },
+  {
+    id: 106,
+    title: 'A walk in the forest',
+    titleCn: '森林散步',
+    text: [
+      'Last Sunday, my family and I went for a walk in the forest.',
+      'The weather was warm and sunny.',
+      'We saw many birds and squirrels.',
+      'We found some wild flowers and picked a few.',
+      'We had a picnic by a small stream.',
+      'The children played in the water.',
+      'We came home in the evening, tired but happy.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'forest', phonetic: '/ˈfɒrɪst/', meaning: '森林' },
+      { word: 'squirrel', phonetic: '/ˈskwɪrəl/', meaning: '松鼠' },
+      { word: 'wild', phonetic: '/waɪld/', meaning: '野生的' },
+      { word: 'picnic', phonetic: '/ˈpɪknɪk/', meaning: '野餐' },
+      { word: 'stream', phonetic: '/striːm/', meaning: '小溪' },
+      { word: 'pick', phonetic: '/pɪk/', meaning: '摘' },
+      { word: 'tired', phonetic: '/taɪəd/', meaning: '累的' },
+      { word: 'sunny', phonetic: '/ˈsʌni/', meaning: '阳光明媚的' }
+    ],
+    notes: [
+      '"went for a walk" 去散步。',
+      '"picked a few" 摘了一些。',
+      '"tired but happy" 累但快乐。'
+    ],
+    tags: ['家庭活动', '一般过去时'],
+    difficulty: 1,
+    summary: '周日全家去森林散步——看鸟、野餐、在溪边玩耍。',
+    summaryEn: 'A family walk in the forest — birds, squirrels, picnic by a stream.',
+  },
+  {
+    id: 107,
+    title: 'Shopping',
+    titleCn: '购物',
+    text: [
+      'Mrs. Williams went shopping yesterday morning.',
+      'She drove to the town centre and parked her car.',
+      'She went to a department store and bought a new dress.',
+      'Then she went to a shoe shop and bought some shoes.',
+      'She had lunch at a cafe.',
+      'In the afternoon, she went to the supermarket and bought some food.',
+      'She came home at five o\'clock.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'shopping', phonetic: '/ˈʃɒpɪŋ/', meaning: '购物' },
+      { word: 'park', phonetic: '/pɑːk/', meaning: '停车' },
+      { word: 'department store', phonetic: '/dɪˈpɑːtmənt stɔː/', meaning: '百货商店' },
+      { word: 'shoe', phonetic: '/ʃuː/', meaning: '鞋子' },
+      { word: 'cafe', phonetic: '/ˈkæfeɪ/', meaning: '咖啡馆' },
+      { word: 'supermarket', phonetic: '/ˈsuːpəmɑːkɪt/', meaning: '超市' },
+      { word: 'afternoon', phonetic: '/ˌɑːftəˈnuːn/', meaning: '下午' },
+      { word: 'o\'clock', phonetic: '/əˈklɒk/', meaning: '点钟' }
+    ],
+    notes: [
+      '"went shopping" 去购物。',
+      '"parked her car" 停车。',
+      '"at five o\'clock" 在五点钟。'
+    ],
+    tags: ['购物', '一般过去时'],
+    difficulty: 1,
+    summary: '威廉姆斯太太的购物之旅——百货商店、鞋店、超市。',
+    summaryEn: 'Mrs. Williams goes shopping — department store, shoe shop, supermarket.',
+  },
+  {
+    id: 108,
+    title: 'A holiday by the sea',
+    titleCn: '海边度假',
+    text: [
+      'We spent our holiday by the sea last summer.',
+      'We stayed at a small hotel near the beach.',
+      'Every morning, we swam in the sea.',
+      'The water was warm and clear.',
+      'In the afternoon, we walked along the beach and collected shells.',
+      'In the evening, we ate fresh fish at a local restaurant.',
+      'The children built sandcastles and had a wonderful time.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'holiday', phonetic: '/ˈhɒlədeɪ/', meaning: '假期' },
+      { word: 'beach', phonetic: '/biːtʃ/', meaning: '海滩' },
+      { word: 'clear', phonetic: '/klɪə/', meaning: '清澈的' },
+      { word: 'shell', phonetic: '/ʃel/', meaning: '贝壳' },
+      { word: 'collect', phonetic: '/kəˈlekt/', meaning: '收集' },
+      { word: 'fresh', phonetic: '/freʃ/', meaning: '新鲜的' },
+      { word: 'sandcastle', phonetic: '/ˈsændkɑːsl/', meaning: '沙堡' },
+      { word: 'wonderful', phonetic: '/ˈwʌndəfl/', meaning: '精彩的' }
+    ],
+    notes: [
+      '"spent our holiday" 度假。spend-spent-spent。',
+      '"by the sea" 在海边。',
+      '"had a wonderful time" 玩得很开心。'
+    ],
+    tags: ['度假', '一般过去时'],
+    difficulty: 1,
+    summary: '去年夏天在海边度假——游泳、捡贝壳、吃海鲜。',
+    summaryEn: 'A summer holiday by the sea — swimming, collecting shells, fresh fish.',
+  },
+  {
+    id: 109,
+    title: 'A telephone conversation',
+    titleCn: '电话对话',
+    text: [
+      'Hello, is that John?',
+      'Yes, speaking.',
+      'Hi, John. This is Mary.',
+      'Oh, hello, Mary. How are you?',
+      'I\'m fine, thanks. Are you free this weekend?',
+      'Yes, I am. Why?',
+      'Would you like to come to dinner on Saturday?',
+      'That sounds great. What time?',
+      'Seven o\'clock. Is that OK?',
+      'Perfect. I\'ll see you then.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'speaking', phonetic: '/ˈspiːkɪŋ/', meaning: '我就是（电话用语）' },
+      { word: 'free', phonetic: '/friː/', meaning: '有空的' },
+      { word: 'weekend', phonetic: '/ˌwiːkˈend/', meaning: '周末' },
+      { word: 'dinner', phonetic: '/ˈdɪnə/', meaning: '晚餐' },
+      { word: 'Saturday', phonetic: '/ˈsætədeɪ/', meaning: '星期六' },
+      { word: 'sounds', phonetic: '/saʊndz/', meaning: '听起来' },
+      { word: 'perfect', phonetic: '/ˈpɜːfɪkt/', meaning: '完美的' },
+      { word: 'then', phonetic: '/ðen/', meaning: '到时候' }
+    ],
+    notes: [
+      '"Is that John?" 你是约翰吗？电话用语。',
+      '"Yes, speaking." 我就是。电话用语。',
+      '"Would you like to...?" 你想……吗？邀请。'
+    ],
+    tags: ['电话用语', '邀请'],
+    difficulty: 2,
+    summary: '一个电话邀请——玛丽邀请约翰周六来吃晚餐。',
+    summaryEn: 'A phone invitation — Mary invites John to dinner on Saturday.',
+  },
+  {
+    id: 110,
+    title: 'An exciting trip',
+    titleCn: '一次激动人心的旅行',
+    text: [
+      'My friend has just returned from abroad.',
+      'He went to Australia.',
+      'He visited Sydney and Melbourne.',
+      'He saw the Sydney Opera House and the Great Barrier Reef.',
+      'He took hundreds of photos.',
+      'He said the trip was exciting.',
+      'He wants to go back next year.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'return', phonetic: '/rɪˈtɜːn/', meaning: '回来' },
+      { word: 'abroad', phonetic: '/əˈbrɔːd/', meaning: '国外' },
+      { word: 'Sydney', phonetic: '/ˈsɪdni/', meaning: '悉尼' },
+      { word: 'Melbourne', phonetic: '/ˈmelbən/', meaning: '墨尔本' },
+      { word: 'opera', phonetic: '/ˈɒpərə/', meaning: '歌剧' },
+      { word: 'reef', phonetic: '/riːf/', meaning: '珊瑚礁' },
+      { word: 'hundred', phonetic: '/ˈhʌndrəd/', meaning: '百' },
+      { word: 'exciting', phonetic: '/ɪkˈsaɪtɪŋ/', meaning: '令人兴奋的' }
+    ],
+    notes: [
+      '"has just returned" 刚回来。现在完成时。',
+      '"the Great Barrier Reef" 大堡礁。',
+      '"wants to go back" 想再去。'
+    ],
+    tags: ['旅行', '现在完成时'],
+    difficulty: 2,
+    summary: '朋友刚从澳大利亚回来——参观了悉尼歌剧院和大堡礁。',
+    summaryEn: 'My friend just returned from Australia — visited the Opera House and Great Barrier Reef.',
+  },
+  {
+    id: 111,
+    title: 'Have you got...?',
+    titleCn: '你有……吗？',
+    text: [
+      'Have you got a pen?',
+      'Yes, I have. Here you are.',
+      'Have you got any paper?',
+      'Yes, I have. How much do you want?',
+      'A few sheets, please.',
+      'Have you got any envelopes?',
+      'No, I haven\'t. I\'m sorry.',
+      'That\'s all right. I\'ll buy some.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'pen', phonetic: '/pen/', meaning: '钢笔' },
+      { word: 'paper', phonetic: '/ˈpeɪpə/', meaning: '纸' },
+      { word: 'sheet', phonetic: '/ʃiːt/', meaning: '张' },
+      { word: 'envelope', phonetic: '/ˈenvələʊp/', meaning: '信封' },
+      { word: 'a few', phonetic: '/ə fjuː/', meaning: '几个' },
+      { word: 'all right', phonetic: '/ɔːl raɪt/', meaning: '没关系' },
+      { word: 'buy', phonetic: '/baɪ/', meaning: '买' },
+      { word: 'how much', phonetic: '/haʊ mʌtʃ/', meaning: '多少' }
+    ],
+    notes: [
+      '"Have you got...?" 你有……吗？英式英语。',
+      '"a few sheets" 几张。',
+      '"That\'s all right." 没关系。'
+    ],
+    tags: ['Have you got', '日常对话'],
+    difficulty: 1,
+    summary: '借文具的对话——有笔、纸，但没有信封。',
+    summaryEn: 'Borrowing stationery — has pen and paper, but no envelopes.',
+  },
+  {
+    id: 112,
+    title: 'A good idea',
+    titleCn: '好主意',
+    text: [
+      'What shall we do today?',
+      'Let\'s go for a drive in the country.',
+      'That\'s a good idea. Shall we take a picnic?',
+      'Yes, let\'s. I\'ll make some sandwiches.',
+      'And I\'ll bring some fruit and drinks.',
+      'What time shall we leave?',
+      'Let\'s leave at nine o\'clock.',
+      'OK. I\'ll be ready.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'shall', phonetic: '/ʃæl/', meaning: '应该/将要' },
+      { word: 'drive', phonetic: '/draɪv/', meaning: '开车兜风' },
+      { word: 'country', phonetic: '/ˈkʌntri/', meaning: '乡村' },
+      { word: 'sandwich', phonetic: '/ˈsænwɪtʃ/', meaning: '三明治' },
+      { word: 'fruit', phonetic: '/fruːt/', meaning: '水果' },
+      { word: 'drink', phonetic: '/drɪŋk/', meaning: '饮料' },
+      { word: 'ready', phonetic: '/ˈredi/', meaning: '准备好的' },
+      { word: 'leave', phonetic: '/liːv/', meaning: '离开' }
+    ],
+    notes: [
+      '"Shall we...?" 我们……好吗？提建议。',
+      '"Let\'s" 让我们。提建议。',
+      '"I\'ll bring" 我会带。will表示将来。'
+    ],
+    tags: ['建议', '将来时'],
+    difficulty: 1,
+    summary: '计划一次乡村兜风——做三明治、带水果和饮料。',
+    summaryEn: 'Planning a country drive — making sandwiches, bringing fruit and drinks.',
+  },
+  {
+    id: 113,
+    title: 'A trip to Scotland',
+    titleCn: '苏格兰之旅',
+    text: [
+      'Tom and his family are going to Scotland next week.',
+      'They are going by train.',
+      'They will visit Edinburgh and Glasgow.',
+      'Tom wants to see the Scottish Highlands.',
+      'His wife wants to visit some castles.',
+      'The children want to go to the beach.',
+      'They are all looking forward to the trip.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'Scotland', phonetic: '/ˈskɒtlənd/', meaning: '苏格兰' },
+      { word: 'Edinburgh', phonetic: '/ˈedɪnbrə/', meaning: '爱丁堡' },
+      { word: 'Glasgow', phonetic: '/ˈɡlɑːzɡəʊ/', meaning: '格拉斯哥' },
+      { word: 'Highlands', phonetic: '/ˈhaɪləndz/', meaning: '高地' },
+      { word: 'castle', phonetic: '/ˈkɑːsl/', meaning: '城堡' },
+      { word: 'look forward to', phonetic: '/lʊk ˈfɔːwəd tuː/', meaning: '期待' },
+      { word: 'train', phonetic: '/treɪn/', meaning: '火车' },
+      { word: 'next week', phonetic: '/nekst wiːk/', meaning: '下周' }
+    ],
+    notes: [
+      '"are going to" 将要去。',
+      '"look forward to" 期待。to是介词，后接名词或动名词。'
+    ],
+    tags: ['旅行计划', '将来时'],
+    difficulty: 2,
+    summary: '汤姆一家计划去苏格兰旅行——爱丁堡、城堡、高地。',
+    summaryEn: 'Tom\'s family plans a trip to Scotland — Edinburgh, castles, Highlands.',
+  },
+  {
+    id: 114,
+    title: 'Shopping list',
+    titleCn: '购物清单',
+    text: [
+      'We haven\'t got much milk.',
+      'And we haven\'t got much bread either.',
+      'We need some butter and cheese.',
+      'Have we got any eggs?',
+      'No, we haven\'t.',
+      'What about vegetables?',
+      'We need some potatoes and carrots.',
+      'And we need some fruit — apples and oranges.',
+      'Let me make a shopping list.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'milk', phonetic: '/mɪlk/', meaning: '牛奶' },
+      { word: 'bread', phonetic: '/bred/', meaning: '面包' },
+      { word: 'butter', phonetic: '/ˈbʌtə/', meaning: '黄油' },
+      { word: 'cheese', phonetic: '/tʃiːz/', meaning: '奶酪' },
+      { word: 'potato', phonetic: '/pəˈteɪtəʊ/', meaning: '土豆' },
+      { word: 'carrot', phonetic: '/ˈkærət/', meaning: '胡萝卜' },
+      { word: 'apple', phonetic: '/ˈæpl/', meaning: '苹果' },
+      { word: 'orange', phonetic: '/ˈɒrɪndʒ/', meaning: '橙子' },
+      { word: 'list', phonetic: '/lɪst/', meaning: '清单' }
+    ],
+    notes: [
+      '"haven\'t got much" 没有很多。',
+      '"need some" 需要一些。',
+      '"shopping list" 购物清单。'
+    ],
+    tags: ['购物', '食物词汇'],
+    difficulty: 1,
+    summary: '检查冰箱里的食物——需要买牛奶、面包、蔬菜和水果。',
+    summaryEn: 'Checking the fridge — need to buy milk, bread, vegetables and fruit.',
+  },
+  {
+    id: 115,
+    title: 'Breakfast or lunch?',
+    titleCn: '早餐还是午餐？',
+    text: [
+      'It was Sunday morning.',
+      'Mrs. Smith went upstairs to wake her son.',
+      '"Get up, Tom," she said. "It\'s twelve o\'clock."',
+      'Tom opened his eyes and looked at the window.',
+      '"But it\'s raining, Mum," he said. "I don\'t want to get up."',
+      '"You must get up," said his mother. "Your breakfast is getting cold."',
+      'Tom said, "I\'ll have it for lunch then."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'upstairs', phonetic: '/ˌʌpˈsteəz/', meaning: '楼上' },
+      { word: 'wake', phonetic: '/weɪk/', meaning: '叫醒' },
+      { word: 'twelve', phonetic: '/twelv/', meaning: '十二' },
+      { word: 'rain', phonetic: '/reɪn/', meaning: '下雨' },
+      { word: 'must', phonetic: '/mʌst/', meaning: '必须' },
+      { word: 'cold', phonetic: '/kəʊld/', meaning: '冷的' },
+      { word: 'breakfast', phonetic: '/ˈbrekfəst/', meaning: '早餐' },
+      { word: 'lunch', phonetic: '/lʌntʃ/', meaning: '午餐' }
+    ],
+    notes: [
+      '"Get up" 起床。祈使句。',
+      '"It\'s raining" 正在下雨。现在进行时。',
+      '"I\'ll have it for lunch" 我把它当午餐吃。'
+    ],
+    tags: ['家庭对话', '幽默'],
+    difficulty: 1,
+    summary: '汤姆想把早餐留到午餐再吃——因为下雨不想起床。',
+    summaryEn: 'Tom wants to save breakfast for lunch because it\'s raining and he won\'t get up.',
+  },
+  {
+    id: 116,
+    title: 'Is that you, John?',
+    titleCn: '是你吗，约翰？',
+    text: [
+      'Mrs. Bird telephoned the police.',
+      '"Is that you, John?" she asked.',
+      '"No, madam," said the policeman. "This is not John. This is the police station."',
+      '"Oh, I\'m sorry," said Mrs. Bird. "I dialed the wrong number."',
+      '"That\'s all right, madam," said the policeman.',
+      'Mrs. Bird dialed again.',
+      '"Is that you, John?" she asked.',
+      '"No, madam! This is still the police station!"'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'telephone', phonetic: '/ˈtelɪfəʊn/', meaning: '打电话' },
+      { word: 'police', phonetic: '/pəˈliːs/', meaning: '警察' },
+      { word: 'policeman', phonetic: '/pəˈliːsmən/', meaning: '警察（男）' },
+      { word: 'station', phonetic: '/ˈsteɪʃn/', meaning: '局' },
+      { word: 'dial', phonetic: '/ˈdaɪəl/', meaning: '拨（电话号码）' },
+      { word: 'wrong', phonetic: '/rɒŋ/', meaning: '错误的' },
+      { word: 'number', phonetic: '/ˈnʌmbə/', meaning: '号码' },
+      { word: 'still', phonetic: '/stɪl/', meaning: '仍然' }
+    ],
+    notes: [
+      '"Is that you, John?" 电话用语。',
+      '"dialed the wrong number" 拨错了号码。',
+      '"This is the police station" 这是警察局。'
+    ],
+    tags: ['电话', '幽默'],
+    difficulty: 2,
+    summary: '伯德太太打电话给约翰，却两次打到了警察局。',
+    summaryEn: 'Mrs. Bird tries to call John but dials the police station twice.',
+  },
+  {
+    id: 117,
+    title: 'Tommy\'s breakfast',
+    titleCn: '汤米的早餐',
+    text: [
+      'Tommy\'s mother said, "Tommy, come and have your breakfast."',
+      'Tommy didn\'t want to eat.',
+      '"I\'m not hungry," he said.',
+      'His mother put a plate of eggs and bread in front of him.',
+      '"Eat your breakfast," she said.',
+      'Tommy pushed the plate away.',
+      '"I told you I\'m not hungry!"',
+      'His mother took the plate away and said, "OK, no breakfast then."',
+      'Ten minutes later, Tommy was very hungry.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'hungry', phonetic: '/ˈhʌŋɡri/', meaning: '饿的' },
+      { word: 'plate', phonetic: '/pleɪt/', meaning: '盘子' },
+      { word: 'push', phonetic: '/pʊʃ/', meaning: '推' },
+      { word: 'away', phonetic: '/əˈweɪ/', meaning: '离开' },
+      { word: 'later', phonetic: '/ˈleɪtə/', meaning: '之后' },
+      { word: 'minute', phonetic: '/ˈmɪnɪt/', meaning: '分钟' },
+      { word: 'eat', phonetic: '/iːt/', meaning: '吃' },
+      { word: 'breakfast', phonetic: '/ˈbrekfəst/', meaning: '早餐' }
+    ],
+    notes: [
+      '"come and have" 来吃。',
+      '"pushed the plate away" 把盘子推开。',
+      '"took... away" 拿走。'
+    ],
+    tags: ['家庭故事', '一般过去时'],
+    difficulty: 1,
+    summary: '汤米说不饿不吃早餐，十分钟后却饿了。',
+    summaryEn: 'Tommy says he\'s not hungry, then is very hungry ten minutes later.',
+  },
+  {
+    id: 118,
+    title: 'A true story',
+    titleCn: '一个真实的故事',
+    text: [
+      'I met an old friend yesterday.',
+      'I hadn\'t seen him for five years.',
+      'He looked very different.',
+      'He had lost a lot of weight.',
+      'He told me he had been ill.',
+      'But he said he was feeling much better now.',
+      'He asked me about my family.',
+      'We had a cup of coffee together and talked about old times.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'meet', phonetic: '/miːt/', meaning: '遇见' },
+      { word: 'friend', phonetic: '/frend/', meaning: '朋友' },
+      { word: 'different', phonetic: '/ˈdɪfrənt/', meaning: '不同的' },
+      { word: 'weight', phonetic: '/weɪt/', meaning: '体重' },
+      { word: 'lost', phonetic: '/lɒst/', meaning: '失去（过去式）' },
+      { word: 'ill', phonetic: '/ɪl/', meaning: '生病的' },
+      { word: 'together', phonetic: '/təˈɡeðə/', meaning: '一起' },
+      { word: 'old times', phonetic: '/əʊld taɪmz/', meaning: '旧时光' }
+    ],
+    notes: [
+      '"hadn\'t seen" 过去完成时——在"昨天遇到"之前没见过。',
+      '"lost a lot of weight" 减了很多体重。',
+      '"talked about old times" 聊旧时光。'
+    ],
+    tags: ['重逢', '过去完成时'],
+    difficulty: 2,
+    summary: '遇到五年没见的老朋友——他瘦了很多，但感觉好多了。',
+    summaryEn: 'Meeting an old friend after five years — he lost weight but is feeling better.',
+  },
+  {
+    id: 119,
+    title: 'Tickets, please!',
+    titleCn: '请出示车票！',
+    text: [
+      'The conductor came round on the bus.',
+      '"Tickets, please!" he said.',
+      'A woman looked for her ticket in her bag.',
+      'She couldn\'t find it.',
+      '"I\'m sure I bought one," she said.',
+      '"You must buy another ticket," said the conductor.',
+      'The woman was very annoyed.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'conductor', phonetic: '/kənˈdʌktə/', meaning: '售票员' },
+      { word: 'ticket', phonetic: '/ˈtɪkɪt/', meaning: '票' },
+      { word: 'round', phonetic: '/raʊnd/', meaning: '转一圈' },
+      { word: 'sure', phonetic: '/ʃʊə/', meaning: '确信的' },
+      { word: 'another', phonetic: '/əˈnʌðə/', meaning: '另一个' },
+      { word: 'annoyed', phonetic: '/əˈnɔɪd/', meaning: '恼怒的' },
+      { word: 'look for', phonetic: '/lʊk fɔː/', meaning: '寻找' },
+      { word: 'find', phonetic: '/faɪnd/', meaning: '找到' }
+    ],
+    notes: [
+      '"came round" 走过来查票。',
+      '"looked for" 寻找（不一定找到）。',
+      '"find" 找到（结果）。'
+    ],
+    tags: ['公共交通', '一般过去时'],
+    difficulty: 2,
+    summary: '在公交车上找不到票——售票员要求再买一张。',
+    summaryEn: 'A woman can\'t find her bus ticket and must buy another one.',
+  },
+  {
+    id: 120,
+    title: 'A letter to a friend',
+    titleCn: '给朋友的一封信',
+    text: [
+      'Dear Tom,',
+      'How are you? I hope you are well.',
+      'I am writing to tell you about my new job.',
+      'I started working at a bank last month.',
+      'The work is interesting but very busy.',
+      'My colleagues are very friendly.',
+      'I have a nice office with a view of the park.',
+      'I hope you can visit me soon. Best wishes, Mary.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'dear', phonetic: '/dɪə/', meaning: '亲爱的' },
+      { word: 'hope', phonetic: '/həʊp/', meaning: '希望' },
+      { word: 'well', phonetic: '/wel/', meaning: '健康的' },
+      { word: 'job', phonetic: '/dʒɒb/', meaning: '工作' },
+      { word: 'bank', phonetic: '/bæŋk/', meaning: '银行' },
+      { word: 'colleague', phonetic: '/ˈkɒliːɡ/', meaning: '同事' },
+      { word: 'view', phonetic: '/vjuː/', meaning: '景色' },
+      { word: 'wishes', phonetic: '/ˈwɪʃɪz/', meaning: '祝愿' }
+    ],
+    notes: [
+      '"I hope you are well" 希望你一切安好。书信常用开头。',
+      '"a view of" 看到……的景色。',
+      '"Best wishes" 最好的祝愿。书信常用结尾。'
+    ],
+    tags: ['书信', '工作'],
+    difficulty: 2,
+    summary: '一封给朋友的信——告诉汤姆自己的新工作。',
+    summaryEn: 'A letter to Tom about my new job at a bank.',
+  },
+  {
+    id: 121,
+    title: 'Dear me!',
+    titleCn: '天哪！',
+    text: [
+      'Oh dear! I\'ve lost my keys.',
+      'Where did you last have them?',
+      'I think I left them in the kitchen.',
+      'Let\'s look in the kitchen.',
+      'They\'re not on the table.',
+      'They\'re not on the counter either.',
+      'Wait! They\'re in my pocket!',
+      'Oh, what a relief!'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'dear', phonetic: '/dɪə/', meaning: '天哪' },
+      { word: 'key', phonetic: '/kiː/', meaning: '钥匙' },
+      { word: 'lose', phonetic: '/luːz/', meaning: '丢失' },
+      { word: 'kitchen', phonetic: '/ˈkɪtʃɪn/', meaning: '厨房' },
+      { word: 'counter', phonetic: '/ˈkaʊntə/', meaning: '柜台' },
+      { word: 'pocket', phonetic: '/ˈpɒkɪt/', meaning: '口袋' },
+      { word: 'relief', phonetic: '/rɪˈliːf/', meaning: '松了口气' },
+      { word: 'think', phonetic: '/θɪŋk/', meaning: '想' }
+    ],
+    notes: [
+      '"Oh dear!" 天哪！表示惊讶或担忧。',
+      '"What a relief!" 真是松了口气！',
+      '"I think I left them" 我想我把它们落在了……。'
+    ],
+    tags: ['日常对话', '感叹句'],
+    difficulty: 1,
+    summary: '找钥匙——最后发现一直在自己口袋里。',
+    summaryEn: 'Looking for lost keys — they were in my pocket all along.',
+  },
+  {
+    id: 122,
+    title: 'Breakfast or lunch?',
+    titleCn: '早餐还是午餐？',
+    text: [
+      'It was a beautiful Sunday morning.',
+      'Everyone was having breakfast except Tom.',
+      'Tom was still in bed.',
+      'His mother called him.',
+      '"Tom! It\'s time for breakfast!"',
+      'Tom opened one eye.',
+      '"But I\'m not hungry, Mum."',
+      '"It\'s almost lunchtime!" said his mother.',
+      '"Then I\'ll wait for lunch," said Tom and went back to sleep.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'beautiful', phonetic: '/ˈbjuːtɪfl/', meaning: '美丽的' },
+      { word: 'everyone', phonetic: '/ˈevriwʌn/', meaning: '每个人' },
+      { word: 'except', phonetic: '/ɪkˈsept/', meaning: '除了' },
+      { word: 'still', phonetic: '/stɪl/', meaning: '仍然' },
+      { word: 'almost', phonetic: '/ˈɔːlməʊst/', meaning: '几乎' },
+      { word: 'lunchtime', phonetic: '/ˈlʌntʃtaɪm/', meaning: '午餐时间' },
+      { word: 'wait', phonetic: '/weɪt/', meaning: '等待' },
+      { word: 'sleep', phonetic: '/sliːp/', meaning: '睡觉' }
+    ],
+    notes: [
+      '"It\'s time for breakfast" 该吃早餐了。',
+      '"almost lunchtime" 快到午餐时间了。',
+      '"went back to sleep" 继续睡觉。'
+    ],
+    tags: ['家庭幽默', '一般过去时'],
+    difficulty: 1,
+    summary: '汤姆周日不想起床——干脆等到午餐再吃。',
+    summaryEn: 'Tom won\'t get up on Sunday — decides to wait for lunch instead.',
+  },
+  {
+    id: 123,
+    title: 'A walk in the park',
+    titleCn: '公园散步',
+    text: [
+      'The children were playing in the park.',
+      'They were running and jumping.',
+      'A little girl fell down and started to cry.',
+      'Her mother ran over and picked her up.',
+      '"Are you all right?" she asked.',
+      'The girl stopped crying and smiled.',
+      '"I\'m OK, Mum," she said.',
+      'Then she ran back to play with her friends.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'park', phonetic: '/pɑːk/', meaning: '公园' },
+      { word: 'run', phonetic: '/rʌn/', meaning: '跑' },
+      { word: 'jump', phonetic: '/dʒʌmp/', meaning: '跳' },
+      { word: 'fall', phonetic: '/fɔːl/', meaning: '摔倒' },
+      { word: 'cry', phonetic: '/kraɪ/', meaning: '哭' },
+      { word: 'smile', phonetic: '/smaɪl/', meaning: '微笑' },
+      { word: 'pick up', phonetic: '/pɪk ʌp/', meaning: '抱起' },
+      { word: 'play with', phonetic: '/pleɪ wɪð/', meaning: '和……玩' }
+    ],
+    notes: [
+      '"fell down" 摔倒了。fall-fell-fallen。',
+      '"started to cry" 开始哭。',
+      '"picked her up" 把她抱起来。'
+    ],
+    tags: ['公园', '一般过去时'],
+    difficulty: 1,
+    summary: '小女孩在公园摔倒哭了，妈妈把她抱起来后她又继续玩了。',
+    summaryEn: 'A little girl falls in the park, cries, then goes back to playing.',
+  },
+  {
+    id: 124,
+    title: 'A visit to the museum',
+    titleCn: '参观博物馆',
+    text: [
+      'Our class went to the museum yesterday.',
+      'The museum has many interesting things.',
+      'We saw dinosaur bones and old coins.',
+      'We saw paintings by famous artists.',
+      'The guide told us about the history of the city.',
+      'We learned a lot.',
+      'We want to go back again soon.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'museum', phonetic: '/mjuˈziːəm/', meaning: '博物馆' },
+      { word: 'dinosaur', phonetic: '/ˈdaɪnəsɔː/', meaning: '恐龙' },
+      { word: 'bone', phonetic: '/bəʊn/', meaning: '骨头' },
+      { word: 'coin', phonetic: '/kɔɪn/', meaning: '硬币' },
+      { word: 'artist', phonetic: '/ˈɑːtɪst/', meaning: '艺术家' },
+      { word: 'guide', phonetic: '/ɡaɪd/', meaning: '导游' },
+      { word: 'history', phonetic: '/ˈhɪstri/', meaning: '历史' },
+      { word: 'learn', phonetic: '/lɜːn/', meaning: '学习' }
+    ],
+    notes: [
+      '"went to the museum" 去了博物馆。',
+      '"learned a lot" 学到了很多。',
+      '"famous artists" 著名的艺术家。'
+    ],
+    tags: ['教育活动', '一般过去时'],
+    difficulty: 1,
+    summary: '班级去博物馆参观——恐龙骨头、硬币、名画。',
+    summaryEn: 'Class visit to the museum — dinosaur bones, coins, famous paintings.',
+  },
+  {
+    id: 125,
+    title: 'The clever monkey',
+    titleCn: '聪明的猴子',
+    text: [
+      'A man had a clever monkey.',
+      'The monkey could do many tricks.',
+      'One day, the man was very ill.',
+      'He could not get out of bed.',
+      'The monkey went to the kitchen and made some soup.',
+      'He brought the soup to the man.',
+      'The man ate the soup and felt much better.',
+      'The monkey was very happy.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'clever', phonetic: '/ˈklevə/', meaning: '聪明的' },
+      { word: 'monkey', phonetic: '/ˈmʌŋki/', meaning: '猴子' },
+      { word: 'trick', phonetic: '/trɪk/', meaning: '把戏' },
+      { word: 'ill', phonetic: '/ɪl/', meaning: '生病的' },
+      { word: 'soup', phonetic: '/suːp/', meaning: '汤' },
+      { word: 'bring', phonetic: '/brɪŋ/', meaning: '带来' },
+      { word: 'better', phonetic: '/ˈbetə/', meaning: '更好的' },
+      { word: 'happy', phonetic: '/ˈhæpi/', meaning: '快乐的' }
+    ],
+    notes: [
+      '"could do many tricks" 会很多把戏。',
+      '"could not get out of bed" 不能起床。',
+      '"felt much better" 感觉好多了。'
+    ],
+    tags: ['动物故事', '一般过去时'],
+    difficulty: 1,
+    summary: '一只聪明的猴子给生病的主人做汤。',
+    summaryEn: 'A clever monkey makes soup for his sick master.',
+  },
+  {
+    id: 126,
+    title: 'What\'s the weather like?',
+    titleCn: '天气怎么样？',
+    text: [
+      'What\'s the weather like in your country?',
+      'It\'s very hot in summer and very cold in winter.',
+      'Does it rain a lot?',
+      'Yes, it does. It rains a lot in spring and autumn.',
+      'Does it snow in winter?',
+      'Yes, it does. Sometimes the snow is very deep.',
+      'Do you like the weather?',
+      'I like summer, but I don\'t like winter. It\'s too cold.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'weather', phonetic: '/ˈweðə/', meaning: '天气' },
+      { word: 'hot', phonetic: '/hɒt/', meaning: '热的' },
+      { word: 'cold', phonetic: '/kəʊld/', meaning: '冷的' },
+      { word: 'rain', phonetic: '/reɪn/', meaning: '下雨' },
+      { word: 'snow', phonetic: '/snəʊ/', meaning: '下雪' },
+      { word: 'deep', phonetic: '/diːp/', meaning: '深的' },
+      { word: 'spring', phonetic: '/sprɪŋ/', meaning: '春天' },
+      { word: 'autumn', phonetic: '/ˈɔːtəm/', meaning: '秋天' }
+    ],
+    notes: [
+      '"What\'s the weather like?" 天气怎么样？',
+      '"Does it rain a lot?" 经常下雨吗？',
+      '"too cold" 太冷了。'
+    ],
+    tags: ['天气', '一般现在时'],
+    difficulty: 1,
+    summary: '谈论不同国家的天气——夏天热冬天冷。',
+    summaryEn: 'Talking about weather in different countries.',
+  },
+  {
+    id: 127,
+    title: 'A small mistake',
+    titleCn: '一个小错误',
+    text: [
+      'A man went into a bank and asked for a loan.',
+      '"How much do you want?" asked the clerk.',
+      '"One dollar," said the man.',
+      '"Only one dollar?" asked the clerk in surprise.',
+      '"Yes, only one dollar," said the man.',
+      '"Do you have any security?" asked the clerk.',
+      'The man showed the clerk a pile of stocks and bonds.',
+      '"These are worth one million dollars," he said.',
+      'The clerk was very surprised.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'bank', phonetic: '/bæŋk/', meaning: '银行' },
+      { word: 'loan', phonetic: '/ləʊn/', meaning: '贷款' },
+      { word: 'dollar', phonetic: '/ˈdɒlə/', meaning: '美元' },
+      { word: 'clerk', phonetic: '/klɑːk/', meaning: '职员' },
+      { word: 'security', phonetic: '/sɪˈkjʊərəti/', meaning: '抵押品' },
+      { word: 'stocks', phonetic: '/stɒks/', meaning: '股票' },
+      { word: 'bonds', phonetic: '/bɒndz/', meaning: '债券' },
+      { word: 'surprised', phonetic: '/səˈpraɪzd/', meaning: '惊讶的' },
+      { word: 'worth', phonetic: '/wɜːθ/', meaning: '价值' }
+    ],
+    notes: [
+      '"asked for a loan" 申请贷款。',
+      '"in surprise" 惊讶地。',
+      '"are worth one million" 价值一百万。'
+    ],
+    tags: ['银行', '幽默故事'],
+    difficulty: 3,
+    summary: '一个人只借一美元，却用价值百万的股票作抵押。',
+    summaryEn: 'A man borrows only one dollar but uses a million dollars in stocks as security.',
+  },
+  {
+    id: 128,
+    title: 'The best and the worst',
+    titleCn: '最好的和最差的',
+    text: [
+      'Joe Sanders has the most beautiful garden in our town.',
+      'Nearly everybody enters for "The Nicest Garden Competition" each year.',
+      'Joe wins every time.',
+      'Bill Frith\'s garden is larger than Joe\'s.',
+      'Bill works harder than Joe and grows more flowers and vegetables.',
+      'But Joe\'s garden is more interesting.',
+      'He has made neat paths and has built a wooden bridge over a pool.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'beautiful', phonetic: '/ˈbjuːtɪfl/', meaning: '美丽的' },
+      { word: 'competition', phonetic: '/ˌkɒmpəˈtɪʃn/', meaning: '比赛' },
+      { word: 'win', phonetic: '/wɪn/', meaning: '赢' },
+      { word: 'large', phonetic: '/lɑːdʒ/', meaning: '大的' },
+      { word: 'hard', phonetic: '/hɑːd/', meaning: '努力地' },
+      { word: 'neat', phonetic: '/niːt/', meaning: '整洁的' },
+      { word: 'path', phonetic: '/pɑːθ/', meaning: '小路' },
+      { word: 'wooden', phonetic: '/ˈwʊdn/', meaning: '木制的' },
+      { word: 'pool', phonetic: '/puːl/', meaning: '水池' }
+    ],
+    notes: [
+      '"the most beautiful" 最美丽的。最高级。',
+      '"larger than" 比……更大。比较级。',
+      '"works harder than" 比……工作更努力。'
+    ],
+    tags: ['比较级和最高级', '花园'],
+    difficulty: 2,
+    summary: '乔的花园年年得第一——虽然比尔的更大，但乔的更有趣。',
+    summaryEn: 'Joe wins the garden competition every time — his garden is more interesting.',
+  },
+  {
+    id: 129,
+    title: 'A trip to Australia',
+    titleCn: '澳大利亚之旅',
+    text: [
+      'My sister went to Australia last year.',
+      'She visited Sydney and saw the Opera House.',
+      'She also went to the Great Barrier Reef.',
+      'She saw many beautiful fish and coral.',
+      'She stayed with an Australian family.',
+      'They were very kind and friendly.',
+      'She said it was the best holiday she had ever had.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'Australia', phonetic: '/ɒˈstreɪliə/', meaning: '澳大利亚' },
+      { word: 'Sydney', phonetic: '/ˈsɪdni/', meaning: '悉尼' },
+      { word: 'opera', phonetic: '/ˈɒpərə/', meaning: '歌剧' },
+      { word: 'reef', phonetic: '/riːf/', meaning: '珊瑚礁' },
+      { word: 'coral', phonetic: '/ˈkɒrəl/', meaning: '珊瑚' },
+      { word: 'Australian', phonetic: '/ɒˈstreɪliən/', meaning: '澳大利亚的' },
+      { word: 'kind', phonetic: '/kaɪnd/', meaning: '善良的' },
+      { word: 'ever', phonetic: '/ˈevə/', meaning: '曾经' }
+    ],
+    notes: [
+      '"the best holiday she had ever had" 她度过的最好的假期。过去完成时+最高级。',
+      '"stayed with" 住在……家里。'
+    ],
+    tags: ['旅行', '最高级'],
+    difficulty: 2,
+    summary: '姐姐的澳大利亚之旅——悉尼歌剧院、大堡礁。',
+    summaryEn: 'My sister\'s trip to Australia — Sydney Opera House and Great Barrier Reef.',
+  },
+  {
+    id: 130,
+    title: 'Television',
+    titleCn: '电视',
+    text: [
+      'Television is one of the most important inventions of the twentieth century.',
+      'It has changed the way we live and work.',
+      'We can watch news, films, and sports from all over the world.',
+      'Some people think television is bad for children.',
+      'Others think it is a useful tool for education.',
+      'Whatever your opinion, television is here to stay.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'television', phonetic: '/ˈtelɪvɪʒn/', meaning: '电视' },
+      { word: 'invention', phonetic: '/ɪnˈvenʃn/', meaning: '发明' },
+      { word: 'century', phonetic: '/ˈsentʃəri/', meaning: '世纪' },
+      { word: 'change', phonetic: '/tʃeɪndʒ/', meaning: '改变' },
+      { word: 'news', phonetic: '/njuːz/', meaning: '新闻' },
+      { word: 'sport', phonetic: '/spɔːt/', meaning: '运动' },
+      { word: 'opinion', phonetic: '/əˈpɪnjən/', meaning: '观点' },
+      { word: 'useful', phonetic: '/ˈjuːsfl/', meaning: '有用的' }
+    ],
+    notes: [
+      '"one of the most" 最……之一。',
+      '"the way we live" 我们生活的方式。',
+      '"here to stay" 会一直存在。'
+    ],
+    tags: ['科技', '议论文'],
+    difficulty: 3,
+    summary: '讨论电视的影响——改变了生活，既是娱乐也是教育工具。',
+    summaryEn: 'Discussing the impact of television — entertainment and education.',
+  },
+  {
+    id: 131,
+    title: 'The story of a farmer',
+    titleCn: '一个农夫的故事',
+    text: [
+      'A farmer lived in a small village.',
+      'He had a small farm with a few chickens and cows.',
+      'Every morning, he woke up at five o\'clock.',
+      'He fed the animals and collected the eggs.',
+      'He sold the eggs and milk at the market.',
+      'He worked very hard but he was happy.',
+      'He said, "I don\'t have much money, but I have everything I need."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'farmer', phonetic: '/ˈfɑːmə/', meaning: '农夫' },
+      { word: 'village', phonetic: '/ˈvɪlɪdʒ/', meaning: '村庄' },
+      { word: 'farm', phonetic: '/fɑːm/', meaning: '农场' },
+      { word: 'chicken', phonetic: '/ˈtʃɪkɪn/', meaning: '鸡' },
+      { word: 'cow', phonetic: '/kaʊ/', meaning: '牛' },
+      { word: 'feed', phonetic: '/fiːd/', meaning: '喂养' },
+      { word: 'market', phonetic: '/ˈmɑːkɪt/', meaning: '市场' },
+      { word: 'everything', phonetic: '/ˈevriθɪŋ/', meaning: '一切' }
+    ],
+    notes: [
+      '"woke up at five" 五点醒来。wake-woke-woken。',
+      '"fed the animals" 喂动物。feed-fed-fed。',
+      '"everything I need" 我需要的一切。'
+    ],
+    tags: ['农村生活', '一般过去时'],
+    difficulty: 1,
+    summary: '一个农夫的故事——虽然不富裕但很满足。',
+    summaryEn: 'A farmer\'s story — not rich but happy with everything he needs.',
+  },
+  {
+    id: 132,
+    title: 'A lucky escape',
+    titleCn: '幸运的逃脱',
+    text: [
+      'A man was driving home late at night.',
+      'Suddenly, a deer ran across the road.',
+      'The man braked hard and stopped just in time.',
+      'The deer looked at him and ran away.',
+      'The man was very shaken but not hurt.',
+      'He said it was the luckiest escape of his life.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'suddenly', phonetic: '/ˈsʌdənli/', meaning: '突然' },
+      { word: 'deer', phonetic: '/dɪə/', meaning: '鹿' },
+      { word: 'road', phonetic: '/rəʊd/', meaning: '路' },
+      { word: 'brake', phonetic: '/breɪk/', meaning: '刹车' },
+      { word: 'just in time', phonetic: '/dʒʌst ɪn taɪm/', meaning: '刚好来得及' },
+      { word: 'shaken', phonetic: '/ˈʃeɪkən/', meaning: '受惊的' },
+      { word: 'hurt', phonetic: '/hɜːt/', meaning: '受伤' },
+      { word: 'luckiest', phonetic: '/ˈlʌkiɪst/', meaning: '最幸运的' }
+    ],
+    notes: [
+      '"ran across the road" 跑过马路。',
+      '"just in time" 刚好来得及。',
+      '"the luckiest escape" 最幸运的逃脱。最高级。'
+    ],
+    tags: ['事故', '最高级'],
+    difficulty: 2,
+    summary: '深夜开车差点撞到鹿——最幸运的逃脱。',
+    summaryEn: 'A man narrowly avoids hitting a deer — the luckiest escape.',
+  },
+  {
+    id: 133,
+    title: 'A surprise test',
+    titleCn: '突击测验',
+    text: [
+      'The teacher walked into the classroom.',
+      '"Put away your books," she said. "We\'re having a test."',
+      'The students were very surprised.',
+      '"But you didn\'t tell us about a test!" said one student.',
+      '"That\'s why it\'s a surprise test," said the teacher.',
+      'The students were worried but they tried their best.',
+      'After the test, the teacher said, "You all did very well."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'classroom', phonetic: '/ˈklɑːsruːm/', meaning: '教室' },
+      { word: 'test', phonetic: '/test/', meaning: '测验' },
+      { word: 'surprised', phonetic: '/səˈpraɪzd/', meaning: '惊讶的' },
+      { word: 'student', phonetic: '/ˈstjuːdnt/', meaning: '学生' },
+      { word: 'worried', phonetic: '/ˈwʌrid/', meaning: '担心的' },
+      { word: 'try', phonetic: '/traɪ/', meaning: '尝试' },
+      { word: 'best', phonetic: '/best/', meaning: '最好' },
+      { word: 'well', phonetic: '/wel/', meaning: '好地' }
+    ],
+    notes: [
+      '"Put away your books" 收起你们的书。',
+      '"tried their best" 尽了最大努力。',
+      '"did very well" 做得很好。'
+    ],
+    tags: ['学校', '一般过去时'],
+    difficulty: 1,
+    summary: '老师宣布突击测验——学生们惊讶但都做得很好。',
+    summaryEn: 'Teacher announces a surprise test — students are surprised but do well.',
+  },
+  {
+    id: 134,
+    title: 'A kind doctor',
+    titleCn: '善良的医生',
+    text: [
+      'Dr. Smith is a very kind doctor.',
+      'He has been looking after sick people for thirty years.',
+      'He gets up early every morning and goes to the hospital.',
+      'He sees many patients every day.',
+      'He always listens to them carefully.',
+      'He never rushes them.',
+      'The people in the town all love him.',
+      'They say he is the best doctor they have ever had.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'kind', phonetic: '/kaɪnd/', meaning: '善良的' },
+      { word: 'sick', phonetic: '/sɪk/', meaning: '生病的' },
+      { word: 'hospital', phonetic: '/ˈhɒspɪtl/', meaning: '医院' },
+      { word: 'patient', phonetic: '/ˈpeɪʃnt/', meaning: '病人' },
+      { word: 'carefully', phonetic: '/ˈkeəfəli/', meaning: '仔细地' },
+      { word: 'rush', phonetic: '/rʌʃ/', meaning: '催促' },
+      { word: 'listen', phonetic: '/ˈlɪsn/', meaning: '听' },
+      { word: 'love', phonetic: '/lʌv/', meaning: '爱' }
+    ],
+    notes: [
+      '"has been looking after" 一直在照顾。现在完成进行时。',
+      '"the best doctor they have ever had" 他们拥有过的最好的医生。'
+    ],
+    tags: ['人物描写', '现在完成进行时'],
+    difficulty: 2,
+    summary: '史密斯医生——三十年如一日地照顾病人，深受大家爱戴。',
+    summaryEn: 'Dr. Smith — caring for sick people for thirty years, loved by everyone.',
+  },
+  {
+    id: 135,
+    title: 'A beautiful garden',
+    titleCn: '一个美丽的花园',
+    text: [
+      'Mrs. Brown has a beautiful garden.',
+      'She grows many kinds of flowers.',
+      'In spring, the tulips and daffodils bloom.',
+      'In summer, the roses are red and white.',
+      'She also grows vegetables — tomatoes, beans, and peas.',
+      'She spends every morning in her garden.',
+      'Her neighbours often stop to admire her garden.',
+      'She says gardening is her favourite hobby.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'grow', phonetic: '/ɡrəʊ/', meaning: '种植' },
+      { word: 'bloom', phonetic: '/bluːm/', meaning: '开花' },
+      { word: 'tulip', phonetic: '/ˈtjuːlɪp/', meaning: '郁金香' },
+      { word: 'daffodil', phonetic: '/ˈdæfədɪl/', meaning: '水仙' },
+      { word: 'rose', phonetic: '/rəʊz/', meaning: '玫瑰' },
+      { word: 'tomato', phonetic: '/təˈmɑːtəʊ/', meaning: '番茄' },
+      { word: 'bean', phonetic: '/biːn/', meaning: '豆' },
+      { word: 'admire', phonetic: '/ədˈmaɪə/', meaning: '欣赏' },
+      { word: 'gardening', phonetic: '/ˈɡɑːdnɪŋ/', meaning: '园艺' },
+      { word: 'favourite', phonetic: '/ˈfeɪvərɪt/', meaning: '最喜欢的' }
+    ],
+    notes: [
+      '"many kinds of" 许多种类的。',
+      '"stop to admire" 停下来欣赏。',
+      '"her favourite hobby" 她最喜欢的爱好。'
+    ],
+    tags: ['爱好', '一般现在时'],
+    difficulty: 1,
+    summary: '布朗太太的美丽花园——种花种菜，邻居们都来欣赏。',
+    summaryEn: 'Mrs. Brown\'s beautiful garden with flowers and vegetables.',
+  },
+  {
+    id: 136,
+    title: 'At the airport',
+    titleCn: '在机场',
+    text: [
+      'We arrived at the airport two hours before the flight.',
+      'We checked in our luggage and went through security.',
+      'We had a cup of coffee while we waited.',
+      'The flight was announced at half past ten.',
+      'We boarded the plane and found our seats.',
+      'The plane took off on time.',
+      'It was a smooth flight.',
+      'We landed safely at our destination.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'airport', phonetic: '/ˈeəpɔːt/', meaning: '机场' },
+      { word: 'flight', phonetic: '/flaɪt/', meaning: '航班' },
+      { word: 'luggage', phonetic: '/ˈlʌɡɪdʒ/', meaning: '行李' },
+      { word: 'security', phonetic: '/sɪˈkjʊərəti/', meaning: '安全检查' },
+      { word: 'announce', phonetic: '/əˈnaʊns/', meaning: '宣布' },
+      { word: 'board', phonetic: '/bɔːd/', meaning: '登机' },
+      { word: 'smooth', phonetic: '/smuːð/', meaning: '平稳的' },
+      { word: 'destination', phonetic: '/ˌdestɪˈneɪʃn/', meaning: '目的地' }
+    ],
+    notes: [
+      '"two hours before the flight" 起飞前两小时。',
+      '"checked in our luggage" 托运行李。',
+      '"took off on time" 准时起飞。'
+    ],
+    tags: ['旅行', '机场'],
+    difficulty: 2,
+    summary: '描述一次顺利的飞行经历——从机场到安全着陆。',
+    summaryEn: 'A smooth flight experience — from airport check-in to safe landing.',
+  },
+  {
+    id: 137,
+    title: 'An unusual day',
+    titleCn: '不寻常的一天',
+    text: [
+      'Yesterday was an unusual day.',
+      'I woke up late and missed the bus.',
+      'I had to walk to work in the rain.',
+      'I got very wet and arrived late.',
+      'My boss was not happy.',
+      'But in the afternoon, something good happened.',
+      'I got a promotion!',
+      'It was the best day of my life.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'unusual', phonetic: '/ʌnˈjuːʒuəl/', meaning: '不寻常的' },
+      { word: 'miss', phonetic: '/mɪs/', meaning: '错过' },
+      { word: 'wet', phonetic: '/wet/', meaning: '湿的' },
+      { word: 'late', phonetic: '/leɪt/', meaning: '迟到的' },
+      { word: 'boss', phonetic: '/bɒs/', meaning: '老板' },
+      { word: 'happen', phonetic: '/ˈhæpən/', meaning: '发生' },
+      { word: 'promotion', phonetic: '/prəˈməʊʃn/', meaning: '升职' },
+      { word: 'best', phonetic: '/best/', meaning: '最好的' }
+    ],
+    notes: [
+      '"missed the bus" 错过了公交车。',
+      '"got very wet" 淋湿了。',
+      '"got a promotion" 得到了升职。'
+    ],
+    tags: ['一般过去时', '人生故事'],
+    difficulty: 2,
+    summary: '不寻常的一天——迟到淋雨，但下午却升职了。',
+    summaryEn: 'An unusual day — late and wet in the morning, but got a promotion in the afternoon.',
+  },
+  {
+    id: 138,
+    title: 'A good memory',
+    titleCn: '好记性',
+    text: [
+      'My grandmother has a very good memory.',
+      'She can remember things that happened fifty years ago.',
+      'She remembers every person she has ever met.',
+      'She can tell you the date of every birthday.',
+      'She says the secret is to keep your mind active.',
+      'She reads a lot and does crossword puzzles every day.',
+      'She says, "If you don\'t use your brain, you\'ll lose it."'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'memory', phonetic: '/ˈmeməri/', meaning: '记忆' },
+      { word: 'remember', phonetic: '/rɪˈmembə/', meaning: '记住' },
+      { word: 'happen', phonetic: '/ˈhæpən/', meaning: '发生' },
+      { word: 'date', phonetic: '/deɪt/', meaning: '日期' },
+      { word: 'active', phonetic: '/ˈæktɪv/', meaning: '活跃的' },
+      { word: 'crossword', phonetic: '/ˈkrɒswɜːd/', meaning: '填字游戏' },
+      { word: 'puzzle', phonetic: '/ˈpʌzl/', meaning: '谜题' },
+      { word: 'brain', phonetic: '/breɪn/', meaning: '大脑' }
+    ],
+    notes: [
+      '"things that happened" 发生过的事情。定语从句。',
+      '"keep your mind active" 保持头脑活跃。',
+      '"If you don\'t use... you\'ll lose it" 不用就会退步。'
+    ],
+    tags: ['健康', '一般现在时'],
+    difficulty: 2,
+    summary: '祖母的好记性——秘诀是保持头脑活跃。',
+    summaryEn: 'Grandmother\'s good memory — the secret is keeping your mind active.',
+  },
+  {
+    id: 139,
+    title: 'The oldest profession',
+    titleCn: '最古老的职业',
+    text: [
+      'People often ask what the oldest profession is.',
+      'Some say it is farming.',
+      'Others say it is teaching.',
+      'But the truth is, we don\'t really know.',
+      'What we do know is that people have always needed food, shelter, and education.',
+      'These needs have created many different professions throughout history.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'profession', phonetic: '/prəˈfeʃn/', meaning: '职业' },
+      { word: 'farming', phonetic: '/ˈfɑːmɪŋ/', meaning: '农业' },
+      { word: 'teaching', phonetic: '/ˈtiːtʃɪŋ/', meaning: '教学' },
+      { word: 'truth', phonetic: '/truːθ/', meaning: '真相' },
+      { word: 'shelter', phonetic: '/ˈʃeltə/', meaning: '住所' },
+      { word: 'education', phonetic: '/ˌedʒuˈkeɪʃn/', meaning: '教育' },
+      { word: 'create', phonetic: '/kriˈeɪt/', meaning: '创造' },
+      { word: 'throughout', phonetic: '/θruːˈaʊt/', meaning: '贯穿' }
+    ],
+    notes: [
+      '"the oldest profession" 最古老的职业。',
+      '"What we do know" 我们确实知道的。强调。',
+      '"throughout history" 贯穿历史。'
+    ],
+    tags: ['职业', '议论文'],
+    difficulty: 3,
+    summary: '讨论最古老的职业——农业、教学，还是无从得知。',
+    summaryEn: 'Discussion of the oldest profession — farming, teaching, or unknown.',
+  },
+  {
+    id: 140,
+    title: 'A lesson in politeness',
+    titleCn: '礼貌课',
+    text: [
+      'A young man was rude to an old woman on the bus.',
+      'He didn\'t offer her his seat.',
+      'An old man saw this and said, "Young man, you should be more polite."',
+      'The young man said, "Why should I? She\'s not my mother."',
+      'The old man said, "But she is someone\'s mother."',
+      'The young man felt ashamed and gave the woman his seat.',
+      'He learned an important lesson that day.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'rude', phonetic: '/ruːd/', meaning: '粗鲁的' },
+      { word: 'offer', phonetic: '/ˈɒfə/', meaning: '提供' },
+      { word: 'seat', phonetic: '/siːt/', meaning: '座位' },
+      { word: 'polite', phonetic: '/pəˈlaɪt/', meaning: '有礼貌的' },
+      { word: 'ashamed', phonetic: '/əˈʃeɪmd/', meaning: '惭愧的' },
+      { word: 'important', phonetic: '/ɪmˈpɔːtnt/', meaning: '重要的' },
+      { word: 'lesson', phonetic: '/ˈlesn/', meaning: '教训' },
+      { word: 'someone', phonetic: '/ˈsʌmwʌn/', meaning: '某人' }
+    ],
+    notes: [
+      '"was rude to" 对……粗鲁。',
+      '"offer her his seat" 给她让座。',
+      '"felt ashamed" 感到惭愧。'
+    ],
+    tags: ['道德故事', '礼貌'],
+    difficulty: 2,
+    summary: '一个年轻人不给老人让座，被教育后感到惭愧。',
+    summaryEn: 'A young man learns a lesson in politeness on the bus.',
+  },
+  {
+    id: 141,
+    title: 'The Olympic Games',
+    titleCn: '奥林匹克运动会',
+    text: [
+      'The Olympic Games are held every four years.',
+      'Athletes from all over the world compete in many different sports.',
+      'The Games begin with the opening ceremony.',
+      'The torch is lit and the games begin.',
+      'The athletes try their best to win medals.',
+      'Gold medals are for first place, silver for second, and bronze for third.',
+      'The Games end with the closing ceremony.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'Olympic', phonetic: '/əˈlɪmpɪk/', meaning: '奥林匹克' },
+      { word: 'athlete', phonetic: '/ˈæθliːt/', meaning: '运动员' },
+      { word: 'compete', phonetic: '/kəmˈpiːt/', meaning: '竞争' },
+      { word: 'ceremony', phonetic: '/ˈserəməni/', meaning: '仪式' },
+      { word: 'torch', phonetic: '/tɔːtʃ/', meaning: '火炬' },
+      { word: 'medal', phonetic: '/ˈmedl/', meaning: '奖牌' },
+      { word: 'gold', phonetic: '/ɡəʊld/', meaning: '金牌' },
+      { word: 'silver', phonetic: '/ˈsɪlvə/', meaning: '银牌' },
+      { word: 'bronze', phonetic: '/brɒnz/', meaning: '铜牌' }
+    ],
+    notes: [
+      '"every four years" 每四年。',
+      '"from all over the world" 来自世界各地。',
+      '"try their best" 尽最大努力。'
+    ],
+    tags: ['体育', '奥运会'],
+    difficulty: 2,
+    summary: '介绍奥林匹克运动会——四年一次，全球运动员竞技。',
+    summaryEn: 'Introduction to the Olympic Games — held every four years, athletes worldwide.',
+  },
+  {
+    id: 142,
+    title: 'A clever dog',
+    titleCn: '聪明的狗',
+    text: [
+      'A man had a very clever dog named Bobby.',
+      'Every morning, the man went to the newspaper shop.',
+      'Bobby went with him and carried the newspaper home.',
+      'One day, the man was ill and couldn\'t go out.',
+      'Bobby went to the shop alone.',
+      'He brought the newspaper home by himself.',
+      'The shopkeeper was very surprised.',
+      'He said, "That\'s the cleverest dog I\'ve ever seen!"'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'clever', phonetic: '/ˈklevə/', meaning: '聪明的' },
+      { word: 'named', phonetic: '/neɪmd/', meaning: '名叫' },
+      { word: 'newspaper', phonetic: '/ˈnjuːzpeɪpə/', meaning: '报纸' },
+      { word: 'carry', phonetic: '/ˈkæri/', meaning: '携带' },
+      { word: 'alone', phonetic: '/əˈləʊn/', meaning: '独自' },
+      { word: 'himself', phonetic: '/hɪmˈself/', meaning: '他自己' },
+      { word: 'shopkeeper', phonetic: '/ˈʃɒpkiːpə/', meaning: '店主' },
+      { word: 'surprised', phonetic: '/səˈpraɪzd/', meaning: '惊讶的' }
+    ],
+    notes: [
+      '"named Bobby" 名叫Bobby。过去分词作后置定语。',
+      '"by himself" 独自地。',
+      '"the cleverest dog I\'ve ever seen" 我见过的最聪明的狗。'
+    ],
+    tags: ['动物故事', '最高级'],
+    difficulty: 2,
+    summary: '一只聪明的狗能独自去商店取报纸。',
+    summaryEn: 'A clever dog named Bobby fetches the newspaper by himself.',
+  },
+  {
+    id: 143,
+    title: 'A famous person',
+    titleCn: '一个名人',
+    text: [
+      'Albert Einstein was one of the greatest scientists of all time.',
+      'He was born in Germany in 1879.',
+      'He developed the theory of relativity.',
+      'This changed our understanding of the universe.',
+      'He won the Nobel Prize in Physics in 1921.',
+      'He spent the last years of his life in the United States.',
+      'He died in 1955, but his ideas still influence scientists today.'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'scientist', phonetic: '/ˈsaɪəntɪst/', meaning: '科学家' },
+      { word: 'Germany', phonetic: '/ˈdʒɜːməni/', meaning: '德国' },
+      { word: 'develop', phonetic: '/dɪˈveləp/', meaning: '发展' },
+      { word: 'theory', phonetic: '/ˈθɪəri/', meaning: '理论' },
+      { word: 'relativity', phonetic: '/ˌreləˈtɪvəti/', meaning: '相对论' },
+      { word: 'universe', phonetic: '/ˈjuːnɪvɜːs/', meaning: '宇宙' },
+      { word: 'Nobel Prize', phonetic: '/nəʊˈbel praɪz/', meaning: '诺贝尔奖' },
+      { word: 'influence', phonetic: '/ˈɪnfluəns/', meaning: '影响' },
+      { word: 'physics', phonetic: '/ˈfɪzɪks/', meaning: '物理学' }
+    ],
+    notes: [
+      '"one of the greatest" 最伟大的之一。',
+      '"was born in" 出生于。',
+      '"the theory of relativity" 相对论。'
+    ],
+    tags: ['名人', '科学史'],
+    difficulty: 3,
+    summary: '介绍爱因斯坦——相对论的创立者，改变了人类对宇宙的理解。',
+    summaryEn: 'Albert Einstein — developed the theory of relativity, changed our understanding of the universe.',
+  },
+  {
+    id: 144,
+    title: 'Goodbye',
+    titleCn: '再见',
+    text: [
+      'It\'s time to say goodbye.',
+      'We hope you have enjoyed learning English.',
+      'Remember, practice makes perfect.',
+      'Keep studying and you will improve every day.',
+      'Don\'t be afraid to make mistakes.',
+      'That\'s how we learn.',
+      'We wish you the best of luck in your English studies.',
+      'Goodbye and good luck!'
+    ],
+    textCn: [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
+    ],
+    vocabulary: [
+      { word: 'goodbye', phonetic: '/ɡʊdˈbaɪ/', meaning: '再见' },
+      { word: 'enjoy', phonetic: '/ɪnˈdʒɔɪ/', meaning: '享受' },
+      { word: 'practice', phonetic: '/ˈpræktɪs/', meaning: '练习' },
+      { word: 'perfect', phonetic: '/ˈpɜːfɪkt/', meaning: '完美的' },
+      { word: 'improve', phonetic: '/ɪmˈpruːv/', meaning: '提高' },
+      { word: 'afraid', phonetic: '/əˈfreɪd/', meaning: '害怕的' },
+      { word: 'mistake', phonetic: '/mɪˈsteɪk/', meaning: '错误' },
+      { word: 'luck', phonetic: '/lʌk/', meaning: '运气' }
+    ],
+    notes: [
+      '"practice makes perfect" 熟能生巧。',
+      '"Don\'t be afraid to make mistakes" 不要害怕犯错。',
+      '"the best of luck" 祝好运。'
+    ],
+    tags: ['告别', '鼓励'],
+    difficulty: 1,
+    summary: '最后一课——鼓励学生继续学习，熟能生巧。',
+    summaryEn: 'The final lesson — encouraging students to keep learning. Practice makes perfect.',
+  }
 ]
 
 export default book1

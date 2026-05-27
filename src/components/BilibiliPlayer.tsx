@@ -15,7 +15,7 @@ export default function BilibiliPlayer({ bvid, title }: BilibiliPlayerProps) {
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
         <iframe
           className="absolute top-0 left-0 w-full h-full rounded-lg border-0"
-          src={`//player.bilibili.com/player.html?bvid=${bvid}&high_quality=1&danmaku=0`}
+          src={`//player.bilibili.com/player.html?bvid=${bvid}&high_quality=1&danmaku=0&watermark=0`}
           scrolling="no"
           allowFullScreen
         />

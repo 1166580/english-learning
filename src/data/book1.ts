@@ -1293,6 +1293,51 @@ const book1: Lesson[] = [
     ],
     tags: ['祈使句'],
     difficulty: 2,
+    summary: '本课复习一般疑问句"Are you...?"的用法，扩展国籍词汇（Russian, Dutch），并学习家庭成员称谓。',
+    summaryEn: 'This lesson reviews "Are you...?" questions, expands nationality vocabulary (Russian, Dutch), and introduces family member terms.',
+    sentenceExplanations: [
+      { sentence: 'Are you Russian?', translation: '你是俄罗斯人吗？', explanation: '"Russian"是俄罗斯的国籍形容词。注意与"Russia"（俄罗斯国名）的区别。' },
+      { sentence: 'No, I am not. I\'m Dutch.', translation: '不，我不是。我是荷兰人。', explanation: '"Dutch"是荷兰的国籍形容词。注意：荷兰的国名是Netherlands/Holland，但国籍是Dutch。' },
+      { sentence: 'Are you tourists?', translation: '你们是游客吗？', explanation: '"tourist"是名词"游客"，复数加s。这里用复数因为问的是"你们"。' },
+      { sentence: 'Are you American?', translation: '你们是美国人吗？', explanation: '"American"既是名词"美国人"也是形容词"美国的"。America → American。' },
+      { sentence: 'Are these your keys?', translation: '这些是你的钥匙吗？', explanation: '"keys"是复数。"these"是this的复数形式，指近处的多个物品。' },
+      { sentence: 'Is this your mother?', translation: '这是你妈妈吗？', explanation: '介绍或询问家人时用"Is this...?"。"mother"比"mum"更正式。' },
+      { sentence: 'She\'s my aunt.', translation: '她是我的姑姑。', explanation: '"aunt"可以指姑姑、阿姨、婶婶、舅母等，统称" aunt"。uncle同理。' }
+    ],
+    grammarSections: [
+      { title: '国籍形容词总结', content: '国籍形容词的构成方式不完全规则，需要记忆。常见后缀有-ish, -ese, -an等。', examples: [
+        { en: 'Russian (俄罗斯的) — Russia + an', cn: '后缀-an' },
+        { en: 'Dutch (荷兰的) — 不规则', cn: '需要特别记忆' },
+        { en: 'American (美国的) — America + an', cn: '后缀-an' },
+        { en: 'English (英国的) — 不规则', cn: '需要特别记忆' }
+      ] },
+      { title: '家庭成员称谓', content: '英语中家庭成员称谓有正式和非正式两种。正式场合用father/mother，日常用dad/mum。', examples: [
+        { en: 'father (正式) / dad (非正式)', cn: '爸爸' },
+        { en: 'mother (正式) / mum (非正式)', cn: '妈妈' },
+        { en: 'uncle — 叔叔、伯伯、舅舅等', cn: '统称uncle' },
+        { en: 'aunt — 阿姨、姑姑、婶婶等', cn: '统称aunt' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Are you ___? — No, I\'m not. I\'m ___.', substitutions: [
+        { en: 'Russian / Dutch', cn: '俄罗斯人 / 荷兰人' },
+        { en: 'American / English', cn: '美国人 / 英国人' },
+        { en: 'French / German', cn: '法国人 / 德国人' },
+        { en: 'Japanese / Chinese', cn: '日本人 / 中国人' }
+      ] },
+      { pattern: 'Is this your ___? — No, she/he isn\'t. She\'s/He\'s my ___.', substitutions: [
+        { en: 'mother / aunt', cn: '妈妈 / 姑姑' },
+        { en: 'father / uncle', cn: '爸爸 / 叔叔' },
+        { en: 'sister / cousin', cn: '姐妹 / 堂兄弟姐妹' },
+        { en: 'brother / friend', cn: '兄弟 / 朋友' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'I\'m _____. I\'m from the Netherlands.', options: ['A. Dutch', 'B. Danish', 'C. German', 'D. British'], answer: 'A', explanation: 'Netherlands（荷兰）的国籍形容词是Dutch。' },
+      { type: 'fill', question: 'She\'s my _____. (姑姑)', answer: 'aunt', explanation: 'aunt统称姑姑、阿姨等女性长辈亲戚。' },
+      { type: 'judge', question: '"Are you tourist?" 是正确的句子。', answer: '错误', explanation: '应该是"Are you a tourist?"或"Are you tourists?"，需要冠词或用复数。' },
+      { type: 'choice', question: 'Are _____ your keys? Yes, they are.', options: ['A. this', 'B. that', 'C. these', 'D. it'], answer: 'C', explanation: '回答是"they are"，说明问的是复数，用these。' }
+    ],
   },
   {
     id: 17,
@@ -1337,6 +1382,50 @@ const book1: Lesson[] = [
     ],
     tags: ['现在进行时', '时态'],
     difficulty: 5,
+    summary: '本课学习正式问候语"How do you do?"，以及介绍他人的句型"This is..."。通过公司场景介绍员工和职业。',
+    summaryEn: 'This lesson teaches the formal greeting "How do you do?" and introducing others with "This is..." in a company setting.',
+    sentenceExplanations: [
+      { sentence: 'Come and meet our employees, Mr. Richards.', translation: '来见见我们的员工，理查兹先生。', explanation: '"Come and meet"是祈使句，邀请对方来见面。"employees"是employee的复数。' },
+      { sentence: 'This is Nicola Grey, and this is Claire Taylor.', translation: '这位是尼古拉·格雷，这位是克莱尔·泰勒。', explanation: '介绍他人时用"This is + 名字"。注意不用"He/She is..."。' },
+      { sentence: 'How do you do?', translation: '你好！', explanation: '这是非常正式的问候语，通常用于初次见面。回答也是"How do you do?"。现在较少使用。' },
+      { sentence: 'Those women are very hard-working.', translation: '那些女士工作非常努力。', explanation: '"those"是that的复数形式。"hard-working"是复合形容词，表示"勤奋的"。' },
+      { sentence: 'They\'re keyboard operators.', translation: '她们是键盘操作员。', explanation: '复数主语They对应复数名词operators。' },
+      { sentence: 'They\'re sales reps. They\'re very lazy.', translation: '他们是销售代表。他们非常懒。', explanation: '"sales rep"是"sales representative"的缩写。"lazy"是"hard-working"的反义词。' }
+    ],
+    grammarSections: [
+      { title: '介绍他人的句型', content: '英语中介绍他人时用"This is..."，不用"He/She is..."。这是固定用法。', examples: [
+        { en: 'This is my friend, Tom.', cn: '这是我的朋友汤姆。' },
+        { en: 'This is Mr. Jackson.', cn: '这位是杰克逊先生。' },
+        { en: 'This is Nicola Grey, and this is Claire Taylor.', cn: '介绍两人' },
+        { en: 'Mum, this is my teacher, Mrs. Li.', cn: '非正式场合' }
+      ] },
+      { title: '指示代词 this/that/these/those', content: '指示代词分近指（this/these）和远指（that/those），以及单复数。', examples: [
+        { en: 'this (这个) → these (这些)', cn: '近指' },
+        { en: 'that (那个) → those (那些)', cn: '远指' },
+        { en: 'This is a book. These are books.', cn: '单复数' },
+        { en: 'That woman → Those women', cn: '远指单复数' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'This is ___, and this is ___.', substitutions: [
+        { en: 'Nicola Grey / Claire Taylor', cn: '人名介绍' },
+        { en: 'my friend Tom / his sister Jane', cn: '朋友和姐妹' },
+        { en: 'Mr. Baker / Mrs. Short', cn: '先生和女士' },
+        { en: 'our teacher / our doctor', cn: '老师和医生' }
+      ] },
+      { pattern: 'What are their jobs? — They\'re ___.', substitutions: [
+        { en: 'keyboard operators', cn: '键盘操作员' },
+        { en: 'sales reps', cn: '销售代表' },
+        { en: 'office workers', cn: '办公室职员' },
+        { en: 'taxi drivers', cn: '出租车司机' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ is Mr. Jackson. He\'s our boss.', options: ['A. He', 'B. This', 'C. That', 'D. It'], answer: 'B', explanation: '介绍他人时用"This is..."，不用"He is..."。' },
+      { type: 'fill', question: 'Those women are very _____. (勤奋的)', answer: 'hard-working', explanation: '"hard-working"是复合形容词，表示勤奋的。' },
+      { type: 'judge', question: '"How do you do?" 的回答也是 "How do you do?"', answer: '正确', explanation: '这是固定用法，回答和问句一样。' },
+      { type: 'choice', question: 'They\'re very _____. (懒惰的)', options: ['A. lazy', 'B. late', 'C. last', 'D. large'], answer: 'A', explanation: 'lazy是懒惰的，是hard-working的反义词。' }
+    ],
   },
   {
     id: 18,
@@ -1382,6 +1471,50 @@ const book1: Lesson[] = [
     ],
     tags: ['现在进行时', '动词分类'],
     difficulty: 3,
+    summary: '本课继续学习描述职业和人物特征，复习"Look at..."句型，扩展职业词汇（milkman, office worker）。',
+    summaryEn: 'This lesson continues describing jobs and people with "Look at..." and expands occupation vocabulary.',
+    sentenceExplanations: [
+      { sentence: 'Look at that man. He\'s a postman.', translation: '看那个男人。他是邮递员。', explanation: '"Look at"引起注意，后接"that + 单数名词"。然后用"He\'s a..."描述职业。' },
+      { sentence: 'Look at those people.', translation: '看那些人。', explanation: '"those"是that的复数形式。"people"本身就是复数名词（person的复数）。' },
+      { sentence: 'What are their jobs?', translation: '他们是做什么工作的？', explanation: '复数形式的问句。"their"对应复数主语they。' },
+      { sentence: 'Look at that milkman.', translation: '看那个送奶工。', explanation: '"milkman"由milk（牛奶）+man组成，指送牛奶的人。复数是milkmen。' },
+      { sentence: 'Look at those office workers.', translation: '看那些办公室职员。', explanation: '"office worker"是复合名词，指在办公室工作的人。复数加在worker上。' },
+      { sentence: 'They\'re very lazy.', translation: '他们很懒。', explanation: '"lazy"是形容词，描述性格特征。可以用very来加强程度。' }
+    ],
+    grammarSections: [
+      { title: 'that/those 指示远近', content: '"that"指远处的单数事物，"those"指远处的复数事物。与"this/these"（近指）相对。', examples: [
+        { en: 'Look at that man. (单数)', cn: '看那个男人。' },
+        { en: 'Look at those people. (复数)', cn: '看那些人。' },
+        { en: 'That is a car. Those are cars.', cn: '单复数对比' },
+        { en: 'This is near. That is far.', cn: '近指和远指' }
+      ] },
+      { title: '复合名词的复数', content: '由两个词组成的复合名词，复数通常加在最后一个词上。', examples: [
+        { en: 'milkman → milkmen (不规则)', cn: '送奶工' },
+        { en: 'office worker → office workers', cn: '办公室职员' },
+        { en: 'postman → postmen (不规则)', cn: '邮递员' },
+        { en: 'sales rep → sales reps', cn: '销售代表' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Look at that ___. He\'s/She\'s a ___.', substitutions: [
+        { en: 'man / postman', cn: '男人 / 邮递员' },
+        { en: 'woman / policewoman', cn: '女人 / 女警察' },
+        { en: 'man / milkman', cn: '男人 / 送奶工' },
+        { en: 'woman / nurse', cn: '女人 / 护士' }
+      ] },
+      { pattern: 'Look at those ___. They\'re very ___.', substitutions: [
+        { en: 'people / hard-working', cn: '人们 / 勤奋的' },
+        { en: 'office workers / busy', cn: '办公室职员 / 忙碌的' },
+        { en: 'children / happy', cn: '孩子们 / 开心的' },
+        { en: 'students / lazy', cn: '学生们 / 懒的' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'Look at _____ people. They\'re very busy.', options: ['A. this', 'B. that', 'C. these', 'D. those'], answer: 'D', explanation: 'people是复数，且用those指远处的复数事物。' },
+      { type: 'fill', question: 'He\'s a _____. He delivers milk. (送奶工)', answer: 'milkman', explanation: 'milkman = milk + man，送牛奶的人。' },
+      { type: 'judge', question: '"People" 是 person 的复数形式。', answer: '正确', explanation: 'person → people，是不规则复数。' },
+      { type: 'choice', question: 'What are _____ jobs? (他们的)', options: ['A. they', 'B. them', 'C. their', 'D. theirs'], answer: 'C', explanation: '后面有名词jobs，用形容词性物主代词their。' }
+    ],
   },
   {
     id: 19,
@@ -1426,6 +1559,50 @@ const book1: Lesson[] = [
     ],
     tags: ['所有格', '介词短语'],
     difficulty: 2,
+    summary: '本课学习询问状况的句型"What\'s the matter?"，以及"There\'s"表示存在的用法。通过孩子买冰淇淋的场景展开。',
+    summaryEn: 'This lesson teaches "What\'s the matter?" for asking about problems and "There\'s" for existence, through a children\'s ice cream scene.',
+    sentenceExplanations: [
+      { sentence: 'What\'s the matter, children?', translation: '怎么了，孩子们？', explanation: '"What\'s the matter?"用来询问出了什么问题或怎么了。"children"是child的复数。' },
+      { sentence: 'We\'re tired and thirsty, Mum.', translation: '我们累了，也渴了，妈妈。', explanation: '"tired"和"thirsty"用"and"连接，表示同时有两种状态。' },
+      { sentence: 'Sit down here.', translation: '坐在这儿吧。', explanation: '祈使句。"sit down"是坐下，"here"是地点副词表示"在这儿"。' },
+      { sentence: 'Are you all right now?', translation: '你们现在好些了吗？', explanation: '"all right"表示"好了、没问题"。"now"表示"现在"。' },
+      { sentence: 'Look! There\'s an ice cream man.', translation: '看！那边有个卖冰淇淋的。', explanation: '"There\'s"是"There is"的缩写，表示存在。"an"因为ice以元音开头。' },
+      { sentence: 'Two ice creams please.', translation: '请给我们两客冰淇淋。', explanation: '省略句，完整形式是"Give me two ice creams, please."。"ice cream"在这里可数化。' },
+      { sentence: 'These ice creams are nice.', translation: '这些冰淇淋真好吃。', explanation: '"nice"表示好吃、好。"these"指手上的冰淇淋。' }
+    ],
+    grammarSections: [
+      { title: 'What\'s the matter? 句型', content: '"What\'s the matter?"用来询问对方怎么了、出了什么问题。可以加"with + 人/物"来具体说明。', examples: [
+        { en: 'What\'s the matter? — I\'m tired.', cn: '怎么了？—我累了。' },
+        { en: 'What\'s the matter with you? — I\'m thirsty.', cn: '你怎么了？—我渴了。' },
+        { en: 'What\'s the matter with the car? — It\'s broken.', cn: '车怎么了？—它坏了。' }
+      ] },
+      { title: 'There is 表示存在', content: '"There is/are..."表示某处存在某物。"There\'s"是"There is"的缩写。', examples: [
+        { en: 'There\'s an ice cream man.', cn: '有个卖冰淇淋的。' },
+        { en: 'There\'s a book on the table.', cn: '桌子上有一本书。' },
+        { en: 'There are two cats in the garden.', cn: '花园里有两只猫。' },
+        { en: 'There\'s a problem.', cn: '有个问题。' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'What\'s the matter? — I\'m ___ and ___.', substitutions: [
+        { en: 'tired / thirsty', cn: '累 / 渴' },
+        { en: 'hungry / tired', cn: '饿 / 累' },
+        { en: 'cold / hungry', cn: '冷 / 饿' },
+        { en: 'hot / thirsty', cn: '热 / 渴' }
+      ] },
+      { pattern: 'There\'s a/an ___.', substitutions: [
+        { en: 'ice cream man', cn: '卖冰淇淋的' },
+        { en: 'book on the table', cn: '桌子上的书' },
+        { en: 'cat in the garden', cn: '花园里的猫' },
+        { en: 'problem', cn: '问题' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'What\'s the _____? I\'m tired.', options: ['A. wrong', 'B. matter', 'C. problem', 'D. thing'], answer: 'B', explanation: '"What\'s the matter?"是固定搭配。' },
+      { type: 'fill', question: 'There\'s _____ ice cream man. (一个)', answer: 'an', explanation: 'ice以元音音素/aɪ/开头，用an。' },
+      { type: 'judge', question: '"Two ice creams" 中 ice cream 用作可数名词。', answer: '正确', explanation: '在表示"两份冰淇淋"时，ice cream可以加s表示可数。' },
+      { type: 'choice', question: 'We\'re tired _____ thirsty.', options: ['A. or', 'B. but', 'C. and', 'D. so'], answer: 'C', explanation: '"and"连接两个并列的状态，表示"又...又..."。' }
+    ],
   },
   {
     id: 20,
@@ -1471,6 +1648,50 @@ const book1: Lesson[] = [
     ],
     tags: ['一般将来时', '时态'],
     difficulty: 3,
+    summary: '本课学习询问尺寸的句型"What size...?"，以及描述衣物大小的形容词（small, large, funny）。',
+    summaryEn: 'This lesson teaches "What size...?" questions and size adjectives (small, large, funny) for describing clothes.',
+    sentenceExplanations: [
+      { sentence: 'Look at those shoes!', translation: '看看那些鞋！', explanation: '"those"指远处的复数物品。"shoes"通常用复数，因为鞋子成双。' },
+      { sentence: 'They\'re very small.', translation: '它们非常小。', explanation: '"small"是"large/big"的反义词，描述尺寸小。' },
+      { sentence: 'What size are they?', translation: '它们是几码的？', explanation: '"What size...?"用来询问尺寸、尺码。回答直接说数字。' },
+      { sentence: 'Size five.', translation: '5码。', explanation: '省略回答，完整形式是"They are size five."。' },
+      { sentence: 'Look at those trousers!', translation: '看看那些裤子！', explanation: '"trousers"是复数名词（成对物品），没有单数形式。类似的还有scissors（剪刀）、glasses（眼镜）。' },
+      { sentence: 'They\'re very large.', translation: '它们非常大。', explanation: '"large"和"big"意思相近，但"large"更正式一些。' },
+      { sentence: 'They\'re very funny.', translation: '它们很滑稽。', explanation: '"funny"表示有趣的、滑稽的。注意与"fun"（乐趣）的区别。' }
+    ],
+    grammarSections: [
+      { title: 'What size 疑问句', content: '"What size is/are...?"用来询问尺寸、尺码。回答直接说数字或"size + 数字"。', examples: [
+        { en: 'What size are your shoes? — Size five.', cn: '你的鞋几码？—5码。' },
+        { en: 'What size is your shirt? — Large.', cn: '你的衬衫多大号？—大号。' },
+        { en: 'What size are those trousers? — Size eleven.', cn: '那些裤子几码？—11码。' }
+      ] },
+      { title: '成对物品名词（复数）', content: '英语中有些物品因为成对出现，通常用复数形式。这些名词没有单数形式，谓语用复数。', examples: [
+        { en: 'trousers (裤子)', cn: '两条腿 → 复数' },
+        { en: 'shoes (鞋子)', cn: '两只鞋 → 复数' },
+        { en: 'scissors (剪刀)', cn: '两个刃 → 复数' },
+        { en: 'glasses (眼镜)', cn: '两个镜片 → 复数' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'What size are they? — Size ___.', substitutions: [
+        { en: 'five', cn: '5码' },
+        { en: 'seven', cn: '7码' },
+        { en: 'nine', cn: '9码' },
+        { en: 'eleven', cn: '11码' }
+      ] },
+      { pattern: 'Look at those ___! They\'re very ___.', substitutions: [
+        { en: 'shoes / small', cn: '鞋 / 小' },
+        { en: 'trousers / large', cn: '裤子 / 大' },
+        { en: 'hats / funny', cn: '帽子 / 滑稽' },
+        { en: 'shirts / nice', cn: '衬衫 / 好看' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'What _____ are your shoes?', options: ['A. colour', 'B. size', 'C. make', 'D. kind'], answer: 'B', explanation: '"What size"询问尺寸。' },
+      { type: 'fill', question: 'These _____ are very large. (裤子)', answer: 'trousers', explanation: 'trousers是复数名词，没有单数形式。' },
+      { type: 'judge', question: '"Trousers" 可以用单数形式 "trouser"。', answer: '错误', explanation: 'trousers没有单数形式，始终用复数。' },
+      { type: 'choice', question: 'Look at those hats! They\'re very _____.', options: ['A. fun', 'B. funny', 'C. funs', 'D. funing'], answer: 'B', explanation: '"funny"是形容词"滑稽的"，"fun"是名词"乐趣"。' }
+    ],
   },
   {
     id: 21,

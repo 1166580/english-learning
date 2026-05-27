@@ -2571,6 +2571,48 @@ const book1: Lesson[] = [
     ],
     tags: ['序数词', 'have'],
     difficulty: 2,
+    summary: '本课对比一般现在时（习惯）和现在进行时（此刻），通过"不寻常的一天"展示两种时态在同一场景中的交替使用。',
+    summaryEn: 'This lesson contrasts simple present (habit) with present continuous (now), showing both tenses in an "unusual day" scenario.',
+    sentenceExplanations: [
+      { sentence: 'It is eight o\'clock.', translation: '现在八点钟。', explanation: '"It"指时间。"o\'clock"表示整点。' },
+      { sentence: 'The children go to school by car every day, but today, they are going to school on foot.', translation: '孩子们每天坐车上学，但今天他们步行上学。', explanation: '"go"是一般现在时表示习惯。"are going"是现在进行时表示今天正在发生的事。' },
+      { sentence: 'Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.', translation: '索耶夫人通常上午待在家里，但今天上午她要去商店。', explanation: '"usually stays"一般现在时。"is going"现在进行时。"this morning"暗示今天。' },
+      { sentence: 'Mrs. Sawyer usually drinks tea in the living room, but this afternoon, she is drinking tea in the garden.', translation: '索耶夫人通常在客厅喝茶，但今天下午她在花园里喝茶。', explanation: '两种时态对比：usually drinks（习惯）vs is drinking（今天）。' }
+    ],
+    grammarSections: [
+      { title: '一般现在时 vs 现在进行时', content: '一般现在时表示习惯性、经常性的动作。现在进行时表示此刻正在进行或当前阶段正在做的事。', examples: [
+        { en: 'He goes to work every day. (习惯)', cn: '他每天去上班。' },
+        { en: 'He is going to work now. (此刻)', cn: '他现在正在去上班。' },
+        { en: 'She drinks tea in the afternoon. (习惯)', cn: '她下午喝茶。' },
+        { en: 'She is drinking tea now. (此刻)', cn: '她正在喝茶。' }
+      ] },
+      { title: '交通方式表达', content: '"by + 交通工具"表示乘坐某种交通工具。"on foot"表示步行。', examples: [
+        { en: 'by car (坐车)', cn: 'by + 交通工具' },
+        { en: 'by bus (坐公交车)', cn: 'by + 交通工具' },
+        { en: 'by bike (骑自行车)', cn: 'by + 交通工具' },
+        { en: 'on foot (步行)', cn: '固定搭配' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'He/She usually ___-s, but today he/she is ___-ing.', substitutions: [
+        { en: 'go to work / walk', cn: '去上班 / 步行' },
+        { en: 'stay at home / go shopping', cn: '待在家 / 去购物' },
+        { en: 'drink tea / drink coffee', cn: '喝茶 / 喝咖啡' },
+        { en: 'read in the room / read in the garden', cn: '在房间看书 / 在花园看书' }
+      ] },
+      { pattern: 'I go to school by ___.', substitutions: [
+        { en: 'car', cn: '车' },
+        { en: 'bus', cn: '公交车' },
+        { en: 'bike', cn: '自行车' },
+        { en: 'train', cn: '火车' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'The children go to school by car every day, but today they _____ going on foot.', options: ['A. is', 'B. are', 'C. am', 'D. do'], answer: 'B', explanation: 'they用are，现在进行时表示今天。' },
+      { type: 'fill', question: 'She goes to school _____ foot. (步行)', answer: 'on', explanation: '"on foot"是固定搭配，表示步行。' },
+      { type: 'judge', question: '"She usually drinks tea" 是现在进行时。', answer: '错误', explanation: '"usually"表示习惯，是一般现在时。' },
+      { type: 'choice', question: 'Mrs. Sawyer _____ at home every day.', options: ['A. stay', 'B. stays', 'C. staying', 'D. stayed'], answer: 'B', explanation: '第三人称单数加s。' }
+    ],
   },
   {
     id: 32,
@@ -2609,6 +2651,49 @@ const book1: Lesson[] = [
     ],
     tags: ['感官动词'],
     difficulty: 3,
+    summary: '本课学习一般过去时was/were的用法，以及"hundreds of"表示数量的表达。通过汽车比赛的场景展开。',
+    summaryEn: 'This lesson introduces the past tense was/were and "hundreds of" for quantity, through a car race scenario.',
+    sentenceExplanations: [
+      { sentence: 'There is a car race near our town every year.', translation: '我们镇附近每年都有汽车比赛。', explanation: '"every year"表示每年，一般现在时。' },
+      { sentence: 'In 1995, there was a very big race.', translation: '在1995年，有一场非常大的比赛。', explanation: '"In 1995"表示过去时间，用was。"there was"是"There is"的过去式。' },
+      { sentence: 'There were hundreds of people there.', translation: '那里有成百上千的人。', explanation: '"were"是"are"的过去式。"hundreds of"表示成百上千的。' },
+      { sentence: 'My wife and I were at the race.', translation: '我和妻子去看了比赛。', explanation: '"My wife and I"是复数主语，用were。先说别人后说自己是礼貌用法。' },
+      { sentence: 'You can see us in the crowd.', translation: '你可以在人群中看到我们。', explanation: '"can"是情态动词，表示能够。"us"是we的宾格。' },
+      { sentence: 'We are standing on the left.', translation: '我们站在左边。', explanation: '现在进行时描述照片中的动作。' }
+    ],
+    grammarSections: [
+      { title: '一般过去时 was/were', content: 'was是am/is的过去式，were是are的过去式。用于表示过去的状态或事实。', examples: [
+        { en: 'I was at home yesterday. (我昨天在家)', cn: '第一人称单数' },
+        { en: 'He was a student. (他曾是学生)', cn: '第三人称单数' },
+        { en: 'We were at the race. (我们在比赛现场)', cn: '复数' },
+        { en: 'They were happy. (他们很高兴)', cn: '复数' }
+      ] },
+      { title: 'hundreds of 数量表达', content: '用"hundreds/thousands/millions of + 复数名词"表示不确定的大数量。注意hundred后加s。', examples: [
+        { en: 'hundreds of people (数百人)', cn: '不确定的数量' },
+        { en: 'thousands of books (数千本书)', cn: '不确定的数量' },
+        { en: '但：two hundred people (两百人)', cn: '具体数字不加s' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'There was/were ___ at/in ___.', substitutions: [
+        { en: 'a big race / 1995', cn: '一场大比赛 / 1995年' },
+        { en: 'hundreds of people / the crowd', cn: '数百人 / 人群中' },
+        { en: 'a man / the bus stop', cn: '一个男人 / 车站' },
+        { en: 'many boats / the river', cn: '很多船 / 河上' }
+      ] },
+      { pattern: 'I/He/She was ___. We/They were ___.', substitutions: [
+        { en: 'at home / at school', cn: '在家 / 在学校' },
+        { en: 'a student / students', cn: '一个学生 / 学生们' },
+        { en: 'happy / tired', cn: '高兴 / 累' },
+        { en: 'in London / in the park', cn: '在伦敦 / 在公园' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'In 1995, there _____ a very big race.', options: ['A. is', 'B. was', 'C. are', 'D. were'], answer: 'B', explanation: '1995是过去时间，race是单数，用was。' },
+      { type: 'fill', question: 'There were _____ of people there. (数百)', answer: 'hundreds', explanation: '"hundreds of"表示成百上千的。' },
+      { type: 'judge', question: '"two hundreds people" 是正确的表达。', answer: '错误', explanation: '具体数字后hundred不加s，应该是"two hundred people"。' },
+      { type: 'choice', question: 'My wife and I _____ at the race.', options: ['A. was', 'B. is', 'C. were', 'D. are'], answer: 'C', explanation: 'My wife and I是复数，用were。' }
+    ],
   },
   {
     id: 33,
@@ -2647,6 +2732,51 @@ const book1: Lesson[] = [
     ],
     tags: ['must', '否定句'],
     difficulty: 2,
+    summary: '本课学习一般过去时的否定句和疑问句，以及问路的常用表达。通过迷路问路的故事展开。',
+    summaryEn: 'This lesson teaches past tense negatives and questions, plus asking for directions through a lost-in-London story.',
+    sentenceExplanations: [
+      { sentence: 'Last week Mrs. Mills went to London.', translation: '上周米尔斯夫人去了伦敦。', explanation: '"Last week"表示过去时间。"went"是go的过去式。' },
+      { sentence: 'She does not know London very well, and she lost her way.', translation: '她对伦敦不太熟悉，迷路了。', explanation: '"does not know"是一般现在时否定。"lost her way"是过去式，迷路了。' },
+      { sentence: 'Suddenly, she saw a man near a bus stop.', translation: '突然，她在一个公共汽车站附近看见一个男人。', explanation: '"suddenly"表示突然。"saw"是see的过去式。' },
+      { sentence: '"I can ask him the way," she said to herself.', translation: '"我可以向他问路，"她自言自语道。', explanation: '"ask sb the way"向某人问路。"said to herself"自言自语。' },
+      { sentence: '"Excuse me," she said.', translation: '"对不起，"她说。', explanation: '"Excuse me"用于引起陌生人注意，比"sorry"更礼貌。' },
+      { sentence: '"Can you tell me the way to King Street, please?"', translation: '"请问去国王街怎么走？"', explanation: '"Can you tell me the way to...?"是问路的标准句型。' },
+      { sentence: 'He did not understand English!', translation: '他不懂英语！', explanation: '"did not understand"是过去式否定句。用"did not + 动词原形"。' }
+    ],
+    grammarSections: [
+      { title: '一般过去时否定句', content: '一般过去时否定句用"did not (didn\'t) + 动词原形"。不论主语是什么，都用did not。', examples: [
+        { en: 'I did not (didn\'t) go to school.', cn: '我没去上学。' },
+        { en: 'He did not (didn\'t) understand.', cn: '他不理解。' },
+        { en: 'They did not (didn\'t) come.', cn: '他们没来。' },
+        { en: '注意：动词用原形，不用过去式', cn: 'didn\'t go (不说 didn\'t went)' }
+      ] },
+      { title: '问路表达', content: '问路时用"Excuse me"开头引起注意，然后用"Can you tell me the way to...?"询问。', examples: [
+        { en: 'Excuse me, can you tell me the way to...?', cn: '请问去...怎么走？' },
+        { en: 'Excuse me, where is...?', cn: '请问...在哪里？' },
+        { en: 'Excuse me, how do I get to...?', cn: '请问怎么去...？' },
+        { en: 'Turn left/right. Go straight. It\'s on the left/right.', cn: '指路常用表达' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'I/He/She did not ___ last ___.', substitutions: [
+        { en: 'go / week', cn: '去 / 上周' },
+        { en: 'understand / time', cn: '理解 / 上次' },
+        { en: 'come / Monday', cn: '来 / 周一' },
+        { en: 'see / night', cn: '看到 / 昨晚' }
+      ] },
+      { pattern: 'Can you tell me the way to ___?', substitutions: [
+        { en: 'King Street', cn: '国王街' },
+        { en: 'the bus stop', cn: '公共汽车站' },
+        { en: 'the hospital', cn: '医院' },
+        { en: 'the train station', cn: '火车站' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'Last week she _____ to London.', options: ['A. go', 'B. goes', 'C. went', 'D. going'], answer: 'C', explanation: 'Last week表示过去，go → went。' },
+      { type: 'fill', question: 'He did not _____ English. (理解)', answer: 'understand', explanation: 'did not后接动词原形。' },
+      { type: 'judge', question: '"He did not understood English" 是正确的句子。', answer: '错误', explanation: 'did not后接动词原形understand，不是过去式understood。' },
+      { type: 'choice', question: 'Excuse me, can you tell me the _____ to King Street?', options: ['A. road', 'B. way', 'C. street', 'D. path'], answer: 'B', explanation: '"the way to"是问路的固定搭配。' }
+    ],
   },
   {
     id: 34,
@@ -2686,6 +2816,48 @@ const book1: Lesson[] = [
     ],
     tags: ['反身代词', '介词', '时间'],
     difficulty: 2,
+    summary: '本课学习一般过去时疑问句"Did...?"的用法，以及"like these"表示"像这样的"表达。',
+    summaryEn: 'This lesson teaches past tense questions with "Did...?" and "like these" for "like these ones".',
+    sentenceExplanations: [
+      { sentence: 'Do you have any shoes like these?', translation: '你们有像这样的鞋子吗？', explanation: '"Do you have...?"是一般现在时疑问句。"like these"表示像这样的。' },
+      { sentence: 'What size? / What colour?', translation: '几码的？/什么颜色的？', explanation: '省略疑问句，完整形式是"What size do you want?"和"What colour do you want?"。' },
+      { sentence: 'I\'m sorry. We don\'t have any.', translation: '抱歉，我们没有。', explanation: '"don\'t have any"是否定形式。"any"用于否定句中。' },
+      { sentence: 'But my sister bought this pair last month.', translation: '但我姐姐上个月买了这双。', explanation: '"bought"是buy的过去式。"this pair"这双。"last month"上个月。' },
+      { sentence: 'Did she buy them here?', translation: '她是在这里买的吗？', explanation: '"Did + 主语 + 动词原形"是过去时疑问句。' },
+      { sentence: 'No, she bought them in the U.S.', translation: '不，她在美国买的。', explanation: '"the U.S."是美国的缩写（United States）。' }
+    ],
+    grammarSections: [
+      { title: '一般过去时疑问句', content: '一般过去时疑问句用"Did + 主语 + 动词原形?"。回答用"Yes, ...did."或"No, ...didn\'t."。', examples: [
+        { en: 'Did she buy them here? — No, she didn\'t.', cn: '她在这买的吗？—不是。' },
+        { en: 'Did you go to school? — Yes, I did.', cn: '你去上学了吗？—是的。' },
+        { en: 'Did he understand? — No, he didn\'t.', cn: '他理解了吗？—没有。' }
+      ] },
+      { title: 'like these/those', content: '"like these/those"表示"像这些/那些一样的"。"like"是介词，表示像。', examples: [
+        { en: 'Do you have shoes like these?', cn: '你有像这样的鞋吗？' },
+        { en: 'I want a bag like yours.', cn: '我想要一个像你那样的包。' },
+        { en: 'She looks like her mother.', cn: '她看起来像她妈妈。' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Did he/she ___ it/them ___? — Yes/No...', substitutions: [
+        { en: 'buy / here', cn: '买 / 这里' },
+        { en: 'see / yesterday', cn: '看到 / 昨天' },
+        { en: 'eat / at home', cn: '吃 / 在家' },
+        { en: 'read / last week', cn: '读 / 上周' }
+      ] },
+      { pattern: 'Do you have any ___ like ___?', substitutions: [
+        { en: 'shoes / these', cn: '鞋 / 这些' },
+        { en: 'bags / that', cn: '包 / 那个' },
+        { en: 'pens / mine', cn: '笔 / 我的' },
+        { en: 'dresses / hers', cn: '连衣裙 / 她的' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ she buy them here?', options: ['A. Does', 'B. Did', 'C. Do', 'D. Was'], answer: 'B', explanation: '过去时疑问句用Did。' },
+      { type: 'fill', question: 'My sister _____ this pair last month. (买)', answer: 'bought', explanation: 'buy → bought (过去式)。' },
+      { type: 'judge', question: '"Did she bought them here?" 是正确的句子。', answer: '错误', explanation: 'Did后接动词原形buy，不是过去式bought。' },
+      { type: 'choice', question: 'We don\'t have _____.', options: ['A. some', 'B. any', 'C. a', 'D. the'], answer: 'B', explanation: '否定句用any。' }
+    ],
   },
   {
     id: 35,
@@ -2720,6 +2892,48 @@ const book1: Lesson[] = [
     ],
     tags: ['一般过去时', '时态'],
     difficulty: 4,
+    summary: '本课学习现在完成时的初步用法（have/has + 过去分词），以及地理描述中的度量表达。',
+    summaryEn: 'This lesson introduces the present perfect tense (have/has + past participle) and measurement expressions for geography.',
+    sentenceExplanations: [
+      { sentence: 'The English Channel separates England from France.', translation: '英吉利海峡把英国和法国隔开。', explanation: '"separate...from..."把...和...分开。注意England和France都是专有名词。' },
+      { sentence: 'It is about thirty-three miles wide at its narrowest point.', translation: '在最窄处大约三十三英里宽。', explanation: '"thirty-three miles wide"表示宽度。"at its narrowest point"在最窄处。' },
+      { sentence: 'Many people have swum across the English Channel.', translation: '很多人已经游过了英吉利海峡。', explanation: '"have swum"是现在完成时。swim → swum (过去分词)。"across"表示横穿。' },
+      { sentence: 'It usually takes them about twelve hours.', translation: '通常需要大约十二个小时。', explanation: '"It takes + 人 + 时间"表示花费某人多少时间。' }
+    ],
+    grammarSections: [
+      { title: '现在完成时（初步）', content: '现在完成时结构：have/has + 过去分词。表示过去发生但与现在有联系的动作，或从过去持续到现在的状态。', examples: [
+        { en: 'I have finished my homework.', cn: '我已经做完作业了。（强调现在完成了）' },
+        { en: 'She has gone to London.', cn: '她已经去伦敦了。（现在不在这里）' },
+        { en: 'Many people have swum across the Channel.', cn: '很多人已经游过了英吉利海峡。' },
+        { en: 'He has lived here for ten years.', cn: '他在这里住了十年了。（持续到现在）' }
+      ] },
+      { title: '度量表达', content: '英语中描述长度、宽度、高度用"数词 + 度量单位 + 形容词"的结构。', examples: [
+        { en: 'thirty-three miles wide (三十三英里宽)', cn: '宽度' },
+        { en: 'six feet tall (六英尺高)', cn: '高度' },
+        { en: 'ten meters long (十米长)', cn: '长度' },
+        { en: 'It is about... wide/long/tall.', cn: '大约...宽/长/高' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'It is about ___ miles/kilometers ___.', substitutions: [
+        { en: 'thirty-three / wide', cn: '三十三 / 宽' },
+        { en: 'ten / long', cn: '十 / 长' },
+        { en: 'six / tall', cn: '六 / 高' },
+        { en: 'two hundred / deep', cn: '二百 / 深' }
+      ] },
+      { pattern: 'Many people have ___ across/through ___.', substitutions: [
+        { en: 'swum / the English Channel', cn: '游过 / 英吉利海峡' },
+        { en: 'walked / the desert', cn: '走过 / 沙漠' },
+        { en: 'flown / the Atlantic', cn: '飞过 / 大西洋' },
+        { en: 'driven / the country', cn: '开车穿过 / 这个国家' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'Many people have _____ across the English Channel.', options: ['A. swim', 'B. swam', 'C. swum', 'D. swimming'], answer: 'C', explanation: 'have + 过去分词swum。' },
+      { type: 'fill', question: 'The Channel separates England _____ France. (从)', answer: 'from', explanation: '"separate...from..."把...和...分开。' },
+      { type: 'judge', question: '"It usually takes them twelve hours" 中 takes 表示花费时间。', answer: '正确', explanation: '"It takes + 时间"表示花费时间。' },
+      { type: 'choice', question: 'It is about thirty-three miles _____.', options: ['A. long', 'B. wide', 'C. tall', 'D. high'], answer: 'B', explanation: '描述宽度用wide。' }
+    ],
   },
   {
     id: 36,

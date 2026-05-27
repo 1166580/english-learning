@@ -2978,6 +2978,49 @@ const book1: Lesson[] = [
     ],
     tags: ['一般过去时', '时态'],
     difficulty: 4,
+    summary: '本课学习现在进行时描述即将发生的动作，以及否定祈使句"Don\'t..."的用法。通过赶公共汽车的紧张场景展开。',
+    summaryEn: 'This lesson uses present continuous for imminent actions and negative imperatives "Don\'t..." through a bus-chasing scene.',
+    sentenceExplanations: [
+      { sentence: 'Hurry up! The bus is coming.', translation: '快点！公共汽车来了。', explanation: '"Hurry up"是祈使句，催促对方。"is coming"用现在进行时表示即将到达。' },
+      { sentence: 'I\'m coming now, Sally.', translation: '我马上就来，萨利。', explanation: '"I\'m coming"表示我正在来。"now"强调马上。' },
+      { sentence: 'I\'m putting on my coat.', translation: '我在穿外套。', explanation: '"put on"是动词短语，表示穿上。反义词是"take off"（脱下）。' },
+      { sentence: 'We must run!', translation: '我们必须跑过去！', explanation: '"must"是情态动词，表示必须。后接动词原形。' },
+      { sentence: 'Oh no! We\'ve missed it!', translation: '哦不！我们错过了！', explanation: '"We\'ve"是"We have"的缩写。"missed"是miss的过去分词。现在完成时表示结果。' },
+      { sentence: 'Don\'t worry! There\'s another bus in ten minutes.', translation: '别担心！十分钟后来还有一班。', explanation: '"Don\'t worry"是否定祈使句。"another"表示另一个。"in ten minutes"十分钟后。' }
+    ],
+    grammarSections: [
+      { title: '现在进行时表示即将发生', content: '现在进行时除了表示正在进行的动作外，还可以表示即将发生的动作，特别是与come, go, leave等动词连用时。', examples: [
+        { en: 'The bus is coming. (车即将到)', cn: '即将发生' },
+        { en: 'The bus is leaving. (车即将离开)', cn: '即将发生' },
+        { en: 'I\'m coming! (我马上就来)', cn: '即将发生' },
+        { en: 'We\'re going to the park tomorrow. (计划)', cn: '计划好的事' }
+      ] },
+      { title: '否定祈使句', content: '否定祈使句用"Don\'t + 动词原形"开头，表示不要做某事。', examples: [
+        { en: 'Don\'t worry! (别担心！)', cn: '安慰' },
+        { en: 'Don\'t be late! (别迟到！)', cn: '提醒' },
+        { en: 'Don\'t open the window! (别开窗！)', cn: '禁止' },
+        { en: 'Don\'t be afraid! (别害怕！)', cn: '鼓励' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'The ___ is coming/leaving!', substitutions: [
+        { en: 'bus', cn: '公共汽车' },
+        { en: 'train', cn: '火车' },
+        { en: 'taxi', cn: '出租车' },
+        { en: 'plane', cn: '飞机' }
+      ] },
+      { pattern: 'Don\'t ___! There\'s ___ in ___.', substitutions: [
+        { en: 'worry / another bus / ten minutes', cn: '担心 / 另一班车 / 十分钟' },
+        { en: 'worry / another train / half an hour', cn: '担心 / 另一班火车 / 半小时' },
+        { en: 'be late / time / five minutes', cn: '迟到 / 时间 / 五分钟' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'The bus _____ coming! Hurry up!', options: ['A. am', 'B. is', 'C. are', 'D. be'], answer: 'B', explanation: 'The bus是第三人称单数，用is。' },
+      { type: 'fill', question: 'I\'m _____ on my coat. (穿上)', answer: 'putting', explanation: '"put on" → "putting on"，现在进行时双写t。' },
+      { type: 'judge', question: '"We\'ve missed it" 是现在完成时。', answer: '正确', explanation: 'We\'ve = We have, have + missed (过去分词)。' },
+      { type: 'choice', question: '_____ worry! There\'s another bus.', options: ['A. Not', 'B. Don\'t', 'C. No', 'D. Isn\'t'], answer: 'B', explanation: '否定祈使句用Don\'t。' }
+    ],
   },
   {
     id: 37,
@@ -3015,6 +3058,50 @@ const book1: Lesson[] = [
     ],
     tags: ['一般过去时', '电话用语'],
     difficulty: 4,
+    summary: '本课学习"want sb to do sth"想要某人做某事的句型，以及"Can you...?"请求帮助的表达。',
+    summaryEn: 'This lesson teaches "want sb to do sth" and "Can you...?" for requesting help.',
+    sentenceExplanations: [
+      { sentence: 'Come into the garden, Jane.', translation: '到花园里来，简。', explanation: '"Come into"表示进入。"garden"是花园。' },
+      { sentence: 'I\'m coming, Mrs. Jones.', translation: '我来了，琼斯夫人。', explanation: '"I\'m coming"表示我正在来/我来了。' },
+      { sentence: 'What do you want?', translation: '你要我做什么？', explanation: '"What do you want?"询问对方想要什么。' },
+      { sentence: 'I want you to help me.', translation: '我要你帮我。', explanation: '"want sb to do sth"想要某人做某事。"me"是help的宾语。' },
+      { sentence: 'Can you carry this vase?', translation: '你能搬动这个花瓶吗？', explanation: '"Can you...?"用于请求帮助或询问能力。"carry"是搬、拿。' },
+      { sentence: 'Yes, of course I can.', translation: '当然可以。', explanation: '"of course"表示当然。肯定回答用"Yes, I can."。' }
+    ],
+    grammarSections: [
+      { title: 'want sb to do sth', content: '"want + 宾语 + to do"表示想要某人做某事。这是英语中非常常用的句型。', examples: [
+        { en: 'I want you to help me.', cn: '我想要你帮我。' },
+        { en: 'She wants me to go.', cn: '她想要我去。' },
+        { en: 'He wants his son to study hard.', cn: '他想要他儿子努力学习。' },
+        { en: 'They want us to come.', cn: '他们想要我们来。' }
+      ] },
+      { title: 'Can you...? 请求和能力', content: '"Can you...?"有两种用法：1）询问能力（你能...吗？）2）请求帮助（你能帮我...吗？）', examples: [
+        { en: 'Can you swim? (能力)', cn: '你会游泳吗？' },
+        { en: 'Can you help me? (请求)', cn: '你能帮我吗？' },
+        { en: 'Can you carry this? (请求)', cn: '你能搬这个吗？' },
+        { en: 'Yes, I can. / No, I can\'t.', cn: '回答' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'I want you to ___.', substitutions: [
+        { en: 'help me', cn: '帮我' },
+        { en: 'carry this', cn: '搬这个' },
+        { en: 'open the door', cn: '开门' },
+        { en: 'clean the room', cn: '打扫房间' }
+      ] },
+      { pattern: 'Can you ___? — Yes, of course I can.', substitutions: [
+        { en: 'carry this vase', cn: '搬这个花瓶' },
+        { en: 'open this door', cn: '开这扇门' },
+        { en: 'help me', cn: '帮我' },
+        { en: 'reach that shelf', cn: '够到那个架子' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'I want you _____ me.', options: ['A. help', 'B. to help', 'C. helping', 'D. helped'], answer: 'B', explanation: '"want sb to do"用不定式to help。' },
+      { type: 'fill', question: '_____ you carry this vase? (能)', answer: 'Can', explanation: '"Can you...?"表示请求。' },
+      { type: 'judge', question: '"I want you help me" 是正确的句子。', answer: '错误', explanation: '应该是"I want you to help me"，需要to。' },
+      { type: 'choice', question: 'Yes, _____ I can.', options: ['A. sure', 'B. of course', 'C. certainly', 'D. all above'], answer: 'D', explanation: '三个选项都可以表示"当然"。' }
+    ],
   },
   {
     id: 38,
@@ -3044,6 +3131,46 @@ const book1: Lesson[] = [
     ],
     tags: ['副词', '组织句子'],
     difficulty: 2,
+    summary: '本课学习序数词（first）和班级、年级的表达方式。通过萨利上学第一天的简短故事展开。',
+    summaryEn: 'This lesson teaches ordinal numbers (first) and class/grade expressions through Sally\'s first day at school.',
+    sentenceExplanations: [
+      { sentence: 'This is Sally\'s first day at school.', translation: '今天是萨利上学的第一天。', explanation: '"first"是序数词，表示第一。"at school"在学校。' },
+      { sentence: 'Sally is six years old.', translation: '萨利六岁了。', explanation: '"...years old"表示年龄。' },
+      { sentence: 'She is in Class One, Grade One.', translation: '她在一年级一班。', explanation: '注意顺序：先说班级后说年级。首字母大写。' },
+      { sentence: 'There are thirty-five students in her class.', translation: '她班上有三十五名学生。', explanation: '"There are + 数字 + 名词"表示有多少。' }
+    ],
+    grammarSections: [
+      { title: '序数词', content: '序数词表示顺序。前几个需要特别记忆，后面的在基数词后加th。序数词前通常加the。', examples: [
+        { en: 'first (第一) — 1st', cn: '不规则' },
+        { en: 'second (第二) — 2nd', cn: '不规则' },
+        { en: 'third (第三) — 3rd', cn: '不规则' },
+        { en: 'fourth (第四) — 4th', cn: '基数词+th' },
+        { en: 'fifth (第五) — 5th', cn: 'fif → fif + th' }
+      ] },
+      { title: '班级和年级的表达', content: '英语中表达班级和年级时，先说Class后说Grade，首字母大写。', examples: [
+        { en: 'Class One, Grade One (一年级一班)', cn: '先班级后年级' },
+        { en: 'Class Three, Grade Two (二年级三班)', cn: '先班级后年级' },
+        { en: 'She is in Class One. (她在一班)', cn: '省略年级' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'This is ___\'s first day at ___.', substitutions: [
+        { en: 'Sally / school', cn: '萨利 / 学校' },
+        { en: 'Tom / work', cn: '汤姆 / 工作' },
+        { en: 'the baby / the nursery', cn: '婴儿 / 托儿所' }
+      ] },
+      { pattern: 'He/She is in Class ___, Grade ___.', substitutions: [
+        { en: 'One / One', cn: '一 / 一' },
+        { en: 'Two / Three', cn: '二 / 三' },
+        { en: 'Five / Two', cn: '五 / 二' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'She is in _____ One, Grade One.', options: ['A. class', 'B. Class', 'C. a class', 'D. the class'], answer: 'B', explanation: '表示班级时Class首字母大写。' },
+      { type: 'fill', question: 'This is Sally\'s _____ day at school. (第一)', answer: 'first', explanation: 'first是序数词，表示第一。' },
+      { type: 'judge', question: '"Class One, Grade One" 的顺序是先年级后班级。', answer: '错误', explanation: '英语中先说Class后说Grade。' },
+      { type: 'choice', question: 'There are _____ students in her class.', options: ['A. thirty-five', 'B. thirty five', 'C. thity-five', 'D. thirty-fifth'], answer: 'A', explanation: 'thirty-five是基数词，用连字符连接。' }
+    ],
   },
   {
     id: 39,
@@ -3079,6 +3206,44 @@ const book1: Lesson[] = [
     ],
     tags: ['过去式', '形容词'],
     difficulty: 2,
+    summary: '本课学习过去进行时（was/were doing）和被动语态的初步用法，通过泰坦尼克号的历史故事展开。',
+    summaryEn: 'This lesson introduces the past continuous (was/were doing) and passive voice through the Titanic story.',
+    sentenceExplanations: [
+      { sentence: 'The great ship, Titanic, sailed for New York from Southampton on April 10th, 1912.', translation: '巨轮泰坦尼克号于1912年4月10日从南安普敦起航驶往纽约。', explanation: '"sailed for"驶往。"from...to..."从...到...。日期表达：月+日+年。' },
+      { sentence: 'She was carrying 1,316 passengers and a crew of 891.', translation: '船上载有1316名乘客和891名船员。', explanation: '"was carrying"是过去进行时，表示当时正在载着。' },
+      { sentence: 'She was not only the largest ship that had ever been built, but was regarded as unsinkable.', translation: '它不仅是当时建造的最大的船，而且被认为是不会沉没的。', explanation: '"not only...but (also)"不仅...而且。"had been built"是过去完成时被动语态。"be regarded as"被认为是。' },
+      { sentence: 'Four days after setting out, while the Titanic was sailing across the icy waters of the North Atlantic, a huge iceberg was suddenly spotted by a lookout.', translation: '启航四天后，当泰坦尼克号正航行在北大西洋冰冷的水域上时，瞭望员突然发现了一座巨大的冰山。', explanation: '"setting out"出发。"while"当...的时候。"was spotted"是过去时被动语态，被发现。' }
+    ],
+    grammarSections: [
+      { title: '过去进行时', content: '过去进行时结构：was/were + doing。表示过去某一时刻正在进行的动作。常与while连用。', examples: [
+        { en: 'She was carrying passengers. (当时正载着)', cn: '过去进行时' },
+        { en: 'The ship was sailing across the Atlantic. (正在航行)', cn: '过去进行时' },
+        { en: 'While I was reading, he came in.', cn: 'while引导时间状语从句' }
+      ] },
+      { title: '被动语态（初步）', content: '被动语态结构：be + 过去分词。表示动作的承受者作主语。by引出动作的执行者。', examples: [
+        { en: 'The iceberg was spotted by a lookout.', cn: '冰山被瞭望员发现。' },
+        { en: 'The ship was built in 1912.', cn: '船在1912年建造。' },
+        { en: 'English is spoken worldwide.', cn: '英语在全世界被使用。' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'The ___ was ___-ing across/through ___.', substitutions: [
+        { en: 'ship / sail / the Atlantic', cn: '船 / 航行 / 大西洋' },
+        { en: 'plane / fly / the clouds', cn: '飞机 / 飞 / 云层' },
+        { en: 'train / go / the tunnel', cn: '火车 / 行驶 / 隧道' }
+      ] },
+      { pattern: 'The ___ was ___-ed by ___.', substitutions: [
+        { en: 'iceberg / spot / a lookout', cn: '冰山 / 发现 / 瞭望员' },
+        { en: 'letter / write / my father', cn: '信 / 写 / 我父亲' },
+        { en: 'house / build / workers', cn: '房子 / 建造 / 工人们' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'She _____ carrying 1,316 passengers.', options: ['A. is', 'B. was', 'C. were', 'D. are'], answer: 'B', explanation: 'She是单数，过去进行时用was。' },
+      { type: 'fill', question: 'She was not only large, _____ was also fast.', answer: 'but', explanation: '"not only...but (also)"是固定搭配。' },
+      { type: 'judge', question: '"was spotted" 是被动语态。', answer: '正确', explanation: 'be(was) + 过去分词(spotted)是被动语态。' },
+      { type: 'choice', question: '_____ the ship was sailing, a huge iceberg was spotted.', options: ['A. When', 'B. While', 'C. As', 'D. During'], answer: 'B', explanation: '"while"引导时间状语从句，表示在...期间。' }
+    ],
   },
   {
     id: 40,
@@ -3120,6 +3285,52 @@ const book1: Lesson[] = [
     ],
     tags: ['否定疑问句'],
     difficulty: 2,
+    summary: '本课学习请求重复的表达"Pardon?"和"I beg your pardon?"，以及"Do you speak...?"询问语言能力的句型。',
+    summaryEn: 'This lesson teaches "Pardon?" and "I beg your pardon?" for requesting repetition, and "Do you speak...?" for language ability.',
+    sentenceExplanations: [
+      { sentence: 'I\'m a student from China. I\'m learning English.', translation: '我是来自中国的学生。我在学英语。', explanation: '"from China"来自中国。"am learning"是现在进行时，表示正在学习。' },
+      { sentence: 'Do you understand English?', translation: '你懂英语吗？', explanation: '"understand"是理解、懂。一般现在时询问能力。' },
+      { sentence: 'A little.', translation: '懂一点。', explanation: '省略回答。完整形式是"I understand a little."。' },
+      { sentence: 'Do you speak English?', translation: '你说英语吗？', explanation: '"speak + 语言"表示说某种语言。一般现在时询问能力。' },
+      { sentence: 'Yes, I do. But I speak very slowly.', translation: '是的，但我说得很慢。', explanation: '"slowly"是副词，修饰speak。slow → slowly。' },
+      { sentence: 'Can you repeat that, please?', translation: '你能再说一遍吗？', explanation: '"repeat"是重复。"that"指对方刚才说的话。' },
+      { sentence: 'Pardon?', translation: '请再说一遍？', explanation: '"Pardon?"是请求对方再说一遍的礼貌用语。也可以说"I beg your pardon?"。' },
+      { sentence: 'I said, can you repeat that?', translation: '我说，你能再说一遍吗？', explanation: '"I said"用来强调自己之前说过的话。' }
+    ],
+    grammarSections: [
+      { title: '请求重复的表达', content: '没听清对方说什么时，可以用多种方式请求重复。', examples: [
+        { en: 'Pardon? (请再说一遍)', cn: '最常用' },
+        { en: 'I beg your pardon? (请再说一遍)', cn: '更正式' },
+        { en: 'Sorry? (什么？)', cn: '口语化' },
+        { en: 'Could you say that again? (你能再说一遍吗)', cn: '完整表达' }
+      ] },
+      { title: 'speak + 语言', content: '"speak"后接语言名称，表示说某种语言。一般现在时用于询问能力。', examples: [
+        { en: 'Do you speak English? (你说英语吗)', cn: '询问能力' },
+        { en: 'She speaks Chinese. (她说中文)', cn: '陈述事实' },
+        { en: 'I can speak a little French. (我会说一点法语)', cn: '能力' },
+        { en: 'He speaks three languages. (他说三种语言)', cn: '能力' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Do you speak ___? — Yes, I do. / No, I don\'t.', substitutions: [
+        { en: 'English', cn: '英语' },
+        { en: 'Chinese', cn: '中文' },
+        { en: 'French', cn: '法语' },
+        { en: 'Japanese', cn: '日语' }
+      ] },
+      { pattern: 'Can you ___ that, please?', substitutions: [
+        { en: 'repeat', cn: '重复' },
+        { en: 'say', cn: '说' },
+        { en: 'spell', cn: '拼写' },
+        { en: 'explain', cn: '解释' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'Do you _____ English?', options: ['A. say', 'B. tell', 'C. speak', 'D. talk'], answer: 'C', explanation: '"speak + 语言"表示说某种语言。' },
+      { type: 'fill', question: 'I speak very _____. (慢地)', answer: 'slowly', explanation: 'slow → slowly，副词修饰动词。' },
+      { type: 'judge', question: '"Pardon?" 用于请求对方再说一遍。', answer: '正确', explanation: 'Pardon?是请求重复的礼貌用语。' },
+      { type: 'choice', question: 'Can you _____ that, please?', options: ['A. repeating', 'B. repeats', 'C. repeated', 'D. repeat'], answer: 'D', explanation: 'Can后接动词原形。' }
+    ],
   },
 ]
 

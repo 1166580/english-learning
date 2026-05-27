@@ -849,6 +849,50 @@ const book1: Lesson[] = [
     ],
     tags: ['复数', '形容词'],
     difficulty: 3,
+    summary: '本课学习用"Whose"询问物品所属，以及名词所有格的构成方式（\'s）。通过衬衫颜色的对话练习物主代词。',
+    summaryEn: 'This lesson teaches "Whose" questions about possession and the possessive case (\'s) through a dialogue about shirt colors.',
+    sentenceExplanations: [
+      { sentence: 'Whose shirt is that?', translation: '那是谁的衬衫？', explanation: '"Whose"是疑问代词，询问物品所属。"Whose + 名词 + is that/this?"是常用句型。' },
+      { sentence: 'Is this your shirt, Dave?', translation: '这是你的衬衫吗，戴夫？', explanation: '"Is this your...?"是一般疑问句，用于确认物品归属。Dave是呼语，用逗号隔开。' },
+      { sentence: 'No, sir. It\'s not my shirt.', translation: '不，先生。这不是我的衬衫。', explanation: '"sir"是对男性的尊称。"my"是形容词性物主代词，修饰shirt。' },
+      { sentence: 'This is my shirt. My shirt is blue.', translation: '这是我的衬衫。我的衬衫是蓝色的。', explanation: '重复"My shirt"起强调作用。颜色形容词放在be动词后面作表语。' },
+      { sentence: 'Is this shirt Tim\'s?', translation: '这件衬衫是蒂姆的吗？', explanation: '"Tim\'s"是名词所有格，表示"蒂姆的"。在名词后加\'s表示所属关系。' },
+      { sentence: 'Perhaps it is, sir.', translation: '也许是吧，先生。', explanation: '"perhaps"表示"也许"，比"maybe"更正式。"it is"是省略回答，完整形式是"it is Tim\'s"。' },
+      { sentence: 'Here you are. Catch!', translation: '给你。接住！', explanation: '"Here you are"是递给对方东西时的常用语。"Catch!"是祈使句，叫对方接住。' }
+    ],
+    grammarSections: [
+      { title: '名词所有格 \'s', content: '在单数名词后加\'s表示所属关系。如果名词已有s结尾，只加\'。这是英语中表示"谁的"的重要方式。', examples: [
+        { en: 'Tim\'s shirt = the shirt of Tim', cn: '蒂姆的衬衫' },
+        { en: 'Stella\'s handbag = the handbag of Stella', cn: '斯特拉的手提包' },
+        { en: 'the teacher\'s book', cn: '老师的书' },
+        { en: 'the boys\' room (复数)', cn: '男孩们的房间' }
+      ] },
+      { title: 'Whose 疑问句', content: '"Whose"用来询问物品所属，可以放在句首引导疑问句。回答时可以用名词所有格或物主代词。', examples: [
+        { en: 'Whose shirt is that? — It\'s Tim\'s.', cn: '那是谁的衬衫？—蒂姆的。' },
+        { en: 'Whose is this pen? — It\'s mine.', cn: '这是谁的笔？—我的。' },
+        { en: 'Whose books are these? — They\'re ours.', cn: '这些是谁的书？—我们的。' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Whose ___ is this/that? — It\'s ___.', substitutions: [
+        { en: 'shirt / Tim\'s', cn: '衬衫 / 蒂姆的' },
+        { en: 'pen / my sister\'s', cn: '笔 / 我姐姐的' },
+        { en: 'car / my father\'s', cn: '车 / 我父亲的' },
+        { en: 'book / the teacher\'s', cn: '书 / 老师的' }
+      ] },
+      { pattern: 'Is this your ___? — No, it\'s not my ___.', substitutions: [
+        { en: 'shirt / shirt', cn: '衬衫 / 衬衫' },
+        { en: 'pen / pen', cn: '笔 / 笔' },
+        { en: 'coat / coat', cn: '大衣 / 大衣' },
+        { en: 'umbrella / umbrella', cn: '雨伞 / 雨伞' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ shirt is that? It\'s Tim\'s.', options: ['A. Who', 'B. Whose', 'C. What', 'D. Which'], answer: 'B', explanation: '"Whose"询问所属关系，表示"谁的"。' },
+      { type: 'fill', question: 'This is _____ (Tom) book.', answer: 'Tom\'s', explanation: '名词所有格在名词后加\'s。' },
+      { type: 'judge', question: '"Tim\'s shirt" 中的 \'s 表示缩写。', answer: '错误', explanation: '这里的\'s表示所有格，不是is的缩写。' },
+      { type: 'choice', question: 'Here you _____. (给你)', options: ['A. is', 'B. am', 'C. are', 'D. be'], answer: 'C', explanation: '"Here you are"是固定搭配，主语是you用are。' }
+    ],
   },
   {
     id: 12,
@@ -892,6 +936,51 @@ const book1: Lesson[] = [
     ],
     tags: ['特殊疑问句', 'which', '简单句'],
     difficulty: 2,
+    summary: '本课学习名词性物主代词（mine, yours, his, hers, ours, theirs）与形容词性物主代词的对比和互换。',
+    summaryEn: 'This lesson teaches possessive pronouns (mine, yours, his, hers, ours, theirs) and their comparison with possessive adjectives.',
+    sentenceExplanations: [
+      { sentence: 'Whose is this handbag?', translation: '这是谁的手提包？', explanation: '"Whose is this...?"是询问物品所属的另一种形式，比"Whose handbag is this?"更简洁。' },
+      { sentence: 'It\'s Stella\'s. It\'s her handbag.', translation: '是斯特拉的。是她的手提包。', explanation: '先用名词所有格Stella\'s回答，再用形容词性物主代词her来描述。两种方式都表示所属。' },
+      { sentence: 'It\'s my pen. It\'s mine.', translation: '是我的笔。是我的。', explanation: '"my pen"和"mine"意思相同。"my"是形容词性物主代词（后跟名词），"mine"是名词性物主代词（独立使用）。' },
+      { sentence: 'Whose are these books?', translation: '这些是谁的书？', explanation: '复数形式用"Whose are these...?"，回答用"They\'re..."。' },
+      { sentence: 'They\'re our books. They\'re ours.', translation: '是我们的书。是我们的。', explanation: '"our books"= "ours"。名词性物主代词可以替代"形容词性物主代词+名词"。' },
+      { sentence: 'They\'re their pencils. They\'re theirs.', translation: '是他们的铅笔。是他们的。', explanation: '"their"是形容词性物主代词，"theirs"是名词性物主代词。注意拼写：their → theirs。' }
+    ],
+    grammarSections: [
+      { title: '名词性物主代词', content: '名词性物主代词可以独立使用，相当于"形容词性物主代词+名词"。它们在句中可以作主语、表语或宾语。', examples: [
+        { en: 'my book → mine', cn: '我的书 → 我的' },
+        { en: 'your pen → yours', cn: '你的笔 → 你的' },
+        { en: 'his coat → his (不变)', cn: '他的大衣 → 他的' },
+        { en: 'her handbag → hers', cn: '她的手提包 → 她的' },
+        { en: 'our books → ours', cn: '我们的书 → 我们的' },
+        { en: 'their pencils → theirs', cn: '他们的铅笔 → 他们的' }
+      ] },
+      { title: '形容词性 vs 名词性物主代词', content: '形容词性物主代词后面必须跟名词，名词性物主代词可以独立使用。两者意思相同，可以互换。', examples: [
+        { en: 'This is my book. = This book is mine.', cn: '这是我的书。' },
+        { en: 'That is her car. = That car is hers.', cn: '那是她的车。' },
+        { en: 'These are our seats. = These seats are ours.', cn: '这些是我们的座位。' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'It\'s my ___. It\'s ___.', substitutions: [
+        { en: 'pen / mine', cn: '笔 / 我的' },
+        { en: 'book / mine', cn: '书 / 我的' },
+        { en: 'car / mine', cn: '车 / 我的' },
+        { en: 'coat / mine', cn: '大衣 / 我的' }
+      ] },
+      { pattern: 'They\'re our ___. They\'re ___.', substitutions: [
+        { en: 'books / ours', cn: '书 / 我们的' },
+        { en: 'seats / ours', cn: '座位 / 我们的' },
+        { en: 'pens / ours', cn: '笔 / 我们的' },
+        { en: 'bags / ours', cn: '包 / 我们的' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'This pen is _____. (我的)', options: ['A. my', 'B. I', 'C. mine', 'D. me'], answer: 'C', explanation: '句末需要名词性物主代词mine，不能用形容词性my。' },
+      { type: 'fill', question: 'This is her handbag. This handbag is _____.', answer: 'hers', explanation: 'her → hers，名词性物主代词。' },
+      { type: 'judge', question: '"This book is my." 是正确的句子。', answer: '错误', explanation: '应该是"This book is mine."，句末用名词性物主代词。' },
+      { type: 'choice', question: 'These are _____ coats. (他们的)', options: ['A. theirs', 'B. them', 'C. their', 'D. they'], answer: 'C', explanation: '后面有名词coats，用形容词性物主代词their。' }
+    ],
   },
   {
     id: 13,
@@ -937,6 +1026,50 @@ const book1: Lesson[] = [
     ],
     tags: ['后置定语', '介词短语'],
     difficulty: 2,
+    summary: '本课学习询问颜色的句型"What colour is...?"，以及颜色形容词和"the same colour"的表达。通过新连衣裙和帽子的对话展开。',
+    summaryEn: 'This lesson teaches "What colour is...?" questions, color adjectives, and "the same colour" through a dialogue about a new dress and hat.',
+    sentenceExplanations: [
+      { sentence: 'What colour is your new dress?', translation: '你的新连衣裙是什么颜色的？', explanation: '"What colour is...?"用来询问颜色。"new"是形容词，放在名词dress前面作定语。' },
+      { sentence: 'It\'s green.', translation: '它是绿色的。', explanation: '颜色形容词放在be动词后面作表语。green是基本颜色词之一。' },
+      { sentence: 'Come upstairs and see it.', translation: '到楼上来看看吧。', explanation: '"Come upstairs"是祈使句，表示邀请。"and"连接两个动词，see是省略to的不定式。' },
+      { sentence: 'Look! Here it is!', translation: '看！它在这儿！', explanation: '"Here it is"用来展示某物，比"Here you are"更随意。注意语序：副词here在句首，主语it在动词前。' },
+      { sentence: 'That\'s a nice dress.', translation: '那是一件漂亮的连衣裙。', explanation: '"nice"表示"好的、漂亮的"，是常用的褒义形容词。' },
+      { sentence: 'It\'s very smart.', translation: '它很时髦。', explanation: '"smart"在英式英语中表示"时髦的、漂亮的"，在美式英语中更多表示"聪明的"。' },
+      { sentence: 'It\'s the same colour.', translation: '它是一样的颜色。', explanation: '"the same"表示"相同的"，后面跟名词。注意same前面通常加the。' }
+    ],
+    grammarSections: [
+      { title: 'What colour 疑问句', content: '"What colour is/are...?"用来询问颜色。单数用is，复数用are。回答直接说出颜色。', examples: [
+        { en: 'What colour is your dress? — It\'s green.', cn: '你的连衣裙是什么颜色？—绿色的。' },
+        { en: 'What colour are your shoes? — They\'re black.', cn: '你的鞋是什么颜色？—黑色的。' },
+        { en: 'What colour is the sky? — It\'s blue.', cn: '天空是什么颜色？—蓝色的。' }
+      ] },
+      { title: '祈使句', content: '祈使句以动词原形开头，用来表示命令、请求、邀请或建议。主语"you"通常省略。', examples: [
+        { en: 'Come upstairs and see it.', cn: '到楼上来看看吧。（邀请）' },
+        { en: 'Look! Here it is!', cn: '看！（引起注意）' },
+        { en: 'Catch!', cn: '接住！（命令）' },
+        { en: 'Please sit down.', cn: '请坐下。（请求）' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'What colour is your ___? — It\'s ___.', substitutions: [
+        { en: 'dress / green', cn: '连衣裙 / 绿色' },
+        { en: 'hat / red', cn: '帽子 / 红色' },
+        { en: 'car / blue', cn: '车 / 蓝色' },
+        { en: 'bag / black', cn: '包 / 黑色' }
+      ] },
+      { pattern: 'It\'s the same ___.', substitutions: [
+        { en: 'colour', cn: '颜色' },
+        { en: 'size', cn: '尺寸' },
+        { en: 'kind', cn: '种类' },
+        { en: 'type', cn: '类型' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'What _____ is your new hat?', options: ['A. colour', 'B. colors', 'C. a colour', 'D. the colour'], answer: 'A', explanation: '"What colour"是固定搭配，colour不用复数，也不加冠词。' },
+      { type: 'fill', question: 'Come _____ and see it. (到楼上)', answer: 'upstairs', explanation: '"upstairs"表示"到楼上"，是副词。' },
+      { type: 'judge', question: '"Come upstairs and see it." 中的 and 连接两个动词。', answer: '正确', explanation: '"and"连接come和see两个动词，表示先后顺序。' },
+      { type: 'choice', question: 'It\'s _____ same colour. (相同的)', options: ['A. a', 'B. an', 'C. the', 'D. /'], answer: 'C', explanation: '"the same"是固定搭配，same前面要加the。' }
+    ],
   },
   {
     id: 14,
@@ -982,6 +1115,50 @@ const book1: Lesson[] = [
     ],
     tags: ['There be', '叙述文'],
     difficulty: 4,
+    summary: '本课扩展颜色词汇，学习更多颜色的表达，以及复数形式下"What colour are...?"的用法。',
+    summaryEn: 'This lesson expands color vocabulary with more colors and teaches "What colour are...?" for plural nouns.',
+    sentenceExplanations: [
+      { sentence: 'What colour is your new car?', translation: '你的新车是什么颜色的？', explanation: '单数形式"What colour is...?"，car是单数名词。' },
+      { sentence: 'It\'s red.', translation: '它是红色的。', explanation: 'red是基本颜色词，也可以用dark red（深红）或light red（浅红）来更精确描述。' },
+      { sentence: 'It\'s brown and white.', translation: '它是棕色和白色的。', explanation: '用"and"连接两种颜色，表示物品有两种颜色。' },
+      { sentence: 'What colour are your shoes?', translation: '你的鞋是什么颜色的？', explanation: '"shoes"是复数名词，所以用"are"而不是"is"。英语中鞋子通常成双出现，用复数。' },
+      { sentence: 'They\'re grey.', translation: '它们是灰色的。', explanation: '复数代词"They\'re"对应复数名词shoes。grey是英式拼写，gray是美式拼写。' },
+      { sentence: 'What colour are your blouses?', translation: '你的衬衫是什么颜色的？', explanation: 'blouse是女式衬衫，复数加s。注意发音：/blaʊz/，s发/z/音。' }
+    ],
+    grammarSections: [
+      { title: '颜色形容词', content: '英语中有丰富的颜色词汇。基本颜色词可以加上修饰语来表示深浅、明暗。', examples: [
+        { en: 'red, blue, green, yellow, black, white', cn: '基本颜色' },
+        { en: 'brown, grey, pink, orange, purple', cn: '其他常见颜色' },
+        { en: 'dark blue / light blue', cn: '深蓝 / 浅蓝' },
+        { en: 'dark green / light green', cn: '深绿 / 浅绿' }
+      ] },
+      { title: '单复数与be动词', content: '主语的单复数决定了be动词的形式。单数用is，复数用are。回答时也要保持一致。', examples: [
+        { en: 'What colour is your car? — It\'s red.', cn: '单数' },
+        { en: 'What colour are your shoes? — They\'re grey.', cn: '复数' },
+        { en: 'What colour is the door? — It\'s brown.', cn: '单数' },
+        { en: 'What colour are the flowers? — They\'re yellow.', cn: '复数' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'What colour is your ___? — It\'s ___.', substitutions: [
+        { en: 'car / red', cn: '车 / 红色' },
+        { en: 'umbrella / black', cn: '雨伞 / 黑色' },
+        { en: 'dog / brown', cn: '狗 / 棕色' },
+        { en: 'cat / white', cn: '猫 / 白色' }
+      ] },
+      { pattern: 'What colour are your ___? — They\'re ___.', substitutions: [
+        { en: 'shoes / grey', cn: '鞋 / 灰色' },
+        { en: 'blouses / yellow', cn: '衬衫 / 黄色' },
+        { en: 'pens / blue', cn: '笔 / 蓝色' },
+        { en: 'books / red', cn: '书 / 红色' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'What colour _____ your shoes?', options: ['A. is', 'B. am', 'C. are', 'D. be'], answer: 'C', explanation: 'shoes是复数名词，用are。' },
+      { type: 'fill', question: 'The dog is _____ and white. (棕色的)', answer: 'brown', explanation: 'brown表示棕色。' },
+      { type: 'judge', question: '"What colour are your book?" 是正确的句子。', answer: '错误', explanation: 'book是单数，应该用"What colour is your book?"。' },
+      { type: 'choice', question: 'My blouse is _____. (黄色的)', options: ['A. yellows', 'B. yellow', 'C. a yellow', 'D. the yellow'], answer: 'B', explanation: '颜色形容词直接放在be动词后面，不加冠词，不用复数。' }
+    ],
   },
   {
     id: 15,
@@ -1026,6 +1203,52 @@ const book1: Lesson[] = [
     ],
     tags: ['There be', '叙述文'],
     difficulty: 2,
+    summary: '本课学习复数人称代词we/they的用法，以及在实际场景（如海关检查护照）中的对话。扩展北欧国籍词汇。',
+    summaryEn: 'This lesson teaches plural pronouns we/they and practical dialogue in a customs scenario, with Nordic nationality vocabulary.',
+    sentenceExplanations: [
+      { sentence: 'Are you Swedish?', translation: '你们是瑞典人吗？', explanation: '"you"既可以指"你"也可以指"你们"，根据上下文判断。这里指多人，所以回答用"we"。' },
+      { sentence: 'No, we are not. We are Danish.', translation: '不，我们不是。我们是丹麦人。', explanation: '"we"是第一人称复数主格代词。Danish是丹麦的国籍形容词。' },
+      { sentence: 'Are your friends Danish, too?', translation: '你们的朋友也是丹麦人吗？', explanation: '"friends"是复数名词。"too"表示"也"，放在句末。' },
+      { sentence: 'No, they aren\'t. They are Norwegian.', translation: '不，他们不是。他们是挪威人。', explanation: '"they"是第三人称复数代词。"aren\'t"是"are not"的缩写。Norwegian是挪威的国籍形容词。' },
+      { sentence: 'Your passports, please.', translation: '请出示你们的护照。', explanation: '这是省略句，完整形式是"Show me your passports, please."。在海关、机场等场合常用。' },
+      { sentence: 'Here they are.', translation: '给您。', explanation: '"Here they are"是复数形式的"Here you are"。"they"指代passports。' },
+      { sentence: 'Are these your cases?', translation: '这些是你们的箱子吗？', explanation: '"these"是this的复数形式，指近处的多个物品。' },
+      { sentence: 'Our cases are brown.', translation: '我们的箱子是棕色的。', explanation: '"our"是形容词性物主代词，修饰cases。颜色形容词brown作表语。' }
+    ],
+    grammarSections: [
+      { title: '复数人称代词', content: '英语中第一、二、三人称都有复数形式。复数主格代词在句中作主语。', examples: [
+        { en: 'we are → we\'re (我们是)', cn: '第一人称复数' },
+        { en: 'you are → you\'re (你们是)', cn: '第二人称复数（同单数）' },
+        { en: 'they are → they\'re (他们是)', cn: '第三人称复数' },
+        { en: 'We are Danish. They are Norwegian.', cn: '复数代词+国籍' }
+      ] },
+      { title: '国籍形容词（北欧国家）', content: '北欧国家的国籍形容词构成方式不统一，需要特别记忆。', examples: [
+        { en: 'Sweden → Swedish (瑞典的)', cn: '瑞典人/瑞典语也是Swedish' },
+        { en: 'Denmark → Danish (丹麦的)', cn: '丹麦人/丹麦语也是Danish' },
+        { en: 'Norway → Norwegian (挪威的)', cn: '挪威人/挪威语也是Norwegian' },
+        { en: 'Finland → Finnish (芬兰的)', cn: '芬兰人/芬兰语也是Finnish' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Are you ___? — Yes, we are. / No, we aren\'t.', substitutions: [
+        { en: 'Swedish', cn: '瑞典人' },
+        { en: 'Danish', cn: '丹麦人' },
+        { en: 'tourists', cn: '游客' },
+        { en: 'students', cn: '学生' }
+      ] },
+      { pattern: 'Are these your ___? — No, they aren\'t. Our ___ are ___.', substitutions: [
+        { en: 'cases / cases / brown', cn: '箱子 / 箱子 / 棕色' },
+        { en: 'bags / bags / black', cn: '包 / 包 / 黑色' },
+        { en: 'passports / passports / blue', cn: '护照 / 护照 / 蓝色' },
+        { en: 'tickets / tickets / red', cn: '票 / 票 / 红色' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ are Danish. We are from Denmark.', options: ['A. We', 'B. You', 'C. They', 'D. He'], answer: 'A', explanation: '后面说"We are from Denmark"，说明前面也是we。' },
+      { type: 'fill', question: 'They are _____. (挪威人)', answer: 'Norwegian', explanation: 'Norway → Norwegian。' },
+      { type: 'judge', question: '"Here they are." 中的 they 指代复数物品。', answer: '正确', explanation: 'they指代前面提到的passports等复数物品。' },
+      { type: 'choice', question: 'Your _____, please. (护照)', options: ['A. passport', 'B. passports', 'C. a passport', 'D. the passport'], answer: 'B', explanation: '"Your passports"用复数形式，因为说话对象是多人。' }
+    ],
   },
   {
     id: 16,

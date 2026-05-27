@@ -39,6 +39,63 @@ const book2: Lesson[] = [
     ],
     tags: ['一般过去时', '简单句'],
     difficulty: 2,
+    summary: '叙述了作者在剧院看戏时，身后一对年轻男女大声交谈，作者忍无可忍转身制止，却被对方以"这是私人谈话"粗鲁回绝的尴尬经历。',
+    summaryEn: 'The author went to the theatre but could not enjoy the play because a young man and woman behind him were talking loudly. When he finally told them he couldn\'t hear, the young man rudely replied it was a private conversation.',
+    sentenceExplanations: [
+      { sentence: 'Last week I went to the theatre.', translation: '上周我去看戏了。', explanation: '"went to the theatre"表示去剧院看戏，注意theatre前加the表示特定场所。went是go的过去式。' },
+      { sentence: 'I did not enjoy it.', translation: '我无法欣赏它。', explanation: '否定句结构：主语 + did not + 动词原形。enjoy后接it指代the play。句中it与上文的good seat和interesting形成转折。' },
+      { sentence: 'They were talking loudly.', translation: '他们在大声交谈。', explanation: '过去进行时：were + doing，表示过去某时正在进行的动作。loudly是副词，修饰talking。' },
+      { sentence: 'I could not hear the actors.', translation: '我听不见演员（说话）。', explanation: 'could not表示"不能"，是can的过去否定形式。hear强调听的结果。' },
+      { sentence: 'It\'s none of your business.', translation: '不关你的事。', explanation: '"none of your business"是固定表达，意为"与你无关"。语气非常不礼貌。' },
+    ],
+    grammarSections: [
+      {
+        title: '一般过去时（Simple Past Tense）',
+        content: '一般过去时表示过去某时发生的动作或存在的状态。规则动词加-ed，不规则动词需记忆。  否定句和疑问句需借助did，动词恢复原形。',
+        examples: [
+          { en: 'I went to the theatre last week.', cn: '上周我去看戏了。' },
+          { en: 'I did not enjoy the play.', cn: '我没有欣赏到那部戏。' },
+          { en: 'They did not pay any attention.', cn: '他们毫不理会。' },
+          { en: 'Did you enjoy the film?', cn: '你喜欢那部电影吗？' },
+        ],
+      },
+      {
+        title: '情态动词 could 的用法',
+        content: 'could是can的过去式，表示过去的能力或许可。否定形式为could not (couldn\'t)。  在口语中could也可用于礼貌请求。',
+        examples: [
+          { en: 'I could not hear the actors.', cn: '我听不见演员说话。' },
+          { en: 'I could not bear it.', cn: '我无法忍受了。' },
+          { en: 'Could you help me?', cn: '你能帮帮我吗？' },
+          { en: 'I could swim when I was five.', cn: '我五岁时就会游泳了。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'I _____ to + 地点 last week. 我上周去了_____。',
+        substitutions: [
+          { en: 'I went to the theatre last week.', cn: '我上周去看戏了。' },
+          { en: 'I went to the library last week.', cn: '我上周去了图书馆。' },
+          { en: 'I went to the museum last week.', cn: '我上周去了博物馆。' },
+          { en: 'I went to the park last week.', cn: '我上周去了公园。' },
+        ],
+      },
+      {
+        pattern: 'I could not + 动词. 我无法_____。',
+        substitutions: [
+          { en: 'I could not hear the actors.', cn: '我听不见演员说话。' },
+          { en: 'I could not sleep last night.', cn: '我昨晚睡不着。' },
+          { en: 'I could not find my keys.', cn: '我找不到我的钥匙。' },
+          { en: 'I could not understand him.', cn: '我听不懂他说的话。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'Last week I _____ to the theatre.', options: ['A. go', 'B. went', 'C. goes', 'D. going'], answer: 'B', explanation: 'Last week表示过去时间，动词需用过去式went。' },
+      { type: 'fill', question: 'They _____ talking loudly. (be动词过去式)', answer: 'were', explanation: '主语they是复数，过去进行时用were + doing。' },
+      { type: 'judge', question: '"It\'s none of your business"意思是"这不关你的事"。', answer: '正确', explanation: '这是一个固定表达，意为"与你无关，不关你的事"。' },
+      { type: 'choice', question: 'I _____ not enjoy the play.', options: ['A. do', 'B. does', 'C. did', 'D. was'], answer: 'C', explanation: '过去时否定句用did not + 动词原形。' },
+    ],
   },
   {
     id: 2,
@@ -79,6 +136,63 @@ const book2: Lesson[] = [
     ],
     tags: ['现在完成时', '时态'],
     difficulty: 3,
+    summary: '作者在周日睡到很晚，姨妈露西突然来访，打电话说已经到了，作者却还在吃"早餐"——实际上已经是下午一点了。',
+    summaryEn: 'The author slept late on Sunday. Aunt Lucy called saying she had just arrived by train and was coming to visit. The author was still having breakfast at one o\'clock in the afternoon.',
+    sentenceExplanations: [
+      { sentence: 'I never get up early on Sundays.', translation: '我星期天从不早起。', explanation: '一般现在时表示习惯性动作。never表示"从不"，频率副词放在实义动词前。on Sundays表示"每逢星期天"。' },
+      { sentence: 'I sometimes stay in bed until lunchtime.', translation: '有时我会在床上待到午饭时间。', explanation: 'sometimes是频率副词，放在实义动词前。until表示"直到"，后接时间点。stay in bed意为"待在床上"。' },
+      { sentence: 'I\'ve just arrived by train.', translation: '我坐火车刚到。', explanation: '现在完成时have/has + 过去分词，just表示"刚刚"，强调动作刚完成。by train表示交通方式。' },
+      { sentence: 'I\'m still having breakfast.', translation: '我还在吃早饭呢。', explanation: '现在进行时表示此刻正在进行的动作。still表示"仍然"，强调动作持续。' },
+      { sentence: 'Dear me!', translation: '天哪！', explanation: '感叹词，表示惊讶或失望。相当于"My dear!"或"Oh my!"。' },
+    ],
+    grammarSections: [
+      {
+        title: '现在进行时（Present Continuous Tense）',
+        content: '现在进行时表示此刻正在进行的动作，结构为am/is/are + doing。  也可用于表示近期安排或计划（如I\'m coming to see you）。  注意：某些状态动词（know, like, belong等）不用于进行时。',
+        examples: [
+          { en: 'I\'m having breakfast.', cn: '我正在吃早饭。' },
+          { en: 'She is coming to see you.', cn: '她要来看你了。' },
+          { en: 'What are you doing?', cn: '你在干什么？' },
+          { en: 'It\'s raining again.', cn: '又在下雨了。' },
+        ],
+      },
+      {
+        title: '感叹句（Exclamatory Sentences）',
+        content: 'What引导的感叹句：What + (a/an) + 形容词 + 名词 + 主语 + 谓语！  How引导的感叹句：How + 形容词/副词 + 主语 + 谓语！  感叹句用于表达强烈的情感，如惊讶、赞叹等。',
+        examples: [
+          { en: 'What a day!', cn: '鬼天气！/ 多糟糕的一天！' },
+          { en: 'What a beautiful garden!', cn: '多美的花园啊！' },
+          { en: 'How clever you are!', cn: '你真聪明！' },
+          { en: 'What nice weather it is!', cn: '多好的天气啊！' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'I\'m + doing sth. 我正在_____。',
+        substitutions: [
+          { en: 'I\'m having breakfast.', cn: '我正在吃早饭。' },
+          { en: 'I\'m reading a book.', cn: '我正在看书。' },
+          { en: 'I\'m watching TV.', cn: '我正在看电视。' },
+          { en: 'I\'m doing my homework.', cn: '我正在做作业。' },
+        ],
+      },
+      {
+        pattern: 'What + a/an + 名词! 多么_____的_____啊！',
+        substitutions: [
+          { en: 'What a day!', cn: '多么糟糕的一天！' },
+          { en: 'What a pity!', cn: '多么遗憾啊！' },
+          { en: 'What a surprise!', cn: '多么令人吃惊啊！' },
+          { en: 'What a lovely baby!', cn: '多么可爱的宝宝啊！' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'I _____ never get up early on Sundays.', options: ['A. am', 'B. is', 'C. ∅', 'D. do'], answer: 'C', explanation: 'never是频率副词，放在实义动词前，此处是一般现在时肯定句，不需要助动词。' },
+      { type: 'fill', question: 'I _____ still having breakfast. (be动词)', answer: 'am', explanation: '主语是I，现在进行时用am + doing。' },
+      { type: 'judge', question: '"Dear me"表示高兴。', answer: '错误', explanation: '"Dear me"表示惊讶或失望，不表示高兴。' },
+      { type: 'choice', question: '_____ a day! I thought. It\'s raining again.', options: ['A. How', 'B. What', 'C. Which', 'D. That'], answer: 'B', explanation: '感叹句"What a day!"中day是可数名词单数，用What a...结构。' },
+    ],
   },
   {
     id: 3,
@@ -114,6 +228,63 @@ const book2: Lesson[] = [
     ],
     tags: ['一般过去时', '时间状语'],
     difficulty: 2,
+    summary: '作者去意大利度假，每天都想着寄明信片的事，最后一天买了37张明信片，却在房间里待了一整天一张也没写成。',
+    summaryEn: 'The author went to Italy on holiday. Every day he thought about sending postcards but never did. On the last day he bought 37 cards but spent the whole day in his room without writing a single one.',
+    sentenceExplanations: [
+      { sentence: 'Postcards always spoil my holidays.', translation: '明信片总是破坏我的假期。', explanation: '一般现在时表示经常性动作。always与一般现在时搭配。spoil意为"破坏，毁坏"。' },
+      { sentence: 'A friendly waiter taught me a few words of Italian.', translation: '一个好客的服务员教了我几句意大利语。', explanation: 'taught是teach的过去式。a few表示"几个，一些"（肯定含义）。a few words of Italian意为"几句意大利语"。' },
+      { sentence: 'Then he lent me a book.', translation: '然后他借给我一本书。', explanation: 'lent是lend的过去式。lend sb sth = lend sth to sb，意为"借给某人某物"。注意区别borrow（借入）。' },
+      { sentence: 'I did not send any cards to my friends.', translation: '我一张明信片也没给朋友们寄。', explanation: '否定句中some变any。not...any表示"一个也没有"。send sth to sb意为"寄给某人"。' },
+      { sentence: 'I did not write a single card!', translation: '我一张也没写成！', explanation: 'single强调"仅仅一个"，加强否定语气。not...a single...表示"连一个也没有"。' },
+    ],
+    grammarSections: [
+      {
+        title: '一般过去时的否定句和疑问句',
+        content: '规则动词过去式加-ed，不规则动词需逐个记忆。  否定句：主语 + did not (didn\'t) + 动词原形 疑问句：Did + 主语 + 动词原形...?  注意：加了did后，动词必须恢复原形。',
+        examples: [
+          { en: 'I did not understand a word.', cn: '我一个字也看不懂。' },
+          { en: 'I did not send any cards.', cn: '我一张明信片也没寄。' },
+          { en: 'Did you visit the museum?', cn: '你参观博物馆了吗？' },
+          { en: 'He did not go to school yesterday.', cn: '他昨天没去上学。' },
+        ],
+      },
+      {
+        title: '双宾语动词 (lend/teach/send)',
+        content: '有些动词可以接两个宾语：间接宾语（人）和直接宾语（物）。  常见结构： - 动词 + 人 + 物 (lend me a book) - 动词 + 物 + to/for + 人 (lend a book to me)  to表示方向（给），for表示代替（为）。',
+        examples: [
+          { en: 'He lent me a book.', cn: '他借给我一本书。' },
+          { en: 'He lent a book to me.', cn: '他把一本书借给了我。' },
+          { en: 'A waiter taught me Italian.', cn: '一个服务员教我意大利语。' },
+          { en: 'I sent a card to my friend.', cn: '我给朋友寄了张明信片。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'sb + did not + 动词原形 + sth. 某人没有_____。',
+        substitutions: [
+          { en: 'I did not send any cards.', cn: '我没有寄任何明信片。' },
+          { en: 'I did not write a single letter.', cn: '我一封信也没写。' },
+          { en: 'He did not buy any souvenirs.', cn: '他没买任何纪念品。' },
+          { en: 'We did not visit the museum.', cn: '我们没有参观博物馆。' },
+        ],
+      },
+      {
+        pattern: 'sb + lent/taught/sent + 人 + 物. 某人借/教/寄了_____。',
+        substitutions: [
+          { en: 'He lent me a book.', cn: '他借给我一本书。' },
+          { en: 'She taught me a few words.', cn: '她教了我几个词。' },
+          { en: 'I sent my friend a postcard.', cn: '我给朋友寄了张明信片。' },
+          { en: 'He bought her a present.', cn: '他给她买了一件礼物。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'A friendly waiter _____ me a few words of Italian.', options: ['A. teach', 'B. teached', 'C. taught', 'D. teaches'], answer: 'C', explanation: 'teach的过去式是taught，不规则变化。' },
+      { type: 'fill', question: 'I did not write a _____ card. (单一的)', answer: 'single', explanation: '"single"意为"单一的"，not...a single强调"连一个也没有"。' },
+      { type: 'judge', question: '"lent"是"lend（借给）"的过去式。', answer: '正确', explanation: 'lend的过去式和过去分词都是lent。' },
+      { type: 'choice', question: 'I did not send _____ cards to my friends.', options: ['A. some', 'B. any', 'C. much', 'D. a'], answer: 'B', explanation: '否定句中some变为any。cards是可数名词复数，用any。' },
+    ],
   },
   {
     id: 4,
@@ -146,6 +317,63 @@ const book2: Lesson[] = [
     ],
     tags: ['现在完成时', 'since/for'],
     difficulty: 3,
+    summary: '作者收到弟弟Tim从澳大利亚的来信。Tim作为工程师在那里工作了六个月，已经去了很多地方，刚买了车并去了中部小镇，正计划继续旅行。',
+    summaryEn: 'The author received a letter from his brother Tim who is in Australia. Tim has been there for six months as an engineer, has visited many places, just bought a car, and is continuing his exciting trip.',
+    sentenceExplanations: [
+      { sentence: 'I have just received a letter from my brother, Tim.', translation: '我刚收到一封来自我弟弟蒂姆的信。', explanation: '现在完成时have/has + 过去分词。just表示"刚刚"，强调动作刚完成。receive...from意为"从...收到"。' },
+      { sentence: 'He has been there for six months.', translation: '他到那里已经六个月了。', explanation: '现在完成时表示从过去持续到现在的状态。for + 时间段表示持续时间。has been表示"一直在"。' },
+      { sentence: 'He has already visited a great number of different places.', translation: '他已经去过很多不同的地方了。', explanation: 'already表示"已经"，用于现在完成时肯定句中。a great number of = many，后接可数名词复数。' },
+      { sentence: 'He has just bought an Australian car.', translation: '他刚买了一辆澳大利亚汽车。', explanation: 'just与现在完成时搭配，表示"刚做完"。has bought是现在完成时。' },
+      { sentence: 'He will soon visit Darwin.', translation: '他很快就要去达尔文了。', explanation: 'will + 动词原形表示将来。soon表示"不久，很快"。' },
+    ],
+    grammarSections: [
+      {
+        title: '现在完成时（Present Perfect Tense）',
+        content: '现在完成时表示过去发生的动作对现在的影响，或从过去持续到现在的状态。  结构：have/has + 过去分词  常用时间标志词：just（刚刚），already（已经），yet（还/已经），ever（曾经），never（从不）。  注意：现在完成时不能与明确的过去时间连用（如yesterday, last week）。',
+        examples: [
+          { en: 'I have just received a letter.', cn: '我刚收到一封信。' },
+          { en: 'He has already visited many places.', cn: '他已经去过很多地方。' },
+          { en: 'He has never been abroad before.', cn: '他以前从没出过国。' },
+          { en: 'Have you finished yet?', cn: '你做完了吗？' },
+        ],
+      },
+      {
+        title: 'for 和 since 的用法',
+        content: 'for + 时间段：表示动作持续了多长时间（for six months, for two years）。  since + 时间点：表示从某个时间起（since 2020, since Monday）。  两者都常与现在完成时连用。',
+        examples: [
+          { en: 'He has been there for six months.', cn: '他在那里已经六个月了。' },
+          { en: 'I have lived here for ten years.', cn: '我在这里住了十年了。' },
+          { en: 'She has worked here since 2019.', cn: '她从2019年起就在这里工作。' },
+          { en: 'We have been friends since childhood.', cn: '我们从童年起就是朋友。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'sb + have/has + just/already + 过去分词... 某人刚刚/已经_____。',
+        substitutions: [
+          { en: 'I have just received a letter.', cn: '我刚收到一封信。' },
+          { en: 'He has already finished his work.', cn: '他已经完成了工作。' },
+          { en: 'She has just left the office.', cn: '她刚离开办公室。' },
+          { en: 'They have already arrived.', cn: '他们已经到了。' },
+        ],
+      },
+      {
+        pattern: 'sb + have/has + 过去分词 + for + 时间段. 某人_____了多长时间。',
+        substitutions: [
+          { en: 'He has been there for six months.', cn: '他在那里已经六个月了。' },
+          { en: 'I have lived here for ten years.', cn: '我在这里住了十年了。' },
+          { en: 'She has studied English for three years.', cn: '她学英语已经三年了。' },
+          { en: 'We have known each other for a long time.', cn: '我们认识很久了。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'He has _____ visited a great number of places.', options: ['A. yet', 'B. already', 'C. ever', 'D. never'], answer: 'B', explanation: 'already用于现在完成时肯定句，表示"已经"。' },
+      { type: 'fill', question: 'He has been there _____ six months. (介词)', answer: 'for', explanation: '"for + 时间段"表示持续时间，与现在完成时连用。' },
+      { type: 'judge', question: '"He has been there for six months"表示他在那里待了六个月，现在还在那里。', answer: '正确', explanation: '现在完成时 + for表示动作从过去持续到现在，可能还会继续。' },
+      { type: 'choice', question: 'My brother has never _____ abroad before.', options: ['A. be', 'B. been', 'C. being', 'D. is'], answer: 'B', explanation: '现在完成时has + 过去分词，be的过去分词是been。' },
+    ],
   },
   {
     id: 5,
@@ -183,6 +411,62 @@ const book2: Lesson[] = [
     ],
     tags: ['一般过去时', '否定句'],
     difficulty: 2,
+    summary: '詹姆斯·斯科特先生在Pinhurst新开了一家修车厂，因为装不了电话，便买了12只鸽子在两家修车厂之间传递消息，开创了自己的私人"电话"服务。',
+    summaryEn: 'Mr. James Scott bought a second garage but couldn\'t get a telephone for it, so he bought twelve pigeons to carry messages between the two garages, starting his own private "telephone" service.',
+    sentenceExplanations: [
+      { sentence: 'Mr. Scott cannot get a telephone for his new garage.', translation: '斯科特先生无法为他的新修理部装电话。', explanation: 'cannot = can\'t，表示"不能"。get在此意为"得到，安装"。for表示目的，"为了"。' },
+      { sentence: 'The bird covered the distance in three minutes.', translation: '这只鸟用三分钟飞完了全程。', explanation: 'cover the distance意为"走/飞完全程"。in + 时间段表示"在...时间内完成"。' },
+      { sentence: 'Up to now, Mr. Scott has sent a great many requests.', translation: '到目前为止，斯科特先生已经发出了大量请求。', explanation: '"Up to now" = So far，意为"到目前为止"，常与现在完成时连用。a great many = many，后接可数名词复数。' },
+      { sentence: 'He has begun his own private "telephone" service.', translation: '他开始了自己的私人"电话"服务。', explanation: 'has begun是现在完成时。own意为"自己的"。service意为"服务"。此处telephone加引号表示这不是真正的电话。' },
+    ],
+    grammarSections: [
+      {
+        title: '现在完成时与时间状语',
+        content: '现在完成时常与以下时间状语连用：  - up to now / so far（到目前为止） - just（刚刚） - already（已经） - yet（还/已经，用于否定和疑问） - never（从不） - ever（曾经）  这些词通常放在have/has之后，过去分词之前。',
+        examples: [
+          { en: 'Up to now, he has sent many messages.', cn: '到目前为止，他已经发了很多消息。' },
+          { en: 'So far, everything has been fine.', cn: '到目前为止，一切都很好。' },
+          { en: 'He has just bought twelve pigeons.', cn: '他刚买了十二只鸽子。' },
+          { en: 'Have you ever been to London?', cn: '你去过伦敦吗？' },
+        ],
+      },
+      {
+        title: 'a great many 与 a great number of',
+        content: '两者都表示"许多"，后接可数名词复数。  - a great many + 可数名词复数 - a great number of + 可数名词复数  注意：a great deal of + 不可数名词。',
+        examples: [
+          { en: 'He has sent a great many requests.', cn: '他发出了大量请求。' },
+          { en: 'A great number of pigeons live here.', cn: '很多鸽子生活在这里。' },
+          { en: 'I have a great many friends.', cn: '我有很多朋友。' },
+          { en: 'A great deal of money was spent.', cn: '花了很多钱。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'sb + have/has + 过去分词 + a great many + 名词复数. 某人已经_____了很多_____。',
+        substitutions: [
+          { en: 'He has sent a great many requests.', cn: '他发出了大量请求。' },
+          { en: 'She has read a great many books.', cn: '她读了很多书。' },
+          { en: 'They have visited a great many countries.', cn: '他们去了很多国家。' },
+          { en: 'I have received a great many letters.', cn: '我收到了很多信。' },
+        ],
+      },
+      {
+        pattern: 'sb + cannot + 动词 + for + 名词. 某人无法为_____。',
+        substitutions: [
+          { en: 'He cannot get a telephone for his garage.', cn: '他无法为修车厂装电话。' },
+          { en: 'She cannot find a job for her husband.', cn: '她无法为丈夫找到工作。' },
+          { en: 'I cannot buy a gift for my mother.', cn: '我无法给妈妈买礼物。' },
+          { en: 'We cannot get tickets for the show.', cn: '我们买不到演出的票。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ to now, Mr. Scott has sent many messages.', options: ['A. Up', 'B. Down', 'C. In', 'D. On'], answer: 'A', explanation: '"Up to now"是固定搭配，意为"到目前为止"。' },
+      { type: 'fill', question: 'The bird covered the _____ in three minutes. (距离)', answer: 'distance', explanation: '"cover the distance"意为"走/飞完全程"。' },
+      { type: 'judge', question: '"a great many"后接不可数名词。', answer: '错误', explanation: '"a great many"后接可数名词复数。接不可数名词用"a great deal of"。' },
+      { type: 'choice', question: 'He has just _____ twelve pigeons.', options: ['A. buy', 'B. bought', 'C. buying', 'D. buys'], answer: 'B', explanation: '现在完成时has + 过去分词，buy的过去分词是bought。' },
+    ],
   },
   {
     id: 6,
@@ -220,6 +504,63 @@ const book2: Lesson[] = [
     ],
     tags: ['被动语态', '一般现在时'],
     difficulty: 3,
+    summary: '作者搬到桥街后，一个叫Percy Buttons的乞丐来敲门要饭和啤酒，作为回报他倒立唱歌，后来邻居告诉大家此人每月都会来一次。',
+    summaryEn: 'After the author moved to Bridge Street, a beggar named Percy Buttons came to ask for a meal and a glass of beer. In return, he stood on his head and sang songs. He visits every house once a month.',
+    sentenceExplanations: [
+      { sentence: 'I have just moved to a house in Bridge Street.', translation: '我刚搬到桥街的一所房子。', explanation: '现在完成时表示刚完成的动作。move to表示"搬到某地"。just表示"刚刚"。' },
+      { sentence: 'He asked me for a meal and a glass of beer.', translation: '他向我要一顿饭和一杯啤酒。', explanation: '"ask sb for sth"意为"向某人要某物"。a glass of表示"一杯"。' },
+      { sentence: 'In return for this, the beggar stood on his head and sang songs.', translation: '作为回报，那乞丐倒立起来唱了几首歌。', explanation: '"In return for..."意为"作为...的回报"。stand on one\'s head意为"倒立"。sang是sing的过去式。' },
+      { sentence: 'Then he put a piece of cheese in his pocket and went away.', translation: '然后他把一块奶酪放进口袋走了。', explanation: 'a piece of表示"一块/一片"。went away = left，意为"离开"。' },
+      { sentence: 'He calls at every house in the street once a month.', translation: '他每月拜访街上每家每户一次。', explanation: 'call at意为"拜访（某地）"。once a month表示频率，"每月一次"。' },
+    ],
+    grammarSections: [
+      {
+        title: 'ask sb for sth 和 give sb sth 结构',
+        content: '"ask sb for sth"意为"向某人要某物"。 "give sb sth" = "give sth to sb"意为"给某人某物"。  英语中很多动词可以接双宾语，常见搭配： ask...for...，give...to...，lend...to...，send...to...',
+        examples: [
+          { en: 'He asked me for a meal.', cn: '他向我要一顿饭。' },
+          { en: 'I gave him a meal.', cn: '我给了他一顿饭。' },
+          { en: 'She asked her father for money.', cn: '她向父亲要钱。' },
+          { en: 'He gave the book to me.', cn: '他把书给了我。' },
+        ],
+      },
+      {
+        title: '频率表达 (Frequency Expressions)',
+        content: '英语中表示频率的常见表达：  - once a week/month/year（每周/月/年一次） - twice a day（每天两次） - three times a week（每周三次）  这些表达通常放在句末。',
+        examples: [
+          { en: 'He calls at every house once a month.', cn: '他每月拜访每家一次。' },
+          { en: 'I go swimming twice a week.', cn: '我每周去游泳两次。' },
+          { en: 'She exercises three times a week.', cn: '她每周锻炼三次。' },
+          { en: 'We have English lessons once a day.', cn: '我们每天上一次英语课。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'sb + asked + 人 + for + sth. 某人向某人要_____。',
+        substitutions: [
+          { en: 'He asked me for a meal.', cn: '他向我要一顿饭。' },
+          { en: 'She asked her mother for help.', cn: '她向妈妈求助。' },
+          { en: 'The child asked his father for money.', cn: '孩子向父亲要钱。' },
+          { en: 'I asked the teacher for advice.', cn: '我向老师请教。' },
+        ],
+      },
+      {
+        pattern: 'sb + 动词 + once/twice/three times + a + 时间. 某人每周/月_____次。',
+        substitutions: [
+          { en: 'He calls once a month.', cn: '他每月来一次。' },
+          { en: 'I go swimming twice a week.', cn: '我每周去游泳两次。' },
+          { en: 'She visits her parents once a month.', cn: '她每月看望父母一次。' },
+          { en: 'We have a test three times a term.', cn: '我们每学期考三次。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'He _____ me for a meal and a glass of beer.', options: ['A. asked', 'B. gave', 'C. lent', 'D. sent'], answer: 'A', explanation: '"ask sb for sth"意为"向某人要某物"，asked的过去式还是asked。' },
+      { type: 'fill', question: 'In _____ for this, he stood on his head. (回报)', answer: 'return', explanation: '"In return for..."是固定搭配，意为"作为...的回报"。' },
+      { type: 'judge', question: '"call at"后接地点，表示"拜访某地"。', answer: '正确', explanation: '"call at"后接地点名词，意为"拜访/到访某地"。"call on"后接人。' },
+      { type: 'choice', question: 'He calls at every house _____ a month.', options: ['A. one time', 'B. once', 'C. first', 'D. one'], answer: 'B', explanation: '"once a month"是固定表达，意为"每月一次"。' },
+    ],
   },
   {
     id: 7,
@@ -257,6 +598,63 @@ const book2: Lesson[] = [
     ],
     tags: ['一般过去时', '不规则动词'],
     difficulty: 2,
+    summary: '侦探们在机场等待一个装有钻石的贵重包裹。有人提前告知警方小偷会来偷钻石。当包裹最终被打开时，里面却只有石头和沙子。',
+    summaryEn: 'Detectives waited at the airport all morning for a valuable parcel of diamonds from South Africa. When they finally opened it, the precious parcel was full of stones and sand.',
+    sentenceExplanations: [
+      { sentence: 'The plane was late and detectives were waiting at the airport all morning.', translation: '飞机晚点了，侦探们在机场等了整整一上午。', explanation: 'was late表示"晚点了"。were waiting是过去进行时，表示在过去某段时间内持续进行的动作。all morning表示"整个上午"。' },
+      { sentence: 'They were expecting a valuable parcel of diamonds from South Africa.', translation: '他们在等一个从南非运来的值钱的钻石包裹。', explanation: 'were expecting过去进行时表示"一直在期待"。a parcel of意为"一包"。diamonds from South Africa意为"来自南非的钻石"。' },
+      { sentence: 'Someone had told the police that thieves would try to steal the diamonds.', translation: '有人告诉警方说小偷会试图偷这些钻石。', explanation: 'had told是过去完成时表示"在过去之前"已发生。would是will的过去式，用于间接引语中表示将来。try to do意为"试图做"。' },
+      { sentence: 'While two detectives were keeping guard at the door, two others opened the parcel.', translation: '两个侦探在门口把守，另两个打开了包裹。', explanation: '"while"引导时间状语从句，表示"当...的时候"，常与进行时连用。keeping guard意为"把守，看守"。others表示"其他人"。' },
+      { sentence: 'To their surprise, the precious parcel was full of stones and sand!', translation: '令他们吃惊的是，这个珍贵的包裹里装满了石头和沙子！', explanation: '"To their surprise"是不定式短语作状语，意为"令他们吃惊的是"。be full of意为"装满了"。' },
+    ],
+    grammarSections: [
+      {
+        title: '过去进行时（Past Continuous Tense）',
+        content: '过去进行时表示过去某时正在进行的动作，结构为was/were + doing。  常与when和while连用： - when + 一般过去时, 过去进行时（突然发生） - while + 过去进行时, 过去进行时（同时进行）',
+        examples: [
+          { en: 'Detectives were waiting at the airport.', cn: '侦探们在机场等候。' },
+          { en: 'They were expecting a valuable parcel.', cn: '他们在等一个贵重的包裹。' },
+          { en: 'While two were guarding the door, two others opened the parcel.', cn: '两个在门口守卫时，另两个打开了包裹。' },
+          { en: 'I was reading when the phone rang.', cn: '电话响时我正在看书。' },
+        ],
+      },
+      {
+        title: '过去完成时（Past Perfect Tense）',
+        content: '过去完成时表示"过去的过去"，即在过去某个动作之前已发生的动作。  结构：had + 过去分词  常与before, after, by the time等连用，也用于间接引语中。',
+        examples: [
+          { en: 'Someone had told the police about the thieves.', cn: '有人已经把小偷的事告诉了警方。' },
+          { en: 'A few hours earlier, someone had told the police.', cn: '几小时前有人告诉了警方。' },
+          { en: 'He had finished before I arrived.', cn: '我到之前他已经做完了。' },
+          { en: 'She said she had seen the film before.', cn: '她说她以前看过这部电影。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'While sb + were/was doing, sb + did sth. 当某人正在做...时，某人做了...',
+        substitutions: [
+          { en: 'While two detectives were keeping guard, two others opened the parcel.', cn: '两个侦探把守时，另两个打开了包裹。' },
+          { en: 'While I was reading, the phone rang.', cn: '我正在看书时，电话响了。' },
+          { en: 'While she was cooking, the doorbell rang.', cn: '她正在做饭时，门铃响了。' },
+          { en: 'While they were waiting, it started to rain.', cn: '他们等待时，开始下雨了。' },
+        ],
+      },
+      {
+        pattern: 'To their surprise, sb/sth + was/were... 令他们吃惊的是...',
+        substitutions: [
+          { en: 'To their surprise, the parcel was full of stones.', cn: '令他们吃惊的是，包裹里全是石头。' },
+          { en: 'To his surprise, she knew his name.', cn: '令他吃惊的是，她知道他的名字。' },
+          { en: 'To our surprise, the shop was closed.', cn: '令我们吃惊的是，商店关门了。' },
+          { en: 'To my surprise, he passed the exam.', cn: '令我吃惊的是，他通过了考试。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'Detectives _____ waiting at the airport all morning.', options: ['A. was', 'B. were', 'C. are', 'D. is'], answer: 'B', explanation: 'detectives是复数，过去进行时用were + doing。' },
+      { type: 'fill', question: 'Someone had _____ the police about the thieves. (告诉)', answer: 'told', explanation: '过去完成时had + 过去分词，tell的过去分词是told。' },
+      { type: 'judge', question: '"To their surprise"意为"令他们吃惊的是"。', answer: '正确', explanation: '这是不定式短语作状语，表示出乎意料的结果。' },
+      { type: 'choice', question: '_____ two detectives were keeping guard, two others opened the parcel.', options: ['A. When', 'B. While', 'C. If', 'D. Because'], answer: 'B', explanation: 'while引导的从句与主句同时进行，都用进行时。when通常接一般过去时。' },
+    ],
   },
   {
     id: 8,
@@ -291,6 +689,62 @@ const book2: Lesson[] = [
     ],
     tags: ['现在完成时', '一般过去时'],
     difficulty: 3,
+    summary: 'Joe Sanders拥有镇上最漂亮的花园，Bill Frith的花园比Joe的大也更勤劳，但Joe的花园更有趣。作者也参加比赛，却总是赢得最差花园奖。',
+    summaryEn: 'Joe Sanders has the most beautiful garden in town. Bill Frith\'s garden is larger and he works harder, but Joe\'s garden is more interesting. The author also enters the competition but always wins the prize for the worst garden.',
+    sentenceExplanations: [
+      { sentence: 'Joe Sanders has the most beautiful garden in our town.', translation: '乔·桑德斯拥有镇上最漂亮的花园。', explanation: '最高级：the most beautiful。多音节形容词用most构成最高级。in our town表示范围。' },
+      { sentence: 'Bill Frith\'s garden is larger than Joe\'s.', translation: '比尔·弗里思的花园比乔的大。', explanation: '比较级：larger than。单音节形容词加-er构成比较级。Joe\'s = Joe\'s garden，省略了garden。' },
+      { sentence: 'Bill works harder than Joe and grows more flowers and vegetables.', translation: '比尔比乔更勤奋，种了更多的花和蔬菜。', explanation: 'harder是hard的比较级（副词比较级）。more flowers是many的比较级more + 名词。grows意为"种植"。' },
+      { sentence: 'I always win a little prize for the worst garden in the town!', translation: '我总是为镇上最差的花园赢得一个小奖！', explanation: 'worst是bad的最高级。win a prize for意为"因...而获奖"。句中含有幽默和自嘲的意味。' },
+    ],
+    grammarSections: [
+      {
+        title: '比较级（Comparative）',
+        content: '比较级用于两者之间的比较，结构为：比较级 + than  构成规则： - 单音节：加-er（tall→taller, hard→harder） - 以e结尾：加-r（large→larger） - 辅音+y：变y为i加-er（happy→happier） - 多音节：前面加more（interesting→more interesting）',
+        examples: [
+          { en: 'Bill\'s garden is larger than Joe\'s.', cn: '比尔的花园比乔的大。' },
+          { en: 'Bill works harder than Joe.', cn: '比尔比乔更勤奋。' },
+          { en: 'This book is more interesting than that one.', cn: '这本书比那本更有趣。' },
+          { en: 'She is taller than her sister.', cn: '她比她姐姐高。' },
+        ],
+      },
+      {
+        title: '最高级（Superlative）',
+        content: '最高级用于三者或以上的比较，结构为：the + 最高级  构成规则： - 单音节：加-est（tall→the tallest） - 以e结尾：加-st（large→the largest） - 辅音+y：变y为i加-est（happy→the happiest） - 多音节：前面加the most - 不规则：good→best, bad→worst, far→farthest',
+        examples: [
+          { en: 'Joe has the most beautiful garden in town.', cn: '乔拥有镇上最漂亮的花园。' },
+          { en: 'It is the largest garden I have ever seen.', cn: '这是我见过最大的花园。' },
+          { en: 'She is the best student in our class.', cn: '她是我们班最好的学生。' },
+          { en: 'This is the worst movie of the year.', cn: '这是今年最差的电影。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'A + is + 比较级 + than + B. A比B更_____。',
+        substitutions: [
+          { en: 'Bill\'s garden is larger than Joe\'s.', cn: '比尔的花园比乔的大。' },
+          { en: 'This book is more interesting than that one.', cn: '这本书比那本更有趣。' },
+          { en: 'She works harder than her brother.', cn: '她比她哥哥更勤奋。' },
+          { en: 'My car is newer than yours.', cn: '我的车比你的新。' },
+        ],
+      },
+      {
+        pattern: 'sb/sth + is/has + the + 最高级 + in... 在...中最_____。',
+        substitutions: [
+          { en: 'Joe has the most beautiful garden in town.', cn: '乔拥有镇上最漂亮的花园。' },
+          { en: 'She is the tallest girl in our class.', cn: '她是我们班最高的女孩。' },
+          { en: 'This is the best restaurant in the city.', cn: '这是城里最好的餐厅。' },
+          { en: 'He is the worst player on the team.', cn: '他是队里最差的球员。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'Bill\'s garden is _____ than Joe\'s.', options: ['A. large', 'B. larger', 'C. largest', 'D. the largest'], answer: 'B', explanation: '两者比较用比较级larger + than。' },
+      { type: 'fill', question: 'Joe has the most _____ garden in our town. (漂亮的)', answer: 'beautiful', explanation: '最高级the most beautiful，多音节形容词用most构成最高级。' },
+      { type: 'judge', question: '"worst"是"bad"的最高级形式。', answer: '正确', explanation: 'bad的比较级是worse，最高级是worst，属于不规则变化。' },
+      { type: 'choice', question: 'Bill works _____ than Joe.', options: ['A. hard', 'B. harder', 'C. hardest', 'D. the hardest'], answer: 'B', explanation: '两者比较用比较级。hard的比较级是harder。' },
+    ],
   },
   {
     id: 9,
@@ -327,6 +781,63 @@ const book2: Lesson[] = [
     ],
     tags: ['一般现在时', '频率副词'],
     difficulty: 2,
+    summary: '新年前夜，人们聚集在市政厅大钟下等待午夜钟声。在12点差5分时钟停了，人们等了很久才发现钟已停，随后大家开始欢笑歌唱。',
+    summaryEn: 'On New Year\'s Eve, a crowd gathered under the Town Hall clock to hear it strike twelve. The clock stopped at five to twelve. When people realized it had stopped, they began to laugh and sing.',
+    sentenceExplanations: [
+      { sentence: 'It was the last day of the year and a large crowd of people had gathered under the Town Hall clock.', translation: '那是一年的最后一天，一大群人聚集在市政厅的大钟下面。', explanation: 'a crowd of people意为"一群人"。had gathered是过去完成时，表示在叙述之前已经完成的动作。under表示位置"在...下面"。' },
+      { sentence: 'It would strike twelve in twenty minutes\' time.', translation: '再过二十分钟大钟就要敲响十二点了。', explanation: 'would表示过去将来时。strike twelve意为"敲响十二点"。in twenty minutes\' time = in twenty minutes，表示"二十分钟后"。所有格\'s后接time。' },
+      { sentence: 'Fifteen minutes passed and then, at five to twelve, the clock stopped.', translation: '十五分钟过去了，在十二点差五分的时候，钟停了。', explanation: 'at five to twelve表示时间"11:55"。to表示"差"，past表示"过"。stopped是一般过去时。' },
+      { sentence: 'The big clock refused to welcome the New Year.', translation: '大钟拒绝迎接新年。', explanation: 'refuse to do意为"拒绝做"。此处用拟人手法，赋予大钟人的行为。' },
+      { sentence: 'At that moment, everybody began to laugh and sing.', translation: '就在那一刻，大家都开始又笑又唱。', explanation: 'at that moment意为"就在那一刻"。everybody后接单数动词。began是begin的过去式。laugh and sing并列作不定式。' },
+    ],
+    grammarSections: [
+      {
+        title: '时间表达法（Telling the Time）',
+        content: '英语中表达时间有两种方式：  1. 直接读数字：twelve oh five (12:05) 2. 用past和to： - 半小时前用past：five past twelve (12:05) - 半小时后用to：five to twelve (11:55)  注意：quarter = 15分钟，half = 30分钟',
+        examples: [
+          { en: 'at five to twelve', cn: '在11:55（差5分12点）' },
+          { en: 'at a quarter past three', cn: '在3:15' },
+          { en: 'at half past nine', cn: '在9:30' },
+          { en: 'at ten to seven', cn: '在6:50（差10分7点）' },
+        ],
+      },
+      {
+        title: 'would 表示过去将来时',
+        content: 'would是will的过去式，用于过去语境中表示"将要"。  常用于： - 间接引语中（He said he would come.） - 过去的预测（It would rain later.） - 过去的计划（He would visit Darwin.）',
+        examples: [
+          { en: 'It would strike twelve in twenty minutes\' time.', cn: '再过二十分钟就要敲响十二点了。' },
+          { en: 'He said he would help me.', cn: '他说他会帮我。' },
+          { en: 'I knew she would come.', cn: '我知道她会来的。' },
+          { en: 'They said they would arrive at noon.', cn: '他们说中午到。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'at + 分钟 + to/past + 小时. 在_____点_____。',
+        substitutions: [
+          { en: 'at five to twelve', cn: '在11:55' },
+          { en: 'at ten past nine', cn: '在9:10' },
+          { en: 'at a quarter to eight', cn: '在7:45' },
+          { en: 'at half past six', cn: '在6:30' },
+        ],
+      },
+      {
+        pattern: 'sb/sth + refused + to + 动词. 某人/物拒绝_____。',
+        substitutions: [
+          { en: 'The clock refused to welcome the New Year.', cn: '大钟拒绝迎接新年。' },
+          { en: 'He refused to help me.', cn: '他拒绝帮我。' },
+          { en: 'She refused to answer the question.', cn: '她拒绝回答问题。' },
+          { en: 'The door refused to open.', cn: '门怎么也打不开。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'It would strike twelve _____ twenty minutes\' time.', options: ['A. at', 'B. on', 'C. in', 'D. for'], answer: 'C', explanation: '"in + 时间段"表示"在...之后"，用于将来时态。' },
+      { type: 'fill', question: 'At _____ to twelve, the clock stopped. (差五分)', answer: 'five', explanation: '"at five to twelve"表示11:55，"差5分12点"。' },
+      { type: 'judge', question: '"refuse to do"意为"拒绝做某事"。', answer: '正确', explanation: 'refuse后接不定式to do，表示拒绝做某事。' },
+      { type: 'choice', question: 'The big clock _____ to welcome the New Year.', options: ['A. refuse', 'B. refused', 'C. refusing', 'D. refuses'], answer: 'B', explanation: '故事用过去时叙述，refuse的过去式是refused。' },
+    ],
   },
   {
     id: 10,
@@ -364,6 +875,63 @@ const book2: Lesson[] = [
     ],
     tags: ['被动语态', '一般过去时'],
     difficulty: 3,
+    summary: '作者家有一架1681年德国制造的古钢琴，是祖父多年前买的。最近一位客人试图在上面弹爵士乐，按键太重弄断了两根弦，父亲很震惊，现在不许任何人碰它。',
+    summaryEn: 'The family owns an old clavichord made in Germany in 1681. A visitor tried to play jazz on it and broke two strings. The father was shocked and now nobody is allowed to touch it while it is being repaired.',
+    sentenceExplanations: [
+      { sentence: 'It is called a clavichord.', translation: '它叫古钢琴。', explanation: '被动语态：is called意为"被称为"。被动结构为be + 过去分词。' },
+      { sentence: 'It was made in Germany in 1681.', translation: '它是1681年在德国制造的。', explanation: '被动语态过去时：was made。in Germany表示产地，in 1681表示时间。' },
+      { sentence: 'It has belonged to our family for a long time.', translation: '它在我们家已经很久了。', explanation: 'belong to意为"属于"。注意：belong to不用于被动语态，也不用于进行时。for a long time表示持续时间。' },
+      { sentence: 'She struck the keys too hard and two of the strings were broken.', translation: '她按键太重，断了两根弦。', explanation: 'struck是strike的过去式。too hard意为"太用力"。were broken是被动语态，表示弦被弄断了。' },
+      { sentence: 'It is being repaired by a friend of my father\'s.', translation: '我父亲的一个朋友正在修理它。', explanation: '现在进行时被动语态：is/are being + 过去分词。a friend of my father\'s是双重所有格。' },
+    ],
+    grammarSections: [
+      {
+        title: '被动语态（Passive Voice）',
+        content: '被动语态强调动作的承受者，结构为be + 过去分词。  各时态的被动语态： - 一般现在时：is/are + done - 一般过去时：was/were + done - 现在进行时：is/are being + done - 现在完成时：have/has been + done  by后接动作执行者（施动者）。',
+        examples: [
+          { en: 'It is called a clavichord.', cn: '它叫古钢琴。' },
+          { en: 'It was made in Germany in 1681.', cn: '它是1681年在德国制造的。' },
+          { en: 'It was damaged by a visitor.', cn: '它被一个客人弄坏了。' },
+          { en: 'It is being repaired by a friend.', cn: '一个朋友正在修理它。' },
+        ],
+      },
+      {
+        title: 'belong to 的特殊用法',
+        content: '"belong to"意为"属于"，有两个重要特点：  1. 不用于被动语态（不能说is belonged to） 2. 不用于进行时（不能说is belonging to）  这是因为belong是状态动词，不是动作动词。',
+        examples: [
+          { en: 'It has belonged to our family for a long time.', cn: '它属于我们家已经很久了。' },
+          { en: 'This book belongs to me.', cn: '这本书是我的。' },
+          { en: 'The house belongs to my uncle.', cn: '这房子是我叔叔的。' },
+          { en: 'Who does this bag belong to?', cn: '这个包是谁的？' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'sth + is/was + 过去分词 + (by sb). 某物被_____。',
+        substitutions: [
+          { en: 'It is called a clavichord.', cn: '它叫古钢琴。' },
+          { en: 'It was made in Germany.', cn: '它是德国制造的。' },
+          { en: 'The window was broken by the ball.', cn: '窗户被球打破了。' },
+          { en: 'The letter was written by my sister.', cn: '这封信是我姐姐写的。' },
+        ],
+      },
+      {
+        pattern: 'sth + is/are being + 过去分词 + (by sb). 某物正在被_____。',
+        substitutions: [
+          { en: 'It is being repaired by a friend.', cn: '它正在被一个朋友修理。' },
+          { en: 'The house is being painted.', cn: '房子正在被粉刷。' },
+          { en: 'The road is being repaired.', cn: '道路正在被修缮。' },
+          { en: 'The cake is being made by my mother.', cn: '蛋糕正在被妈妈做。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'It _____ made in Germany in 1681.', options: ['A. is', 'B. was', 'C. has', 'D. had'], answer: 'B', explanation: '被动语态过去时：was/were + 过去分词。it是单数，用was。' },
+      { type: 'fill', question: 'It has _____ to our family for a long time. (属于)', answer: 'belonged', explanation: '现在完成时has + 过去分词，belong的过去分词是belonged。' },
+      { type: 'judge', question: '"It is being repaired"是现在进行时的被动语态。', answer: '正确', explanation: '结构为is being + 过去分词，表示"正在被..."。' },
+      { type: 'choice', question: 'Two of the strings _____ broken.', options: ['A. was', 'B. were', 'C. are', 'D. is'], answer: 'B', explanation: '主语two of the strings是复数，被动语态过去时用were + 过去分词。' },
+    ],
   },
   {
     id: 11,

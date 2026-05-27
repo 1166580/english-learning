@@ -413,6 +413,50 @@ const book1: Lesson[] = [
     ],
     tags: ['特殊疑问句', 'how'],
     difficulty: 1,
+    summary: '本课学习询问物品品牌的句型"What make is it?"以及国籍形容词的用法。通过汽车品牌引出不同国家的国籍表达。',
+    summaryEn: 'This lesson teaches how to ask about brands with "What make is it?" and introduces nationality adjectives through car brands.',
+    sentenceExplanations: [
+      { sentence: 'What make is it?', translation: '它是什么牌子的？', explanation: '"make"作名词表示"品牌、型号"。"What make"用来询问物品的具体品牌。' },
+      { sentence: 'It\'s a Volvo.', translation: '它是沃尔沃。', explanation: 'Volvo是瑞典品牌，这里用"a"因为Volvo以辅音音素开头。' },
+      { sentence: 'It\'s a Swedish car.', translation: '它是瑞典车。', explanation: 'Swedish是国籍形容词，修饰car。国籍形容词首字母必须大写。' },
+      { sentence: 'It\'s an English car.', translation: '它是英国车。', explanation: 'English以元音音素/ɪ/开头，所以用"an"而不是"a"。这是不定冠词的重要规则。' },
+      { sentence: 'It\'s a Toyota.', translation: '它是丰田。', explanation: 'Toyota是日本品牌，以辅音音素/t/开头，用"a"。' },
+      { sentence: 'It\'s a Japanese car.', translation: '它是日本车。', explanation: 'Japanese是国籍形容词，表示"日本的"。注意发音：/ˌdʒæpəˈniːz/。' }
+    ],
+    grammarSections: [
+      { title: '不定冠词 a 和 an', content: '不定冠词"a"用在辅音音素开头的单词前，"an"用在元音音素开头的单词前。注意判断标准是音素而非字母。', examples: [
+        { en: 'a Volvo, a Toyota, a Mini', cn: '辅音音素开头' },
+        { en: 'an English car, an Italian car', cn: '元音音素开头' },
+        { en: 'an hour (h不发音)', cn: '特殊情况' },
+        { en: 'a university (u发/juː/)', cn: '特殊情况' }
+      ] },
+      { title: '国籍形容词', content: '国籍形容词用来表示"某国的"，首字母必须大写。常见构成方式：国名+ish/ese/an等后缀。', examples: [
+        { en: 'Swedish (瑞典的)', cn: 'Sweden + ish' },
+        { en: 'English (英国的)', cn: 'England → English' },
+        { en: 'Japanese (日本的)', cn: 'Japan + ese' },
+        { en: 'Chinese (中国的)', cn: 'China → Chinese' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'What make is it? — It\'s a/an ___.', substitutions: [
+        { en: 'Mercedes / German car', cn: '奔驰 / 德国车' },
+        { en: 'Fiat / Italian car', cn: '菲亚特 / 意大利车' },
+        { en: 'Ford / American car', cn: '福特 / 美国车' },
+        { en: 'Hyundai / Korean car', cn: '现代 / 韩国车' }
+      ] },
+      { pattern: 'It\'s a/an ___ car.', substitutions: [
+        { en: 'French', cn: '法国的' },
+        { en: 'Spanish', cn: '西班牙的' },
+        { en: 'Russian', cn: '俄罗斯的' },
+        { en: 'Australian', cn: '澳大利亚的' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'It\'s _____ English car.', options: ['A. a', 'B. an', 'C. the', 'D. /'], answer: 'B', explanation: 'English以元音音素/ɪ/开头，用an。' },
+      { type: 'fill', question: 'What _____ is it? It\'s a Volvo. (品牌)', answer: 'make', explanation: '"make"表示品牌。' },
+      { type: 'judge', question: '"a Italian car" 的用法是正确的。', answer: '错误', explanation: 'Italian以元音音素/ɪ/开头，应该用"an Italian car"。' },
+      { type: 'choice', question: 'It\'s a _____ car. (日本的)', options: ['A. Japan', 'B. Japanese', 'C. Japanes', 'D. Japenese'], answer: 'B', explanation: 'Japanese是日本的国籍形容词。' }
+    ],
   },
   {
     id: 7,
@@ -457,6 +501,50 @@ const book1: Lesson[] = [
     ],
     tags: ['特殊疑问句', '名词所有格'],
     difficulty: 3,
+    summary: '本课学习一般疑问句"Are you...?"的用法，以及如何询问和回答关于职业的问题。包含肯定和否定回答的对比。',
+    summaryEn: 'This lesson teaches the general question "Are you...?" and how to ask about and answer questions about occupations.',
+    sentenceExplanations: [
+      { sentence: 'I am a new student.', translation: '我是一名新学生。', explanation: '"new"修饰student，表示"新来的"。这是自我介绍的基本句型。' },
+      { sentence: 'My name\'s Robert.', translation: '我叫罗伯特。', explanation: '"name\'s"是"name is"的缩写形式。英语口语中常用缩写。' },
+      { sentence: 'Nice to meet you.', translation: '很高兴见到你。', explanation: '初次见面时的常用寒暄语。回答通常是"Nice to meet you, too."。' },
+      { sentence: 'Are you French?', translation: '你是法国人吗？', explanation: '"Are you...?"是一般疑问句，用来确认信息。回答用"Yes, I am."或"No, I am not."。' },
+      { sentence: 'What\'s your job?', translation: '你是做什么工作的？', explanation: '"What\'s"是"What is"的缩写。这是询问职业的常用句型。' },
+      { sentence: 'I\'m a keyboard operator.', translation: '我是一名键盘操作员。', explanation: 'keyboard operator是职业名称，"keyboard"键盘，"operator"操作员。' }
+    ],
+    grammarSections: [
+      { title: '一般疑问句 Are you...?', content: '以be动词开头的疑问句叫一般疑问句。回答时用Yes或No。注意回答中不能使用缩写。', examples: [
+        { en: 'Are you French? — Yes, I am.', cn: '肯定回答（不能说Yes, I\'m）' },
+        { en: 'Are you a teacher? — No, I am not.', cn: '否定回答' },
+        { en: 'Is he a student? — Yes, he is.', cn: '第三人称单数' },
+        { en: 'Are they Chinese? — No, they are not.', cn: '复数形式' }
+      ] },
+      { title: '缩写形式', content: '英语口语和书面语中经常使用缩写形式。注意：肯定回答中不能使用缩写。', examples: [
+        { en: 'I am → I\'m', cn: '第一人称缩写' },
+        { en: 'name is → name\'s', cn: '名词+be动词缩写' },
+        { en: 'What is → What\'s', cn: '疑问词缩写' },
+        { en: 'Yes, I am. (不说 Yes, I\'m.)', cn: '回答时不缩写' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Are you ___? — Yes, I am. / No, I am not.', substitutions: [
+        { en: 'French', cn: '法国人' },
+        { en: 'a teacher', cn: '教师' },
+        { en: 'a student', cn: '学生' },
+        { en: 'Chinese', cn: '中国人' }
+      ] },
+      { pattern: 'What\'s your job? — I\'m a ___.', substitutions: [
+        { en: 'keyboard operator', cn: '键盘操作员' },
+        { en: 'student', cn: '学生' },
+        { en: 'teacher', cn: '教师' },
+        { en: 'doctor', cn: '医生' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ you French? Yes, I am.', options: ['A. Is', 'B. Am', 'C. Are', 'D. Be'], answer: 'C', explanation: '主语是you，be动词用are。' },
+      { type: 'fill', question: 'Nice _____ meet you. (填介词)', answer: 'to', explanation: '"Nice to meet you"是固定搭配，to后接动词原形。' },
+      { type: 'judge', question: '"Yes, I\'m." 是正确的肯定回答。', answer: '错误', explanation: '肯定回答中不能用缩写，应该说"Yes, I am."。' },
+      { type: 'choice', question: 'What\'s _____ job? I\'m a nurse.', options: ['A. you', 'B. your', 'C. yours', 'D. you\'re'], answer: 'B', explanation: '"your"是形容词性物主代词，修饰job。' }
+    ],
   },
   {
     id: 8,
@@ -501,6 +589,50 @@ const book1: Lesson[] = [
     ],
     tags: ['特殊疑问句', 'what'],
     difficulty: 1,
+    summary: '本课继续学习询问职业的句型，扩展到第三人称"What\'s his/her job?"，并学习更多职业词汇。',
+    summaryEn: 'This lesson continues with job-related questions, extending to third person "What\'s his/her job?" and more occupation vocabulary.',
+    sentenceExplanations: [
+      { sentence: 'What\'s your job?', translation: '你是做什么工作的？', explanation: '询问对方职业的常用句型，比"What do you do?"更正式一些。' },
+      { sentence: 'I\'m a policeman.', translation: '我是警察。', explanation: 'policeman由police（警察）+man（人）组成，指男性警察。' },
+      { sentence: 'What\'s his job?', translation: '他做什么工作？', explanation: '"his"是形容词性物主代词，表示"他的"，用于男性。' },
+      { sentence: 'He\'s a postman.', translation: '他是邮递员。', explanation: 'postman由post（邮件）+man组成。注意复数形式是postmen。' },
+      { sentence: 'What\'s her job?', translation: '她做什么工作？', explanation: '"her"是形容词性物主代词，表示"她的"，用于女性。' },
+      { sentence: 'She\'s a hairdresser.', translation: '她是理发师。', explanation: 'hairdresser由hair（头发）+dresser（整理者）组成，指理发师或美发师。' }
+    ],
+    grammarSections: [
+      { title: '第三人称物主代词 his / her', content: 'his用于男性，her用于女性。它们是形容词性物主代词，后面必须跟名词。', examples: [
+        { en: 'What\'s his job? — He\'s a mechanic.', cn: '他的工作' },
+        { en: 'What\'s her job? — She\'s a nurse.', cn: '她的工作' },
+        { en: 'This is his car.', cn: '他的车' },
+        { en: 'This is her handbag.', cn: '她的手提包' }
+      ] },
+      { title: '职业词汇构成', content: '英语中很多职业词汇由两个词组合而成，常见组合方式：', examples: [
+        { en: 'police + man = policeman', cn: '警察' },
+        { en: 'post + man = postman', cn: '邮递员' },
+        { en: 'police + woman = policewoman', cn: '女警察' },
+        { en: 'hair + dresser = hairdresser', cn: '理发师' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'What\'s his/her job? — He\'s/She\'s a ___.', substitutions: [
+        { en: 'policeman', cn: '警察' },
+        { en: 'nurse', cn: '护士' },
+        { en: 'postman', cn: '邮递员' },
+        { en: 'mechanic', cn: '机械师' }
+      ] },
+      { pattern: 'He\'s/She\'s a ___.', substitutions: [
+        { en: 'hairdresser', cn: '理发师' },
+        { en: 'taxi driver', cn: '出租车司机' },
+        { en: 'air hostess', cn: '空姐' },
+        { en: 'housewife', cn: '家庭主妇' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'What\'s _____ job? She\'s a nurse.', options: ['A. he', 'B. his', 'C. she', 'D. her'], answer: 'D', explanation: '回答是She\'s，说明问的是女性，用her。' },
+      { type: 'fill', question: 'He\'s a _____. (邮递员)', answer: 'postman', explanation: 'postman = post + man。' },
+      { type: 'judge', question: '"What\'s she job?" 是正确的句子。', answer: '错误', explanation: '应该是"What\'s her job?"，用物主代词her而不是主格she。' },
+      { type: 'choice', question: 'He\'s a _____. (机械师)', options: ['A. mechanist', 'B. mechanic', 'C. machine', 'D. mechanical'], answer: 'B', explanation: 'mechanic是名词"机械师"，machine是"机器"，mechanical是形容词。' }
+    ],
   },
   {
     id: 9,
@@ -545,6 +677,49 @@ const book1: Lesson[] = [
     ],
     tags: ['名词复数', '拼读规则'],
     difficulty: 3,
+    summary: '本课学习日常问候语"How are you?"及其回答，以及询问第三方近况的句型"How is...?"。',
+    summaryEn: 'This lesson teaches the daily greeting "How are you?" and its responses, as well as asking about others with "How is...?"',
+    sentenceExplanations: [
+      { sentence: 'How are you today?', translation: '你今天好吗？', explanation: '"How are you?"是最常用的问候语。加上"today"使问候更具体、更亲切。' },
+      { sentence: 'I\'m very well, thank you.', translation: '我很好，谢谢你。', explanation: '"well"在这里是形容词，表示身体好。"very well"比"fine"更正式。' },
+      { sentence: 'And you?', translation: '你呢？', explanation: '这是"And how are you?"的省略形式，口语中非常常用。' },
+      { sentence: 'I\'m fine, thanks.', translation: '我很好，谢谢。', explanation: '"fine"和"well"都表示好，"fine"更口语化。"thanks"比"thank you"更随意。' },
+      { sentence: 'How is Tony?', translation: '托尼怎么样？', explanation: '"How is + 人名?"用来询问第三方的近况。注意is的缩写\'s。' },
+      { sentence: 'She\'s very well, too.', translation: '她也很好。', explanation: '"too"表示"也"，放在句末，前面通常有逗号。' }
+    ],
+    grammarSections: [
+      { title: 'How 问候句型', content: '"How"可以用来询问健康、状况等。不同场合使用不同的回答。', examples: [
+        { en: 'How are you? — I\'m fine/well.', cn: '日常问候' },
+        { en: 'How is your mother? — She\'s very well.', cn: '询问他人' },
+        { en: 'How do you do? — How do you do?', cn: '正式场合（已较旧）' },
+        { en: 'How\'s everything? — Everything\'s fine.', cn: '口语问候' }
+      ] },
+      { title: 'too 的用法', content: '"too"表示"也"，通常放在句末，前面加逗号。在否定句中用"either"替代。', examples: [
+        { en: 'She\'s very well, too.', cn: '她也很好。' },
+        { en: 'I\'m fine, too.', cn: '我也很好。' },
+        { en: 'He\'s not French, either.', cn: '他也不是法国人。（否定句用either）' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'How are you? — I\'m ___.', substitutions: [
+        { en: 'very well', cn: '很好' },
+        { en: 'fine', cn: '好' },
+        { en: 'not bad', cn: '不错' },
+        { en: 'great', cn: '很棒' }
+      ] },
+      { pattern: 'How is ___? — He\'s/She\'s ___.', substitutions: [
+        { en: 'Tony / fine', cn: '托尼 / 好' },
+        { en: 'Emma / very well', cn: '艾玛 / 很好' },
+        { en: 'your mother / well', cn: '你妈妈 / 好' },
+        { en: 'your father / not bad', cn: '你爸爸 / 不错' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'How _____ you today?', options: ['A. is', 'B. am', 'C. are', 'D. be'], answer: 'C', explanation: '主语是you，用are。' },
+      { type: 'fill', question: 'I\'m very _____, thank you. (好的)', answer: 'well', explanation: '"well"表示身体好、状况好。' },
+      { type: 'judge', question: '"And you?" 是 "And how are you?" 的省略形式。', answer: '正确', explanation: '口语中常用省略形式。' },
+      { type: 'choice', question: 'She\'s fine, _____. (也)', options: ['A. to', 'B. two', 'C. too', 'D. do'], answer: 'C', explanation: '"too"表示"也"，发音为/tuː/。' }
+    ],
   },
   {
     id: 10,
@@ -590,6 +765,50 @@ const book1: Lesson[] = [
     ],
     tags: ['复数', '特殊疑问句'],
     difficulty: 2,
+    summary: '本课学习"Look at..."引起注意的句型，以及描述人物外观的形容词：胖瘦、高矮、年轻等。',
+    summaryEn: 'This lesson teaches "Look at..." to draw attention and appearance adjectives: fat/thin, tall/short, young.',
+    sentenceExplanations: [
+      { sentence: 'Look at that man!', translation: '看那个男人！', explanation: '"Look at..."用来引起对方注意看某物或某人。"that"是指示代词"那个"。' },
+      { sentence: 'He\'s fat.', translation: '他很胖。', explanation: '"fat"是形容词，描述体型。在英语中直接描述体型是可以接受的，但在中文文化中需注意场合。' },
+      { sentence: 'Look at that woman!', translation: '看那个女人！', explanation: '"woman"的复数是"women"，注意发音变化：/ˈwʊmən/ → /ˈwɪmɪn/。' },
+      { sentence: 'She\'s thin.', translation: '她很瘦。', explanation: '"thin"是"fat"的反义词。注意/θ/的发音，舌尖在上下齿之间。' },
+      { sentence: 'He\'s tall.', translation: '他很高。', explanation: '"tall"用于描述人或细长物体的高度，不能用于描述山或建筑物。' },
+      { sentence: 'She\'s short.', translation: '她很矮。', explanation: '"short"既可表示"矮"也可表示"短"，根据上下文判断。' }
+    ],
+    grammarSections: [
+      { title: 'Look at... 句型', content: '"Look at + 名词/代词"用来引起对方注意。如果宾语是代词，要用宾格形式。', examples: [
+        { en: 'Look at that man!', cn: '看那个男人！' },
+        { en: 'Look at her!', cn: '看她！（宾格）' },
+        { en: 'Look at this picture.', cn: '看这张图片。' },
+        { en: 'Look at me!', cn: '看我！（宾格）' }
+      ] },
+      { title: '形容词描述外观', content: '英语中常用"主语 + be动词 + 形容词"的结构来描述人的外观特征。', examples: [
+        { en: 'He\'s fat. / She\'s thin.', cn: '胖 / 瘦' },
+        { en: 'He\'s tall. / She\'s short.', cn: '高 / 矮' },
+        { en: 'She\'s young. / He\'s old.', cn: '年轻 / 年老' },
+        { en: 'She\'s beautiful. / He\'s handsome.', cn: '漂亮 / 帅' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Look at that ___! He\'s/She\'s ___.', substitutions: [
+        { en: 'man / fat', cn: '男人 / 胖' },
+        { en: 'woman / thin', cn: '女人 / 瘦' },
+        { en: 'boy / tall', cn: '男孩 / 高' },
+        { en: 'girl / short', cn: '女孩 / 矮' }
+      ] },
+      { pattern: 'He\'s/She\'s ___.', substitutions: [
+        { en: 'young', cn: '年轻的' },
+        { en: 'old', cn: '老的' },
+        { en: 'busy', cn: '忙碌的' },
+        { en: 'lazy', cn: '懒惰的' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'Look _____ that woman! She\'s thin.', options: ['A. in', 'B. on', 'C. at', 'D. to'], answer: 'C', explanation: '"Look at"是固定搭配，表示"看..."。' },
+      { type: 'fill', question: 'He\'s tall and she\'s _____. (矮的)', answer: 'short', explanation: '"short"是"tall"的反义词。' },
+      { type: 'judge', question: '"Look at she!" 是正确的句子。', answer: '错误', explanation: '"at"是介词，后面要接宾格代词，应该是"Look at her!"。' },
+      { type: 'choice', question: 'That _____ is young. (女警察)', options: ['A. policeman', 'B. policewoman', 'C. police', 'D. polices'], answer: 'B', explanation: 'policewoman是女警察，由police+woman组成。' }
+    ],
   },
   {
     id: 11,

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { ArrowLeft, ChevronLeft, ChevronRight, CheckCircle, Circle, Volume2, BookOpen, Languages, FileText, Eye, List, X, Star } from 'lucide-react'
+import { ArrowLeft, ChevronLeft, ChevronRight, CheckCircle, Circle, Volume2, BookOpen, Languages, FileText, Eye, List, X, Star, HelpCircle, Lightbulb, PenTool } from 'lucide-react'
 import { getLesson, books, bookDataMap } from '../data'
 import useProgress from '../hooks/useProgress'
 import VocabularyTable from '../components/VocabularyTable'
@@ -18,6 +18,7 @@ export default function LessonPage() {
 
   const [viewMode, setViewMode] = useState<ViewMode>('english')
   const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [showAnswers, setShowAnswers] = useState<Record<number, boolean>>({})
   const completed = isCompleted(bookId, lessonNum)
 
   const lessons = bookDataMap[bookId] || []
@@ -49,6 +50,11 @@ export default function LessonPage() {
     { mode: 'bilingual', label: '对照', icon: <Languages size={14} /> },
     { mode: 'chinese', label: '中文', icon: <Eye size={14} /> },
   ]
+
+  const hasExercises = lesson.exercises && lesson.exercises.length > 0
+  const hasGrammar = lesson.grammarSections && lesson.grammarSections.length > 0
+  const hasPatterns = lesson.patternDrills && lesson.patternDrills.length > 0
+  const hasSentenceExpl = lesson.sentenceExplanations && lesson.sentenceExplanations.length > 0
 
   return (
     <div className="flex gap-6 max-w-6xl mx-auto">
@@ -183,6 +189,20 @@ export default function LessonPage() {
           </button>
         </div>
 
+        {/* Summary */}
+        {lesson.summary && (
+          <div className="bg-gradient-to-r from-sky-50 to-blue-50 rounded-xl p-5 border border-sky-200">
+            <div className="flex items-center gap-2 mb-2">
+              <BookOpen size={16} className="text-sky-600" />
+              <h3 className="text-sm font-bold text-sky-800 m-0">课文概要</h3>
+            </div>
+            <p className="text-sm text-sky-900 m-0">{lesson.summary}</p>
+            {lesson.summaryEn && (
+              <p className="text-sm text-sky-600 mt-1 m-0 italic">{lesson.summaryEn}</p>
+            )}
+          </div>
+        )}
+
         {/* View Mode Toggle */}
         <div className="flex items-center gap-1 bg-white rounded-lg p-1 shadow-sm border border-gray-100 w-fit">
           {viewButtons.map(({ mode, label, icon }) => (
@@ -229,6 +249,27 @@ export default function LessonPage() {
           ))}
         </div>
 
+        {/* Sentence Explanations */}
+        {hasSentenceExpl && (
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <div className="flex items-center gap-2 mb-4">
+              <Lightbulb size={18} className="text-amber-500" />
+              <h2 className="text-lg font-bold text-gray-800 m-0">课文理解</h2>
+            </div>
+            <div className="space-y-4">
+              {lesson.sentenceExplanations!.map((se, i) => (
+                <div key={i} className="border-l-3 border-amber-300 pl-4">
+                  <p className="text-base font-semibold text-gray-800 m-0 cursor-pointer hover:text-blue-600" onClick={() => speakText(se.sentence)}>
+                    {se.sentence}
+                  </p>
+                  <p className="text-sm text-gray-500 m-0">{se.translation}</p>
+                  <p className="text-sm text-gray-600 mt-1 m-0">{se.explanation}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Vocabulary */}
         <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
           <div className="flex items-center gap-2 mb-4">
@@ -237,6 +278,69 @@ export default function LessonPage() {
           </div>
           <VocabularyTable words={lesson.vocabulary} onSpeak={speakText} />
         </div>
+
+        {/* Grammar Sections */}
+        {hasGrammar && (
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <div className="flex items-center gap-2 mb-4">
+              <PenTool size={18} className="text-purple-600" />
+              <h2 className="text-lg font-bold text-gray-800 m-0">语法知识</h2>
+            </div>
+            <div className="space-y-6">
+              {lesson.grammarSections!.map((gs, i) => (
+                <div key={i}>
+                  <h3 className="text-base font-bold text-purple-700 mb-2 m-0">{gs.title}</h3>
+                  <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line m-0">{gs.content}</p>
+                  {gs.examples && gs.examples.length > 0 && (
+                    <div className="mt-3 bg-purple-50 rounded-lg p-4">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="border-b border-purple-200">
+                            <th className="text-left py-1 font-semibold text-purple-700">英文</th>
+                            <th className="text-left py-1 font-semibold text-purple-700">中文</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {gs.examples.map((ex, j) => (
+                            <tr key={j} className="border-b border-purple-100 last:border-0">
+                              <td className="py-1.5 text-gray-700 cursor-pointer hover:text-purple-600" onClick={() => speakText(ex.en)}>{ex.en}</td>
+                              <td className="py-1.5 text-gray-500">{ex.cn}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Pattern Drills */}
+        {hasPatterns && (
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <div className="flex items-center gap-2 mb-4">
+              <BookOpen size={18} className="text-emerald-600" />
+              <h2 className="text-lg font-bold text-gray-800 m-0">句型练习</h2>
+            </div>
+            <div className="space-y-4">
+              {lesson.patternDrills!.map((pd, i) => (
+                <div key={i}>
+                  <p className="text-sm font-semibold text-emerald-700 mb-2 m-0">{pd.pattern}</p>
+                  <div className="bg-emerald-50 rounded-lg p-3 space-y-1">
+                    {pd.substitutions.map((s, j) => (
+                      <p key={j} className="text-sm m-0">
+                        <span className="text-gray-700 cursor-pointer hover:text-emerald-600" onClick={() => speakText(s.en)}>{s.en}</span>
+                        <span className="text-gray-400 ml-2">{s.cn}</span>
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Notes */}
         <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
@@ -253,6 +357,49 @@ export default function LessonPage() {
             ))}
           </ul>
         </div>
+
+        {/* Exercises */}
+        {hasExercises && (
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <div className="flex items-center gap-2 mb-4">
+              <HelpCircle size={18} className="text-rose-500" />
+              <h2 className="text-lg font-bold text-gray-800 m-0">练习题</h2>
+            </div>
+            <div className="space-y-6">
+              {lesson.exercises!.map((ex, i) => (
+                <div key={i} className="border border-gray-100 rounded-lg p-4">
+                  <div className="flex items-start gap-2 mb-2">
+                    <span className="text-xs font-bold text-rose-600 bg-rose-50 px-2 py-0.5 rounded flex-shrink-0">
+                      {ex.type === 'choice' ? '选择' : ex.type === 'fill' ? '填空' : '判断'}
+                    </span>
+                    <p className="text-sm font-medium text-gray-800 m-0">{ex.question}</p>
+                  </div>
+                  {ex.options && (
+                    <div className="ml-6 space-y-1 mb-2">
+                      {ex.options.map((opt, j) => (
+                        <p key={j} className="text-sm text-gray-600 m-0">{opt}</p>
+                      ))}
+                    </div>
+                  )}
+                  <button
+                    onClick={() => setShowAnswers((prev) => ({ ...prev, [i]: !prev[i] }))}
+                    className="ml-6 text-xs text-blue-600 hover:text-blue-800 cursor-pointer"
+                  >
+                    {showAnswers[i] ? '隐藏答案' : '显示答案'}
+                  </button>
+                  {showAnswers[i] && (
+                    <div className="ml-6 mt-2 bg-emerald-50 rounded p-3">
+                      <p className="text-sm font-semibold text-emerald-700 m-0">答案：{ex.answer}</p>
+                      {ex.explanation && (
+                        <p className="text-sm text-gray-600 mt-1 m-0">{ex.explanation}</p>
+                      )}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Complete Button */}
         <div>

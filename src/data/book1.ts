@@ -33,10 +33,48 @@ const book1: Lesson[] = [
       '"Excuse me" 是礼貌用语，用于引起别人注意或表示歉意。',
       '"Pardon?" 用于请求对方重复，比 "What?" 更礼貌。',
       '"Is this your...?" 是一般疑问句，用 Yes/No 回答。'
-
     ],
     tags: ['一般疑问句', 'be动词'],
     difficulty: 1,
+    summary: '一个男人在人群中发现了一个手提包，他礼貌地询问旁边的女士是否是她的包。女士没听清楚，请他再说一遍，最终确认是自己的包并表示感谢。',
+    summaryEn: 'A man finds a handbag and politely asks a woman if it belongs to her. She asks him to repeat, then confirms it is hers and thanks him.',
+    sentenceExplanations: [
+      { sentence: 'Excuse me!', translation: '对不起，打扰一下！', explanation: '用于引起陌生人注意的礼貌用语。在人群中使用可理解为"借过一下"，突然离开时为"失陪了"，没听清时为"麻烦再说一遍"。注意：升调读。' },
+      { sentence: 'Yes?', translation: '什么事？', explanation: '"yes"降调读表示"是的"，但这里用升调加问号，等同于"What can I do for you?"（什么事？/请说）。' },
+      { sentence: 'Is this your handbag?', translation: '这是您的手提包吗？', explanation: '一般疑问句结构：Is this your + 名词？用于询问物品归属。回答用"Yes, it is."或"No, it isn\'t."。' },
+      { sentence: 'Pardon?', translation: '请再说一遍？', explanation: '用于没听清对方时的礼貌请求。完整形式为"I beg your pardon."。美音读这个单词会有"儿化音(r)"，英音则不会。也可用升调的"Sorry?"替代。' },
+      { sentence: 'Thank you very much.', translation: '非常感谢。', explanation: '"very much"加强感谢程度。日常用语中也可说"Thanks a lot."。' },
+    ],
+    grammarSections: [
+      {
+        title: '一般疑问句 (Yes/No Questions)',
+        content: '一般疑问句用于向对方征求确认(Yes)或否定(No)的回答。最简单的方式是将be动词置于句首。\n\n中文里询问"是不是"只需在句尾加"吗？"，而英文必须将动词提前。',
+        examples: [
+          { en: 'Is this your pen?', cn: '这是你的钢笔吗？' },
+          { en: 'Yes, it is.', cn: '是的，它是。' },
+          { en: 'No, it isn\'t.', cn: '不，它不是。' },
+          { en: 'Is this your car?', cn: '这是你的车吗？' },
+          { en: 'Is this your dog?', cn: '这是你的狗吗？' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'Is this your _____ ? 这是你的_____吗？',
+        substitutions: [
+          { en: 'Is this your pen?', cn: '这是你的钢笔吗？' },
+          { en: 'Is this your book?', cn: '这是你的书吗？' },
+          { en: 'Is this your watch?', cn: '这是你的手表吗？' },
+          { en: 'Is this your coat?', cn: '这是你的外套吗？' },
+          { en: 'Is this your car?', cn: '这是你的车吗？' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ this your handbag?', options: ['A. Is', 'B. Are', 'C. Am', 'D. Be'], answer: 'A', explanation: 'this是第三人称单数，用is。' },
+      { type: 'judge', question: '"Pardon?"用于请求对方重复。', answer: '正确', explanation: 'Pardon?是礼貌地请求对方再说一遍。' },
+      { type: 'fill', question: 'Thank you _____. (非常)', answer: 'very much', explanation: '"very much"表示"非常"，用于加强程度。' },
+    ],
   },
   {
     id: 2,
@@ -72,10 +110,49 @@ const book1: Lesson[] = [
       '"Is this your...?" 用于确认物品归属。',
       '肯定回答："Yes, it is." 否定回答："No, it isn\'t."',
       '注意区分 pen / pencil / book / watch 四个常用名词。'
-
     ],
     tags: ['一般疑问句', '代词'],
     difficulty: 1,
+    summary: '通过反复练习"Is this your...?"句型，学习如何询问物品归属并作出肯定和否定回答。',
+    summaryEn: 'Practice asking whether items belong to someone using "Is this your...?" with yes/no answers.',
+    sentenceExplanations: [
+      { sentence: 'Is this your pen?', translation: '这是你的钢笔吗？', explanation: '一般疑问句，询问物品归属。your是形容词性物主代词，修饰名词pen。' },
+      { sentence: 'Yes, it is.', translation: '是的，它是。', explanation: '肯定回答。注意不能缩写为"Yes, it\'s."，在简略回答中不使用缩写。' },
+      { sentence: 'No, it isn\'t.', translation: '不，它不是。', explanation: '否定回答。isn\'t = is not，口语中常用缩写形式。' },
+    ],
+    grammarSections: [
+      {
+        title: '形容词性物主代词',
+        content: '形容词性物主代词用来表示所属关系，放在名词前面修饰名词。',
+        examples: [
+          { en: 'my book', cn: '我的书' },
+          { en: 'your pen', cn: '你的钢笔' },
+          { en: 'his watch', cn: '他的手表' },
+          { en: 'her handbag', cn: '她的手提包' },
+          { en: 'its name', cn: '它的名字' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'Is this your _____ ?',
+        substitutions: [
+          { en: 'Is this your pen?', cn: '这是你的钢笔吗？' },
+          { en: 'Is this your pencil?', cn: '这是你的铅笔吗？' },
+          { en: 'Is this your book?', cn: '这是你的书吗？' },
+          { en: 'Is this your watch?', cn: '这是你的手表吗？' },
+          { en: 'Is this your coat?', cn: '这是你的外套吗？' },
+          { en: 'Is this your dress?', cn: '这是你的连衣裙吗？' },
+          { en: 'Is this your skirt?', cn: '这是你的裙子吗？' },
+          { en: 'Is this your shirt?', cn: '这是你的衬衫吗？' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'Is this _____ pencil?', options: ['A. you', 'B. your', 'C. yours', 'D. you\'re'], answer: 'B', explanation: 'your是形容词性物主代词，放在名词前修饰名词。' },
+      { type: 'judge', question: '"Yes, it\'s."是正确的简略回答。', answer: '错误', explanation: '简略回答中不能使用缩写，应为"Yes, it is."。' },
+      { type: 'fill', question: 'No, it _____. (否定回答)', answer: 'isn\'t', explanation: '否定回答用isn\'t (= is not)。' },
+    ],
   },
   {
     id: 3,
@@ -110,10 +187,32 @@ const book1: Lesson[] = [
       '"Here is..." 倒装句，用于把东西递给别人。',
       '"Number five" 意为5号（寄存处编号）。',
       '"This is not my..." 否定句结构。'
-
     ],
     tags: ['否定句', '祈使句'],
     difficulty: 1,
+    summary: '在衣物寄存处，一位先生取回自己的大衣和雨伞，但发现雨伞不是自己的。',
+    summaryEn: 'At a cloakroom, a man asks for his coat and umbrella, but the umbrella given to him is not his.',
+    sentenceExplanations: [
+      { sentence: 'My coat and my umbrella please.', translation: '请把我的大衣和雨伞给我。', explanation: '省略句，完整形式为"May I have my coat and my umbrella, please?"。在寄存处取东西时的常用表达。' },
+      { sentence: 'Here is my ticket.', translation: '这是我的寄存牌。', explanation: '"Here is..."倒装句，用于递给别人东西时。也可以说"Here you are."。' },
+      { sentence: 'This is not my umbrella.', translation: '这不是我的雨伞。', explanation: '否定句，在be动词后加not构成否定。This is not可缩写为This isn\'t。' },
+    ],
+    grammarSections: [
+      {
+        title: '否定句 (be动词 + not)',
+        content: '在be动词(is/am/are)后面加not即可构成否定句。\n\n口语中常用缩写形式：isn\'t = is not, aren\'t = are not。',
+        examples: [
+          { en: 'This is not my umbrella.', cn: '这不是我的雨伞。' },
+          { en: 'This isn\'t my coat.', cn: '这不是我的大衣。' },
+          { en: 'It is not a Swedish car.', cn: '这不是一辆瑞典车。' },
+          { en: 'It isn\'t a Volvo.', cn: '这不是沃尔沃。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'Here _____ your umbrella.', options: ['A. is', 'B. are', 'C. am', 'D. be'], answer: 'A', explanation: 'umbrella是单数名词，用is。' },
+      { type: 'fill', question: 'This _____ my coat. (否定)', answer: 'is not / isn\'t', explanation: '否定句在is后加not，口语中常用缩写isn\'t。' },
+    ],
   },
   {
     id: 4,
@@ -151,10 +250,44 @@ const book1: Lesson[] = [
       '"My shirt is blue." 主系表结构。',
       '颜色词放在名词后：a blue shirt。',
       '衣服相关词汇扩展：shirt, dress, skirt, suit。'
-
     ],
     tags: ['冠词', '国籍'],
     difficulty: 1,
+    summary: '继续练习"Is this your...?"句型，加入颜色描述来区分物品。',
+    summaryEn: 'Continue practicing "Is this your...?" with color descriptions to distinguish items.',
+    sentenceExplanations: [
+      { sentence: 'Is this your shirt?', translation: '这是你的衬衫吗？', explanation: '一般疑问句，询问物品归属。' },
+      { sentence: 'No, it isn\'t. My shirt is blue.', translation: '不，不是。我的衬衫是蓝色的。', explanation: '否定回答后补充说明自己的衬衫颜色。"My shirt is blue."是主系表结构。' },
+      { sentence: 'Is this your dress?', translation: '这是你的连衣裙吗？', explanation: 'dress通常指女式连衣裙。' },
+    ],
+    grammarSections: [
+      {
+        title: '主系表结构',
+        content: '"主语 + be动词 + 表语"是最基本的英语句型之一。表语可以是形容词、名词等，用来描述主语的特征。',
+        examples: [
+          { en: 'My shirt is blue.', cn: '我的衬衫是蓝色的。' },
+          { en: 'My skirt is white.', cn: '我的裙子是白色的。' },
+          { en: 'She is French.', cn: '她是法国人。' },
+          { en: 'He is a student.', cn: '他是一个学生。' },
+        ],
+      },
+      {
+        title: '颜色词汇',
+        content: '常见的颜色词汇：',
+        examples: [
+          { en: 'blue', cn: '蓝色' },
+          { en: 'white', cn: '白色' },
+          { en: 'red', cn: '红色' },
+          { en: 'green', cn: '绿色' },
+          { en: 'black', cn: '黑色' },
+          { en: 'yellow', cn: '黄色' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: 'My shirt _____ blue.', options: ['A. is', 'B. are', 'C. am', 'D. be'], answer: 'A', explanation: 'shirt是第三人称单数，用is。' },
+      { type: 'fill', question: 'Is this your dress? Yes, _____ _____.', answer: 'it is', explanation: '肯定回答用"Yes, it is."，不能缩写。' },
+    ],
   },
   {
     id: 5,
@@ -190,10 +323,54 @@ const book1: Lesson[] = [
       '"Mr." 先生 / "Miss" 小姐。',
       '"This is..." 用于介绍某人。',
       '"Nice to meet you." 回答用 "Nice to meet you, too."'
-
     ],
     tags: ['人称代词', '特殊疑问句'],
     difficulty: 2,
+    summary: 'Sophie是新来的法国学生，老师Blake先生把她介绍给同学们。大家互相问好。',
+    summaryEn: 'Sophie is a new French student. Teacher Mr. Blake introduces her to the class. They greet each other.',
+    sentenceExplanations: [
+      { sentence: 'Good morning, Mr. Blake.', translation: '早上好，布莱克先生。', explanation: '"Mr."用于男性，后接姓氏。"Miss"用于未婚女性，"Mrs."用于已婚女性，"Ms."不区分婚姻状况。' },
+      { sentence: 'This is Miss Sophie Dupont.', translation: '这位是索菲·杜邦小姐。', explanation: '"This is..."是介绍某人的标准句型。注意英语中名在前，姓在后。' },
+      { sentence: 'She is French.', translation: '她是法国人。', explanation: 'French既可作形容词"法国的"，也可作名词"法国人"。国籍词首字母大写。' },
+      { sentence: 'Nice to meet you.', translation: '很高兴见到你。', explanation: '初次见面时的问候语。回答用"Nice to meet you, too."（我也很高兴见到你）。' },
+    ],
+    grammarSections: [
+      {
+        title: '介绍他人',
+        content: '英语中介绍他人时常用"This is..."句型。注意不能用"He/She is..."来介绍。',
+        examples: [
+          { en: 'This is Miss Sophie Dupont.', cn: '这位是索菲·杜邦小姐。' },
+          { en: 'This is Mr. Blake.', cn: '这位是布莱克先生。' },
+          { en: 'This is my friend, Tom.', cn: '这位是我的朋友，汤姆。' },
+        ],
+      },
+      {
+        title: '国籍与语言',
+        content: '英语中表示国籍的词首字母要大写。可以作名词（法国人）也可以作形容词（法国的）。',
+        examples: [
+          { en: 'She is French.', cn: '她是法国人。' },
+          { en: 'He is German.', cn: '他是德国人。' },
+          { en: 'It\'s a Japanese car.', cn: '这是一辆日本车。' },
+          { en: 'It\'s an English car.', cn: '这是一辆英国车。' },
+        ],
+      },
+    ],
+    patternDrills: [
+      {
+        pattern: 'This is _____ . 这位是_____。',
+        substitutions: [
+          { en: 'This is Miss Sophie.', cn: '这位是索菲小姐。' },
+          { en: 'This is Mr. Blake.', cn: '这位是布莱克先生。' },
+          { en: 'This is my friend.', cn: '这位是我的朋友。' },
+          { en: 'This is my teacher.', cn: '这位是我的老师。' },
+        ],
+      },
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ is Miss Sophie Dupont. She is French.', options: ['A. This', 'B. It', 'C. She', 'D. He'], answer: 'A', explanation: '介绍他人时用"This is..."。' },
+      { type: 'judge', question: '"Nice to meet you."的回答是"Nice to meet you, too."', answer: '正确', explanation: 'too表示"也"，用于句末。' },
+      { type: 'fill', question: 'She is _____. (法国人)', answer: 'French', explanation: '国籍词首字母大写。' },
+    ],
   },
   {
     id: 6,

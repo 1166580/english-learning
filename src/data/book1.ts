@@ -1729,6 +1729,48 @@ const book1: Lesson[] = [
     ],
     tags: ['祈使句', '双宾语', '否定句'],
     difficulty: 3,
+    summary: '本课学习用"which"进行选择的疑问句，以及祈使句"Give me..."的用法。代词"ones"代替前面提到的名词。',
+    summaryEn: 'This lesson teaches "which" for selection questions, the imperative "Give me...", and the pronoun "ones" replacing previously mentioned nouns.',
+    sentenceExplanations: [
+      { sentence: 'Give me some glasses please, Mrs. Jones.', translation: '请给我一些杯子，琼斯夫人。', explanation: '"Give me..."是祈使句，表示请求。"some"用于肯定句中修饰可数名词复数。' },
+      { sentence: 'Which glasses? These glasses?', translation: '哪些杯子？这些吗？', explanation: '"which"用于在有限的选择中询问"哪一个/哪些"。"these"指近处的。' },
+      { sentence: 'No, not those. The ones on the shelf.', translation: '不，不是那些。架子上的那些。', explanation: '"ones"代替前面提到的glasses，避免重复。"on the shelf"是介词短语作后置定语。' },
+      { sentence: 'These?', translation: '这些吗？', explanation: '省略问句，完整形式是"Are these the ones?"。口语中常用省略形式。' },
+      { sentence: 'Yes, please.', translation: '是的，请给我。', explanation: '"Yes, please"是礼貌的肯定回答。比单独说"Yes"更客气。' },
+      { sentence: 'Here you are.', translation: '给你。', explanation: '递给对方东西时的常用语。' }
+    ],
+    grammarSections: [
+      { title: 'Which 疑问词', content: '"which"用于在有限的范围内选择"哪一个/哪些"。比"what"更具体，暗示有明确的选项。', examples: [
+        { en: 'Which glasses? These or those?', cn: '哪些杯子？这些还是那些？' },
+        { en: 'Which colour do you like? — I like blue.', cn: '你喜欢哪个颜色？—蓝色。' },
+        { en: 'Which one is yours? — The red one.', cn: '哪一个是你的？—红色的那个。' }
+      ] },
+      { title: '代词 ones', content: '"ones"用来代替前面提到的复数可数名词，避免重复。单数用"one"。', examples: [
+        { en: 'The glasses on the shelf. → The ones on the shelf.', cn: '架子上的杯子。' },
+        { en: 'I like the blue shoes, not the red ones.', cn: '我喜欢蓝色的鞋，不是红色的。' },
+        { en: 'This book is old. I need a new one.', cn: '这本书旧了。我需要一本新的。' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Give me some ___, please.', substitutions: [
+        { en: 'glasses', cn: '杯子' },
+        { en: 'books', cn: '书' },
+        { en: 'pencils', cn: '铅笔' },
+        { en: 'cups', cn: '茶杯' }
+      ] },
+      { pattern: 'Which ___? These or those? — The ones ___.', substitutions: [
+        { en: 'glasses / on the shelf', cn: '杯子 / 架子上' },
+        { en: 'books / on the table', cn: '书 / 桌子上' },
+        { en: 'shoes / in the box', cn: '鞋 / 盒子里' },
+        { en: 'pens / in my bag', cn: '笔 / 我的包里' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ glasses? These or those?', options: ['A. What', 'B. Which', 'C. Whose', 'D. Where'], answer: 'B', explanation: '"which"用于在有限选项中选择。' },
+      { type: 'fill', question: 'The ones _____ the shelf. (在...上)', answer: 'on', explanation: '"on the shelf"表示在架子上。' },
+      { type: 'judge', question: '"Give me some glasses" 是祈使句。', answer: '正确', explanation: '以动词原形Give开头，省略了主语you。' },
+      { type: 'choice', question: 'I like the red shoes, not the blue _____.', options: ['A. one', 'B. ones', 'C. shoes', 'D. it'], answer: 'B', explanation: '复数名词shoes用ones代替。' }
+    ],
   },
   {
     id: 22,
@@ -1772,6 +1814,52 @@ const book1: Lesson[] = [
     ],
     tags: ['量词', '不可数名词'],
     difficulty: 2,
+    summary: '本课学习一系列祈使句（Come in, Shut, Open, Put, Make, Dust, Sweep），以及家务相关的动词和表达。',
+    summaryEn: 'This lesson teaches a series of imperatives for household chores: Come in, Shut, Open, Put, Make, Dust, Sweep.',
+    sentenceExplanations: [
+      { sentence: 'Come in, Amy.', translation: '进来，艾米。', explanation: '"Come in"是祈使句，邀请对方进来。Amy是呼语，用逗号隔开。' },
+      { sentence: 'Shut the door, please.', translation: '请关上门。', explanation: '"shut"和"close"意思相同，都表示关上。加"please"使语气更礼貌。' },
+      { sentence: 'This bedroom is very untidy.', translation: '这卧室太不整洁了。', explanation: '"untidy"由否定前缀"un-"加"tidy"构成，表示不整洁的。' },
+      { sentence: 'What must I do, Mrs. Jones?', translation: '我该做什么，琼斯夫人？', explanation: '"must"是情态动词，表示必须、应该。后面接动词原形。' },
+      { sentence: 'Open the window and air the room.', translation: '打开窗户，给房间通通风。', explanation: '"air"在这里作动词，表示通风、使空气流通。' },
+      { sentence: 'Then put these clothes in the wardrobe.', translation: '然后把这些衣服放进衣柜。', explanation: '"put...in..."表示把...放进...。"then"表示然后。' },
+      { sentence: 'Then make the bed.', translation: '然后整理好床。', explanation: '"make the bed"是固定搭配，表示整理床铺，不是制造床。' },
+      { sentence: 'Then sweep the floor.', translation: '然后扫地。', explanation: '"sweep"是扫，"floor"是地板。"sweep the floor"=扫地。' }
+    ],
+    grammarSections: [
+      { title: '祈使句系列', content: '祈使句以动词原形开头，省略主语"you"。可以表示命令、请求、指示等。加"please"使语气更礼貌。', examples: [
+        { en: 'Come in. / Come in, please.', cn: '进来。（请进。）' },
+        { en: 'Shut the door. / Open the window.', cn: '关门。/ 开窗。' },
+        { en: 'Put the clothes in the wardrobe.', cn: '把衣服放进衣柜。' },
+        { en: 'Make the bed. Dust the table. Sweep the floor.', cn: '整理床。擦桌子。扫地。' }
+      ] },
+      { title: '否定前缀 un-', content: '在形容词前加"un-"表示否定、相反的意思。这是英语中常见的构词方式。', examples: [
+        { en: 'tidy → untidy (不整洁的)', cn: '整洁 → 不整洁' },
+        { en: 'happy → unhappy (不高兴的)', cn: '高兴 → 不高兴' },
+        { en: 'lucky → unlucky (不幸的)', cn: '幸运 → 不幸' },
+        { en: 'kind → unkind (不友善的)', cn: '友善 → 不友善' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: '___ the ___, please.', substitutions: [
+        { en: 'Shut / door', cn: '关 / 门' },
+        { en: 'Open / window', cn: '开 / 窗户' },
+        { en: 'Dust / table', cn: '擦 / 桌子' },
+        { en: 'Sweep / floor', cn: '扫 / 地' }
+      ] },
+      { pattern: 'Then put these ___ in the ___.', substitutions: [
+        { en: 'clothes / wardrobe', cn: '衣服 / 衣柜' },
+        { en: 'books / bookcase', cn: '书 / 书柜' },
+        { en: 'plates / cupboard', cn: '盘子 / 碗柜' },
+        { en: 'shoes / box', cn: '鞋 / 盒子' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ the door, please.', options: ['A. Shutting', 'B. Shuts', 'C. Shut', 'D. To shut'], answer: 'C', explanation: '祈使句用动词原形。' },
+      { type: 'fill', question: 'This room is very _____. (不整洁的)', answer: 'untidy', explanation: 'un-是否定前缀，tidy → untidy。' },
+      { type: 'judge', question: '"make the bed" 的意思是"制造一张床"。', answer: '错误', explanation: '"make the bed"是固定搭配，意思是整理床铺。' },
+      { type: 'choice', question: 'Put these clothes _____ the wardrobe.', options: ['A. on', 'B. in', 'C. at', 'D. to'], answer: 'B', explanation: '"put...in..."表示放进里面。' }
+    ],
   },
   {
     id: 23,
@@ -1813,6 +1901,50 @@ const book1: Lesson[] = [
     ],
     tags: ['情态动词', 'can', '数词'],
     difficulty: 4,
+    summary: '本课学习"There is + 名词 + 地点"表示某处有某物的句型，以及方位介词短语（on the right/left, in the middle）。',
+    summaryEn: 'This lesson teaches "There is + noun + place" for indicating existence and positional phrases (on the right/left, in the middle).',
+    sentenceExplanations: [
+      { sentence: 'Mrs. Smith\'s kitchen is small.', translation: '史密斯夫人的厨房很小。', explanation: '名词所有格\'s表示所属。"small"是"large"的反义词。' },
+      { sentence: 'There is a refrigerator in the kitchen.', translation: '厨房里有一台冰箱。', explanation: '"There is + 名词 + 地点"是表示存在的基本句型。"in the kitchen"表示地点。' },
+      { sentence: 'The refrigerator is white.', translation: '冰箱是白色的。', explanation: '用颜色形容词描述物品。' },
+      { sentence: 'It is on the right.', translation: '它在右边。', explanation: '"on the right"表示在右边。"on the left"表示在左边。' },
+      { sentence: 'There is an electric cooker in the kitchen.', translation: '厨房里有一个电炉。', explanation: '"electric"是形容词"电的"，修饰cooker。"an"因为electric以元音开头。' },
+      { sentence: 'There is a table in the middle of the room.', translation: '房间中央有一张桌子。', explanation: '"in the middle of"表示在...的中间。' }
+    ],
+    grammarSections: [
+      { title: 'There is 表示存在', content: '"There is + 单数名词 + 地点"表示某处有一个/某物。这是英语中表示存在的基本句型。', examples: [
+        { en: 'There is a book on the desk.', cn: '桌子上有一本书。' },
+        { en: 'There is a cat in the garden.', cn: '花园里有一只猫。' },
+        { en: 'There is an apple on the table.', cn: '桌子上有一个苹果。' },
+        { en: 'Is there a pen here? — Yes, there is.', cn: '这里有笔吗？—有。' }
+      ] },
+      { title: '方位介词短语', content: '英语中用介词短语来表示位置和方向。常见表达：', examples: [
+        { en: 'on the right (在右边)', cn: '右侧' },
+        { en: 'on the left (在左边)', cn: '左侧' },
+        { en: 'in the middle of (在...中间)', cn: '中央' },
+        { en: 'near the window (靠近窗户)', cn: '附近' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'There is a/an ___ in the ___.', substitutions: [
+        { en: 'refrigerator / kitchen', cn: '冰箱 / 厨房' },
+        { en: 'television / living room', cn: '电视 / 客厅' },
+        { en: 'bed / bedroom', cn: '床 / 卧室' },
+        { en: 'table / dining room', cn: '桌子 / 餐厅' }
+      ] },
+      { pattern: 'The ___ is on the ___.', substitutions: [
+        { en: 'refrigerator / right', cn: '冰箱 / 右边' },
+        { en: 'cooker / left', cn: '炉灶 / 左边' },
+        { en: 'table / middle', cn: '桌子 / 中间' },
+        { en: 'lamp / desk', cn: '台灯 / 桌子上' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'There _____ a refrigerator in the kitchen.', options: ['A. are', 'B. is', 'C. am', 'D. be'], answer: 'B', explanation: 'refrigerator是单数，用There is。' },
+      { type: 'fill', question: 'The table is _____ the middle of the room. (在...中)', answer: 'in', explanation: '"in the middle of"是固定搭配。' },
+      { type: 'judge', question: '"There is an electric cooker" 中用 an 因为 electric 以元音开头。', answer: '正确', explanation: 'electric以元音音素/ɪ/开头，用an。' },
+      { type: 'choice', question: 'The cooker is _____ the left.', options: ['A. in', 'B. on', 'C. at', 'D. to'], answer: 'B', explanation: '"on the left/right"是固定搭配。' }
+    ],
   },
   {
     id: 24,
@@ -1848,6 +1980,49 @@ const book1: Lesson[] = [
     ],
     tags: ['情态动词', 'must', '疑问句'],
     difficulty: 2,
+    summary: '本课继续学习"There are + 复数名词"表示存在的用法，以及介词"near"表示靠近的位置关系。',
+    summaryEn: 'This lesson continues with "There are + plural nouns" for existence and the preposition "near" for proximity.',
+    sentenceExplanations: [
+      { sentence: 'Mrs. Smith\'s living room is large.', translation: '史密斯夫人的客厅很大。', explanation: '"living room"是客厅。"large"是"small"的反义词。' },
+      { sentence: 'There is a television in the room.', translation: '房间里有一台电视机。', explanation: '单数名词用"There is"。"television"可以缩写为TV。' },
+      { sentence: 'The television is near the window.', translation: '电视机靠近窗户。', explanation: '"near"表示靠近、在...附近。' },
+      { sentence: 'There are some magazines on the television.', translation: '电视机上面有一些杂志。', explanation: '复数名词用"There are"。"some"用于肯定句中修饰复数名词。' },
+      { sentence: 'There are some newspapers on the table.', translation: '桌子上有一些报纸。', explanation: '"newspapers"是复数形式。"on the table"表示在桌子上。' }
+    ],
+    grammarSections: [
+      { title: 'There are 表示存在（复数）', content: '"There are + 复数名词 + 地点"表示某处有多个某物。与"There is"的区别在于名词的单复数。', examples: [
+        { en: 'There are some books on the table.', cn: '桌子上有一些书。' },
+        { en: 'There are two cats in the garden.', cn: '花园里有两只猫。' },
+        { en: 'Are there any pencils? — Yes, there are.', cn: '有铅笔吗？—有。' },
+        { en: 'There aren\'t any magazines.', cn: '没有杂志。' }
+      ] },
+      { title: 'There is vs There are', content: '根据后面的名词决定用is还是are。单数/不可数名词用is，复数名词用are。', examples: [
+        { en: 'There is a book. (单数)', cn: '有一本书。' },
+        { en: 'There are some books. (复数)', cn: '有一些书。' },
+        { en: 'There is some water. (不可数)', cn: '有一些水。' },
+        { en: 'There is a book and two pens.', cn: '就近原则：第一个名词是单数用is' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'There are some ___ on the ___.', substitutions: [
+        { en: 'magazines / television', cn: '杂志 / 电视' },
+        { en: 'newspapers / table', cn: '报纸 / 桌子' },
+        { en: 'books / shelf', cn: '书 / 架子' },
+        { en: 'cups / desk', cn: '杯子 / 书桌' }
+      ] },
+      { pattern: 'The ___ is near the ___.', substitutions: [
+        { en: 'television / window', cn: '电视 / 窗户' },
+        { en: 'table / door', cn: '桌子 / 门' },
+        { en: 'chair / desk', cn: '椅子 / 书桌' },
+        { en: 'lamp / bed', cn: '台灯 / 床' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'There _____ some magazines on the table.', options: ['A. is', 'B. are', 'C. am', 'D. be'], answer: 'B', explanation: 'magazines是复数，用There are。' },
+      { type: 'fill', question: 'The television is _____ the window. (靠近)', answer: 'near', explanation: '"near"表示靠近、在...附近。' },
+      { type: 'judge', question: '"There is some books" 是正确的句子。', answer: '错误', explanation: 'books是复数，应该用"There are some books"。' },
+      { type: 'choice', question: 'There _____ a television in the room.', options: ['A. are', 'B. is', 'C. am', 'D. be'], answer: 'B', explanation: 'television是单数，用There is。' }
+    ],
   },
   {
     id: 25,
@@ -1888,6 +2063,51 @@ const book1: Lesson[] = [
     ],
     tags: ['实义动词', '否定句'],
     difficulty: 2,
+    summary: '本课学习"Where are...?"询问位置的句型，以及现在进行时"What are they doing?"的初步接触。',
+    summaryEn: 'This lesson introduces "Where are...?" for location questions and the present continuous "What are they doing?"',
+    sentenceExplanations: [
+      { sentence: 'Where are the children?', translation: '孩子们在哪里？', explanation: '"Where are...?"用来询问人或物的位置。"children"是child的复数。' },
+      { sentence: 'They are in the garden.', translation: '他们在花园里。', explanation: '"in the garden"表示在花园里。"garden"注意发音/ˈɡɑːdn/。' },
+      { sentence: 'What are they doing?', translation: '他们在做什么？', explanation: '这是现在进行时的疑问句。"are doing"表示正在进行的动作。' },
+      { sentence: 'They are climbing the tree.', translation: '他们在爬树。', explanation: '"climbing"是climb的现在分词形式。现在进行时：be + doing。' },
+      { sentence: 'Come here!', translation: '过来！', explanation: '祈使句。"come here"表示过来。注意与"come in"（进来）的区别。' },
+      { sentence: 'We\'re coming now!', translation: '我们马上就来！', explanation: '"coming"是come的现在分词。"now"在这里表示"马上、立刻"。' },
+      { sentence: 'I\'m sorry, Mrs. Jones.', translation: '对不起，琼斯夫人。', explanation: '"I\'m sorry"是道歉的常用表达。' },
+      { sentence: 'Are they in the garden now?', translation: '他们现在在花园里吗？', explanation: '一般疑问句，询问现在的位置。"now"强调现在的时间。' }
+    ],
+    grammarSections: [
+      { title: 'Where 疑问句', content: '"Where is/are...?"用来询问人或物的位置。回答时用"in/on/at + 地点"。', examples: [
+        { en: 'Where is the cat? — It\'s in the garden.', cn: '猫在哪里？—在花园里。' },
+        { en: 'Where are the children? — They are in the kitchen.', cn: '孩子们在哪里？—在厨房里。' },
+        { en: 'Where is my pen? — It\'s on the desk.', cn: '我的笔在哪里？—在书桌上。' }
+      ] },
+      { title: '现在进行时（初步）', content: '现在进行时表示正在进行的动作。结构：be动词 + 动词ing形式。本课初步接触。', examples: [
+        { en: 'They are climbing the tree.', cn: '他们正在爬树。' },
+        { en: 'He is reading a book.', cn: '他正在看书。' },
+        { en: 'What are you doing? — I\'m cooking.', cn: '你在做什么？—我在做饭。' },
+        { en: 'We\'re coming!', cn: '我们来了！' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Where are the ___? — They are in the ___.', substitutions: [
+        { en: 'children / garden', cn: '孩子们 / 花园' },
+        { en: 'books / bedroom', cn: '书 / 卧室' },
+        { en: 'keys / kitchen', cn: '钥匙 / 厨房' },
+        { en: 'shoes / wardrobe', cn: '鞋 / 衣柜' }
+      ] },
+      { pattern: 'What are they doing? — They are ___-ing.', substitutions: [
+        { en: 'climb', cn: '爬' },
+        { en: 'read', cn: '读' },
+        { en: 'play', cn: '玩' },
+        { en: 'eat', cn: '吃' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: '_____ are the children? They\'re in the garden.', options: ['A. What', 'B. Where', 'C. Who', 'D. How'], answer: 'B', explanation: '"Where"询问地点。' },
+      { type: 'fill', question: 'They are _____ the tree. (爬)', answer: 'climbing', explanation: '现在进行时：be + climbing。' },
+      { type: 'judge', question: '"They are climbing the tree" 是现在进行时。', answer: '正确', explanation: '结构：be动词(are) + 动词ing(climbing)。' },
+      { type: 'choice', question: '_____ are they doing? They are playing.', options: ['A. Where', 'B. Who', 'C. What', 'D. How'], answer: 'C', explanation: '"What"询问做什么。' }
+    ],
   },
   {
     id: 26,

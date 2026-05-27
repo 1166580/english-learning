@@ -35,7 +35,10 @@ const book2: Lesson[] = [
       '"go to the theatre" 去剧院看戏。',
       '"I could not bear it" — bear 意为忍受。',
       '"It\'s none of your business" — "不关你的事"。'
+
     ],
+    tags: ['一般过去时', '简单句'],
+    difficulty: 2,
   },
   {
     id: 2,
@@ -72,7 +75,10 @@ const book2: Lesson[] = [
       '"What a day!" — 感叹句。',
       '现在进行时 "I\'m having breakfast"。',
       '"Dear me" = 天哪。'
+
     ],
+    tags: ['现在完成时', '时态'],
+    difficulty: 3,
   },
   {
     id: 3,
@@ -104,7 +110,10 @@ const book2: Lesson[] = [
       '"spoil" 破坏，也可指食物变质。',
       '过去式：go→went, visit→visited, sit→sat, teach→taught。',
       '"make a decision" 做决定。'
+
     ],
+    tags: ['一般过去时', '时间状语'],
+    difficulty: 2,
   },
   {
     id: 4,
@@ -133,7 +142,10 @@ const book2: Lesson[] = [
       '现在完成时 + just：刚完成的动作。',
       '现在完成时 + for + 时间段：动作持续。',
       '"find + 宾语 + 宾补" 结构。'
+
     ],
+    tags: ['现在完成时', 'since/for'],
+    difficulty: 3,
   },
   {
     id: 5,
@@ -167,7 +179,10 @@ const book2: Lesson[] = [
       '"cover the distance" — cover 意为"走完"。',
       '"Up to now" = so far。',
       '"a great many" = many。'
+
     ],
+    tags: ['一般过去时', '否定句'],
+    difficulty: 2,
   },
   {
     id: 6,
@@ -201,7 +216,10 @@ const book2: Lesson[] = [
       '"ask sb for sth" 向某人要某物。',
       '"In return for..." 作为回报。',
       '"once a month" 每月一次。'
+
     ],
+    tags: ['被动语态', '一般现在时'],
+    difficulty: 3,
   },
   {
     id: 7,
@@ -235,7 +253,10 @@ const book2: Lesson[] = [
       '过去进行时：were waiting。',
       '"while" 引导从句，常与进行时连用。',
       '"To their surprise" 不定式作状语。'
+
     ],
+    tags: ['一般过去时', '不规则动词'],
+    difficulty: 2,
   },
   {
     id: 8,
@@ -266,7 +287,10 @@ const book2: Lesson[] = [
       '最高级：the most beautiful garden。',
       '比较级：larger than, harder, more interesting。',
       '"win a prize" 赢得奖项。'
+
     ],
+    tags: ['现在完成时', '一般过去时'],
+    difficulty: 3,
   },
   {
     id: 9,
@@ -299,7 +323,10 @@ const book2: Lesson[] = [
       '"in twenty minutes\' time" 二十分钟后。',
       '"at five to twelve" 十一点五十五分。',
       '"refuse to do" 拒绝做某事。'
+
     ],
+    tags: ['一般现在时', '频率副词'],
+    difficulty: 2,
   },
   {
     id: 10,
@@ -333,7 +360,10 @@ const book2: Lesson[] = [
       '被动语态：is called, was made, was damaged。',
       '"belong to" 属于，不用进行时、不用被动。',
       '"It is being repaired" 现在进行时被动语态。'
+
     ],
+    tags: ['被动语态', '一般过去时'],
+    difficulty: 3,
   },
   {
     id: 11,
@@ -369,7 +399,10 @@ const book2: Lesson[] = [
       '"One good turn deserves another" — 礼尚往来。',
       'borrow from... 借入 / lend to... 借出。',
       '"never pays it back" 从不还钱。'
+
     ],
+    tags: ['一般过去时', '比较级'],
+    difficulty: 2,
   },
   {
     id: 12,
@@ -402,7 +435,10 @@ const book2: Lesson[] = [
       'will + 动词原形 表示将来。',
       '"set out" = set off，出发。',
       '"plenty of" 充裕的。'
+
     ],
+    tags: ['一般将来时', 'will'],
+    difficulty: 2,
   },
   {
     id: 13,
@@ -433,7 +469,10 @@ const book2: Lesson[] = [
       '将来进行时：will be + doing。',
       '"at present" 目前。',
       '"all parts of the country" 全国各地。'
+
     ],
+    tags: ['一般将来时', 'be going to'],
+    difficulty: 2,
   },
   {
     id: 14,
@@ -468,7 +507,10 @@ const book2: Lesson[] = [
       '过去完成时：had left / had got / had reached。',
       '"as soon as" 一...就...。',
       '"neither of us" 我们两个都不。'
+
     ],
+    tags: ['一般过去时', '叙述文'],
+    difficulty: 2,
   },
   {
     id: 15,
@@ -503,7 +545,10 @@ const book2: Lesson[] = [
       '间接引语（宾语从句）。',
       '"could not afford to do" 负担不起。',
       '"look up" 抬头看。'
+
     ],
+    tags: ['间接引语', '宾语从句'],
+    difficulty: 4,
   },
   {
     id: 16,
@@ -535,7 +580,10 @@ const book2: Lesson[] = [
       '第一类条件句：if + 一般现在时，主句用 will。',
       '"No Parking" 禁止停车。',
       '"pay attention to" 注意。'
+
     ],
+    tags: ['条件句', 'if'],
+    difficulty: 3,
   },
   {
     id: 17,
@@ -566,7 +614,10 @@ const book2: Lesson[] = [
       '"must be" 表示推测（一定是）。',
       '"in spite of" 尽管。',
       '"take part in" 参加。'
+
     ],
+    tags: ['情态动词', 'must/have to'],
+    difficulty: 2,
   },
   {
     id: 18,
@@ -599,7 +650,10 @@ const book2: Lesson[] = [
       '"had had" 过去完成时（have lunch）。',
       '"looked for" 寻找。',
       '"give back" 归还。'
+
     ],
+    tags: ['一般过去时', '时间状语'],
+    difficulty: 2,
   },
   {
     id: 19,
@@ -631,7 +685,10 @@ const book2: Lesson[] = [
       '"may have begun" 对过去的推测。',
       '"May I...?" / "Could I...?" 礼貌请求。',
       '"sold out" 售完。'
+
     ],
+    tags: ['情态动词', 'can/could'],
+    difficulty: 2,
   },
   {
     id: 20,
@@ -664,7 +721,10 @@ const book2: Lesson[] = [
       '动名词作主语："Fishing is my favourite sport."',
       '"instead of" 代替，而不是。',
       '"even less luckier" 更不幸运。'
+
     ],
+    tags: ['现在完成时', 'already/yet'],
+    difficulty: 3,
   },
 ]
 

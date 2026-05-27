@@ -31,7 +31,10 @@ const book3: Lesson[] = [
       '"at large" 在逃的、未被捕获的。',
       '"feel obliged to do" 感到有义务做某事。',
       '"unless it is cornered" — unless 引导条件从句。'
+
     ],
+    tags: ['定语从句', '关系代词'],
+    difficulty: 3,
   },
   {
     id: 2,
@@ -63,7 +66,10 @@ const book3: Lesson[] = [
       '现在进行时与 always 连用表反复动作。',
       '"have sth done" 结构。',
       '"armed with" 过去分词短语作状语。'
+
     ],
+    tags: ['现在完成时', '被动语态'],
+    difficulty: 3,
   },
   {
     id: 3,
@@ -95,7 +101,10 @@ const book3: Lesson[] = [
       '"must have been" — 对过去的肯定推测。',
       '"be equipped with" 配备有...。',
       'B.C. = 公元前。'
+
     ],
+    tags: ['一般过去时', '叙述文'],
+    difficulty: 3,
   },
   {
     id: 4,
@@ -125,7 +134,10 @@ const book3: Lesson[] = [
       '"white-collar" 白领 vs "blue-collar" 蓝领。',
       '"Such is human nature, that..." 倒装结构。',
       '"too...to..." 太...而不能...。'
+
     ],
+    tags: ['定语从句', '关系副词'],
+    difficulty: 4,
   },
   {
     id: 5,
@@ -158,7 +170,10 @@ const book3: Lesson[] = [
       '"go to extremes" 走极端。',
       '"provide...with" 为...提供...。',
       '"set out to do" 着手做某事。'
+
     ],
+    tags: ['现在进行时', '一般现在时'],
+    difficulty: 3,
   },
   {
     id: 6,
@@ -190,7 +205,10 @@ const book3: Lesson[] = [
       '"smash-and-grab" 砸橱窗抢劫。',
       '过去完成进行时 "had been working since..."。',
       '"with its headlights on" with 复合结构。'
+
     ],
+    tags: ['被动语态', '过去完成时'],
+    difficulty: 4,
   },
   {
     id: 7,
@@ -220,7 +238,10 @@ const book3: Lesson[] = [
       '"Mutilated Ladies" 残钞鉴别组。',
       '"needn\'t despair" need 作情态动词。',
       '"whiter than white" 比较级强调。'
+
     ],
+    tags: ['条件句', '虚拟语气'],
+    difficulty: 4,
   },
   {
     id: 8,
@@ -251,7 +272,10 @@ const book3: Lesson[] = [
       '"connect...to" 连接起来。',
       '"Now that..." 既然，由于。',
       '注意 "found"（建立）与 find 过去式同形异义。'
+
     ],
+    tags: ['名词性从句', '主语从句'],
+    difficulty: 4,
   },
   {
     id: 9,
@@ -280,7 +304,10 @@ const book3: Lesson[] = [
       '"never fail to" 总是能（双重否定）。',
       '"as well" 也。',
       '"As a result" 因此。'
+
     ],
+    tags: ['定语从句', '非限制性'],
+    difficulty: 4,
   },
   {
     id: 10,
@@ -308,7 +335,10 @@ const book3: Lesson[] = [
       '"the Green Channel" 绿色通道。',
       '"on the other hand" 另一方面。',
       '"made to feel" 被动使役。'
+
     ],
+    tags: ['时态综合', '叙述文'],
+    difficulty: 3,
   },
   {
     id: 11,
@@ -335,7 +365,10 @@ const book3: Lesson[] = [
       '"form a picture of" 对...形成印象。',
       '"a sort of" 一种。',
       '"quite the opposite" 恰恰相反。'
+
     ],
+    tags: ['倒装句', '强调句'],
+    difficulty: 5,
   },
   {
     id: 12,
@@ -359,7 +392,10 @@ const book3: Lesson[] = [
     notes: [
       '"dress up as" 化装成。',
       '"be pleased with" 对...满意。'
+
     ],
+    tags: ['分词', '独立主格'],
+    difficulty: 5,
   },
   {
     id: 13,
@@ -385,7 +421,10 @@ const book3: Lesson[] = [
       '"a time when" 一段...的时期。',
       '"in return for" 作为回报。',
       '"out of business" 关门歇业。'
+
     ],
+    tags: ['虚拟语气', '条件句'],
+    difficulty: 5,
   },
   {
     id: 14,
@@ -410,7 +449,10 @@ const book3: Lesson[] = [
       '"go a long way" 很耐用。',
       '"manage to do" 设法做成。',
       '"fill up" 装满。'
+
     ],
+    tags: ['长难句', '综合语法'],
+    difficulty: 4,
   },
   {
     id: 15,
@@ -442,7 +484,10 @@ const book3: Lesson[] = [
       '"not only...but (also)" 不仅...而且。',
       '过去完成时被动。',
       '"be regarded as" 被认为是。'
+
     ],
+    tags: ['高级词汇', '综合运用'],
+    difficulty: 4,
   },
 ]
 

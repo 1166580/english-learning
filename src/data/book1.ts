@@ -33,7 +33,10 @@ const book1: Lesson[] = [
       '"Excuse me" 是礼貌用语，用于引起别人注意或表示歉意。',
       '"Pardon?" 用于请求对方重复，比 "What?" 更礼貌。',
       '"Is this your...?" 是一般疑问句，用 Yes/No 回答。'
+
     ],
+    tags: ['一般疑问句', 'be动词'],
+    difficulty: 1,
   },
   {
     id: 2,
@@ -69,7 +72,10 @@ const book1: Lesson[] = [
       '"Is this your...?" 用于确认物品归属。',
       '肯定回答："Yes, it is." 否定回答："No, it isn\'t."',
       '注意区分 pen / pencil / book / watch 四个常用名词。'
+
     ],
+    tags: ['一般疑问句', '代词'],
+    difficulty: 1,
   },
   {
     id: 3,
@@ -104,7 +110,10 @@ const book1: Lesson[] = [
       '"Here is..." 倒装句，用于把东西递给别人。',
       '"Number five" 意为5号（寄存处编号）。',
       '"This is not my..." 否定句结构。'
+
     ],
+    tags: ['否定句', '祈使句'],
+    difficulty: 1,
   },
   {
     id: 4,
@@ -142,7 +151,10 @@ const book1: Lesson[] = [
       '"My shirt is blue." 主系表结构。',
       '颜色词放在名词后：a blue shirt。',
       '衣服相关词汇扩展：shirt, dress, skirt, suit。'
+
     ],
+    tags: ['冠词', '国籍'],
+    difficulty: 1,
   },
   {
     id: 5,
@@ -178,7 +190,10 @@ const book1: Lesson[] = [
       '"Mr." 先生 / "Miss" 小姐。',
       '"This is..." 用于介绍某人。',
       '"Nice to meet you." 回答用 "Nice to meet you, too."'
+
     ],
+    tags: ['人称代词', '特殊疑问句'],
+    difficulty: 2,
   },
   {
     id: 6,
@@ -217,7 +232,10 @@ const book1: Lesson[] = [
       '"What make is it?" 询问物品的品牌或产地。',
       '国籍形容词：Swedish, English, Japanese。',
       '"a" 辅音前，"an" 元音前（an English car）。'
+
     ],
+    tags: ['特殊疑问句', 'how'],
+    difficulty: 1,
   },
   {
     id: 7,
@@ -258,7 +276,10 @@ const book1: Lesson[] = [
       '"I am..." 缩写为 "I\'m..."。',
       '"Are you...?" 肯定 "Yes, I am." 否定 "No, I am not."。',
       '"What\'s your job?" 询问职业。'
+
     ],
+    tags: ['特殊疑问句', '名词所有格'],
+    difficulty: 3,
   },
   {
     id: 8,
@@ -299,7 +320,10 @@ const book1: Lesson[] = [
       '"What\'s his/her job?" 第三人称职业。',
       'his（他的）/ her（她的）。',
       '职业词汇：policeman, nurse, postman, hairdresser, mechanic。'
+
     ],
+    tags: ['特殊疑问句', 'what'],
+    difficulty: 1,
   },
   {
     id: 9,
@@ -340,7 +364,10 @@ const book1: Lesson[] = [
       '"How are you?" 最常用问候语。',
       '"And you?" = "And how are you?"。',
       '"How is + 人名?" 询问第三人。'
+
     ],
+    tags: ['名词复数', '拼读规则'],
+    difficulty: 3,
   },
   {
     id: 10,
@@ -382,7 +409,10 @@ const book1: Lesson[] = [
       '"Look at..." 引起注意。',
       '"He\'s" = "He is"。',
       '形容词描述外观：fat, thin, tall, short, young。'
+
     ],
+    tags: ['复数', '特殊疑问句'],
+    difficulty: 2,
   },
   {
     id: 11,
@@ -419,7 +449,10 @@ const book1: Lesson[] = [
       '"Whose shirt is that?" 询问物品所属。',
       '名词所有格：Tim\'s shirt。',
       '"Here you are." 递给对方东西。'
+
     ],
+    tags: ['复数', '形容词'],
+    difficulty: 3,
   },
   {
     id: 12,
@@ -459,7 +492,10 @@ const book1: Lesson[] = [
       '物主代词：mine, yours, his, hers, ours, theirs。',
       '形容词性 vs 名词性：my book = mine。',
       '复数用 "Whose are these...?"。'
+
     ],
+    tags: ['特殊疑问句', 'which', '简单句'],
+    difficulty: 2,
   },
   {
     id: 13,
@@ -501,7 +537,10 @@ const book1: Lesson[] = [
       '"What colour is...?" 询问颜色。',
       '"Come upstairs" 祈使句。',
       '"the same colour" = 同样的颜色。'
+
     ],
+    tags: ['后置定语', '介词短语'],
+    difficulty: 2,
   },
   {
     id: 14,
@@ -543,7 +582,10 @@ const book1: Lesson[] = [
       '颜色词扩展：red, black, brown, grey, yellow。',
       '复数主语用 "What colour are...?"。',
       '"brown and white" 两种颜色并列。'
+
     ],
+    tags: ['There be', '叙述文'],
+    difficulty: 4,
   },
   {
     id: 15,
@@ -584,7 +626,10 @@ const book1: Lesson[] = [
       '单数 passport → 复数 passports。',
       '"we are" / "they are" 复数。',
       '"Here they are." 复数形式。'
+
     ],
+    tags: ['There be', '叙述文'],
+    difficulty: 2,
   },
   {
     id: 16,
@@ -625,7 +670,10 @@ const book1: Lesson[] = [
       '国籍词：Russian, Dutch, American, English。',
       '"We\'re English." English 也可作形容词。',
       '家庭成员：mother, father, aunt, uncle。'
+
     ],
+    tags: ['祈使句'],
+    difficulty: 2,
   },
   {
     id: 17,
@@ -666,7 +714,10 @@ const book1: Lesson[] = [
       '"How do you do?" 正式问候语。',
       '"those women" that 复数 → those。',
       '反义词：hard-working ↔ lazy。'
+
     ],
+    tags: ['现在进行时', '时态'],
+    difficulty: 5,
   },
   {
     id: 18,
@@ -708,7 +759,10 @@ const book1: Lesson[] = [
       '"people" 是 person 的复数。',
       'that（单数）→ those（复数）。',
       '职业扩展：milkman, office worker。'
+
     ],
+    tags: ['现在进行时', '动词分类'],
+    difficulty: 3,
   },
   {
     id: 19,
@@ -749,7 +803,10 @@ const book1: Lesson[] = [
       '"What\'s the matter?" 问出了什么问题。',
       '"There\'s" = "There is"。',
       '"Two ice creams" 物质名词可数化。'
+
     ],
+    tags: ['所有格', '介词短语'],
+    difficulty: 2,
   },
   {
     id: 20,
@@ -791,7 +848,10 @@ const book1: Lesson[] = [
       '"What size...?" 询问尺寸。',
       'trousers 通常用复数。',
       '反义词：large ↔ small。'
+
     ],
+    tags: ['一般将来时', '时态'],
+    difficulty: 3,
   },
   {
     id: 21,
@@ -825,7 +885,10 @@ const book1: Lesson[] = [
       '"Give me..." 祈使句，表示请求。',
       '"Which glasses?" 疑问词 which 用于选择。',
       '"The ones on the shelf" — ones 代替 glasses。'
+
     ],
+    tags: ['祈使句', '双宾语', '否定句'],
+    difficulty: 3,
   },
   {
     id: 22,
@@ -865,7 +928,10 @@ const book1: Lesson[] = [
       '祈使句系列：Come in / Shut / Open / Put / Make / Dust / Sweep。',
       '"make the bed" 整理床铺。',
       '"air the room" 给房间通风。'
+
     ],
+    tags: ['量词', '不可数名词'],
+    difficulty: 2,
   },
   {
     id: 23,
@@ -903,7 +969,10 @@ const book1: Lesson[] = [
     notes: [
       '"There is + 名词 + 地点" 表示某处有某物。',
       '方位词：on the right / on the left / in the middle。'
+
     ],
+    tags: ['情态动词', 'can', '数词'],
+    difficulty: 4,
   },
   {
     id: 24,
@@ -935,7 +1004,10 @@ const book1: Lesson[] = [
       '"There are + 复数名词" 表示有（复数）。',
       '"near the window" 靠近窗户。',
       'There is / There are 的单复数区别。'
+
     ],
+    tags: ['情态动词', 'must', '疑问句'],
+    difficulty: 2,
   },
   {
     id: 25,
@@ -972,7 +1044,10 @@ const book1: Lesson[] = [
       '"Where are...?" 问位置。',
       '"What are they doing?" 现在进行时。',
       '"We\'re coming!" 表示马上就来。'
+
     ],
+    tags: ['实义动词', '否定句'],
+    difficulty: 2,
   },
   {
     id: 26,
@@ -1006,7 +1081,10 @@ const book1: Lesson[] = [
       'There is + 单数 / There are + 复数。',
       '疑问句：Is there...? / Are there...?',
       '否定句：There isn\'t / There aren\'t。'
+
     ],
+    tags: ['一般现在时', '时态'],
+    difficulty: 3,
   },
   {
     id: 27,
@@ -1052,7 +1130,10 @@ const book1: Lesson[] = [
       '量词：a piece of / a loaf of / a bar of / a bottle of / a pound of。',
       '"Not very." = "Not very heavy." 的省略。',
       'bread 是不可数名词。'
+
     ],
+    tags: ['时间', '天气', '频率副词'],
+    difficulty: 2,
   },
   {
     id: 28,
@@ -1092,7 +1173,10 @@ const book1: Lesson[] = [
       '现在进行时：is walking / is looking / is going。',
       '"over the bridge" 过桥。',
       '"under the bridge" 在桥下。'
+
     ],
+    tags: ['天气', '频率副词'],
+    difficulty: 2,
   },
   {
     id: 29,
@@ -1133,7 +1217,10 @@ const book1: Lesson[] = [
       '"What\'s the weather like...?" 询问天气。',
       '季节词：spring, summer, autumn, winter。',
       '天气形容词：warm, hot, cool, cold。'
+
     ],
+    tags: ['动词短语', '三单'],
+    difficulty: 4,
   },
   {
     id: 30,
@@ -1166,7 +1253,10 @@ const book1: Lesson[] = [
       '一般现在时表示习惯性动作。',
       '频率副词：always / usually / sometimes / never 放在动词前。',
       '"go to work" 去上班 / "go to school" 去上学。'
+
     ],
+    tags: ['一般现在时', '现在进行时'],
+    difficulty: 4,
   },
   {
     id: 31,
@@ -1195,7 +1285,10 @@ const book1: Lesson[] = [
       '一般现在时（习惯）vs 现在进行时（此刻）。',
       '"by car" 坐车 / "on foot" 步行。',
       'this morning / this afternoon 暗示现在进行时。'
+
     ],
+    tags: ['序数词', 'have'],
+    difficulty: 2,
   },
   {
     id: 32,
@@ -1230,7 +1323,10 @@ const book1: Lesson[] = [
       '一般过去时：was / were。',
       '"hundreds of" 数百的。',
       '"My wife and I" 先说别人后说自己。'
+
     ],
+    tags: ['感官动词'],
+    difficulty: 3,
   },
   {
     id: 33,
@@ -1265,7 +1361,10 @@ const book1: Lesson[] = [
       '"lost her way" 迷路。',
       '"ask sb the way" 向某人问路。',
       '"tell me the way to..." 告诉我怎么去...。'
+
     ],
+    tags: ['must', '否定句'],
+    difficulty: 2,
   },
   {
     id: 34,
@@ -1301,7 +1400,10 @@ const book1: Lesson[] = [
       '一般过去时疑问句：Did she buy...?',
       '"this pair" 这双。',
       '"like these" 像这样的。'
+
     ],
+    tags: ['反身代词', '介词', '时间'],
+    difficulty: 2,
   },
   {
     id: 35,
@@ -1332,7 +1434,10 @@ const book1: Lesson[] = [
       '"separate...from..." 把...和...分开。',
       '现在完成时：have swum。',
       '"takes + 时间" 花费时间。'
+
     ],
+    tags: ['一般过去时', '时态'],
+    difficulty: 4,
   },
   {
     id: 36,
@@ -1373,7 +1478,10 @@ const book1: Lesson[] = [
       '"Hurry up!" 催促。',
       '"put on" 穿上（反义：take off）。',
       '"Don\'t worry!" 别担心！'
+
     ],
+    tags: ['一般过去时', '时态'],
+    difficulty: 4,
   },
   {
     id: 37,
@@ -1407,7 +1515,10 @@ const book1: Lesson[] = [
       '"want sb to do" 想要某人做某事。',
       '"Can you...?" 你能...吗？',
       '"Of course I can." 当然可以。'
+
     ],
+    tags: ['一般过去时', '电话用语'],
+    difficulty: 4,
   },
   {
     id: 38,
@@ -1433,7 +1544,10 @@ const book1: Lesson[] = [
     notes: [
       '"in Class One, Grade One" 在一年级一班。',
       '注意顺序：先班级后年级。'
+
     ],
+    tags: ['副词', '组织句子'],
+    difficulty: 2,
   },
   {
     id: 39,
@@ -1465,7 +1579,10 @@ const book1: Lesson[] = [
       '"not only...but (also)" 不仅...而且。',
       '"had ever been built" 过去完成时被动语态。',
       '"be regarded as" 被认为是。'
+
     ],
+    tags: ['过去式', '形容词'],
+    difficulty: 2,
   },
   {
     id: 40,
@@ -1503,7 +1620,10 @@ const book1: Lesson[] = [
       '"A little." 懂一点。',
       '"Pardon?" / "I beg your pardon?" 请再说一遍。',
       '"Do you speak English?" 一般现在时询问能力。'
+
     ],
+    tags: ['否定疑问句'],
+    difficulty: 2,
   },
 ]
 

@@ -13,6 +13,8 @@ export interface Lesson {
   vocabulary: VocabWord[]
   notes: string[]
   audioUrl?: string
+  tags?: string[]
+  difficulty?: 1 | 2 | 3 | 4 | 5
 }
 
 export interface BookInfo {

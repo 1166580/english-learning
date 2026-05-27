@@ -31,7 +31,10 @@ const book4: Lesson[] = [
       '"read of" = read about。',
       '"hand down" 传承。',
       '"neither...nor..." 既不...也不...。'
+
     ],
+    tags: ['定语从句', '否定代词', '学术词汇'],
+    difficulty: 4,
   },
   {
     id: 2,
@@ -61,7 +64,10 @@ const book4: Lesson[] = [
       '虚拟语气："if it were not for..."。',
       '"owe...to" 把...归功于。',
       '"do harm to" 对...造成伤害。'
+
     ],
+    tags: ['虚拟语气', '插入语', '过去分词作定语'],
+    difficulty: 4,
   },
   {
     id: 3,
@@ -91,7 +97,10 @@ const book4: Lesson[] = [
       '"the more...the more..." 越...越...。',
       '"this was not the case" 情况并非如此。',
       '"go out of one\'s way" 特意做某事。'
+
     ],
+    tags: ['比较级句型', '让步结构', '分词作状语'],
+    difficulty: 5,
   },
   {
     id: 4,
@@ -121,7 +130,10 @@ const book4: Lesson[] = [
       '现在完成时被动语态。',
       '"happen to do" 碰巧做某事。',
       '"was brought to the notice of" 引起...的注意。'
+
     ],
+    tags: ['倒装句', '强调结构'],
+    difficulty: 4,
   },
   {
     id: 5,
@@ -152,7 +164,10 @@ const book4: Lesson[] = [
       '"take leave to doubt" 冒昧地表示怀疑。',
       '"get down to fundamentals" 回到基本事实。',
       '"be engaged in doing" 忙于做某事。'
+
     ],
+    tags: ['被动语态', '复杂句型'],
+    difficulty: 4,
   },
   {
     id: 6,
@@ -181,7 +196,10 @@ const book4: Lesson[] = [
       '"if only" 虚拟语气。',
       '"do one\'s utmost" 尽最大努力。',
       '议论文：体育比赛竞争本质反而助长仇恨。'
+
     ],
+    tags: ['定语从句', '同位语'],
+    difficulty: 4,
   },
   {
     id: 7,
@@ -210,7 +228,10 @@ const book4: Lesson[] = [
       '"serve as" 充当。',
       '"the further...the longer..." 越...越...。',
       '"by measuring" by + 动名词。'
+
     ],
+    tags: ['虚拟语气', '条件句'],
+    difficulty: 5,
   },
   {
     id: 8,
@@ -241,7 +262,10 @@ const book4: Lesson[] = [
       '"put sand in the wheels" 比喻"制造障碍"。',
       '"far more than" 远比...多得多。',
       '"As it happens" 事实上。'
+
     ],
+    tags: ['分词结构', '独立主格'],
+    difficulty: 5,
   },
   {
     id: 9,
@@ -271,7 +295,10 @@ const book4: Lesson[] = [
       '"act as" 充当。',
       '"disguised as" 伪装成（过去分词短语）。',
       '"vary his programme" 变换节目。'
+
     ],
+    tags: ['长难句', '学术写作'],
+    difficulty: 4,
   },
   {
     id: 10,
@@ -300,7 +327,10 @@ const book4: Lesson[] = [
       '"the fear of death" 对死亡的恐惧。',
       '"be cheated of" 被骗走了。',
       '"it was in him to do" 他力所能及的。'
+
     ],
+    tags: ['高级语法', '综合运用'],
+    difficulty: 4,
   },
   {
     id: 11,
@@ -327,7 +357,10 @@ const book4: Lesson[] = [
       '"current account" 活期账户 / "savings account" 储蓄账户。',
       '"principal sources" 主要来源。',
       '"charge the borrower" 向借款人收费。'
+
     ],
+    tags: ['倒装句', '修辞手法'],
+    difficulty: 5,
   },
   {
     id: 12,
@@ -354,7 +387,10 @@ const book4: Lesson[] = [
       '"as much as" 多达。',
       '"be forced up" 被迫上升。',
       '"the pressure of the gas" 气体的压力。'
+
     ],
+    tags: ['复杂句型', '逻辑关系'],
+    difficulty: 4,
   },
   {
     id: 13,
@@ -379,7 +415,10 @@ const book4: Lesson[] = [
       '"one of the key words" 关键词之一。',
       '"deprive...of..." 剥夺...的...。',
       '"adverse circumstances" 不利的环境。'
+
     ],
+    tags: ['高级词汇', '文化背景'],
+    difficulty: 4,
   },
   {
     id: 14,
@@ -408,7 +447,10 @@ const book4: Lesson[] = [
       '"vastly more complex" 复杂得多。',
       '"what is now known as" 如今被称为。',
       '"grow up" 发展起来。'
+
     ],
+    tags: ['综合语法', '写作技巧'],
+    difficulty: 5,
   },
   {
     id: 15,
@@ -431,7 +473,10 @@ const book4: Lesson[] = [
     notes: [
       '"if only" 虚拟语气。',
       '"do one\'s utmost" 尽最大努力。'
+
     ],
+    tags: ['高级阅读', '综合运用'],
+    difficulty: 5,
   },
 ]
 

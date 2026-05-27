@@ -2145,6 +2145,48 @@ const book1: Lesson[] = [
     ],
     tags: ['一般现在时', '时态'],
     difficulty: 3,
+    summary: '本课系统总结There is/are的肯定句、疑问句和否定句用法，以及some和any的区别。',
+    summaryEn: 'This lesson systematically summarizes There is/are in affirmative, interrogative, and negative forms, plus some vs any.',
+    sentenceExplanations: [
+      { sentence: 'There is a book on the desk.', translation: '书桌上有一本书。', explanation: '单数名词用"There is"。"a book"是单数。' },
+      { sentence: 'There are some books on the desk.', translation: '书桌上有一些书。', explanation: '复数名词用"There are"。"some"用于肯定句中。' },
+      { sentence: 'Is there a book on the desk?', translation: '书桌上有一本书吗？', explanation: '疑问句将is提前。肯定回答：Yes, there is.' },
+      { sentence: 'Are there any books on the desk?', translation: '书桌上有一些书吗？', explanation: '疑问句用"any"代替"some"。肯定回答：Yes, there are.' }
+    ],
+    grammarSections: [
+      { title: 'There is/are 完整总结', content: 'There is/are表示存在。单数/不可数用is，复数用are。疑问句将is/are提前，否定句加not。', examples: [
+        { en: '肯定：There is a pen. / There are pens.', cn: '有一支笔。/ 有一些笔。' },
+        { en: '疑问：Is there a pen? / Are there pens?', cn: '有笔吗？' },
+        { en: '否定：There isn\'t a pen. / There aren\'t pens.', cn: '没有笔。' },
+        { en: '简答：Yes, there is. / No, there aren\'t.', cn: '是的，有。/ 不，没有。' }
+      ] },
+      { title: 'some 和 any', content: '"some"用于肯定句，"any"用于疑问句和否定句。它们都修饰复数名词或不可数名词。', examples: [
+        { en: 'There are some books. (肯定)', cn: '有一些书。' },
+        { en: 'Are there any books? (疑问)', cn: '有书吗？' },
+        { en: 'There aren\'t any books. (否定)', cn: '没有书。' },
+        { en: 'Would you like some tea? (表请求的疑问句用some)', cn: '要来点茶吗？' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'Is there a ___ on/in the ___? — Yes, there is. / No, there isn\'t.', substitutions: [
+        { en: 'book / desk', cn: '书 / 书桌' },
+        { en: 'cat / garden', cn: '猫 / 花园' },
+        { en: 'cup / table', cn: '杯子 / 桌子' },
+        { en: 'lamp / bedroom', cn: '台灯 / 卧室' }
+      ] },
+      { pattern: 'Are there any ___ on/in the ___? — Yes, there are. / No, there aren\'t.', substitutions: [
+        { en: 'books / shelf', cn: '书 / 架子' },
+        { en: 'pencils / desk', cn: '铅笔 / 书桌' },
+        { en: 'flowers / garden', cn: '花 / 花园' },
+        { en: 'cars / street', cn: '车 / 街道' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'There _____ some books on the desk.', options: ['A. is', 'B. are', 'C. am', 'D. be'], answer: 'B', explanation: 'books是复数，用There are。' },
+      { type: 'fill', question: 'Is there _____ milk in the bottle? (一些)', answer: 'any', explanation: '疑问句用any，不用some。' },
+      { type: 'judge', question: '"There are some water" 是正确的句子。', answer: '错误', explanation: 'water是不可数名词，应该用"There is some water"。' },
+      { type: 'choice', question: 'There aren\'t _____ pencils on the desk.', options: ['A. some', 'B. any', 'C. a', 'D. the'], answer: 'B', explanation: '否定句用any。' }
+    ],
   },
   {
     id: 27,
@@ -2194,6 +2236,55 @@ const book1: Lesson[] = [
     ],
     tags: ['时间', '天气', '频率副词'],
     difficulty: 2,
+    summary: '本课学习不可数名词的量词表达：a piece of, a loaf of, a bar of, a bottle of, a pound of等。',
+    summaryEn: 'This lesson teaches quantifiers for uncountable nouns: a piece of, a loaf of, a bar of, a bottle of, a pound of.',
+    sentenceExplanations: [
+      { sentence: 'Is that bag heavy, Penny?', translation: '那个包重吗，彭妮？', explanation: '"heavy"是"light"的反义词。问句形式确认包的重量。' },
+      { sentence: 'Not very.', translation: '不太重。', explanation: '省略回答，完整形式是"Not very heavy."。口语中常用省略。' },
+      { sentence: 'Here! Put it on this chair.', translation: '给你！把它放在这把椅子上。', explanation: '"Here!"引起注意。"put...on..."表示把...放在...上面。' },
+      { sentence: 'What\'s in it?', translation: '里面有什么？', explanation: '"What\'s in it?"询问包里有什么。"in"表示在...里面。' },
+      { sentence: 'A piece of cheese.', translation: '一块奶酪。', explanation: '"a piece of"是最通用的量词，用于不可数名词表示"一块/一片"。' },
+      { sentence: 'A loaf of bread.', translation: '一条面包。', explanation: '"a loaf of"专门用于面包，表示一整条。复数：two loaves of bread。' },
+      { sentence: 'A bar of chocolate.', translation: '一块巧克力。', explanation: '"a bar of"用于长条形物品：chocolate（巧克力）、soap（肥皂）。' },
+      { sentence: 'A bottle of milk.', translation: '一瓶牛奶。', explanation: '"a bottle of"用于瓶装液体。类似：a glass of water（一杯水）。' },
+      { sentence: 'A pound of sugar.', translation: '一磅糖。', explanation: '"a pound of"是重量单位量词。1磅≈0.45公斤。' }
+    ],
+    grammarSections: [
+      { title: '不可数名词的量词', content: '不可数名词（如bread, cheese, milk, sugar）不能直接用数词修饰，需要借助量词。量词的选择取决于物品的形状和容器。', examples: [
+        { en: 'a piece of cheese/cake/bread', cn: '一块（通用量词）' },
+        { en: 'a loaf of bread', cn: '一条（面包专用）' },
+        { en: 'a bar of chocolate/soap', cn: '一块/一条（长条形）' },
+        { en: 'a bottle of milk/water/wine', cn: '一瓶（瓶装液体）' },
+        { en: 'a pound of sugar/coffee', cn: '一磅（重量单位）' },
+        { en: 'a glass of water/juice', cn: '一杯（杯装液体）' }
+      ] },
+      { title: '可数与不可数名词', content: '英语中名词分可数和不可数。可数名词有复数形式，不可数名词没有复数形式。', examples: [
+        { en: '可数：book → books, pen → pens', cn: '有复数形式' },
+        { en: '不可数：bread, water, sugar, milk', cn: '没有复数形式' },
+        { en: '不可数：cheese, soap, coffee, tea', cn: '没有复数形式' },
+        { en: '不可数名词用量词表示数量：a cup of tea', cn: '用量词' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'a ___ of ___', substitutions: [
+        { en: 'piece / cheese', cn: '一块 / 奶酪' },
+        { en: 'loaf / bread', cn: '一条 / 面包' },
+        { en: 'bar / chocolate', cn: '一块 / 巧克力' },
+        { en: 'bottle / milk', cn: '一瓶 / 牛奶' }
+      ] },
+      { pattern: 'What\'s in the bag? — A ___ of ___.', substitutions: [
+        { en: 'pound / sugar', cn: '一磅 / 糖' },
+        { en: 'piece / cake', cn: '一块 / 蛋糕' },
+        { en: 'bottle / water', cn: '一瓶 / 水' },
+        { en: 'bar / soap', cn: '一块 / 肥皂' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'I\'d like _____ of bread, please.', options: ['A. a piece', 'B. a loaf', 'C. a bar', 'D. a bottle'], answer: 'B', explanation: '"a loaf of bread"是一条面包。' },
+      { type: 'fill', question: 'She bought a _____ of chocolate. (一块)', answer: 'bar', explanation: '"a bar of chocolate"是一块/一条巧克力。' },
+      { type: 'judge', question: '"A piece of" 可以用于任何不可数名词。', answer: '正确', explanation: '"a piece of"是通用量词，可以用于大多数不可数名词。' },
+      { type: 'choice', question: 'There is a _____ of milk on the table.', options: ['A. piece', 'B. loaf', 'C. bar', 'D. bottle'], answer: 'D', explanation: 'milk是液体，用bottle。' }
+    ],
   },
   {
     id: 28,
@@ -2237,6 +2328,51 @@ const book1: Lesson[] = [
     ],
     tags: ['天气', '频率副词'],
     difficulty: 2,
+    summary: '本课学习现在进行时的完整用法，描述正在进行的动作。通过一家人过桥的场景展开，包含天气和方位描述。',
+    summaryEn: 'This lesson teaches the present continuous tense for ongoing actions, through a family crossing a bridge scene.',
+    sentenceExplanations: [
+      { sentence: 'It is a fine day today.', translation: '今天是个好天气。', explanation: '"It"指天气。"fine day"是好天气。' },
+      { sentence: 'There are some clouds in the sky, but the sun is shining.', translation: '天空中有一些云，但太阳在照耀。', explanation: '"but"表示转折。"is shining"是现在进行时，表示正在照耀。' },
+      { sentence: 'They are walking over the bridge.', translation: '他们正在过桥。', explanation: '"over"表示越过、穿过。"are walking"是现在进行时。' },
+      { sentence: 'There are some boats on the river.', translation: '河上有几条船。', explanation: '"on the river"表示在河面上。' },
+      { sentence: 'Mr. Jones and his wife are looking at them.', translation: '琼斯先生和他的妻子在看船。', explanation: '"are looking at"是现在进行时。"them"指代boats。' },
+      { sentence: 'The ship is going under the bridge.', translation: '那艘船正从桥下经过。', explanation: '"under"表示在...下面。"is going"表示正在行进。' }
+    ],
+    grammarSections: [
+      { title: '现在进行时', content: '现在进行时表示正在进行或发生的动作。结构：主语 + be动词(am/is/are) + 动词ing形式。', examples: [
+        { en: 'I am reading a book.', cn: '我正在看书。' },
+        { en: 'He is walking over the bridge.', cn: '他正在过桥。' },
+        { en: 'They are looking at the boats.', cn: '他们正在看船。' },
+        { en: 'The sun is shining.', cn: '太阳正在照耀。' }
+      ] },
+      { title: '动词ing的构成', content: '动词加ing的规则：一般加ing；以不发音e结尾去e加ing；重读闭音节双写末字母加ing。', examples: [
+        { en: 'walk → walking', cn: '一般加ing' },
+        { en: 'make → making', cn: '去e加ing' },
+        { en: 'shine → shining', cn: '去e加ing' },
+        { en: 'run → running', cn: '双写加ing' },
+        { en: 'sit → sitting', cn: '双写加ing' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: '___ is ___-ing.', substitutions: [
+        { en: 'The sun / shine', cn: '太阳 / 照耀' },
+        { en: 'Mr. Jones / walk', cn: '琼斯先生 / 走' },
+        { en: 'Sally / look', cn: '萨利 / 看' },
+        { en: 'The ship / go', cn: '船 / 走' }
+      ] },
+      { pattern: 'They are ___-ing over/under the ___.', substitutions: [
+        { en: 'walk / bridge', cn: '走 / 桥' },
+        { en: 'go / bridge', cn: '经过 / 桥' },
+        { en: 'fly / bridge', cn: '飞 / 桥' },
+        { en: 'sail / bridge', cn: '航行 / 桥' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'The sun _____ shining.', options: ['A. am', 'B. is', 'C. are', 'D. be'], answer: 'B', explanation: 'The sun是第三人称单数，用is。' },
+      { type: 'fill', question: 'They are _____ over the bridge. (走)', answer: 'walking', explanation: 'walk → walking，现在进行时。' },
+      { type: 'judge', question: '"The ship is going under the bridge" 中 under 表示在桥下面。', answer: '正确', explanation: '"under"表示在...下面。' },
+      { type: 'choice', question: 'There are some clouds _____ the sky.', options: ['A. on', 'B. in', 'C. at', 'D. to'], answer: 'B', explanation: '"in the sky"表示在天空中。' }
+    ],
   },
   {
     id: 29,
@@ -2281,6 +2417,48 @@ const book1: Lesson[] = [
     ],
     tags: ['动词短语', '三单'],
     difficulty: 4,
+    summary: '本课学习询问天气的句型"What\'s the weather like...?"，以及四季和对应的天气形容词。',
+    summaryEn: 'This lesson teaches "What\'s the weather like...?" for weather questions, with four seasons and weather adjectives.',
+    sentenceExplanations: [
+      { sentence: 'What\'s the weather like in spring?', translation: '春天天气怎么样？', explanation: '"What\'s the weather like...?"是询问天气的标准句型。"like"在这里是介词，表示"像...一样"。' },
+      { sentence: 'It\'s warm in spring.', translation: '春天很暖和。', explanation: '"warm"表示温暖的。季节前用"in"：in spring/summer/autumn/winter。' },
+      { sentence: 'It\'s hot in summer.', translation: '夏天很热。', explanation: '"hot"是"cold"的反义词。' },
+      { sentence: 'It\'s cool in autumn.', translation: '秋天很凉爽。', explanation: '"cool"表示凉爽的，比cold程度轻。' },
+      { sentence: 'It\'s cold in winter.', translation: '冬天很冷。', explanation: '"cold"是"hot"的反义词。' }
+    ],
+    grammarSections: [
+      { title: 'What\'s the weather like?', content: '询问天气的两种方式："What\'s the weather like?"和"How\'s the weather?"。回答用"It\'s + 天气形容词"。', examples: [
+        { en: 'What\'s the weather like today? — It\'s sunny.', cn: '今天天气怎样？—晴天。' },
+        { en: 'How\'s the weather? — It\'s rainy.', cn: '天气怎样？—下雨。' },
+        { en: 'What\'s the weather like in Beijing? — It\'s cold.', cn: '北京天气怎样？—冷。' }
+      ] },
+      { title: '四季表达', content: '四季前用介词"in"。四季的拼写和发音需要注意。', examples: [
+        { en: 'in spring (春天)', cn: '/sprɪŋ/' },
+        { en: 'in summer (夏天)', cn: '/ˈsʌmə/' },
+        { en: 'in autumn (秋天)', cn: '/ˈɔːtəm/ — 美式英语用fall' },
+        { en: 'in winter (冬天)', cn: '/ˈwɪntə/' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'What\'s the weather like in ___? — It\'s ___.', substitutions: [
+        { en: 'spring / warm', cn: '春天 / 暖和' },
+        { en: 'summer / hot', cn: '夏天 / 热' },
+        { en: 'autumn / cool', cn: '秋天 / 凉爽' },
+        { en: 'winter / cold', cn: '冬天 / 冷' }
+      ] },
+      { pattern: 'It\'s ___ in ___.', substitutions: [
+        { en: 'sunny / summer', cn: '晴朗 / 夏天' },
+        { en: 'cloudy / autumn', cn: '多云 / 秋天' },
+        { en: 'rainy / spring', cn: '下雨 / 春天' },
+        { en: 'snowy / winter', cn: '下雪 / 冬天' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'What\'s the weather _____ in summer?', options: ['A. as', 'B. like', 'C. for', 'D. about'], answer: 'B', explanation: '"What\'s the weather like...?"是固定句型。' },
+      { type: 'fill', question: 'It\'s cold _____ winter. (在)', answer: 'in', explanation: '季节前用"in"。' },
+      { type: 'judge', question: '"autumn" 在美式英语中也可以说 "fall"。', answer: '正确', explanation: '英式用autumn，美式用fall。' },
+      { type: 'choice', question: 'It\'s _____ in spring. (温暖的)', options: ['A. warm', 'B. hot', 'C. cool', 'D. cold'], answer: 'A', explanation: '春天是温暖的warm。' }
+    ],
   },
   {
     id: 30,
@@ -2317,6 +2495,50 @@ const book1: Lesson[] = [
     ],
     tags: ['一般现在时', '现在进行时'],
     difficulty: 4,
+    summary: '本课学习一般现在时表示习惯性动作的用法，以及频率副词（always, usually, sometimes, never）的位置。',
+    summaryEn: 'This lesson teaches the simple present for habitual actions and the position of frequency adverbs.',
+    sentenceExplanations: [
+      { sentence: 'The Sawyers live at 87 King Street.', translation: '索耶一家住在国王街87号。', explanation: '"The Sawyers"用姓氏复数表示一家人。"live at + 地址"表示住在某地址。' },
+      { sentence: 'In the morning, Mr. Sawyer goes to work and the children go to school.', translation: '早上，索耶先生去上班，孩子们去上学。', explanation: '"goes to work"第三人称单数加s。"go to school"是去上学。' },
+      { sentence: 'Mrs. Sawyer stays at home every day.', translation: '索耶夫人每天待在家里。', explanation: '"stay at home"是待在家里。"every day"表示每天，用于一般现在时。' },
+      { sentence: 'She does the housework.', translation: '她做家务。', explanation: '"do the housework"是做家务。第三人称单数用does。' },
+      { sentence: 'She always eats her lunch at noon.', translation: '她总是在中午吃午饭。', explanation: '"always"是频率副词，放在行为动词前。"at noon"在中午。' },
+      { sentence: 'In the afternoon, she usually sees her friends.', translation: '下午，她通常去看望朋友。', explanation: '"usually"是频率副词。"see her friends"看望朋友。' }
+    ],
+    grammarSections: [
+      { title: '一般现在时（习惯性动作）', content: '一般现在时表示经常性、习惯性的动作或客观事实。第三人称单数(he/she/it)动词加s/es。', examples: [
+        { en: 'I/You/We/They go to school.', cn: '第一、二、三人称复数：动词原形' },
+        { en: 'He/She goes to work.', cn: '第三人称单数：动词加s' },
+        { en: 'She does the housework.', cn: 'do → does (第三人称单数)' },
+        { en: 'He watches TV every day.', cn: 'watch → watches (加es)' }
+      ] },
+      { title: '频率副词的位置', content: '频率副词表示动作发生的频率。它们通常放在行为动词前面，be动词后面。', examples: [
+        { en: 'She always eats lunch at noon.', cn: 'always放在行为动词eats前' },
+        { en: 'He usually goes to work.', cn: 'usually放在行为动词goes前' },
+        { en: 'She is always late.', cn: 'always放在be动词is后' },
+        { en: '频率排序：always > usually > sometimes > never', cn: '从高到低' }
+      ] }
+    ],
+    patternDrills: [
+      { pattern: 'He/She ___-s every day.', substitutions: [
+        { en: 'go to work', cn: '去上班' },
+        { en: 'eat lunch', cn: '吃午饭' },
+        { en: 'see friends', cn: '看望朋友' },
+        { en: 'do housework', cn: '做家务' }
+      ] },
+      { pattern: 'She always/usually ___-s at ___.', substitutions: [
+        { en: 'eat / noon', cn: '吃 / 中午' },
+        { en: 'drink tea / afternoon', cn: '喝茶 / 下午' },
+        { en: 'go to bed / night', cn: '睡觉 / 晚上' },
+        { en: 'get up / morning', cn: '起床 / 早上' }
+      ] }
+    ],
+    exercises: [
+      { type: 'choice', question: 'Mr. Sawyer _____ to work every day.', options: ['A. go', 'B. goes', 'C. going', 'D. went'], answer: 'B', explanation: '第三人称单数用goes。' },
+      { type: 'fill', question: 'She _____ the housework. (做)', answer: 'does', explanation: 'do → does (第三人称单数)。' },
+      { type: 'judge', question: '"She always eats" 中 always 放在 eats 前面。', answer: '正确', explanation: '频率副词放在行为动词前面。' },
+      { type: 'choice', question: 'The Sawyers _____ at 87 King Street.', options: ['A. lives', 'B. live', 'C. living', 'D. lived'], answer: 'B', explanation: 'The Sawyers是复数主语，用动词原形live。' }
+    ],
   },
   {
     id: 31,

@@ -7,9 +7,7 @@ import { useStudyData } from '../hooks/useStudyData'
 import { useAuth } from '../hooks/useAuth'
 import { useFirestore } from '../hooks/useFirestore'
 import { useNotes } from '../hooks/useNotes'
-import { getVideoId } from '../data/videoMap'
 import { speak } from '../utils/speak'
-import BilibiliPlayer from '../components/BilibiliPlayer'
 import VocabularyTable from '../components/VocabularyTable'
 import CommentCard from '../components/CommentCard'
 import AuthModal from '../components/AuthModal'
@@ -45,7 +43,6 @@ export default function LessonPage() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [showAnswers, setShowAnswers] = useState<Record<number, boolean>>({})
   const completed = isCompleted(bookId, lessonNum)
-  const videoId = getVideoId(bookId, lessonNum)
 
   // Comments
   const { user } = useAuth()
@@ -243,9 +240,6 @@ export default function LessonPage() {
             朗读课文
           </button>
         </div>
-
-        {/* Video Player */}
-        {videoId && <BilibiliPlayer bvid={videoId} title={lesson.title} />}
 
         {/* Summary */}
         {lesson.summary && (

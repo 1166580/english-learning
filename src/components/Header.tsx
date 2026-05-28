@@ -1,6 +1,6 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
-import { BookOpen, Library, Search, Wrench, X } from 'lucide-react'
+import { BookOpen, Library, Search, Wrench, Volume2, X } from 'lucide-react'
 import { books, bookDataMap } from '../data'
 
 export default function Header() {
@@ -119,6 +119,15 @@ export default function Header() {
           >
             <Wrench size={16} />
             <span className="hidden sm:inline">工具</span>
+          </NavLink>
+          <NavLink
+            to="/phonics"
+            className={({ isActive }) =>
+              `flex items-center gap-1 text-sm font-medium transition-colors no-underline ${isActive ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'}`
+            }
+          >
+            <Volume2 size={16} />
+            <span className="hidden sm:inline">音标</span>
           </NavLink>
         </nav>
       </div>

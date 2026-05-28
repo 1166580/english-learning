@@ -4,14 +4,39 @@ const path = require('path')
 
 const videoMapPath = path.join(__dirname, 'src', 'data', 'videoMap.ts')
 
+// 存储 cookie
+let cookies = ''
+
+// 获取 B 站 cookie
+async function getBilibiliCookies() {
+  try {
+    const res = await fetch('https://www.bilibili.com', {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+      },
+      redirect: 'follow'
+    })
+    const setCookies = res.headers.getSetCookie()
+    if (setCookies && setCookies.length > 0) {
+      cookies = setCookies.map(c => c.split(';')[0]).join('; ')
+      console.log('成功获取 cookie')
+      return true
+    }
+  } catch (e) {
+    console.error('获取 cookie 失败:', e.message)
+  }
+  return false
+}
+
 // 搜索 B 站视频
 async function searchBilibili(keyword) {
   const url = `https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=${encodeURIComponent(keyword)}`
   try {
     const res = await fetch(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        'Referer': 'https://www.bilibili.com'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Referer': 'https://search.bilibili.com/',
+        'Cookie': cookies
       }
     })
     const data = await res.json()
@@ -32,6 +57,9 @@ function sleep(ms) {
 
 // 主函数
 async function main() {
+  // 先获取 cookie
+  await getBilibiliCookies()
+
   const videoMap = {}
   const books = [
     { id: 1, count: 144, name: '第一册' },
@@ -42,7 +70,7 @@ async function main() {
 
   for (const book of books) {
     for (let lesson = 1; lesson <= book.count; lesson++) {
-      const keyword = `新概念英语 ${book.name} 第${lesson}课`
+      const keyword = `新概念英语动画版 ${book.name} 第${lesson}课`
       console.log(`搜索: ${keyword}`)
 
       const bvid = await searchBilibili(keyword)

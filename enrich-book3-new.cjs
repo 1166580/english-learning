@@ -1,0 +1,406 @@
+const fs = require('fs');
+const path = require('path');
+const filePath = path.join(__dirname, 'src', 'data', 'book3.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+const esc = s => s.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+
+const lessons = [
+  { id:16, title:'The lark', titleCn:'云雀',
+    text:['A lark had made her nest in a field of ripe corn, and her young ones were growing up strong and healthy.','One day the farmer and his son came to the field and the farmer said they must ask their neighbours to come and help them cut the corn.','The young larks were very frightened, but their mother told them there was nothing to worry about.','The next day the farmer came again and said they would ask their relatives to help instead.','When the relatives did not come either, the farmer said they would cut the corn themselves the following morning.','At this the mother lark told her children it was time to leave, for the farmer was now serious about the work.'],
+    vocab:[['lark','/lɑːk/','云雀'],['nest','/nest/','巢'],['ripe','/raɪp/','成熟的'],['corn','/kɔːn/','谷物'],['relative','/ˈrelətɪv/','亲戚'],['frightened','/ˈfraɪtnd/','害怕的']],
+    notes:['when引导时间状语从句，表示"当……的时候"。','"there was nothing to worry about" 不定式作后置定语修饰nothing。','"it was time to leave" it is time to do sth 句型。'],
+    tags:['时间状语从句','寓言故事'], difficulty:3,
+    summary:'一只云雀在麦田里筑巢，当农夫决定自己动手收割时，母鸟意识到必须带孩子们离开。',
+    summaryEn:'A lark nested in a corn field and realized she must move her family when the farmer decided to harvest the corn himself.' },
+
+  { id:17, title:'No one knows why', titleCn:'无人知晓其因',
+    text:['People have always been fascinated by events that seem to have no rational explanation.','Strange occurrences in a quiet village recently attracted the attention of the press.','A number of objects had mysteriously disappeared from houses in the area, only to reappear in entirely different locations.','The police were called in to investigate but could find no evidence of theft or criminal activity.','Scientists who examined the phenomenon were equally baffled.','The mystery remains unsolved to this day, and the villagers have learned to accept the unexplained as part of their daily lives.'],
+    vocab:[['fascinate','/ˈfæsɪneɪt/','使着迷'],['rational','/ˈræʃənl/','理性的'],['occurrence','/əˈkʌrəns/','事件'],['mysteriously','/mɪˈstɪəriəsli/','神秘地'],['reappear','/ˌriːəˈpɪə/','再现'],['baffle','/ˈbæfl/','使困惑']],
+    notes:['"that seem to have" that引导定语从句修饰events。','"only to reappear" 不定式作结果状语，表示出乎意料的结果。','"to this day" 至今。'],
+    tags:['神秘事件','定语从句'], difficulty:3,
+    summary:'一个村庄频繁发生物品神秘消失又在别处出现的事件，警方和科学家都无法解释。',
+    summaryEn:'Objects mysteriously disappeared and reappeared in different locations in a village, baffling police and scientists alike.' },
+
+  { id:18, title:'The Channel Tunnel', titleCn:'英吉利海峡隧道',
+    text:['The idea of a tunnel beneath the English Channel was first proposed in the early nineteenth century.','Several attempts were made to begin construction, but each time the project was abandoned due to financial or political difficulties.','It was not until 1987 that serious work finally began on what would become one of the greatest engineering feats in history.','The tunnel stretches for over fifty kilometres beneath the sea bed.','Thousands of workers and enormous machines were needed to bore through the chalk and clay.','When it was finally completed in 1994, the tunnel provided a direct rail link between England and France for the first time.'],
+    vocab:[['tunnel','/ˈtʌnl/','隧道'],['channel','/ˈtʃænl/','海峡'],['propose','/prəˈpəʊz/','提议'],['abandon','/əˈbændən/','放弃'],['construction','/kənˈstrʌkʃn/','建设'],['feat','/fiːt/','壮举'],['bore','/bɔː/','钻孔'],['stretch','/stretʃ/','延伸']],
+    notes:['"It was not until... that..." 直到……才……。强调句型。','"what would become" what引导名词性从句，作介词on的宾语。','"for the first time" 第一次。'],
+    tags:['工程史','强调句'], difficulty:4,
+    summary:'英吉利海峡隧道从19世纪的构想到1994年通车，历经百年，成为人类工程史上的伟大壮举。',
+    summaryEn:'The Channel Tunnel, first proposed in the 19th century, was completed in 1994 as one of the greatest engineering feats in history.' },
+
+  { id:19, title:'Daniel Mendoza', titleCn:'丹尼尔·门多萨',
+    text:['Boxing matches were very popular in England two hundred years ago.','In those days, boxers fought with bare fists for prize money, and the sport was extremely brutal.','Daniel Mendoza, who was born in 1764, is credited with transforming boxing into a respectable sport.','He introduced a new style of fighting that emphasized skill and strategy rather than brute force.','Mendoza became champion of England in 1792 and held the title for several years.','His fame was so great that even the Prince of Wales came to watch him fight.','He demonstrated that intelligence and technique could triumph over mere strength.'],
+    vocab:[['bare','/beə/','赤裸的'],['brutal','/ˈbruːtl/','野蛮的'],['transform','/trænsˈfɔːm/','转变'],['respectable','/rɪˈspektəbl/','体面的'],['strategy','/ˈstrætədʒi/','策略'],['triumph','/ˈtraɪʌmf/','战胜'],['technique','/tekˈniːk/','技术'],['champion','/ˈtʃæmpiən/','冠军']],
+    notes:['"is credited with" 被认为是……的功臣。','"rather than" 而不是。','"so... that..." 如此……以至于……。'],
+    tags:['人物传记','体育史'], difficulty:4,
+    summary:'丹尼尔·门多萨将野蛮的拳击运动转变为讲究技巧和策略的体面运动，成为英国拳击冠军。',
+    summaryEn:'Daniel Mendoza transformed brutal bare-knuckle boxing into a respectable sport emphasizing skill and strategy.' },
+
+  { id:20, title:'By heart', titleCn:'凭记忆',
+    text:['A famous actor in a highly successful play was once cast in the role of a nobleman who had been imprisoned in the Bastille for twenty years.','In the last act, a gaoler would always come onto the stage with a letter which he would hand to the prisoner.','The actor playing the nobleman was supposed to read the letter aloud, but he insisted on learning the entire text by heart.','One night, the gaoler decided to play a joke on his colleague to find out if he really had memorized the letter.','He substituted a different piece of paper, but the actor did not notice the change and recited the wrong text without hesitation.','The audience was none the wiser, and the actor proved that his memory was truly extraordinary.'],
+    vocab:[['imprison','/ɪmˈprɪzn/','监禁'],['gaoler','/ˈdʒeɪlə/','狱卒'],['colleague','/ˈkɒliːɡ/','同事'],['substitute','/ˈsʌbstɪtjuːt/','替换'],['recite','/rɪˈsaɪt/','背诵'],['hesitation','/ˌhezɪˈteɪʃn/','犹豫'],['memorize','/ˈmeməraɪz/','记住'],['extraordinary','/ɪkˈstrɔːdnri/','非凡的']],
+    notes:['"who had been imprisoned" who引导定语从句，用过去完成时被动语态。','"was supposed to" 应该……。','"none the wiser" 全然不知。'],
+    tags:['戏剧','过去完成时'], difficulty:4,
+    summary:'一位演员坚持背诵整封信的内容，当狱卒换掉信纸时，他毫无察觉地背出了错误的文本，观众却毫不知情。',
+    summaryEn:'An actor who memorized a letter by heart recited the wrong text when a gaoler substituted a different paper, but the audience noticed nothing.' },
+
+  { id:21, title:'A skeleton in the cupboard', titleCn:'家丑不可外扬',
+    text:['We often read in novels how a seemingly respectable person has a terrible secret in his past.','The phrase "a skeleton in the cupboard" refers to a shameful fact that someone tries hard to hide.','In reality, most people have something they would prefer others not to know about.','It might be a youthful indiscretion, a financial difficulty, or a family problem that has been carefully concealed.','The trouble with secrets is that they have a way of coming to light when we least expect it.','A person who has nothing to hide is indeed fortunate, for the burden of a secret can be very heavy.'],
+    vocab:[['skeleton','/ˈskelɪtn/','骷髅'],['cupboard','/ˈkʌbəd/','橱柜'],['seemingly','/ˈsiːmɪŋli/','表面上'],['shameful','/ˈʃeɪmfl/','可耻的'],['conceal','/kənˈsiːl/','隐藏'],['indiscretion','/ˌɪndɪˈskreʃn/','不检点'],['burden','/ˈbɜːdn/','负担'],['fortunate','/ˈfɔːtʃənət/','幸运的']],
+    notes:['"a skeleton in the cupboard" 家丑、不可外扬的秘密。','"have a way of doing" 总是会……。','"come to light" 暴露、被发现。'],
+    tags:['习语','人生哲理'], difficulty:4,
+    summary:'"家丑不可外扬"指的是人们试图隐藏的可耻秘密，但秘密总会在意想不到的时候暴露。',
+    summaryEn:'"A skeleton in the cupboard" refers to shameful secrets people try to hide, which have a way of coming to light unexpectedly.' },
+
+  { id:22, title:'A day to remember', titleCn:'难忘的一天',
+    text:['We have all experienced days when everything goes wrong.','A day may begin well enough, but suddenly everything seems to get out of control.','On one particular day, a man left his house early to attend an important business meeting.','His car broke down on the motorway, and he had to wait two hours for a rescue vehicle.','When he finally arrived at the office, he discovered that the meeting had been cancelled.','To make matters worse, he realized he had locked himself out of his house and would have to wait for his wife to return.','It was one of those days that he would never forget.'],
+    vocab:[['particular','/pəˈtɪkjələ/','特定的'],['motorway','/ˈməʊtəweɪ/','高速公路'],['rescue','/ˈreskjuː/','救援'],['cancel','/ˈkænsl/','取消'],['discover','/dɪsˈkʌvə/','发现'],['realize','/ˈrɪəlaɪz/','意识到']],
+    notes:['"get out of control" 失去控制。','"To make matters worse" 更糟糕的是。','"locked himself out" 把自己锁在外面。'],
+    tags:['叙事文','过去完成时'], difficulty:3,
+    summary:'一个人经历了各种倒霉事——汽车抛锚、会议取消、被锁在门外——成为他永远不会忘记的一天。',
+    summaryEn:'A man experienced a series of mishaps including a car breakdown, a cancelled meeting, and locking himself out of his house.' },
+
+  { id:23, title:'Want: a large biscuit tin', titleCn:'需要：一个大饼干听',
+    text:['A humorous exchange of letters appeared in a national newspaper recently.','A reader had written to complain about the difficulty of finding a large biscuit tin.','The following week, another reader wrote to say that he had exactly what the first reader was looking for.','A third letter then appeared, from a man who claimed to have a collection of over two hundred biscuit tins.','The correspondence continued for several weeks, with more and more readers joining in.','Eventually the editor had to put a stop to it, as the letters were filling up the entire letters page.'],
+    vocab:[['humorous','/ˈhjuːmərəs/','幽默的'],['exchange','/ɪksˈtʃeɪndʒ/','交流'],['correspondence','/ˌkɒrɪˈspɒndəns/','通信'],['complain','/kəmˈpleɪn/','抱怨'],['claim','/kleɪm/','声称'],['collection','/kəˈlekʃn/','收藏'],['eventually','/ɪˈventʃuəli/','最终'],['entire','/ɪnˈtaɪə/','整个的']],
+    notes:['"what the first reader was looking for" what引导名词性从句。','"put a stop to" 使……停止。','"fill up" 填满。'],
+    tags:['书信','幽默写作'], difficulty:3,
+    summary:'一位读者在报纸上征求大饼干听，引发了持续数周的幽默通信，最终编辑不得不叫停。',
+    summaryEn:'A reader\'s request for a large biscuit tin in a newspaper sparked weeks of humorous correspondence before the editor stopped it.' },
+
+  { id:24, title:'Nothing to sell, nothing to buy', titleCn:'不卖也不买',
+    text:['It has been said that everyone lives by selling something.','The statement may seem paradoxical, but it is essentially true.','Teachers sell knowledge, doctors sell medical advice, and politicians sell policies.','Even those who appear to contribute nothing to society are, in a sense, selling their presence or their time.','The concept of exchange is fundamental to human civilization.','Without it, we would still be living in a primitive state, each person trying to provide everything for himself.','Specialization and the division of labor have made modern society possible.'],
+    vocab:[['paradoxical','/ˌpærəˈdɒksɪkl/','矛盾的'],['essentially','/ɪˈsenʃəli/','本质上'],['contribute','/kənˈtrɪbjuːt/','贡献'],['concept','/ˈkɒnsept/','概念'],['fundamental','/ˌfʌndəˈmentl/','根本的'],['primitive','/ˈprɪmɪtɪv/','原始的'],['specialization','/ˌspeʃəlaɪˈzeɪʃn/','专业化'],['division','/dɪˈvɪʒn/','分工']],
+    notes:['"live by selling" 靠出售……为生。by表示方式。','"in a sense" 从某种意义上说。','"the division of labor" 劳动分工。'],
+    tags:['经济','议论文'], difficulty:4,
+    summary:'每个人都在以某种方式"出售"东西——知识、技能或时间，交换是人类文明的基础。',
+    summaryEn:'Everyone lives by selling something — knowledge, skills, or time — and exchange is fundamental to human civilization.' },
+
+  { id:25, title:'Five pounds too dear', titleCn:'贵了五英镑',
+    text:['A man who was shopping in a small antiques shop noticed a beautiful glass bowl among the many items on display.','He picked it up and examined it carefully, admiring its fine craftsmanship.','When he asked the price, the shopkeeper told him it was twenty pounds.','The man thought this was rather expensive and tried to bargain, but the shopkeeper refused to lower the price.','After some hesitation, the man agreed to pay and handed over a fifty-pound note.','The shopkeeper gave him thirty pounds in change, which meant the bowl had actually cost only twenty pounds.','The man later realized he had been prepared to pay much more than it was worth.'],
+    vocab:[['antiques','/ænˈtiːks/','古董'],['craftsmanship','/ˈkrɑːftsmənʃɪp/','工艺'],['bargain','/ˈbɑːɡɪn/','讨价还价'],['hesitation','/ˌhezɪˈteɪʃn/','犹豫'],['expensive','/ɪkˈspensɪv/','昂贵的'],['examine','/ɪɡˈzæmɪn/','检查'],['refuse','/rɪˈfjuːz/','拒绝'],['worth','/wɜːθ/','价值']],
+    notes:['"on display" 展出。','"hand over" 递出、交出。','"rather expensive" 相当贵。rather表示程度。'],
+    tags:['购物','叙事文'], difficulty:3,
+    summary:'一个男人在古董店看中一只玻璃碗，经过讨价还价后以二十英镑成交，后来发现它其实不值那么多。',
+    summaryEn:'A man bargained for a glass bowl in an antiques shop and later realized it was not worth as much as he had been prepared to pay.' },
+
+  { id:26, title:'Funny or not?', titleCn:'是否可笑？',
+    text:['Whether we find a joke funny or not largely depends on where we have been brought up.','The sense of humour is mysteriously bound up with national characteristics.','A Frenchman, for instance, might find it hard to laugh at a Russian joke, and vice versa.','In the same way, jokes that amuse people in one part of the world may be considered tasteless in another.','Surprisingly, some of the most popular jokes are based on misfortune — the misfortune of others.','It seems that we are capable of laughing at the suffering of others as long as we do not know them personally.'],
+    vocab:[['humour','/ˈhjuːmə/','幽默'],['characteristic','/ˌkærəktəˈrɪstɪk/','特征'],['amuse','/əˈmjuːz/','逗乐'],['tasteless','/ˈteɪstlɪs/','无趣的'],['misfortune','/ˌmɪsˈfɔːtʃən/','不幸'],['suffering','/ˈsʌfərɪŋ/','痛苦'],['capable','/ˈkeɪpəbl/','有能力的'],['personally','/ˈpɜːsənəli/','个人地']],
+    notes:['"largely depends on" 主要取决于。','"bound up with" 与……密切相关。','"as long as" 只要。'],
+    tags:['文化差异','幽默分析'], difficulty:4,
+    summary:'幽默感与民族特性密切相关，不同文化对笑话的反应大相径庭，我们似乎能嘲笑陌生人的不幸。',
+    summaryEn:'Humour is closely linked to national characteristics, and we seem capable of laughing at the misfortune of strangers.' },
+
+  { id:27, title:'A lovable eccentric', titleCn:'可爱的怪人',
+    text:['True eccentrics never set out to draw attention to themselves.','They are content to be different from other people without being noticed.','An eccentric is someone who behaves in an unusual way that does not conform to social conventions.','He may wear strange clothes, live in an odd place, or have peculiar hobbies.','But the real eccentric is not merely odd — he is also lovable and often very generous.','People are usually tolerant of eccentrics because they recognize that these individuals enrich our lives and make the world a more interesting place.'],
+    vocab:[['eccentric','/ɪkˈsentrɪk/','怪人'],['convention','/kənˈvenʃn/','惯例'],['conform','/kənˈfɔːm/','遵从'],['peculiar','/pɪˈkjuːliə/','古怪的'],['tolerant','/ˈtɒlərənt/','宽容的'],['enrich','/ɪnˈrɪtʃ/','充实'],['generous','/ˈdʒenərəs/','慷慨的'],['content','/kənˈtent/','满足的']],
+    notes:['"set out to do" 着手做……。','"conform to" 遵从、符合。','"draw attention to" 引起对……的注意。'],
+    tags:['人物描写','社会观察'], difficulty:4,
+    summary:'真正的怪人不是刻意引人注目，而是自然地与众不同，他们丰富了我们的生活。',
+    summaryEn:'True eccentrics do not seek attention but naturally differ from others, enriching the lives of those around them.' },
+
+  { id:28, title:'A happy discovery', titleCn:'愉快的发现',
+    text:['Antique shops exert a peculiar fascination on a great many people.','The possibility of finding a valuable treasure among piles of junk is an irresistible temptation.','A friend of mine who enjoys browsing in such shops recently made a remarkable discovery.','He noticed a small painting lying on the floor, half hidden beneath a pile of old magazines.','Something about it caught his eye, and he asked the shopkeeper how much it was.','To his astonishment, the price was only five pounds, and he bought it immediately.','When he had the painting examined by an expert, it turned out to be a genuine eighteenth-century masterpiece worth thousands of pounds.'],
+    vocab:[['antique','/ænˈtiːk/','古董'],['fascination','/ˌfæsɪˈneɪʃn/','魅力'],['treasure','/ˈtreʒə/','珍宝'],['irresistible','/ˌɪrɪˈzɪstəbl/','不可抗拒的'],['temptation','/tempˈteɪʃn/','诱惑'],['browse','/braʊz/','浏览'],['genuine','/ˈdʒenjuɪn/','真正的'],['masterpiece','/ˈmɑːstəpiːs/','杰作']],
+    notes:['"turn out to be" 结果是……。','"catch one\'s eye" 引起某人注意。','"to his astonishment" 令他惊讶的是。'],
+    tags:['古董','叙事文'], difficulty:4,
+    summary:'一位朋友在古董店的旧杂志堆下发现了一幅小画，结果是一幅价值数千英镑的十八世纪杰作。',
+    summaryEn:'A friend discovered a small painting under old magazines in an antique shop that turned out to be a genuine 18th-century masterpiece.' },
+
+  { id:29, title:'A trip to the Moon', titleCn:'月球之旅',
+    text:['It is now possible to imagine a journey to the Moon that would take only a few days.','The idea of space travel has fascinated mankind for centuries, but it was not until the twentieth century that it became a reality.','When the first astronauts landed on the Moon in 1969, the whole world watched in wonder.','They found a barren landscape of grey dust and rocks, utterly devoid of life.','The surface was covered with craters of all sizes, some of which were thousands of feet deep.','The astronauts spent only a few hours on the Moon before returning to their spacecraft, but their achievement changed history forever.'],
+    vocab:[['astronaut','/ˈæstrənɔːt/','宇航员'],['barren','/ˈbærən/','荒芜的'],['landscape','/ˈlændskeɪp/','景观'],['devoid','/dɪˈvɔɪd/','没有的'],['crater','/ˈkreɪtə/','陨石坑'],['spacecraft','/ˈspeɪskrɑːft/','航天器'],['achievement','/əˈtʃiːvmənt/','成就'],['fascinate','/ˈfæsɪneɪt/','使着迷']],
+    notes:['"It was not until... that..." 直到……才……。强调句型。','"devoid of" 缺乏、没有。','"some of which" which引导非限制性定语从句。'],
+    tags:['太空探索','科技文'], difficulty:4,
+    summary:'人类终于在1969年登上月球，宇航员发现了一片荒凉的灰色尘土和岩石的世界，这一成就永远改变了历史。',
+    summaryEn:'When astronauts first landed on the Moon in 1969, they found a barren grey landscape, an achievement that changed history forever.' },
+
+  { id:30, title:'The death of a ghost', titleCn:'幽灵之死',
+    text:['For years, villagers believed that a farmhouse near the village was haunted by a ghost.','Strange noises could be heard at night, and lights were seen moving from room to room.','Nobody dared to approach the building after dark, and the house stood empty for many years.','A young man named Tom eventually decided to investigate the mystery.','He spent a night in the house armed only with a torch and a blanket.','Near midnight, he heard footsteps above him and saw a light moving across the ceiling.','He rushed upstairs and discovered that the "ghost" was actually an old man who had been living secretly in the house for years.'],
+    vocab:[['haunted','/ˈhɔːntɪd/','闹鬼的'],['approach','/əˈprəʊtʃ/','靠近'],['investigate','/ɪnˈvestɪɡeɪt/','调查'],['mystery','/ˈmɪstri/','谜'],['footstep','/ˈfʊtstep/','脚步声'],['ceiling','/ˈsiːlɪŋ/','天花板'],['discover','/dɪsˈkʌvə/','发现'],['secretly','/ˈsiːkrətli/','秘密地']],
+    notes:['"dared to approach" dare作实义动词，后接to do。','"armed only with" 过去分词短语作状语。','"who had been living" 过去完成进行时，强调持续性。'],
+    tags:['悬疑故事','过去完成进行时'], difficulty:3,
+    summary:'村民们多年来以为一座农舍闹鬼，一个年轻人调查后发现"幽灵"其实是一个秘密住在那里的老人。',
+    summaryEn:'Villagers believed a farmhouse was haunted, but a young investigator discovered the "ghost" was an old man secretly living there.' },
+
+  { id:31, title:'A noble gangster', titleCn:'高尚的歹徒',
+    text:['There was a time when the owners of shops and businesses in Chicago had to pay large sums of money to a gangster in return for "protection."','If the money was not paid promptly, the gangsters would quickly put the man out of business by destroying his shop.','The gangster who led this operation was known as Two-Gun Crowley, and he was said to be the most feared man in the city.','However, there was another side to his character that few people knew about.','He was extremely generous to the poor and would often give away large amounts of money to those in need.','When he was finally arrested and sentenced to prison, hundreds of poor people came to the court to plead for his release.'],
+    vocab:[['gangster','/ˈɡæŋstə/','歹徒'],['promptly','/ˈprɒmptli/','迅速地'],['operation','/ˌɒpəˈreɪʃn/','行动'],['fear','/fɪə/','害怕'],['generous','/ˈdʒenərəs/','慷慨的'],['arrest','/əˈrest/','逮捕'],['sentence','/ˈsentəns/','判刑'],['plead','/pliːd/','恳求']],
+    notes:['"in return for" 作为……的回报。','"put sb out of business" 使某人关门歇业。','"plead for" 为……恳求。'],
+    tags:['人物传记','对比手法'], difficulty:4,
+    summary:'芝加哥一位令人闻风丧胆的歹徒对穷人极为慷慨，被捕时数百名穷人到法庭为他求情。',
+    summaryEn:'A feared Chicago gangster was extremely generous to the poor, and hundreds came to court to plead for his release when arrested.' },
+
+  { id:32, title:'The Westhaven Express', titleCn:'韦斯特海文快车',
+    text:['We have all heard the expression "slow coach," but a recent train journey I took gave the phrase a new meaning.','I boarded the Westhaven Express expecting a fast and comfortable ride to the coast.','The timetable showed that the journey would take just over two hours, which seemed perfectly reasonable.','However, the train stopped at every single station along the route, and at some of them it waited for what seemed like an eternity.','By the time we reached Westhaven, nearly five hours had passed.','I could have driven there in half the time and arrived feeling much less frustrated.'],
+    vocab:[['express','/ɪkˈspres/','快车'],['board','/bɔːd/','登上'],['timetable','/ˈtaɪmteɪbl/','时刻表'],['reasonable','/ˈriːznəbl/','合理的'],['route','/ruːt/','路线'],['eternity','/ɪˈtɜːnəti/','似乎无穷尽的时间'],['frustrated','/frʌˈstreɪtɪd/','沮丧的'],['coach','/kəʊtʃ/','客车']],
+    notes:['"expecting" 现在分词作状语，表示伴随。','"what seemed like" what引导名词性从句。','"I could have driven" 虚拟语气，表示"本可以做但没做"。'],
+    tags:['叙事文','虚拟语气'], difficulty:3,
+    summary:'作者乘坐所谓的"快车"去海边，结果火车每站都停，原本两小时的旅程花了近五小时。',
+    summaryEn:'An express train journey that should have taken two hours took nearly five hours because the train stopped at every station along the route.' },
+
+  { id:33, title:'The first calendar', titleCn:'最早的日历',
+    text:['The history of the calendar is in many ways the history of civilization itself.','Primitive people had no way of measuring the passage of time except by observing the changes in nature.','The phases of the Moon provided the earliest natural calendar, and many ancient peoples based their months on the lunar cycle.','But the Moon does not divide evenly into the solar year, and this created problems for early calendar makers.','The Egyptians were among the first to solve this problem by inventing a calendar of 365 days.','The Romans later improved upon this system, and the calendar we use today is essentially the one they developed.'],
+    vocab:[['calendar','/ˈkælɪndə/','日历'],['primitive','/ˈprɪmɪtɪv/','原始的'],['phase','/feɪz/','阶段'],['lunar','/ˈluːnə/','月亮的'],['solar','/ˈsəʊlə/','太阳的'],['cycle','/ˈsaɪkl/','周期'],['evenly','/ˈiːvnli/','均匀地'],['essentially','/ɪˈsenʃəli/','本质上']],
+    notes:['"had no way of doing" 没有办法做……。','"based their months on" 以……为基础确定月份。','"improve upon" 在……基础上改进。'],
+    tags:['历法史','说明文'], difficulty:4,
+    summary:'最早的日历基于月亮的盈亏周期，埃及人发明了365天的历法，罗马人在此基础上进一步完善。',
+    summaryEn:'The earliest calendars were based on lunar cycles, and the Egyptians invented a 365-day calendar that the Romans later improved upon.' },
+
+  { id:34, title:'Nothing to sell and nothing to buy', titleCn:'不卖也不买',
+    text:['Before money was invented, people traded goods directly with one another.','This system of barter worked well enough in small communities where everyone knew each other.','But as societies grew larger and more complex, barter became increasingly impractical.','A farmer who needed a new pair of shoes, for example, might have to find a shoemaker who happened to want corn at the same time.','The invention of money solved this problem by providing a common medium of exchange.','Now the farmer could sell his corn to anyone and use the money to buy shoes from any shoemaker.'],
+    vocab:[['barter','/ˈbɑːtə/','以物易物'],['trade','/treɪd/','交易'],['community','/kəˈmjuːnəti/','社区'],['complex','/ˈkɒmpleks/','复杂的'],['impractical','/ɪmˈpræktɪkl/','不切实际的'],['medium','/ˈmiːdiəm/','媒介'],['exchange','/ɪksˈtʃeɪndʒ/','交换'],['invention','/ɪnˈvenʃn/','发明']],
+    notes:['"with one another" 相互。','"worked well enough" 运转得足够好。','"happened to want" 碰巧想要。'],
+    tags:['经济史','说明文'], difficulty:3,
+    summary:'货币发明之前人们以物易物，随着社会发展，这种交换方式变得不切实际，货币的发明解决了这个问题。',
+    summaryEn:'Before money, people bartered goods directly, but as societies grew, this became impractical and money was invented as a medium of exchange.' },
+
+  { id:35, title:'Justice', titleCn:'正义',
+    text:['The concept of justice is one of the most important in human society.','Without a fair system of justice, there can be no lasting peace or order.','The laws of a country reflect the values and beliefs of its people.','In a democratic society, laws are made by elected representatives and are supposed to apply equally to everyone.','But the law is not always just, and there have been many cases throughout history where innocent people have been wrongly punished.','The pursuit of true justice remains one of the greatest challenges facing mankind.'],
+    vocab:[['justice','/ˈdʒʌstɪs/','正义'],['concept','/ˈkɒnsept/','概念'],['democratic','/ˌdeməˈkrætɪk/','民主的'],['representative','/ˌreprɪˈzentətɪv/','代表'],['innocent','/ˈɪnəsnt/','无辜的'],['punish','/ˈpʌnɪʃ/','惩罚'],['pursuit','/pəˈsjuːt/','追求'],['reflect','/rɪˈflekt/','反映']],
+    notes:['"there can be" 不可能存在。','"apply equally to" 平等地适用于。','"the pursuit of" 对……的追求。'],
+    tags:['法律','议论文'], difficulty:4,
+    summary:'正义是人类社会最重要的概念之一，但法律并不总是公正的，追求真正的正义仍是人类面临的巨大挑战。',
+    summaryEn:'Justice is one of the most important concepts in society, but the law is not always just, and pursuing true justice remains a great challenge.' },
+
+  { id:36, title:'The Olympic Games', titleCn:'奥林匹克运动会',
+    text:['The Olympic Games are held every four years in a different country.','They are the biggest sporting event in the world and attract athletes from every continent.','The ancient Greeks held the first Olympic Games in 776 B.C. at Olympia in Greece.','The games were held in honour of Zeus, the king of the Greek gods.','Only men were allowed to compete, and the events included running, wrestling, and chariot racing.','The modern Olympic Games were revived in 1896 by a Frenchman named Pierre de Coubertin.','Since then, the Games have grown enormously and now include hundreds of events in dozens of different sports.'],
+    vocab:[['athlete','/ˈæθliːt/','运动员'],['continent','/ˈkɒntɪnənt/','大陆'],['ancient','/ˈeɪnʃənt/','古代的'],['compete','/kəmˈpiːt/','竞争'],['wrestling','/ˈreslɪŋ/','摔跤'],['chariot','/ˈtʃæriət/','战车'],['revive','/rɪˈvaɪv/','复兴'],['enormously','/ɪˈnɔːməsli/','极大地']],
+    notes:['"in honour of" 为纪念……。','"were allowed to" 被允许做……。','"since then" 从那以后，常与现在完成时连用。'],
+    tags:['体育','历史说明'], difficulty:3,
+    summary:'奥林匹克运动会起源于公元前776年的古希腊，1896年现代奥运会得以复兴，如今已成为世界最大的体育盛事。',
+    summaryEn:'The Olympic Games originated in ancient Greece in 776 B.C. and were revived in 1896, growing into the world\'s biggest sporting event.' },
+
+  { id:37, title:'A spot of bother', titleCn:'一点小麻烦',
+    text:['An elderly lady who lived alone was startled one evening by a loud knock at the front door.','She opened the door a crack and saw a tall, well-dressed young man who smiled pleasantly.','He explained that his car had broken down and asked if he might use her telephone.','The lady, who was very trusting, let him in and showed him where the phone was.','While he was pretending to make a call, she went to the kitchen to make him a cup of tea.','When she returned, she found that the young man had disappeared — and so had her silver candlesticks from the mantelpiece.'],
+    vocab:[['startled','/ˈstɑːtld/','受惊的'],['crack','/kræk/','缝隙'],['pleasantly','/ˈplezntli/','愉快地'],['trusting','/ˈtrʌstɪŋ/','轻信的'],['pretend','/prɪˈtend/','假装'],['disappear','/ˌdɪsəˈpɪə/','消失'],['candlestick','/ˈkændlstɪk/','烛台'],['mantelpiece','/ˈmæntlpiːs/','壁炉架']],
+    notes:['"who lived alone" who引导定语从句修饰lady。','"might use" might表示委婉请求。','"so had her silver candlesticks" 倒装句，表示"也一样"。'],
+    tags:['叙事文','倒装句'], difficulty:3,
+    summary:'一位老妇人好心让一个年轻人进屋打电话，结果他趁机偷走了壁炉架上的银烛台。',
+    summaryEn:'An elderly lady let a young man in to use her phone, but he stole her silver candlesticks while she made tea.' },
+
+  { id:38, title:'Mont Blanc', titleCn:'勃朗峰',
+    text:['Mont Blanc, the highest peak in the Alps, has attracted climbers and adventurers for over two hundred years.','Standing at 4,808 metres, it towers over the surrounding mountains and can be seen from great distances.','The first successful ascent was made in 1786 by two Chamonix men, Jacques Balmat and Michel-Gabriel Paccard.','They climbed through ice and snow, enduring terrible cold and the constant danger of avalanches.','Today, hundreds of climbers attempt the ascent every summer, and a cable car carries thousands of tourists to a nearby peak.','But the mountain remains a serious challenge, and climbers who underestimate its dangers do so at their peril.'],
+    vocab:[['peak','/piːk/','山峰'],['adventurer','/ədˈventʃərə/','冒险者'],['ascent','/əˈsent/','攀登'],['endure','/ɪnˈdjʊə/','忍受'],['avalanche','/ˈævəlɑːnʃ/','雪崩'],['cable','/ˈkeɪbl/','缆车'],['underestimate','/ˌʌndərˈestɪmeɪt/','低估'],['peril','/ˈperɪl/','危险']],
+    notes:['"towers over" 高耸于……之上。','"do so at their peril" 这样做后果自负。','"the first successful ascent" 第一次成功的攀登。'],
+    tags:['登山','自然景观'], difficulty:4,
+    summary:'勃朗峰是阿尔卑斯山最高峰，1786年首次被成功攀登，如今每年吸引数百名登山者和数千名游客。',
+    summaryEn:'Mont Blanc, the highest Alpine peak, was first climbed in 1786 and now attracts hundreds of climbers and thousands of tourists each year.' },
+
+  { id:39, title:'Who wants a cold?', titleCn:'谁想要感冒？',
+    text:['Nobody enjoys catching a cold, yet most people suffer from two or three colds every year.','The common cold is caused by a virus, and there are more than two hundred different varieties.','This is why it has proved so difficult to find a cure.','When a cold virus enters the body, the immune system begins to fight it, producing the familiar symptoms of sneezing, coughing, and a runny nose.','Most colds last about a week, and during that time the sufferer feels miserable.','Old-fashioned remedies such as hot lemon and honey may not cure a cold, but they certainly make the patient feel more comfortable.'],
+    vocab:[['virus','/ˈvaɪrəs/','病毒'],['immune','/ɪˈmjuːn/','免疫的'],['symptom','/ˈsɪmptəm/','症状'],['sneeze','/sniːz/','打喷嚏'],['cough','/kɒf/','咳嗽'],['miserable','/ˈmɪzrəbl/','痛苦的'],['remedy','/ˈremədi/','疗法'],['comfortable','/ˈkʌmftəbl/','舒适的']],
+    notes:['"suffer from" 遭受……之苦。','"this is why" 这就是为什么……。','"old-fashioned" 老式的、传统的。'],
+    tags:['医学','说明文'], difficulty:3,
+    summary:'普通感冒由病毒引起，因种类繁多而难以治愈，传统疗法虽不能根治但能缓解不适。',
+    summaryEn:'The common cold is caused by over 200 virus varieties, making a cure difficult, though traditional remedies can ease the symptoms.' },
+
+  { id:40, title:'Illusions of pastoral peace', titleCn:'田园生活的幻想',
+    text:['Many city dwellers dream of moving to the country, imagining a life of peace and tranquillity.','They picture themselves living in a charming cottage surrounded by beautiful gardens and rolling hills.','But the reality of country life is often very different from the dream.','The silence that seemed so appealing at first can soon become oppressive.','There are no shops, cinemas, or restaurants within easy reach, and public transport is often poor.','Those who move to the country frequently find themselves making frequent trips back to the city, longing for the bustle and excitement they left behind.'],
+    vocab:[['dweller','/ˈdwelə/','居民'],['tranquillity','/træŋˈkwɪləti/','宁静'],['charming','/ˈtʃɑːmɪŋ/','迷人的'],['appealing','/əˈpiːlɪŋ/','吸引人的'],['oppressive','/əˈpresɪv/','压抑的'],['frequent','/ˈfriːkwənt/','频繁的'],['bustle','/ˈbʌsl/','喧嚣'],['long for','/lɒŋ fɔː/','渴望']],
+    notes:['"within easy reach" 在附近、容易到达的地方。','"longing for" 现在分词短语作状语。'],
+    tags:['城乡对比','议论文'], difficulty:4,
+    summary:'许多城市居民向往田园生活，但乡村的寂静和不便往往让他们的幻想破灭。',
+    summaryEn:'Many city dwellers dream of country life, but the reality of silence and inconvenience often shatters their illusions of pastoral peace.' },
+
+  { id:41, title:'Modern cavemen', titleCn:'现代穴居人',
+    text:['Cave exploration, known as potholing, has become increasingly popular in recent years.','Enthusiasts risk their lives descending into vast underground caverns that have never been seen by human eyes.','The rewards are considerable: beautiful rock formations, underground rivers, and a sense of absolute solitude.','But the dangers are equally great, and many inexperienced cavers have lost their lives in the depths of the earth.','The equipment needed for serious cave exploration is expensive and specialized.','A caver needs ropes, lamps, helmets, and waterproof clothing, as well as a thorough knowledge of first aid.'],
+    vocab:[['exploration','/ˌekspləˈreɪʃn/','探索'],['cavern','/ˈkævən/','大洞穴'],['formation','/fɔːˈmeɪʃn/','构造'],['solitude','/ˈsɒlɪtjuːd/','孤独'],['inexperienced','/ˌɪnɪkˈspɪəriənst/','无经验的'],['waterproof','/ˈwɔːtəpruːf/','防水的'],['equipment','/ɪˈkwɪpmənt/','设备'],['thorough','/ˈθʌrə/','彻底的']],
+    notes:['"known as" 被称为。过去分词短语作插入语。','"risk their lives" 冒着生命危险。','"as well as" 以及、和。'],
+    tags:['探险','说明文'], difficulty:4,
+    summary:'洞穴探险日益流行，探险者深入地下发现美丽的岩层和地下河流，但也面临极大的危险。',
+    summaryEn:'Cave exploration has become popular, offering beautiful underground formations but posing great dangers to inexperienced cavers.' },
+
+  { id:42, title:'The sailing ship', titleCn:'帆船',
+    text:['For thousands of years, sailing ships were the fastest and most reliable means of long-distance travel.','The ancient Egyptians, Phoenicians, and Greeks all built ships that could cross the open sea.','During the Age of Exploration in the fifteenth and sixteenth centuries, European sailors crossed the oceans in search of new trade routes.','The ships they used were remarkably small and cramped by modern standards.','Crews of perhaps fifty men would live aboard these vessels for months at a time, enduring terrible conditions.','Yet these brave sailors opened up new worlds and changed the course of history forever.'],
+    vocab:[['sailing','/ˈseɪlɪŋ/','帆船'],['reliable','/rɪˈlaɪəbl/','可靠的'],['Phoenician','/fɪˈnɪʃn/','腓尼基人'],['exploration','/ˌekspləˈreɪʃn/','探索'],['cramped','/kræmpt/','狭窄的'],['vessel','/ˈvesl/','船只'],['endure','/ɪnˈdjʊə/','忍受'],['remarkably','/rɪˈmɑːkəbli/','显著地']],
+    notes:['"in search of" 寻找……。','"by modern standards" 按照现代标准。','"open up" 开辟。'],
+    tags:['航海史','历史叙述'], difficulty:4,
+    summary:'帆船曾是人类最可靠的远距离交通工具，大航海时代的水手们驾驶小船开辟了新世界。',
+    summaryEn:'Sailing ships were once the most reliable means of travel, and brave sailors of the Age of Exploration opened up new worlds in remarkably small vessels.' },
+
+  { id:43, title:'Our neighbour the river', titleCn:'我们的邻居——河流',
+    text:['The river that runs past our house is more than just a beautiful feature of the landscape.','It is a living entity that changes with the seasons and affects the lives of everyone who lives near it.','In spring, when the snow melts in the mountains, the river swells and sometimes overflows its banks.','During the hot summer months, it shrinks to a gentle stream that children can wade across.','Autumn brings a golden carpet of fallen leaves that float slowly downstream.','And in winter, the river sometimes freezes over, creating a magical scene of ice and snow.'],
+    vocab:[['entity','/ˈentəti/','实体'],['swell','/swel/','膨胀、涨水'],['overflow','/ˌəʊvəˈfləʊ/','溢出'],['shrink','/ʃrɪŋk/','收缩'],['wade','/weɪd/','涉水'],['downstream','/ˌdaʊnˈstriːm/','顺流而下'],['freeze','/friːz/','冻结'],['magical','/ˈmædʒɪkl/','神奇的']],
+    notes:['"more than just" 不仅仅是。','"who lives near it" who引导定语从句。','"creating a magical scene" 现在分词短语作结果状语。'],
+    tags:['自然描写','四季变化'], difficulty:3,
+    summary:'流经房屋旁边的河流随四季变化——春天涨水、夏天变窄、秋天落叶漂浮、冬天结冰。',
+    summaryEn:'The river past our house changes with the seasons — swelling in spring, shrinking in summer, carrying leaves in autumn, and freezing in winter.' },
+
+  { id:44, title:'Ringing the bells', titleCn:'敲钟',
+    text:['The art of bell ringing, known as campanology, has been practised in English churches for centuries.','A skilled bell ringer can produce a remarkable variety of sounds by controlling the speed and rhythm of the bells.','The bells are mounted in a tower and are rung by pulling on long ropes that hang in the ringing chamber below.','A team of bell ringers must work together in perfect harmony, as each bell must be struck at precisely the right moment.','The sound of church bells has long been a familiar feature of the English countryside.','But the number of skilled bell ringers has declined in recent years, and many churches are now struggling to find people to carry on this ancient tradition.'],
+    vocab:[['campanology','/ˌkæmpəˈnɒlədʒi/','鸣钟术'],['skilled','/skɪld/','熟练的'],['rhythm','/ˈrɪðəm/','节奏'],['harmony','/ˈhɑːməni/','和谐'],['precisely','/prɪˈsaɪsli/','精确地'],['decline','/dɪˈklaɪn/','衰退'],['struggle','/ˈstrʌɡl/','挣扎'],['ancient','/ˈeɪnʃənt/','古老的']],
+    notes:['"known as" 被称为。','"carry on" 继续、传承。','"in perfect harmony" 完美和谐地。'],
+    tags:['传统文化','英国风俗'], difficulty:4,
+    summary:'鸣钟术是英国教堂延续数百年的技艺，但熟练的鸣钟人越来越少，许多教堂正在努力传承这一传统。',
+    summaryEn:'Bell ringing has been practised in English churches for centuries, but skilled ringers are declining and many churches struggle to maintain the tradition.' },
+
+  { id:45, title:'Predicting the future', titleCn:'预测未来',
+    text:['Throughout history, human beings have tried to predict the future.','Ancient peoples consulted oracles and read the entrails of animals in the hope of learning what lay ahead.','In the Middle Ages, astrologers and alchemists claimed to be able to foresee events by studying the stars and experimenting with metals.','In modern times, we have replaced these superstitious methods with scientific ones.','Economists predict trends in the financial markets, meteorologists forecast the weather, and political analysts try to anticipate elections.','Yet despite all our sophisticated techniques, the future remains as unpredictable as ever.'],
+    vocab:[['predict','/prɪˈdɪkt/','预测'],['oracle','/ˈɒrəkl/','神谕'],['astrologer','/əˈstrɒlədʒə/','占星家'],['foresee','/fɔːˈsiː/','预见'],['superstitious','/ˌsuːpəˈstɪʃəs/','迷信的'],['meteorologist','/ˌmiːtiəˈrɒlədʒɪst/','气象学家'],['sophisticated','/səˈfɪstɪkeɪtɪd/','复杂的'],['unpredictable','/ˌʌnprɪˈdɪktəbl/','不可预测的']],
+    notes:['"in the hope of" 怀着……的希望。','"lay ahead" 在前方。','"despite all our" 尽管我们所有的……。'],
+    tags:['历史','预测与现实'], difficulty:4,
+    summary:'人类自古以来就试图预测未来，从神谕到占星再到科学方法，但未来仍然不可预测。',
+    summaryEn:'Humans have always tried to predict the future, from oracles to astrology to science, yet the future remains as unpredictable as ever.' },
+
+  { id:46, title:'Mud is mud', titleCn:'泥巴就是泥巴',
+    text:['A young man who worked in a cosmetics factory discovered that the mud used in expensive face packs was exactly the same as the mud found on the banks of a river near his home.','He decided to go into business for himself and began selling the mud in small pots at a fraction of the price charged by the big cosmetics companies.','His product was an immediate success, and he soon had a thriving business.','But then the cosmetics companies took legal action against him, claiming that his mud was not the same as theirs.','The case went to court, and an expert was called in to analyse both products.','To everyone\'s surprise, the expert declared that the two muds were identical in every respect.'],
+    vocab:[['cosmetics','/kɒzˈmetɪks/','化妆品'],['fraction','/ˈfrækʃn/','小部分'],['thriving','/ˈθraɪvɪŋ/','兴旺的'],['legal','/ˈliːɡl/','法律的'],['claim','/kleɪm/','声称'],['analyse','/ˈænəlaɪz/','分析'],['declare','/dɪˈkleə/','宣布'],['identical','/aɪˈdentɪkl/','完全相同的']],
+    notes:['"go into business" 开始经商。','"at a fraction of the price" 以很小一部分价格。','"in every respect" 在各方面。'],
+    tags:['商业','讽刺故事'], difficulty:3,
+    summary:'一个化妆品厂的工人发现昂贵面膜用的泥和河岸的泥完全一样，他低价出售大获成功。',
+    summaryEn:'A cosmetics factory worker discovered that expensive face pack mud was identical to river mud and built a thriving business selling it cheaply.' },
+
+  { id:47, title:'The literal-minded', titleCn:'刻板的人',
+    text:['Some people have a maddening habit of taking everything literally.','If you tell them to "break a leg," they will look at you in horror and ask why you want them to injure themselves.','These literal-minded individuals cannot understand figures of speech, metaphors, or irony.','They interpret every word according to its dictionary definition, completely missing the intended meaning.','Conversations with such people can be extremely frustrating, as you are constantly forced to explain that you did not mean what you said.','But the literal-minded are not stupid — they simply have a different way of processing language.'],
+    vocab:[['maddening','/ˈmædnɪŋ/','令人恼火的'],['literally','/ˈlɪtərəli/','字面上地'],['metaphor','/ˈmetəfə/','隐喻'],['irony','/ˈaɪrəni/','讽刺'],['interpret','/ɪnˈtɜːprɪt/','理解'],['definition','/ˌdefɪˈnɪʃn/','定义'],['process','/ˈprəʊses/','处理'],['frustrating','/frʌˈstreɪtɪŋ/','令人沮丧的']],
+    notes:['"break a leg" 祝好运。口语表达，字面意思是"摔断腿"。','"figures of speech" 修辞手法。','"according to" 按照、根据。'],
+    tags:['语言','幽默写作'], difficulty:4,
+    summary:'有些人刻板地理解一切，无法理解修辞和隐喻，与他们交谈令人沮丧，但他们只是处理语言的方式不同。',
+    summaryEn:'Some people take everything literally and cannot understand figures of speech, making conversation frustrating, though they are simply processing language differently.' },
+
+  { id:48, title:'The age of age', titleCn:'年龄时代',
+    text:['We live in an age when people are living longer than ever before.','Medical advances and improved living conditions have added years to the average life expectancy.','But longer life brings its own problems, and society is still struggling to cope with an ageing population.','Many elderly people suffer from loneliness and isolation, especially those who have lost their partners.','The question of how to care for the old is one that every society must eventually face.','Some cultures respect and care for their elderly, while others seem to regard them as a burden.'],
+    vocab:[['expectancy','/ɪkˈspektənsi/','预期'],['isolation','/ˌaɪsəˈleɪʃn/','孤立'],['elderly','/ˈeldəli/','年长的'],['partner','/ˈpɑːtnə/','伴侣'],['burden','/ˈbɜːdn/','负担'],['cope','/kəʊp/','应对'],['advance','/ədˈvɑːns/','进步'],['average','/ˈævərɪdʒ/','平均的']],
+    notes:['"living longer than ever before" 比以往任何时候都活得更长。','"cope with" 应对、处理。','"regard them as" 把他们视为。'],
+    tags:['社会问题','老龄化'], difficulty:4,
+    summary:'医学进步使人更长寿，但老龄化社会带来的问题——孤独、照顾、被视为负担——仍需解决。',
+    summaryEn:'Medical advances have increased life expectancy, but society still struggles with the problems of an ageing population.' },
+
+  { id:49, title:'A pretty carpet', titleCn:'漂亮的地毯',
+    text:['I have just moved into a new house and have been trying to get it into some kind of order.','The previous owner had left the place in a terrible mess, and I have been cleaning and painting for weeks.','My biggest problem has been the sitting-room carpet, which is a beautiful Persian rug that I inherited from my grandmother.','Unfortunately, while I was painting the ceiling, I accidentally dropped a tin of white paint right in the middle of it.','I tried desperately to clean the paint off, but it had already soaked deep into the fibres.','In the end, I had to take the carpet to a professional cleaner, who charged me a small fortune to restore it.'],
+    vocab:[['previous','/ˈpriːviəs/','之前的'],['inherited','/ɪnˈherɪtɪd/','继承的'],['accidentally','/ˌæksɪˈdentəli/','意外地'],['desperately','/ˈdespərətli/','拼命地'],['soak','/səʊk/','渗透'],['fibre','/ˈfaɪbə/','纤维'],['professional','/prəˈfeʃənl/','专业的'],['restore','/rɪˈstɔː/','修复']],
+    notes:['"get... into order" 把……整理好。','"a small fortune" 一大笔钱。','"in the end" 最后。'],
+    tags:['家居','叙事文'], difficulty:3,
+    summary:'作者在装修新房子时不慎将油漆洒在了祖母留下的波斯地毯上，不得不花大价钱请专业人员修复。',
+    summaryEn:'While painting his new house, the author accidentally dropped paint on his grandmother\'s Persian carpet and had to pay a fortune to have it restored.' },
+
+  { id:50, title:'Automation', titleCn:'自动化',
+    text:['The word "automation" was first used in the 1940s to describe the automatic operation of machinery in factories.','Since then, the concept has expanded to include almost every aspect of modern life.','In factories, robots have replaced human workers in many tasks, especially those that are dangerous or repetitive.','Automation has greatly increased productivity and reduced the cost of manufacturing.','But it has also created serious social problems, as millions of workers have lost their jobs to machines.','The challenge for society is to find ways of ensuring that the benefits of automation are shared by everyone.'],
+    vocab:[['automation','/ˌɔːtəˈmeɪʃn/','自动化'],['automatic','/ˌɔːtəˈmætɪk/','自动的'],['machinery','/məˈʃiːnəri/','机器'],['expand','/ɪkˈspænd/','扩展'],['repetitive','/rɪˈpetɪtɪv/','重复的'],['productivity','/ˌprɒdʌkˈtɪvəti/','生产力'],['manufacturing','/ˌmænjuˈfæktʃərɪŋ/','制造业'],['ensure','/ɪnˈʃʊə/','确保']],
+    notes:['"replace... with..." 用……取代……。','"lost their jobs to machines" 被机器夺走了工作。','"shared by everyone" 被所有人分享。'],
+    tags:['工业','社会变革'], difficulty:4,
+    summary:'自动化大大提高了生产力，但也造成了严重的社会问题——数百万工人失去了工作。',
+    summaryEn:'Automation has greatly increased productivity but also created serious social problems as millions of workers have lost their jobs to machines.' },
+
+  { id:51, title:'Gone with the wind', titleCn:'随风而去',
+    text:['The air we breathe is becoming increasingly polluted, and the problem is getting worse every year.','Factory chimneys pour out clouds of smoke, and millions of cars exhaust poisonous gases into the atmosphere.','In some cities, the air is so dirty that people have to wear masks when they go outside.','The health effects of air pollution are well documented and include respiratory diseases, heart problems, and even cancer.','Governments around the world are trying to reduce pollution by introducing stricter regulations.','But the problem will not be solved until everyone takes responsibility for protecting the environment.'],
+    vocab:[['polluted','/pəˈluːtɪd/','被污染的'],['chimney','/ˈtʃɪmni/','烟囱'],['exhaust','/ɪɡˈzɔːst/','排放'],['poisonous','/ˈpɔɪzənəs/','有毒的'],['atmosphere','/ˈætməsfɪə/','大气'],['respiratory','/ˈrespərətri/','呼吸的'],['regulation','/ˌreɡjuˈleɪʃn/','法规'],['stricter','/ˈstrɪktə/','更严格的']],
+    notes:['"pour out" 排放出。','"well documented" 有充分记录的。','"takes responsibility for" 为……承担责任。'],
+    tags:['环境污染','议论文'], difficulty:4,
+    summary:'空气污染日益严重，对健康造成极大危害，各国政府正通过更严格的法规来减少污染。',
+    summaryEn:'Air pollution is worsening and causing serious health problems, and governments are introducing stricter regulations to address it.' },
+
+  { id:52, title:'The cost of living', titleCn:'生活成本',
+    text:['The cost of living has risen dramatically in recent years, and many families are finding it increasingly difficult to make ends meet.','Prices of essential goods such as food, housing, and energy have all gone up significantly.','Wages, on the other hand, have not kept pace with inflation, leaving many people worse off than they were ten years ago.','Young people, in particular, are struggling to afford their first homes, as property prices have risen far faster than salaries.','The gap between rich and poor continues to widen, and there is growing concern about social inequality.','Finding a solution to the rising cost of living is one of the most pressing issues facing modern society.'],
+    vocab:[['dramatically','/drəˈmætɪkli/','显著地'],['essential','/ɪˈsenʃl/','必要的'],['inflation','/ɪnˈfleɪʃn/','通货膨胀'],['property','/ˈprɒpəti/','房产'],['inequality','/ˌɪnɪˈkwɒləti/','不平等'],['afford','/əˈfɔːd/','负担得起'],['pressing','/ˈpresɪŋ/','紧迫的'],['significant','/sɪɡˈnɪfɪkənt/','显著的']],
+    notes:['"make ends meet" 收支相抵。','"keep pace with" 与……同步。','"worse off" 更拮据。'],
+    tags:['经济','社会问题'], difficulty:4,
+    summary:'生活成本急剧上升，工资跟不上通货膨胀，贫富差距不断扩大，这是现代社会面临的紧迫问题。',
+    summaryEn:'The cost of living has risen dramatically while wages lag behind inflation, widening the gap between rich and poor.' },
+
+  { id:53, title:'The power of the press', titleCn:'新闻的力量',
+    text:['The press has the power to make or break reputations overnight.','A single newspaper article can destroy a person\'s career, while another can turn an unknown individual into a national hero.','This enormous power carries with it a heavy responsibility.','Journalists have a duty to report the truth, but the pressure to sell newspapers can lead to sensationalism and distortion.','The internet has made the situation even more complex, as stories can now spread around the world in a matter of minutes.','It is more important than ever that people learn to read the news critically and to distinguish between fact and opinion.'],
+    vocab:[['reputation','/ˌrepjuˈteɪʃn/','名声'],['enormous','/ɪˈnɔːməs/','巨大的'],['sensationalism','/senˈseɪʃənəlɪzəm/','哗众取宠'],['distortion','/dɪˈstɔːʃn/','歪曲'],['distinguish','/dɪˈstɪŋɡwɪʃ/','区分'],['critically','/ˈkrɪtɪkli/','批判性地'],['complex','/ˈkɒmpleks/','复杂的'],['spread','/spred/','传播']],
+    notes:['"make or break" 成就或毁掉。','"in a matter of minutes" 在几分钟之内。','"it is more important than ever that" 比以往任何时候都更重要的是……。'],
+    tags:['媒体','议论文'], difficulty:4,
+    summary:'新闻媒体拥有巨大的影响力，既能成就也能毁掉一个人，公众需要学会批判性地阅读新闻。',
+    summaryEn:'The press has enormous power to make or break reputations, and it is crucial that people learn to read the news critically.' },
+
+  { id:54, title:'Wanted: a large biscuit tin', titleCn:'求购大饼干听',
+    text:['A large food company once decided to use a very unusual method to advertise its products.','It placed a series of small advertisements in newspapers asking people to send in their empty biscuit tins.','The response was enormous, and thousands of tins arrived at the company\'s offices from all over the country.','The company then used these tins to create a giant sculpture, which was displayed in a public park.','The sculpture attracted a great deal of attention, and the company\'s sales increased dramatically.','It was a brilliant example of how creative advertising can capture the public imagination.'],
+    vocab:[['advertise','/ˈædvətaɪz/','做广告'],['advertisement','/ədˈvɜːtɪsmənt/','广告'],['response','/rɪˈspɒns/','回应'],['giant','/ˈdʒaɪənt/','巨大的'],['sculpture','/ˈskʌlptʃə/','雕塑'],['dramatically','/drəˈmætɪkli/','显著地'],['brilliant','/ˈbrɪliənt/','出色的'],['capture','/ˈkæptʃə/','吸引']],
+    notes:['"send in" 寄来、提交。','"a great deal of" 大量的。','"capture the public imagination" 吸引公众的想象力。'],
+    tags:['广告','创意营销'], difficulty:3,
+    summary:'一家食品公司征集空饼干听，用数千个罐子制成巨型雕塑展示，大幅提升了销量。',
+    summaryEn:'A food company collected empty biscuit tins from the public, created a giant sculpture, and dramatically increased its sales through creative advertising.' },
+
+  { id:55, title:'The Westhaven Express', titleCn:'韦斯特海文快车',
+    text:['The express train to Westhaven was supposed to take two hours, but the journey turned into an ordeal.','The train stopped at every small station along the line, and at each stop it seemed to wait for an unreasonable length of time.','The carriage was overcrowded and stuffy, and the windows could not be opened.','Passengers grew increasingly impatient and complained bitterly to the guard, who simply shrugged his shoulders.','When the train finally pulled into Westhaven, it was nearly four hours late.','The only consolation was that the return journey, by a different train, took just under two hours as promised.'],
+    vocab:[['ordeal','/ɔːˈdiːl/','磨难'],['overcrowded','/ˌəʊvəˈkraʊdɪd/','过度拥挤的'],['stuffy','/ˈstʌfi/','闷热的'],['impatient','/ɪmˈpeɪʃnt/','不耐烦的'],['bitterly','/ˈbɪtəli/','强烈地'],['shrug','/ʃrʌɡ/','耸肩'],['consolation','/ˌkɒnsəˈleɪʃn/','安慰'],['carriage','/ˈkærɪdʒ/','车厢']],
+    notes:['"was supposed to" 本应该。','"an unreasonable length of time" 不合理长的时间。','"pulled into" 驶入。'],
+    tags:['交通','叙事文'], difficulty:3,
+    summary:'一趟本应两小时的快车变成了四个小时的磨难，每站都停且车厢拥挤闷热。',
+    summaryEn:'A two-hour express train journey turned into a four-hour ordeal with stops at every station and an overcrowded, stuffy carriage.' },
+
+  { id:56, title:'Back in the old country', titleCn:'重返故国',
+    text:['After living abroad for twenty years, I recently returned to the village where I was born.','I had often dreamed of this moment, imagining how wonderful it would be to see my childhood home again.','But as I walked through the village, I was shocked by how much it had changed.','The old school had been demolished and replaced by a modern building that looked completely out of place.','The corner shop where I used to buy sweets had been turned into a supermarket.','Even the people seemed different — younger, somehow, and less friendly than I remembered.','I left the village that afternoon feeling deeply nostalgic for a past that no longer existed.'],
+    vocab:[['demolish','/dɪˈmɒlɪʃ/','拆除'],['replace','/rɪˈpleɪs/','取代'],['nostalgic','/nɒˈstældʒɪk/','怀旧的'],['abroad','/əˈbrɔːd/','在国外'],['shocked','/ʃɒkt/','震惊的'],['childhood','/ˈtʃaɪldhʊd/','童年'],['out of place','/aʊt əv pleɪs/','格格不入'],['deeply','/ˈdiːpli/','深深地']],
+    notes:['"out of place" 格格不入的。','"be turned into" 被变成。','"feeling deeply nostalgic" 现在分词短语作伴随状语。'],
+    tags:['怀旧','散文'], difficulty:4,
+    summary:'离乡二十年后重返故里，发现一切都变了——学校被拆、小店变超市、人们也不同了。',
+    summaryEn:'After twenty years abroad, the author returned to his village to find everything had changed — the school demolished, shops replaced, and people different.' },
+
+  { id:57, title:'A spot of bother', titleCn:'一点小麻烦',
+    text:['George was looking forward to a quiet evening at home when he heard a noise upstairs.','He crept up the staircase and saw that the door of his bedroom was slightly open.','Slowly and carefully, he pushed the door open and saw a man going through his wife\'s jewellery box.','George was not a brave man, but he decided to confront the burglar rather than call the police.','He picked up a heavy walking stick that was standing in the corner and shouted at the man to get out.','The burglar, who was just as frightened as George, dropped the box and fled through the window.'],
+    vocab:[['creep','/kriːp/','蹑手蹑脚地走'],['staircase','/ˈsteəkeɪs/','楼梯'],['burglar','/ˈbɜːɡlə/','窃贼'],['confront','/kənˈfrʌnt/','面对'],['frightened','/ˈfraɪtnd/','害怕的'],['flee','/fliː/','逃跑'],['jewellery','/ˈdʒuːəlri/','珠宝'],['walking stick','/ˈwɔːkɪŋ stɪk/','拐杖']],
+    notes:['"looked forward to" 期待。to是介词，后接名词或动名词。','"go through" 翻找。','"rather than" 而不是。'],
+    tags:['叙事文','紧张场面'], difficulty:3,
+    summary:'乔治发现一个窃贼在翻妻子的珠宝盒，他鼓起勇气用拐杖吓跑了窃贼。',
+    summaryEn:'George confronted a burglar going through his wife\'s jewellery box and scared him away with a walking stick.' },
+
+  { id:58, title:'Collecting', titleCn:'收藏',
+    text:['Collecting things is one of the most common hobbies in the world.','People collect all kinds of objects, from stamps and coins to paintings and antique furniture.','Some collectors are motivated by the potential financial value of their collections.','Others collect simply for the pleasure of owning and displaying interesting objects.','A few collectors become so obsessed that they will pay enormous sums of money for a single rare item.','The most valuable collections are those that have been built up over many years with great care and knowledge.'],
+    vocab:[['collect','/kəˈlekt/','收藏'],['motivate','/ˈməʊtɪveɪt/','激励'],['potential','/pəˈtenʃl/','潜在的'],['obsessed','/əbˈsest/','痴迷的'],['enormous','/ɪˈnɔːməs/','巨大的'],['rare','/reə/','稀有的'],['valuable','/ˈvæljuəbl/','有价值的'],['display','/dɪˈspleɪ/','展示']],
+    notes:['"built up" 建立、积累。','"so obsessed that" 如此痴迷以至于……。','"for the pleasure of" 为了……的乐趣。'],
+    tags:['爱好','说明文'], difficulty:3,
+    summary:'收藏是世界上最常见的爱好之一，有人为投资，有人为乐趣，最珍贵的收藏需要多年精心积累。',
+    summaryEn:'Collecting is one of the world\'s most common hobbies, motivated by financial value or pleasure, with the best collections built over many years.' },
+
+  { id:59, title:'Too early and too late', titleCn:'太早与太晚',
+    text:['There is an old saying that it is better to be too early than too late, but this is not always the case.','Arriving too early for an appointment can be just as embarrassing as arriving too late.','I once arrived at a dinner party an hour before I was supposed to, and found the hosts still in their dressing gowns.','On another occasion, I arrived at the airport a full day early for my flight and had to spend the night in a nearby hotel.','The art of timing is one that few people truly master.','Whether it is arriving at the right moment or saying the right thing at the right time, good timing requires both experience and intuition.'],
+    vocab:[['appointment','/əˈpɔɪntmənt/','约会'],['embarrassing','/ɪmˈbærəsɪŋ/','尴尬的'],['occasion','/əˈkeɪʒn/','场合'],['master','/ˈmɑːstə/','掌握'],['intuition','/ˌɪntjuˈɪʃn/','直觉'],['timing','/ˈtaɪmɪŋ/','时机'],['dressing gown','/ˈdresɪŋ ɡaʊn/','晨衣'],['nearby','/ˌnɪəˈbaɪ/','附近的']],
+    notes:['"not always the case" 并非总是如此。','"was supposed to" 本应该。','"a full day early" 早了整整一天。'],
+    tags:['生活智慧','叙事文'], difficulty:3,
+    summary:'到达太早和太晚一样尴尬，掌握时机是一门需要经验和直觉的艺术。',
+    summaryEn:'Arriving too early can be as embarrassing as arriving too late, and mastering the art of timing requires both experience and intuition.' },
+
+  { id:60, title:'A lesson in living', titleCn:'人生的一课',
+    text:['A young reporter once asked a famous philosopher what the most important lesson in life was.','The philosopher thought for a moment and then replied that it was the ability to accept what cannot be changed.','He explained that much of human suffering comes from our refusal to accept reality as it is.','We waste enormous amounts of energy fighting against things we cannot control, such as the past, the weather, or other people\'s behaviour.','True wisdom, he said, lies in knowing the difference between what we can change and what we must accept.','This simple but profound truth has the power to transform our lives if we are willing to embrace it.'],
+    vocab:[['philosopher','/fɪˈlɒsəfə/','哲学家'],['ability','/əˈbɪlɪti/','能力'],['suffering','/ˈsʌfərɪŋ/','痛苦'],['refusal','/rɪˈfjuːzl/','拒绝'],['reality','/riˈæləti/','现实'],['profound','/prəˈfaʊnd/','深刻的'],['transform','/trænsˈfɔːm/','改变'],['embrace','/ɪmˈbreɪs/','接受']],
+    notes:['"as it is" 照现状。','"the difference between" ……之间的区别。','"be willing to" 愿意做……。'],
+    tags:['人生哲理','对话'], difficulty:4,
+    summary:'一位哲学家说人生最重要的一课是接受无法改变的事情，真正的智慧在于区分什么可以改变、什么必须接受。',
+    summaryEn:'A philosopher taught that the most important life lesson is accepting what cannot be changed and knowing the difference between what we can and cannot control.' },
+];
+
+function lessonToTs(l) {
+  const vocabStr = l.vocab.map(v => `      { word: '${esc(v[0])}', phonetic: '${esc(v[1])}', meaning: '${esc(v[2])}' }`).join(',\n');
+  const notesStr = l.notes.map(n => `      '${esc(n)}'`).join(',\n');
+  const tagsStr = l.tags.map(t => `'${esc(t)}'`).join(', ');
+  return `  {
+    id: ${l.id},
+    title: '${esc(l.title)}',
+    titleCn: '${esc(l.titleCn)}',
+    text: [
+${l.text.map(t => `      '${esc(t)}'`).join(',\n')}
+    ],
+    textCn: [
+${l.text.map(() => `      ''`).join(',\n')}
+    ],
+    vocabulary: [
+${vocabStr}
+    ],
+    notes: [
+${notesStr}
+    ],
+    tags: [${tagsStr}],
+    difficulty: ${l.difficulty},
+    summary: '${esc(l.summary)}',
+    summaryEn: '${esc(l.summaryEn)}',
+  }`;
+}
+
+// Find insertion point: before the last ] followed by export default book3
+const exportIdx = content.indexOf('export default book3');
+if (exportIdx === -1) { console.error('Could not find export default book3'); process.exit(1); }
+const bracketIdx = content.lastIndexOf(']', exportIdx);
+if (bracketIdx === -1) { console.error('Could not find closing bracket'); process.exit(1); }
+
+const newLessons = lessons.map(lessonToTs).join(',\n');
+content = content.slice(0, bracketIdx) + newLessons + '\n' + content.slice(bracketIdx);
+fs.writeFileSync(filePath, content, 'utf-8');
+console.log(`Added ${lessons.length} lessons (16-${lessons[lessons.length-1].id}) to book3.ts`);

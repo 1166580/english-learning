@@ -120,13 +120,17 @@ export default function Header() {
               <ChevronDown size={12} />
             </button>
             {studyMenu && (
-              <div className="absolute top-full right-0 mt-1 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-1 w-32 z-50">
+              <div className="absolute top-full right-0 mt-1 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-1 w-36 z-50">
                 <NavLink to="/practice" onClick={() => setStudyMenu(false)}
                   className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-gray-700 no-underline">练习测验</NavLink>
                 <NavLink to="/flashcards" onClick={() => setStudyMenu(false)}
                   className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-gray-700 no-underline">单词闪卡</NavLink>
                 <NavLink to="/dictation" onClick={() => setStudyMenu(false)}
                   className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-gray-700 no-underline">听写练习</NavLink>
+                <NavLink to="/recite" onClick={() => setStudyMenu(false)}
+                  className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-gray-700 no-underline">课文背诵</NavLink>
+                <NavLink to="/wrong-answers" onClick={() => setStudyMenu(false)}
+                  className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-gray-700 no-underline">错题本</NavLink>
               </div>
             )}
           </div>

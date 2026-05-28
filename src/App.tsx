@@ -12,6 +12,8 @@ import CommunityPage from './pages/CommunityPage'
 import PracticePage from './pages/PracticePage'
 import FlashcardPage from './pages/FlashcardPage'
 import DictationPage from './pages/DictationPage'
+import RecitePage from './pages/RecitePage'
+import WrongAnswersPage from './pages/WrongAnswersPage'
 
 function App() {
   return (
@@ -29,6 +31,9 @@ function App() {
         <Route path="/practice" element={<PracticePage />} />
         <Route path="/flashcards" element={<FlashcardPage />} />
         <Route path="/dictation" element={<DictationPage />} />
+        <Route path="/recite" element={<RecitePage />} />
+        <Route path="/book/:id/lesson/:lessonId/recite" element={<RecitePage />} />
+        <Route path="/wrong-answers" element={<WrongAnswersPage />} />
       </Routes>
     </Layout>
   )

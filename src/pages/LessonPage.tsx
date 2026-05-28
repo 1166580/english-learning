@@ -1,11 +1,12 @@
 import { useState, useEffect, useRef } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { ArrowLeft, ChevronLeft, ChevronRight, CheckCircle, Circle, Volume2, BookOpen, Languages, FileText, Eye, List, X, Star, HelpCircle, Lightbulb, PenTool, MessageSquare, Send } from 'lucide-react'
+import { ArrowLeft, ChevronLeft, ChevronRight, CheckCircle, Circle, Volume2, BookOpen, Languages, FileText, Eye, List, X, Star, HelpCircle, Lightbulb, PenTool, MessageSquare, Send, StickyNote, Save } from 'lucide-react'
 import { getLesson, books, bookDataMap } from '../data'
 import useProgress from '../hooks/useProgress'
 import { useStudyData } from '../hooks/useStudyData'
 import { useAuth } from '../hooks/useAuth'
 import { useFirestore } from '../hooks/useFirestore'
+import { useNotes } from '../hooks/useNotes'
 import { getVideoId } from '../data/videoMap'
 import BilibiliPlayer from '../components/BilibiliPlayer'
 import VocabularyTable from '../components/VocabularyTable'
@@ -52,6 +53,11 @@ export default function LessonPage() {
   const [newComment, setNewComment] = useState('')
   const [showAuth, setShowAuth] = useState(false)
   const postId = `${bookId}-${lessonNum}`
+
+  // Notes
+  const { getNote, setNote, hasNote } = useNotes()
+  const [noteText, setNoteText] = useState(getNote(bookId, lessonNum))
+  const [noteSaved, setNoteSaved] = useState(false)
 
   useEffect(() => {
     if (firestoreReady) {
@@ -127,7 +133,7 @@ export default function LessonPage() {
     <div className="flex gap-6 max-w-6xl mx-auto">
       {/* Sidebar - Desktop */}
       <aside className="hidden lg:block w-64 flex-shrink-0">
-        <div className="sticky top-20 bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden max-h-[calc(100vh-6rem)] overflow-y-auto">
+        <div className="sticky top-20 bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm overflow-hidden max-h-[calc(100vh-6rem)] overflow-y-auto">
           <div className="px-4 py-3 bg-gray-50 border-b border-gray-100">
             <Link to={`/book/${bookId}`} className="text-sm font-bold text-blue-600 no-underline hover:underline">
               {book.nameCn}
@@ -221,7 +227,7 @@ export default function LessonPage() {
         </div>
 
         {/* Lesson Header */}
-        <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
           <div className="flex items-center gap-2 mb-2 flex-wrap">
             <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
               第 {lesson.id} 课
@@ -292,7 +298,7 @@ export default function LessonPage() {
         </div>
 
         {/* Text Content */}
-        <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
           <div className="flex items-center gap-2 mb-4">
             <BookOpen size={18} className="text-blue-600" />
             <h2 className="text-lg font-bold text-gray-800 m-0">
@@ -321,7 +327,7 @@ export default function LessonPage() {
 
         {/* Sentence Explanations */}
         {hasSentenceExpl && (
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
             <div className="flex items-center gap-2 mb-4">
               <Lightbulb size={18} className="text-amber-500" />
               <h2 className="text-lg font-bold text-gray-800 m-0">课文理解</h2>
@@ -341,7 +347,7 @@ export default function LessonPage() {
         )}
 
         {/* Vocabulary */}
-        <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
           <div className="flex items-center gap-2 mb-4">
             <span className="text-lg">📝</span>
             <h2 className="text-lg font-bold text-gray-800 m-0">生词表</h2>
@@ -351,7 +357,7 @@ export default function LessonPage() {
 
         {/* Grammar Sections */}
         {hasGrammar && (
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
             <div className="flex items-center gap-2 mb-4">
               <PenTool size={18} className="text-purple-600" />
               <h2 className="text-lg font-bold text-gray-800 m-0">语法知识</h2>
@@ -389,7 +395,7 @@ export default function LessonPage() {
 
         {/* Pattern Drills */}
         {hasPatterns && (
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
             <div className="flex items-center gap-2 mb-4">
               <BookOpen size={18} className="text-emerald-600" />
               <h2 className="text-lg font-bold text-gray-800 m-0">句型练习</h2>
@@ -413,7 +419,7 @@ export default function LessonPage() {
         )}
 
         {/* Notes */}
-        <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
           <div className="flex items-center gap-2 mb-4">
             <span className="text-lg">💡</span>
             <h2 className="text-lg font-bold text-gray-800 m-0">知识点笔记</h2>
@@ -430,7 +436,7 @@ export default function LessonPage() {
 
         {/* Exercises */}
         {hasExercises && (
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
             <div className="flex items-center gap-2 mb-4">
               <HelpCircle size={18} className="text-rose-500" />
               <h2 className="text-lg font-bold text-gray-800 m-0">练习题</h2>
@@ -551,12 +557,36 @@ export default function LessonPage() {
           </div>
         )}
 
+        {/* Lesson Notes */}
+        <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 mb-4">
+          <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center gap-2">
+              <StickyNote size={18} className="text-amber-500" />
+              <h3 className="text-sm font-bold text-gray-800 m-0">我的笔记</h3>
+              {hasNote(bookId, lessonNum) && <span className="text-xs text-green-500">已保存</span>}
+            </div>
+            <button
+              onClick={() => { setNote(bookId, lessonNum, noteText); setNoteSaved(true); setTimeout(() => setNoteSaved(false), 2000) }}
+              className="flex items-center gap-1 px-2 py-1 text-xs bg-blue-50 text-blue-600 rounded cursor-pointer border-0 hover:bg-blue-100"
+            >
+              <Save size={12} />{noteSaved ? '已保存' : '保存'}
+            </button>
+          </div>
+          <textarea
+            value={noteText}
+            onChange={e => setNoteText(e.target.value)}
+            placeholder="在这里记录你的学习笔记..."
+            className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-lg text-sm resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
+            rows={3}
+          />
+        </div>
+
         {/* Prev / Next Navigation */}
         <div className="grid grid-cols-2 gap-3 pb-8">
           {prevLesson ? (
             <Link
               to={`/book/${bookId}/lesson/${prevLesson.id}`}
-              className="flex items-center gap-2 p-4 bg-white rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-sm transition-all no-underline group"
+              className="flex items-center gap-2 p-4 bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 hover:border-blue-200 hover:shadow-sm transition-all no-underline group"
             >
               <ChevronLeft size={18} className="text-gray-400 group-hover:text-blue-600" />
               <div className="min-w-0">
@@ -570,7 +600,7 @@ export default function LessonPage() {
           {nextLesson ? (
             <Link
               to={`/book/${bookId}/lesson/${nextLesson.id}`}
-              className="flex items-center justify-end gap-2 p-4 bg-white rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-sm transition-all no-underline group text-right"
+              className="flex items-center justify-end gap-2 p-4 bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 hover:border-blue-200 hover:shadow-sm transition-all no-underline group text-right"
             >
               <div className="min-w-0">
                 <div className="text-xs text-gray-400">下一课</div>

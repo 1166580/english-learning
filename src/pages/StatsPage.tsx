@@ -98,7 +98,7 @@ export default function StatsPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold text-gray-800 mb-6">学习统计</h1>
+      <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-6">学习统计</h1>
 
       {/* 总览卡片 */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
@@ -117,8 +117,8 @@ export default function StatsPage() {
 
       {/* 学习趋势 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-        <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-          <h3 className="text-sm font-bold text-gray-800 mb-3">最近7天学习时长</h3>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700">
+          <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200 mb-3">最近7天学习时长</h3>
           <div className="flex items-end gap-1 h-32">
             {dailyDurations7.map((d, i) => (
               <div key={i} className="flex-1 flex flex-col items-center gap-1">
@@ -136,8 +136,8 @@ export default function StatsPage() {
             ))}
           </div>
         </div>
-        <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-          <h3 className="text-sm font-bold text-gray-800 mb-3">最近30天学习时长</h3>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700">
+          <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200 mb-3">最近30天学习时长</h3>
           <div className="flex items-end gap-px h-32">
             {dailyDurations30.map((d, i) => (
               <div key={i} className="flex-1 flex flex-col items-center justify-end h-24">
@@ -157,8 +157,8 @@ export default function StatsPage() {
       </div>
 
       {/* 分册进度 */}
-      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 mb-6">
-        <h3 className="text-sm font-bold text-gray-800 mb-4">分册学习进度</h3>
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700 mb-6">
+        <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200 mb-4">分册学习进度</h3>
         <div className="space-y-3">
           {bookProgress.map(book => (
             <div key={book.id}>
@@ -181,8 +181,8 @@ export default function StatsPage() {
       </div>
 
       {/* 最近学习记录 */}
-      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 mb-6">
-        <h3 className="text-sm font-bold text-gray-800 mb-3">最近学习记录</h3>
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700 mb-6">
+        <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200 mb-3">最近学习记录</h3>
         {recentSessions.length === 0 ? (
           <p className="text-sm text-gray-400 text-center py-8">还没有学习记录，快去学习课文吧！</p>
         ) : (
@@ -204,11 +204,11 @@ export default function StatsPage() {
       </div>
 
       {/* 成就系统 */}
-      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 mb-6">
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700 mb-6">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
             <Trophy size={18} className="text-amber-500" />
-            <h3 className="text-sm font-bold text-gray-800 m-0">成就徽章</h3>
+            <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200 m-0">成就徽章</h3>
           </div>
           <span className="text-xs text-gray-400">{unlockedCount} / {totalCount}</span>
         </div>
@@ -228,8 +228,8 @@ export default function StatsPage() {
       </div>
 
       {/* 数据管理 */}
-      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-        <h3 className="text-sm font-bold text-gray-800 mb-3">数据管理</h3>
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200 mb-3">数据管理</h3>
         <div className="flex flex-wrap gap-2">
           <button onClick={exportProgress} className="flex items-center gap-1.5 px-3 py-1.5 text-sm bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 transition-colors cursor-pointer">
             <Download size={14} />导出学习进度

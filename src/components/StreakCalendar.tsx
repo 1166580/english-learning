@@ -31,8 +31,8 @@ export default function StreakCalendar({ studiedDates, weeks = 20 }: StreakCalen
   const dayLabels = ['日', '一', '二', '三', '四', '五', '六']
 
   return (
-    <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-      <h3 className="text-sm font-bold text-gray-800 mb-3">打卡日历</h3>
+    <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700">
+      <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200 mb-3">打卡日历</h3>
       <div className="flex gap-0.5">
         <div className="flex flex-col gap-0.5 mr-1">
           {dayLabels.map((d, i) => (

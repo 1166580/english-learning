@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback } from 'react'
 import { useParams } from 'react-router-dom'
 import { CheckCircle, XCircle, ArrowRight, RotateCcw, Trophy, Target } from 'lucide-react'
 import { books, bookDataMap } from '../data'
+import { useWrongAnswers } from '../hooks/useWrongAnswers'
 import type { Exercise } from '../types'
 
 type Mode = 'select' | 'practice' | 'result'
@@ -16,6 +17,7 @@ interface QuizQuestion {
 
 export default function PracticePage() {
   const { id } = useParams()
+  const { addWrong } = useWrongAnswers()
   const [mode, setMode] = useState<Mode>('select')
   const [selectedBook, setSelectedBook] = useState<number>(id ? Number(id) : 0)
   const [questionCount, setQuestionCount] = useState(10)
@@ -54,6 +56,18 @@ export default function PracticePage() {
   const handleAnswer = (answer: string) => {
     setAnswers(prev => ({ ...prev, [currentIdx]: answer }))
     setShowAnswer(true)
+    // Track wrong answers
+    if (answer.trim().toLowerCase() !== current.exercise.answer.trim().toLowerCase()) {
+      addWrong({
+        question: current.exercise.question,
+        yourAnswer: answer,
+        correctAnswer: current.exercise.answer,
+        explanation: current.exercise.explanation,
+        bookId: current.bookId,
+        lessonId: current.lessonId,
+        type: current.exercise.type,
+      })
+    }
   }
 
   const handleNext = () => {

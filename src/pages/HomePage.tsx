@@ -199,10 +199,10 @@ export default function HomePage() {
       </div>
 
       {/* Book Progress Overview */}
-      <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
         <div className="flex items-center gap-2 mb-5">
           <TrendingUp size={20} className="text-blue-600" />
-          <h2 className="text-lg font-bold text-gray-800 m-0">各册学习进度</h2>
+          <h2 className="text-lg font-bold text-gray-800 dark:text-gray-200 m-0">各册学习进度</h2>
         </div>
         <div className="space-y-4">
           {books.map((book) => {
@@ -212,14 +212,14 @@ export default function HomePage() {
               <Link
                 key={book.id}
                 to={`/book/${book.id}`}
-                className="flex items-center gap-4 p-3 rounded-lg hover:bg-gray-50 transition-colors no-underline group"
+                className="flex items-center gap-4 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors no-underline group"
               >
                 <div className={`w-12 h-12 rounded-lg bg-gradient-to-r ${book.color} flex items-center justify-center text-white font-bold text-sm flex-shrink-0 shadow-sm`}>
                   {book.id}
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center justify-between mb-1">
-                    <span className="text-sm font-semibold text-gray-800">{book.nameCn}</span>
+                    <span className="text-sm font-semibold text-gray-800 dark:text-gray-200">{book.nameCn}</span>
                     <span className="text-xs text-gray-400">
                       {completed} / {book.lessonCount}
                     </span>
@@ -235,23 +235,23 @@ export default function HomePage() {
       </div>
 
       {/* Learning Tip */}
-      <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-5 border border-amber-200">
+      <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-xl p-5 border border-amber-200 dark:border-amber-800">
         <div className="flex items-start gap-3">
           <span className="text-2xl">{todayTip.icon}</span>
           <div>
             <div className="flex items-center gap-2 mb-1">
               <Lightbulb size={16} className="text-amber-500" />
-              <h3 className="text-sm font-bold text-amber-800 m-0">学习小贴士</h3>
+              <h3 className="text-sm font-bold text-amber-800 dark:text-amber-300 m-0">学习小贴士</h3>
             </div>
-            <p className="text-sm font-semibold text-gray-700 mb-0.5">{todayTip.title}</p>
-            <p className="text-sm text-gray-500 m-0">{todayTip.desc}</p>
+            <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-0.5">{todayTip.title}</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 m-0">{todayTip.desc}</p>
           </div>
         </div>
       </div>
 
       {/* Data Management + Stats Link */}
-      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 flex items-center justify-between flex-wrap gap-3">
-        <div className="flex items-center gap-2 text-sm text-gray-500">
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700 flex items-center justify-between flex-wrap gap-3">
+        <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
           <Library size={16} />
           <span>学习进度保存在本地浏览器中</span>
         </div>
@@ -286,7 +286,7 @@ export default function HomePage() {
       <div>
         <div className="flex items-center gap-2 mb-4">
           <BookOpen size={22} className="text-blue-600" />
-          <h2 className="text-lg font-bold text-gray-800 m-0">选择教材</h2>
+          <h2 className="text-lg font-bold text-gray-800 dark:text-gray-200 m-0">选择教材</h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
           {books.map((book) => (

@@ -62,3 +62,58 @@ export interface Progress {
   completedLessons: string[]
   lastStudyDate: string
 }
+
+export interface StudySession {
+  date: string
+  bookId: number
+  lessonId: number
+  duration: number
+  timestamp: number
+}
+
+export interface UserStats {
+  sessions: StudySession[]
+  totalWords: number
+  streakDays: number
+  longestStreak: number
+  lastStudyDate: string
+}
+
+export interface UserProfile {
+  uid: string
+  displayName: string
+  email: string
+  photoURL: string
+  bio: string
+  createdAt: number
+  stats: {
+    totalLessons: number
+    totalWords: number
+    streakDays: number
+  }
+}
+
+export interface Post {
+  id: string
+  userId: string
+  userName: string
+  userAvatar: string
+  type: 'discussion' | 'question' | 'share'
+  title: string
+  content: string
+  bookId?: number
+  lessonId?: number
+  likes: string[]
+  commentCount: number
+  createdAt: number
+}
+
+export interface Comment {
+  id: string
+  userId: string
+  userName: string
+  userAvatar: string
+  content: string
+  likes: string[]
+  createdAt: number
+}

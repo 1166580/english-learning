@@ -1,8 +1,9 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { BookOpen, Flame, Download, Upload, Quote, TrendingUp, Lightbulb, ArrowRight, Library, Trophy, Target, Zap } from 'lucide-react'
+import { BookOpen, Flame, Download, Upload, Quote, TrendingUp, Lightbulb, ArrowRight, Library, Trophy, Target, Zap, BarChart3, Clock } from 'lucide-react'
 import { books, bookDataMap } from '../data'
 import useProgress from '../hooks/useProgress'
+import { useStudyData } from '../hooks/useStudyData'
 import BookCard from '../components/BookCard'
 import ProgressBar from '../components/ProgressBar'
 
@@ -88,13 +89,16 @@ function getTotalVocab(completedLessons: string[]): number {
 
 export default function HomePage() {
   const { progress, getBookProgress, getCompletedCount, totalCompleted, exportProgress, importProgress } = useProgress()
+  const studyData = useStudyData()
 
   const totalLessons = books.reduce((sum, b) => sum + b.lessonCount, 0)
   const dailyQuote = getDailyQuote()
-  const streak = getStudyStreak(progress.lastStudyDate)
+  const streak = studyData.stats.streakDays || getStudyStreak(progress.lastStudyDate)
   const nextLesson = useMemo(() => getNextLesson(progress.completedLessons), [progress.completedLessons])
   const totalVocab = useMemo(() => getTotalVocab(progress.completedLessons), [progress.completedLessons])
   const overallPercent = totalLessons > 0 ? Math.round((totalCompleted / totalLessons) * 100) : 0
+  const todayDuration = studyData.getTodayDuration()
+  const todayMinutes = Math.floor(todayDuration / 60)
 
   const todayTip = learningTips[new Date().getDate() % learningTips.length]
 
@@ -111,7 +115,7 @@ export default function HomePage() {
         </p>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
           <div className="bg-white/15 backdrop-blur-sm rounded-xl p-4 text-center">
             <div className="text-3xl font-bold">{totalCompleted}</div>
             <div className="text-blue-200 text-sm mt-1">已完成课时</div>
@@ -129,7 +133,14 @@ export default function HomePage() {
               {streak > 0 ? <Zap size={24} className="text-amber-300" /> : null}
               {streak}
             </div>
-            <div className="text-blue-200 text-sm mt-1">连续学习天数</div>
+            <div className="text-blue-200 text-sm mt-1">连续打卡</div>
+          </div>
+          <div className="bg-white/15 backdrop-blur-sm rounded-xl p-4 text-center">
+            <div className="text-3xl font-bold flex items-center justify-center gap-1">
+              <Clock size={24} className="text-emerald-300" />
+              {todayMinutes}
+            </div>
+            <div className="text-blue-200 text-sm mt-1">今日学习(分钟)</div>
           </div>
         </div>
 
@@ -238,27 +249,36 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Data Management */}
+      {/* Data Management + Stats Link */}
       <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 flex items-center justify-between flex-wrap gap-3">
         <div className="flex items-center gap-2 text-sm text-gray-500">
           <Library size={16} />
           <span>学习进度保存在本地浏览器中</span>
         </div>
-        <div className="flex gap-2">
-          <button
-            onClick={exportProgress}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-blue-600 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors cursor-pointer"
+        <div className="flex items-center gap-3">
+          <Link
+            to="/stats"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-purple-600 bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors no-underline"
           >
-            <Download size={14} />
-            导出进度
-          </button>
-          <button
-            onClick={importProgress}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors cursor-pointer"
-          >
-            <Upload size={14} />
-            导入进度
-          </button>
+            <BarChart3 size={14} />
+            查看详细统计
+          </Link>
+          <div className="flex gap-2">
+            <button
+              onClick={exportProgress}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-blue-600 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors cursor-pointer"
+            >
+              <Download size={14} />
+              导出进度
+            </button>
+            <button
+              onClick={importProgress}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors cursor-pointer"
+            >
+              <Upload size={14} />
+              导入进度
+            </button>
+          </div>
         </div>
       </div>
 

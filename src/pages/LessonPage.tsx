@@ -1,11 +1,17 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { ArrowLeft, ChevronLeft, ChevronRight, CheckCircle, Circle, Volume2, BookOpen, Languages, FileText, Eye, List, X, Star, HelpCircle, Lightbulb, PenTool } from 'lucide-react'
+import { ArrowLeft, ChevronLeft, ChevronRight, CheckCircle, Circle, Volume2, BookOpen, Languages, FileText, Eye, List, X, Star, HelpCircle, Lightbulb, PenTool, MessageSquare, Send } from 'lucide-react'
 import { getLesson, books, bookDataMap } from '../data'
 import useProgress from '../hooks/useProgress'
+import { useStudyData } from '../hooks/useStudyData'
+import { useAuth } from '../hooks/useAuth'
+import { useFirestore } from '../hooks/useFirestore'
 import { getVideoId } from '../data/videoMap'
 import BilibiliPlayer from '../components/BilibiliPlayer'
 import VocabularyTable from '../components/VocabularyTable'
+import CommentCard from '../components/CommentCard'
+import AuthModal from '../components/AuthModal'
+import type { Comment } from '../types'
 
 type ViewMode = 'bilingual' | 'english' | 'chinese'
 
@@ -18,11 +24,58 @@ export default function LessonPage() {
   const book = books.find((b) => b.id === bookId)
   const { isCompleted, toggleComplete } = useProgress()
 
+  const studyData = useStudyData()
+  const startTimeRef = useRef(Date.now())
+
+  useEffect(() => {
+    startTimeRef.current = Date.now()
+    return () => {
+      const duration = (Date.now() - startTimeRef.current) / 1000
+      if (duration > 5) {
+        studyData.recordSession(bookId, lessonNum, duration)
+        const wordCount = lesson?.vocabulary?.length || 0
+        if (wordCount > 0) studyData.addWords(wordCount)
+      }
+    }
+  }, [bookId, lessonNum])
+
   const [viewMode, setViewMode] = useState<ViewMode>('english')
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [showAnswers, setShowAnswers] = useState<Record<number, boolean>>({})
   const completed = isCompleted(bookId, lessonNum)
   const videoId = getVideoId(bookId, lessonNum)
+
+  // Comments
+  const { user } = useAuth()
+  const { getComments, addComment, toggleCommentLike, canUse: firestoreReady } = useFirestore()
+  const [lessonComments, setLessonComments] = useState<Comment[]>([])
+  const [newComment, setNewComment] = useState('')
+  const [showAuth, setShowAuth] = useState(false)
+  const postId = `${bookId}-${lessonNum}`
+
+  useEffect(() => {
+    if (firestoreReady) {
+      getComments(postId).then(setLessonComments).catch(() => {})
+    }
+  }, [postId, firestoreReady])
+
+  const handleAddComment = async () => {
+    if (!user || !newComment.trim()) return
+    await addComment(postId, {
+      userId: user.uid,
+      userName: user.displayName || '匿名',
+      userAvatar: user.photoURL || '',
+      content: newComment.trim(),
+    })
+    setNewComment('')
+    getComments(postId).then(setLessonComments)
+  }
+
+  const handleCommentLike = async (commentId: string) => {
+    if (!user) return
+    await toggleCommentLike(postId, commentId, user.uid)
+    getComments(postId).then(setLessonComments)
+  }
 
   const lessons = bookDataMap[bookId] || []
   const currentIndex = lessons.findIndex((l) => l.id === lessonNum)
@@ -447,6 +500,57 @@ export default function LessonPage() {
           )}
         </div>
 
+        {/* Lesson Comments */}
+        {firestoreReady && (
+          <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 mb-4">
+            <div className="flex items-center gap-2 mb-3">
+              <MessageSquare size={18} className="text-blue-600" />
+              <h3 className="text-sm font-bold text-gray-800 m-0">课文讨论</h3>
+              <span className="text-xs text-gray-400">({lessonComments.length})</span>
+            </div>
+
+            {lessonComments.length > 0 && (
+              <div className="space-y-0 mb-3">
+                {lessonComments.map(c => (
+                  <CommentCard
+                    key={c.id}
+                    comment={c}
+                    currentUserId={user?.uid}
+                    onLike={() => handleCommentLike(c.id)}
+                  />
+                ))}
+              </div>
+            )}
+
+            {user ? (
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={newComment}
+                  onChange={e => setNewComment(e.target.value)}
+                  onKeyDown={e => e.key === 'Enter' && handleAddComment()}
+                  placeholder="发表评论..."
+                  className="flex-1 px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+                <button
+                  onClick={handleAddComment}
+                  disabled={!newComment.trim()}
+                  className="px-3 py-1.5 bg-blue-600 text-white rounded-lg text-sm disabled:opacity-50 cursor-pointer transition-colors"
+                >
+                  <Send size={14} />
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => setShowAuth(true)}
+                className="w-full py-2 text-xs text-blue-600 bg-blue-50 rounded-lg cursor-pointer border-0 hover:bg-blue-100 transition-colors"
+              >
+                登录后参与讨论
+              </button>
+            )}
+          </div>
+        )}
+
         {/* Prev / Next Navigation */}
         <div className="grid grid-cols-2 gap-3 pb-8">
           {prevLesson ? (
@@ -479,6 +583,7 @@ export default function LessonPage() {
           )}
         </div>
       </div>
+      <AuthModal open={showAuth} onClose={() => setShowAuth(false)} />
     </div>
   )
 }

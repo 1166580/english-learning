@@ -1,13 +1,16 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
-import { BookOpen, Library, Search, Wrench, Volume2, X } from 'lucide-react'
+import { BookOpen, Library, Search, Wrench, Volume2, BarChart3, MessageSquare, X, User } from 'lucide-react'
 import { books, bookDataMap } from '../data'
+import { useAuth } from '../hooks/useAuth'
+import UserAvatar from './UserAvatar'
 
 export default function Header() {
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const navigate = useNavigate()
+  const { user, profile } = useAuth()
 
   const results = useMemo(() => {
     if (!query.trim()) return []
@@ -121,6 +124,15 @@ export default function Header() {
             <span className="hidden sm:inline">工具</span>
           </NavLink>
           <NavLink
+            to="/stats"
+            className={({ isActive }) =>
+              `flex items-center gap-1 text-sm font-medium transition-colors no-underline ${isActive ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'}`
+            }
+          >
+            <BarChart3 size={16} />
+            <span className="hidden sm:inline">统计</span>
+          </NavLink>
+          <NavLink
             to="/phonics"
             className={({ isActive }) =>
               `flex items-center gap-1 text-sm font-medium transition-colors no-underline ${isActive ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'}`
@@ -128,6 +140,28 @@ export default function Header() {
           >
             <Volume2 size={16} />
             <span className="hidden sm:inline">音标</span>
+          </NavLink>
+          <NavLink
+            to="/community"
+            className={({ isActive }) =>
+              `flex items-center gap-1 text-sm font-medium transition-colors no-underline ${isActive ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'}`
+            }
+          >
+            <MessageSquare size={16} />
+            <span className="hidden sm:inline">社区</span>
+          </NavLink>
+          <NavLink
+            to="/profile"
+            className={({ isActive }) =>
+              `flex items-center gap-1 text-sm font-medium transition-colors no-underline ${isActive ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'}`
+            }
+          >
+            {user ? (
+              <UserAvatar photoURL={user.photoURL || undefined} name={profile?.displayName} size="sm" />
+            ) : (
+              <User size={16} />
+            )}
+            <span className="hidden sm:inline">{user ? '我的' : '登录'}</span>
           </NavLink>
         </nav>
       </div>

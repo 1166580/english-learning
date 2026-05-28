@@ -9,6 +9,9 @@ import PhonicsPage from './pages/PhonicsPage'
 import StatsPage from './pages/StatsPage'
 import ProfilePage from './pages/ProfilePage'
 import CommunityPage from './pages/CommunityPage'
+import PracticePage from './pages/PracticePage'
+import FlashcardPage from './pages/FlashcardPage'
+import DictationPage from './pages/DictationPage'
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
         <Route path="/stats" element={<StatsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/community" element={<CommunityPage />} />
+        <Route path="/practice" element={<PracticePage />} />
+        <Route path="/flashcards" element={<FlashcardPage />} />
+        <Route path="/dictation" element={<DictationPage />} />
       </Routes>
     </Layout>
   )

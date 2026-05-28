@@ -1,8 +1,9 @@
-import { useMemo } from 'react'
-import { BookOpen, Clock, Flame, Calendar, TrendingUp, Library, Download, Upload, Trash2 } from 'lucide-react'
+import { useMemo, useEffect } from 'react'
+import { BookOpen, Clock, Flame, Calendar, TrendingUp, Library, Download, Upload, Trash2, Trophy } from 'lucide-react'
 import { books, bookDataMap } from '../data'
 import { useStudyData } from '../hooks/useStudyData'
 import useProgress from '../hooks/useProgress'
+import { useAchievements } from '../hooks/useAchievements'
 import StatsCard from '../components/StatsCard'
 import StreakCalendar from '../components/StreakCalendar'
 
@@ -17,6 +18,21 @@ function formatDuration(seconds: number): string {
 export default function StatsPage() {
   const studyData = useStudyData()
   const { totalCompleted, exportProgress, importProgress } = useProgress()
+  const { achievements, unlockedCount, totalCount, checkAchievements } = useAchievements()
+
+  useEffect(() => {
+    const bookProg: Record<number, number> = {}
+    for (const book of books) {
+      bookProg[book.id] = studyData.getBookLessons(book.id)
+    }
+    checkAchievements({
+      completedLessons: totalCompleted,
+      streakDays: studyData.stats.streakDays,
+      totalWords: studyData.stats.totalWords,
+      totalDuration: studyData.getTotalDuration(),
+      bookProgress: bookProg,
+    })
+  }, [totalCompleted, studyData.stats.streakDays, studyData.stats.totalWords])
 
   const studyDays = studyData.getStudyDays()
   const totalDuration = studyData.getTotalDuration()
@@ -185,6 +201,30 @@ export default function StatsPage() {
             ))}
           </div>
         )}
+      </div>
+
+      {/* 成就系统 */}
+      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 mb-6">
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-2">
+            <Trophy size={18} className="text-amber-500" />
+            <h3 className="text-sm font-bold text-gray-800 m-0">成就徽章</h3>
+          </div>
+          <span className="text-xs text-gray-400">{unlockedCount} / {totalCount}</span>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {achievements.map(a => (
+            <div key={a.id} className={`flex items-center gap-2 p-3 rounded-lg border transition-colors ${
+              a.unlocked ? 'bg-amber-50 border-amber-200' : 'bg-gray-50 border-gray-100 opacity-50'
+            }`}>
+              <span className="text-2xl">{a.icon}</span>
+              <div className="min-w-0">
+                <div className={`text-xs font-bold ${a.unlocked ? 'text-amber-700' : 'text-gray-400'}`}>{a.name}</div>
+                <div className="text-[10px] text-gray-400 truncate">{a.desc}</div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* 数据管理 */}

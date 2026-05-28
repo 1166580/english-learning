@@ -8,6 +8,7 @@ import { useAuth } from '../hooks/useAuth'
 import { useFirestore } from '../hooks/useFirestore'
 import { useNotes } from '../hooks/useNotes'
 import { getVideoId } from '../data/videoMap'
+import { speak } from '../utils/speak'
 import BilibiliPlayer from '../components/BilibiliPlayer'
 import VocabularyTable from '../components/VocabularyTable'
 import CommentCard from '../components/CommentCard'
@@ -88,26 +89,7 @@ export default function LessonPage() {
   const prevLesson = currentIndex > 0 ? lessons[currentIndex - 1] : null
   const nextLesson = currentIndex < lessons.length - 1 ? lessons[currentIndex + 1] : null
 
-  const speakText = (text: string) => {
-    if (!('speechSynthesis' in window)) return
-    speechSynthesis.cancel()
-    const utterance = new SpeechSynthesisUtterance(text)
-    utterance.lang = 'en-US'
-    utterance.rate = 0.8
-    const voices = speechSynthesis.getVoices()
-    if (voices.length > 0) {
-      const enVoice = voices.find(v => v.lang.startsWith('en'))
-      if (enVoice) utterance.voice = enVoice
-      speechSynthesis.speak(utterance)
-    } else {
-      speechSynthesis.addEventListener('voiceschanged', () => {
-        const loaded = speechSynthesis.getVoices()
-        const enVoice = loaded.find(v => v.lang.startsWith('en'))
-        if (enVoice) utterance.voice = enVoice
-        speechSynthesis.speak(utterance)
-      }, { once: true })
-    }
-  }
+  const speakText = (text: string) => speak(text)
 
   if (!lesson || !book) {
     return (

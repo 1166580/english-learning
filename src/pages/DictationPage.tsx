@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback, useRef } from 'react'
 import { Volume2, CheckCircle, XCircle, ArrowRight, RotateCcw, BookOpen, Shuffle, Eye } from 'lucide-react'
 import { books, bookDataMap } from '../data'
+import { speak } from '../utils/speak'
 
 interface DictationItem {
   bookId: number
@@ -53,26 +54,7 @@ export default function DictationPage() {
     setTimeout(() => inputRef.current?.focus(), 100)
   }, [allSentences])
 
-  const speakText = (text: string) => {
-    if (!('speechSynthesis' in window)) return
-    speechSynthesis.cancel()
-    const u = new SpeechSynthesisUtterance(text)
-    u.lang = 'en-US'
-    u.rate = 0.8
-    const voices = speechSynthesis.getVoices()
-    if (voices.length > 0) {
-      const en = voices.find(v => v.lang.startsWith('en'))
-      if (en) u.voice = en
-      speechSynthesis.speak(u)
-    } else {
-      speechSynthesis.addEventListener('voiceschanged', () => {
-        const loaded = speechSynthesis.getVoices()
-        const en = loaded.find(v => v.lang.startsWith('en'))
-        if (en) u.voice = en
-        speechSynthesis.speak(u)
-      }, { once: true })
-    }
-  }
+  const speakText = (text: string) => speak(text)
 
   const current = items[currentIdx]
 

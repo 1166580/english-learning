@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Volume2, BookOpen, Lightbulb, HelpCircle, ChevronRight, CheckCircle, XCircle } from 'lucide-react'
+import { speak } from '../utils/speak'
 
 type Tab = 'vowels' | 'consonants' | 'rules' | 'practice'
 
@@ -145,26 +146,7 @@ export default function PhonicsPage() {
   const [score, setScore] = useState(0)
   const [quizComplete, setQuizComplete] = useState(false)
 
-  const speakText = (text: string) => {
-    if (!('speechSynthesis' in window)) return
-    speechSynthesis.cancel()
-    const utterance = new SpeechSynthesisUtterance(text)
-    utterance.lang = 'en-US'
-    utterance.rate = 0.8
-    const voices = speechSynthesis.getVoices()
-    if (voices.length > 0) {
-      const enVoice = voices.find(v => v.lang.startsWith('en'))
-      if (enVoice) utterance.voice = enVoice
-      speechSynthesis.speak(utterance)
-    } else {
-      speechSynthesis.addEventListener('voiceschanged', () => {
-        const loaded = speechSynthesis.getVoices()
-        const enVoice = loaded.find(v => v.lang.startsWith('en'))
-        if (enVoice) utterance.voice = enVoice
-        speechSynthesis.speak(utterance)
-      }, { once: true })
-    }
-  }
+  const speakText = (text: string) => speak(text)
 
   const tabs: { key: Tab; label: string; icon: React.ReactNode }[] = [
     { key: 'vowels', label: '元音', icon: <Volume2 size={14} /> },

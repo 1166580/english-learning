@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Wrench, BookOpen, Volume2, Lightbulb, Languages } from 'lucide-react'
+import { speak } from '../utils/speak'
 
 type Tab = 'irregular' | 'grammar' | 'phrases' | 'vocabulary'
 
@@ -502,26 +503,7 @@ export default function ToolsPage() {
   const [selectedRoot, setSelectedRoot] = useState<number | null>(null)
   const [vocabTab, setVocabTab] = useState<'roots' | 'prefixes' | 'suffixes' | 'synonyms'>('roots')
 
-  const speakText = (text: string) => {
-    if (!('speechSynthesis' in window)) return
-    speechSynthesis.cancel()
-    const utterance = new SpeechSynthesisUtterance(text)
-    utterance.lang = 'en-US'
-    utterance.rate = 0.8
-    const voices = speechSynthesis.getVoices()
-    if (voices.length > 0) {
-      const enVoice = voices.find(v => v.lang.startsWith('en'))
-      if (enVoice) utterance.voice = enVoice
-      speechSynthesis.speak(utterance)
-    } else {
-      speechSynthesis.addEventListener('voiceschanged', () => {
-        const loaded = speechSynthesis.getVoices()
-        const enVoice = loaded.find(v => v.lang.startsWith('en'))
-        if (enVoice) utterance.voice = enVoice
-        speechSynthesis.speak(utterance)
-      }, { once: true })
-    }
-  }
+  const speakText = (text: string) => speak(text)
 
   const tabs: { key: Tab; label: string; icon: React.ReactNode }[] = [
     { key: 'irregular', label: '不规则动词', icon: <BookOpen size={14} /> },
